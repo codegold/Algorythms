@@ -16,7 +16,7 @@ public class BankAccount {
         balance -= amount;
     }
 
-    public void display() { //Show balance.
+    public void display() { //Show balance.]
         System.out.println("Balance is: " + balance);
     }
 }
