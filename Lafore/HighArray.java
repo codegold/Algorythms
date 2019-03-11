@@ -1,7 +1,7 @@
 package Lafore;
 
 public class HighArray {
-    private int[] a;               // hyper on array a
+    private int[] a;               // link on array a
     private int nElems;            // quantity of elements in array
 
     public HighArray(int max) {     // constructor
@@ -45,5 +45,37 @@ public class HighArray {
         for (int j = 0; j < nElems; j++)
             System.out.print(a[j] + " ");
         System.out.println();
+    }
+}
+
+class HighArrayApp {
+    public static void main(String[] args) {
+        int maxSize = 100; //Array size
+        HighArray arr = new HighArray(maxSize); // Creation and link on array
+
+        arr.insert(77); // Вставка 10 элементов
+        arr.insert(99);
+        arr.insert(44);
+        arr.insert(55);
+        arr.insert(22);
+        arr.insert(88);
+        arr.insert(11);
+        arr.insert(00);
+        arr.insert(66);
+        arr.insert(33);
+
+        arr.display(); // Display elements
+        int searchKey = 35; // Search element
+        if(arr.find(searchKey))
+            System.out.println("Found " + searchKey);
+        else
+            System.out.println("Can't find " + searchKey);
+
+        arr.delete(00);
+        arr.delete(55);
+        arr.delete(99);
+
+        arr.display();
+
     }
 }
