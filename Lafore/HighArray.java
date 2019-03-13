@@ -46,6 +46,20 @@ public class HighArray {
             System.out.print(a[j] + " ");
         System.out.println();
     }
+
+    public int getMax() {
+        int min = 0;
+        int max = 0;
+        for (int j = 0; j < a.length; j++) {
+            if (a[j] > max)
+                max = a[j];
+            //return max;
+            if (a[j] < min)
+                min = a[j];
+        }
+
+        return max;
+    }
 }
 
 class HighArrayApp {
@@ -66,16 +80,18 @@ class HighArrayApp {
 
         arr.display(); // Display elements
         int searchKey = 35; // Search element
-        if(arr.find(searchKey))
+        if (arr.find(searchKey))
             System.out.println("Found " + searchKey);
         else
             System.out.println("Can't find " + searchKey);
 
-        arr.delete(00);
+        //arr.delete(00);
         arr.delete(55);
         arr.delete(99);
 
         arr.display();
+
+        System.out.println("Max is: " + arr.getMax());
 
     }
 }
