@@ -47,18 +47,22 @@ public class HighArray {
         System.out.println();
     }
 
-    public int getMax() {
-        int min = 0;
+    public int removeMax() {
+        //int min = 0;
         int max = 0;
-        for (int j = 0; j < a.length; j++) {
-            if (a[j] > max)
-                max = a[j];
-            //return max;
-            if (a[j] < min)
-                min = a[j];
-        }
 
-        return max;
+        if (a.length == 0) {
+            return -1;
+        } else {
+            for (int j = 0; j < a.length; j++) {
+                if (a[j] > max)
+                    max = a[j];
+                //return max;
+                //if (a[j] < min)
+                //    min = a[j];
+            }
+            return max;
+        }
     }
 }
 
@@ -85,13 +89,14 @@ class HighArrayApp {
         else
             System.out.println("Can't find " + searchKey);
 
-        //arr.delete(00);
+        arr.delete(00);
         arr.delete(55);
         arr.delete(99);
 
         arr.display();
 
-        System.out.println("Max is: " + arr.getMax());
+        System.out.println();
+        System.out.println("Max is: " + arr.removeMax());
 
     }
 }
