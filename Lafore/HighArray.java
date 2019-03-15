@@ -62,7 +62,7 @@ public class HighArray {
             for (int j = 0; j < a.length; j++)
                 if (a[j] > max)
                     max = a[j];
-            if (max != -1)
+            //if (max != -1)          //not needed.
                 delete(max);
 
             return max;
