@@ -1,5 +1,7 @@
 package Lafore;
 
+import java.util.Arrays;
+
 public class HighArray {
     private int[] a;               // link on array a
     private int nElems;            // quantity of elements in array
@@ -8,6 +10,7 @@ public class HighArray {
         a = new int[max];           // creation of array
         nElems = 0;                 // no elements now
     }
+    // -------------------------------------------------------------
 
     public boolean find(int searchKey) {
         int j;
@@ -15,11 +18,11 @@ public class HighArray {
             if (searchKey == a[j])              // founded?
                 break;                          // yes? exit
         if (j == nElems)
-            return false;                   // yes
+            return false;                       // yes
         else
-            return true;                    // no
-
+            return true;                        // no
     }
+    // -------------------------------------------------------------
 
     public void insert(int value) {        //insert element in array
         a[nElems] = value;                 //inserting
@@ -28,48 +31,68 @@ public class HighArray {
 
     public boolean delete(int value) {
         int j;
-        for (j = 0; j < nElems; j++)       //searching value
+        for (j = 0; j < nElems; j++)            //searching value
             if (value == a[j])
                 break;
         if (value == nElems)
-            return false;                       // unsuccessful search
-        else {                                  // founded
-            for (int k = j; k < nElems; k++)    //move next elements
+            return false;                     // unsuccessful search
+        else {                                // founded
+            for (int k = j; k < nElems; k++)  //move next elements
                 a[k] = a[k + 1];
-            nElems--;                           // sizing--
+            nElems--;                         // sizing--
             return true;
         }
     }
+    // -------------------------------------------------------------
 
-    public void display() {                     //display array content
+    public void display() {                  //display array content
         for (int j = 0; j < nElems; j++)
             System.out.print(a[j] + " ");
         System.out.println();
     }
 
-    public int removeMax() {
-        //int min = 0;
+    // -------------------------------------------------------------
+
+    public int removeMax() {          //Show highest and delete then
         int max = 0;
 
         if (a.length == 0) {
             return -1;
         } else {
-            for (int j = 0; j < a.length; j++) {
+            for (int j = 0; j < a.length; j++)
                 if (a[j] > max)
                     max = a[j];
-                //return max;
-                //if (a[j] < min)
-                //    min = a[j];
-            }
+            if (max != -1)
+                delete(max);
+
             return max;
         }
     }
+    // -------------------------------------------------------------
+
+    public int removeMaxTwo() {  // Empty Array here. Check whats up
+        //int i =0;
+        if (a.length == 0) {
+            return -1;
+        } else {
+            Arrays.sort(a);
+            //int max = a[a.length - 1];
+
+//            for (int i = 0; i < a.length - 2; i++) {
+//                a[i] = a[i + 1];
+//            }
+            return -2;
+        }
+    }
 }
+    // -------------------------------------------------------------
+
 
 class HighArrayApp {
     public static void main(String[] args) {
         int maxSize = 100; //Array size
-        HighArray arr = new HighArray(maxSize); // Creation and link on array
+        HighArray arr = new HighArray(maxSize);
+        // Creation and link on array
 
         arr.insert(77); // Вставка 10 элементов
         arr.insert(99);
@@ -82,8 +105,8 @@ class HighArrayApp {
         arr.insert(66);
         arr.insert(33);
 
-        arr.display(); // Display elements
-        int searchKey = 35; // Search element
+        arr.display();                        // Display elements
+        int searchKey = 35;                   // Search element
         if (arr.find(searchKey))
             System.out.println("Found " + searchKey);
         else
@@ -98,5 +121,11 @@ class HighArrayApp {
         System.out.println();
         System.out.println("Max is: " + arr.removeMax());
 
+        arr.display();
+
+//        System.out.println();
+//        System.out.println("Max is: " + arr.removeMaxTwo());
+//
+//        arr.display();
     }
 }
