@@ -39,13 +39,36 @@ class OrdArray {
     //-----------------------------------------------------------
     public void insert(long value) { // Вставка элемента в массив
         int j;
+
         for (j = 0; j < nElems; j++)//Определение позиции вставки
             if (a[j] > value)                 // (линейный поиск)
                 break;
-        for (int k = nElems; k > j; k--)      // (линейный поиск)
+        for (int k = nElems; k > j; k--) //Перемещ след элементов
             a[k] = a[k - 1];
         a[j] = value;                                  // Вставка
         nElems++;                           // Увеличение размера
+    }
+
+    //-----------------------------------------------------------
+    public void insertBinary(int value) {        //Binary search
+        int lowerBound = 0;
+        int upperBound = nElems - 1;
+        int curIn;
+        int j=nElems;
+
+        curIn = (lowerBound + upperBound) / 2;
+        while ((a[curIn] != value) && (lowerBound <= upperBound)) {
+            if (a[curIn] < value) {
+                lowerBound = curIn + 1;
+            } else {
+                upperBound = curIn - 1;      // В нижней половине
+            }
+            curIn = (lowerBound + upperBound) / 2;
+        }
+        for (int k = nElems; k < j; k--)   // move bigger ones up
+            a[k] = a[k - 1];
+        a[j] = value;                                // insert it
+        nElems++;                               // increment size
     }
 
     //-----------------------------------------------------------
@@ -64,7 +87,7 @@ class OrdArray {
 
     public void display() {                       //Display array
         for (int j = 0; j < nElems; j++)           //All elements
-            System.out.print(a[j] + " ");     //Display current
+            System.out.print(a[j] + " ");       //Display current
         System.out.println(" ");
     }
     //-----------------------------------------------------------
@@ -98,6 +121,14 @@ class OrderedApp {
         arr.delete(55);
         arr.delete(99);
 
+        arr.display();
+        System.out.println();
+
+        System.out.println("Adding 222.");
+        arr.insertBinary(222);
+        arr.display();
+        System.out.println("Adding 45.");
+        arr.insertBinary(45);
         arr.display();
     }
 }
