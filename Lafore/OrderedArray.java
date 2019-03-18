@@ -50,7 +50,7 @@ class OrdArray {
     }
 
     //-----------------------------------------------------------
-    public void insertBinary(int value) {        //Binary search
+    public void insertBinary(int value) {//Insert w binary search
         int lowerBound = 0;
         int upperBound = nElems - 1;
         int curIn;
@@ -82,6 +82,27 @@ class OrdArray {
             nElems--;
             return true;                        //Decreasing size
         }
+    }
+    //-----------------------------------------------------------
+    public void deleteBinary(int value) {         //Binary search
+        int f = find(value);
+        int lowerBound = 0;
+        int upperBound = nElems - 1;
+        int curIn;
+
+        curIn = (lowerBound + upperBound) / 2;
+        while ((a[curIn] != value) && (lowerBound <= upperBound)) {
+            if (a[curIn] < value + 1) {
+                lowerBound = curIn + 1;
+            } else {
+                upperBound = curIn - 1;
+            }
+            curIn = (lowerBound + upperBound) / 2;
+        }
+
+        for (int k = f; k < nElems; k++)          //Move elements
+            a[k] = a[k + 1];
+        nElems--;
     }
     //-----------------------------------------------------------
 
@@ -130,6 +151,15 @@ class OrderedApp {
         System.out.println("Adding 45.");
         arr.insertBinary(45);
         arr.display();
+        System.out.println();
+        arr.deleteBinary(33);
+        System.out.println();
+        System.out.println("Deleted with deleteBinary 33 ");
+        arr.display();
+        arr.deleteBinary(44);
+        System.out.println("Deleted with deleteBinary 44 ");
+        arr.display();
+        System.out.println();
     }
 }
 /////////////////////////////////////////////////////////////////
