@@ -1,5 +1,7 @@
 package Lafore;
 
+import java.util.Arrays;
+
 class OrdArray {
     private long[] a;                       // Ссылка на массив a
     private int nElems;            // Количество элементов данных
@@ -31,7 +33,6 @@ class OrdArray {
                     lowerBound = curIn + 1; // В верхней половине
                 else
                     upperBound = curIn - 1;  // В нижней половине
-
             }
         }
     }
@@ -54,7 +55,7 @@ class OrdArray {
         int lowerBound = 0;
         int upperBound = nElems - 1;
         int curIn;
-        int j=nElems;
+        int j = nElems;
 
         curIn = (lowerBound + upperBound) / 2;
         while ((a[curIn] != value) && (lowerBound <= upperBound)) {
@@ -83,8 +84,9 @@ class OrdArray {
             return true;                        //Decreasing size
         }
     }
+
     //-----------------------------------------------------------
-    public void deleteBinary(int value) {         //Binary search
+    public void deleteBinary(int value) {    //Delete with binary
         int f = find(value);
         int lowerBound = 0;
         int upperBound = nElems - 1;
@@ -112,6 +114,46 @@ class OrdArray {
         System.out.println(" ");
     }
     //-----------------------------------------------------------
+
+    public OrdArray merge(OrdArray other) {
+        int maxSize = nElems;
+        if (other != null)
+            maxSize += other.nElems;
+
+        OrdArray result = new OrdArray(maxSize);
+        if (other == null) {
+            for (int i = 0; i < nElems; i++)
+                result.insert(a[i]);
+        } else {
+            int i = 0, j = 0;
+            while (true) {
+                if (i < nElems && j < other.nElems) {
+                    if (a[i] < other.a[j]) {
+                        result.insert(a[i]);
+                        i++;
+                    } else if (a[i] == other.a[j]) {
+                        result.insert(a[i]);
+                        i++;
+                        j++;
+                    } else {
+                        result.insert(other.a[j]);
+                        j++;
+                    }
+                } else {
+                    while (i < nElems) {
+                        result.insert(a[i]);
+                        i++;
+                    }
+                    while (j < other.nElems) {
+                        result.insert(other.a[j]);
+                        j++;
+                    }
+                    break;
+                }
+            }
+        }
+        return result;
+    }
 }
 
 /////////////////////////////////////////////////////////////////
@@ -160,6 +202,29 @@ class OrderedApp {
         System.out.println("Deleted with deleteBinary 44 ");
         arr.display();
         System.out.println();
+        System.out.println();
+
+        OrdArray arr1 = new OrdArray(6);
+        arr1.insert(110);
+        arr1.insert(120);
+        arr1.insert(130);
+        arr1.insert(140);
+        arr1.insert(150);
+        arr1.insert(160);
+
+        OrdArray arr2 = new OrdArray(3);
+        arr2.insert(3);
+        arr2.insert(4);
+        arr2.insert(5);
+
+        OrdArray arr3 = arr1.merge(arr2);
+        System.out.println();
+
+        arr1.display();
+        arr2.display();
+        System.out.print("Merged array:");
+        arr3.display();
+
     }
 }
 /////////////////////////////////////////////////////////////////
