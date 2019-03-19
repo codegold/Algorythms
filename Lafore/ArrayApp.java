@@ -19,8 +19,8 @@ public class ArrayApp {
         nElems = 10; // Массив содержит 10 элементов
 
         for (j = 0; j < nElems; j++)
-            System.out.println(arr[j] + " ");
-        System.out.println("");
+            System.out.print(arr[j] + " ");
+        System.out.println(" ");
 
         searchKey = 66; // Поиск элемента с ключом 66
         for (j = 0; j < nElems; j++) // Для каждого элемента
@@ -37,6 +37,10 @@ public class ArrayApp {
                 break;
             for(int k=j; k<nElems-1; k++) // Сдвиг последующих элементов
                 arr[k] = arr[k+1];
-            nElems--;                     // Уменьшение размера
+            nElems--;    // Уменьшение размера
+
+            for(j=0; j<nElems; j++) // Вывод элементов
+                System.out.print(arr[j] + " ");
+        System.out.println();
     }
 }
