@@ -3,12 +3,12 @@ package Lafore;
 import java.util.Arrays;
 
 public class HighArray {
-    private int[] a;               // link on array a
-    private int nElems;            // quantity of elements in array
+    private int[] a;                              // link on array a
+    private int nElems;             // quantity of elements in array
 
-    public HighArray(int max) {     // constructor
-        a = new int[max];           // creation of array
-        nElems = 0;                 // no elements now
+    public HighArray(int max) {                       // constructor
+        a = new int[max];                       // creation of array
+        nElems = 0;                               // no elements now
     }
     // -------------------------------------------------------------
 
@@ -37,7 +37,7 @@ public class HighArray {
         if (value == nElems)
             return false;                     // unsuccessful search
         else {                                // founded
-            for (int k = j; k < nElems; k++)  //move next elements
+            for (int k = j; k < nElems; k++)  //  move next elements
                 a[k] = a[k + 1];
             nElems--;                         // sizing--
             return true;
@@ -52,6 +52,16 @@ public class HighArray {
     }
 
     // -------------------------------------------------------------
+    public int getMax() {                           //First solution
+        int j;
+        int max = -1;
+        if (nElems == 0) return max;
+        for (j = 0; j < nElems; j++)
+            if (a[j] > max)
+                max = a[j];
+        return max;
+    }
+    // -------------------------------------------------------------
 
     public int removeMax() {          //Show highest and delete then
         int max = 0;
@@ -62,13 +72,13 @@ public class HighArray {
             for (int j = 0; j < a.length; j++)
                 if (a[j] > max)
                     max = a[j];
-            //if (max != -1)          //not needed.
-                delete(max);
+            //if (max != -1)                            //not needed
+            delete(max);
 
             return max;
         }
     }
-    // -------------------------------------------------------------
+    // Task 2.3----------------------------------------------------------
 
     public int removeMaxTwo() {  // Empty Array here. Check whats up
         //int i =0;
@@ -84,8 +94,26 @@ public class HighArray {
             return -2;
         }
     }
+
+    // Task 2.6----------------------------------------------------------
+    public void noDups() {
+        int i, j;
+        for (i = 0; i < nElems; i++) {            //Taking all array
+            j = i + 1;                              //Summ all elems
+            while (j < nElems) {
+                if (a[i] == a[j]) {
+                    for (int k = j; k < nElems; k++)
+                    //Dups copy over dups and move higher ones down
+                        if (k == a.length - 1) a[k] = 0;
+                    //avoids looking for a[k+1] when nElems == a.length
+                        else a[k] = a[k + 1];
+                    nElems--;
+                } else j++;
+            }
+        }
+    }
 }
-    // -------------------------------------------------------------
+// ----------------------------------------------------------------------
 
 
 class HighArrayApp {
@@ -104,28 +132,45 @@ class HighArrayApp {
         arr.insert(00);
         arr.insert(66);
         arr.insert(33);
+        arr.insert(17);
+        arr.insert(17);
+        arr.insert(17);
 
-        arr.display();                        // Display elements
-        int searchKey = 35;                   // Search element
+
+        arr.display();
+        System.out.println();                        // Display elements
+        int searchKey = 35;                            // Search element
         if (arr.find(searchKey))
-            System.out.println("Found " + searchKey);
+            System.out.println("Task 2.1 Found " + searchKey);
         else
-            System.out.println("Can't find " + searchKey);
+            System.out.println("Task 2.1 Can't find " + searchKey);
 
         arr.delete(00);
         arr.delete(55);
         arr.delete(99);
-
         arr.display();
-
         System.out.println();
-        System.out.println("Max is: " + arr.removeMax());
 
+        // 2.2 task-----------------------------------------------------
+
+        System.out.println("Task 2.2 Max is: " + arr.removeMax());
         arr.display();
 
-//        System.out.println();
-//        System.out.println("Max is: " + arr.removeMaxTwo());
-//
-//        arr.display();
+        // 2.3 task-----------------------------------------------------
+
+        HighArray sortedByKey = new HighArray((maxSize));
+        while (arr.getMax() != -1) {
+            arr.insert(arr.removeMax());
+
+            sortedByKey.display();
+            break;
+        }
+        // 2.6 task-----------------------------------------------------
+        System.out.println("Task 2.3: Kill duplicates.");
+        arr.display();
+        arr.noDups();
+        arr.display();
     }
 }
+
+
