@@ -78,7 +78,7 @@ public class HighArray {
             return max;
         }
     }
-    // Task 2.3----------------------------------------------------------
+    // Task 2.3-------------------------------------------------------
 
     public int removeMaxTwo() {  // Empty Array here. Check whats up
         //int i =0;
@@ -96,17 +96,18 @@ public class HighArray {
     }
 
     // Task 2.6----------------------------------------------------------
+
     public void noDups() {
         int i, j;
-        for (i = 0; i < nElems; i++) {            //Taking all array
-            j = i + 1;                              //Summ all elems
-            while (j < nElems) {
-                if (a[i] == a[j]) {
+        for (i = 0; i < nElems; i++) {                 //Taking all array
+            j = i + 1;                               //Sort out all elems
+            while (j < nElems) {                           //On all array
+                if (a[i] == a[j]) {                //Checking if elems ==
                     for (int k = j; k < nElems; k++)
-                    //Dups copy over dups and move higher ones down
+                          //Dups copy over dups and move higher ones down
                         if (k == a.length - 1) a[k] = 0;
-                    //avoids looking for a[k+1] when nElems == a.length
-                        else a[k] = a[k + 1];
+                      //avoids looking for a[k+1] when nElems == a.length
+                        else a[k] = a[k + 1];  //Change to next neighbour
                     nElems--;
                 } else j++;
             }
