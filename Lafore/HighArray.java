@@ -130,6 +130,8 @@ public class HighArray {
 
     public void noDupsSec() {
         int val;
+        int l;
+        int x = -1;
         for (int i = 0; i < nElems; i++) {
             val = a[i];
             for (int j = i + 1; j < nElems; j++) {
@@ -137,11 +139,27 @@ public class HighArray {
                     a[j] = -1;
             }
         }
-        for (int k = 0; k < nElems; k++)
-            if (a[k] == -1) {
-                a[k]=a[k+1];
-            }
+
     }
+
+    // Task 2.6 third solution. Get rid of duplicates--------------------
+
+    public static int[] justUniques(int[] a) {
+        if (a == null || a.length == 0) return a;
+        Arrays.sort(a);
+        int n = 1;
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] != a[i - 1]) n++;
+        }
+        int[] res = new int[n];
+        res[0] = a[0];
+        n = 1;
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] != a[i-1]) res[n++] = a[i];
+        }
+        return res;
+    }
+
 }
 
 // ----------------------------------------------------------------------
@@ -201,7 +219,9 @@ class HighArrayApp {
         // 2.6 task-----------------------------------------------------
         System.out.println("Task 2.3: Kill duplicates.");
         arr.display();
+        //arr.noDups();
         arr.noDupsSec();
+        //arr.justUniques();
         arr.display();
     }
 }
