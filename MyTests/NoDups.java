@@ -1,6 +1,5 @@
 package MyTests;
 
-import java.util.Arrays;
 
 public class NoDups {
     private int[] a;
@@ -14,13 +13,12 @@ public class NoDups {
     public void noDuplicates() {
 
         int i, j;
-        //int nElems = 6;
         for (i = 0; i < nElems; i++) {
             j = i + 1;
             while (j < nElems) {
                 if (a[i] == a[j]) {
                     for (int k = j; k < nElems; k++)
-                        if (k == nElems - 1) a[k] = 0;
+                        if (k == a.length - 1) a[k] = 0;
                         else a[k] = a[k + 1];
                     nElems--;
                 } else j++;
@@ -28,6 +26,7 @@ public class NoDups {
             }
         }
     }
+
 
     public void display() {
         for (int i = 0; i < nElems; i++) {
