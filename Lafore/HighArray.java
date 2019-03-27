@@ -137,7 +137,10 @@ public class HighArray {
                     a[j] = -1;
             }
         }
-        delete(-1);
+        for (int k = 0; k < nElems; k++)
+            if (a[k] == -1) {
+                a[k]=a[k+1];
+            }
     }
 }
 
