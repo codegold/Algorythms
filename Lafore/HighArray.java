@@ -43,6 +43,18 @@ public class HighArray {
             return true;
         }
     }
+
+    // -------------------------------------------------------------
+
+    public boolean contains(int[] a, int num) {
+        for (int i : a) {
+            if (i == num) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     // -------------------------------------------------------------
 
     public void display() {                  //display array content
@@ -95,25 +107,41 @@ public class HighArray {
         }
     }
 
-    // Task 2.6----------------------------------------------------------
+    // Task 2.6 Get rid of duplicates--------------------------------------
 
     public void noDups() {
         int i, j;
         for (i = 0; i < nElems; i++) {                 //Taking all array
-            j = i + 1;                               //Sort out all elems
-            while (j < nElems) {                           //On all array
-                if (a[i] == a[j]) {                //Checking if elems ==
+            j = i + 1;                               //Compare with j var
+            while (j < nElems) {                     //To the -2 position
+                if (a[i] == a[j]) {                            //Catch ==
                     for (int k = j; k < nElems; k++)
-                          //Dups copy over dups and move higher ones down
-                        if (k == a.length - 1) a[k] = 0;
-                      //avoids looking for a[k+1] when nElems == a.length
+                        //If k == last, Set to zero
+                        if (k == a.length - 1) a[k] = 0; //If last same=0
+                            // avoids looking for a[k+1] when nElems == a.length
                         else a[k] = a[k + 1];  //Change to next neighbour
                     nElems--;
                 } else j++;
             }
         }
     }
+
+    // Task 2.6 second solution. Get rid of duplicates--------------------
+
+    public void noDupsSec() {
+        int val;
+        for (int i = 0; i < nElems; i++) {
+            val = a[i];
+            for (int j = i + 1; j < nElems; j++) {
+                if (a[j] == val)
+                    a[j] = -1;
+            }
+        }
+        delete(-1);
+        delete(-1);
+    }
 }
+
 // ----------------------------------------------------------------------
 
 
@@ -145,7 +173,9 @@ class HighArrayApp {
             System.out.println("Task 2.1 Found " + searchKey);
         else
             System.out.println("Task 2.1 Can't find " + searchKey);
+        System.out.println();
 
+        arr.display();
         arr.delete(00);
         arr.delete(55);
         arr.delete(99);
@@ -169,7 +199,7 @@ class HighArrayApp {
         // 2.6 task-----------------------------------------------------
         System.out.println("Task 2.3: Kill duplicates.");
         arr.display();
-        arr.noDups();
+        arr.noDupsSec();
         arr.display();
     }
 }
