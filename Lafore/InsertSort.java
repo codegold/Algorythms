@@ -1,13 +1,13 @@
 package Lafore;
 
 
-class ArrayIns {
+class MyArrayIns {
     private int[] a;
     private int nElems;
 
 //---------------------------------------------------------------------------
 
-    public ArrayIns(int max) {
+    public MyArrayIns(int max) {
         a = new int[max];
         nElems = 0;
     }
@@ -42,6 +42,20 @@ class ArrayIns {
 
         }
     }
+//---------------------------------------------------------------------------
+
+    public void insertionSortTimVer() {
+        int k, i;
+        for (i = 1; i < nElems; i++) {
+            k = i;                                 //Copy to another position
+            while (k > 0 && a[k - 1] > a[k]) {  //Пока не в самом лево, и тот
+                int temp = a[k - 1];              //кто слева - выше чем а[к]
+                a[k - 1] = a[k];      //поменять местами (через времен перем)
+                a[k] = temp;
+                k -= 1;
+            }
+        }
+    }
 }
 //---------------------------------------------------------------------------
 /////////////////////////////////////////////////////////////////////////////
@@ -49,7 +63,7 @@ class ArrayIns {
 class InsertSortApp {
     public static void main(String[] args) {
         int maxSize = 100;
-        ArrayIns arr = new ArrayIns(100);
+        MyArrayIns arr = new MyArrayIns(100);
 
         arr.insert(77);
         arr.insert(99);
@@ -64,7 +78,7 @@ class InsertSortApp {
 
         arr.display();
 
-        arr.insertionSort();
+        arr.insertionSortTimVer();
         arr.display();
     }
 
