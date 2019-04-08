@@ -39,6 +39,17 @@ class ArrayBub {
                 if (a[in] > a[in + 1])                        //Order broken?
                     swap(in, in + 1);                    //Change places
     }
+    //---------------------------------------------------------------------------
+    public void bubbleSortTwoInCycles() {
+        int inLeft, inRight, out;
+        for (out = nElems - 1; out > 0; out--)             //Outer cycle back
+            for (inLeft = 0; inLeft < out; inLeft++)               //Inner cycle straight
+                if (a[inLeft] > a[inLeft + 1])                        //Order broken?
+                    swap(inLeft, inLeft + 1);                    //Change places
+        for (inRight = nElems -1; inRight > 0; inRight--)
+            if(a[inRight] < a[inRight-1])
+                swap(inRight, inRight -1);
+    }
 //---------------------------------------------------------------------------
 
     private void swap(int one, int two) {
@@ -46,8 +57,5 @@ class ArrayBub {
         a[one] = a[two];
         a[two] = temp;
     }
-
-
 }
-
 /////////////////////////////////////////////////////////////////////////////

@@ -4,7 +4,7 @@ package Lafore.BubbleSort;
 class BubbleSortApp {
     public static void main(String[] args) {
 
-        int maxSize = 100000;
+        int maxSize = 10000;
         ArrayBub arr = new ArrayBub(maxSize);       //Create array with size
 
 //        arr.insert(77);
@@ -43,7 +43,7 @@ class BubbleSortApp {
         }
         arr.display();
         System.out.println();
-        arr.bubbleSort();
+        arr.bubbleSortTwoInCycles();
         arr.display();
     }
 
