@@ -2,7 +2,7 @@ package Lafore.InsertSort;
 
 class InsertSortApp {
     public static void main(String[] args) {
-        int maxSize = 10;
+        int maxSize = 22;
         MyArrayIns arr = new MyArrayIns(maxSize);
 
         for (int i = 0; i < maxSize; i++) {
@@ -18,14 +18,38 @@ class InsertSortApp {
 
         arr.display();
 
-        arr.insertionSort();
+        arr.insertionSortWithCounting();
         arr.display();
         System.out.println();
-        System.out.println(arr.median());
+        System.out.println("Its arr.median: " +arr.median());
         arr.display();
-        arr.noDups();
+        arr.noDuplicates();
         arr.display();
-        arr.median();
+        //System.out.println("Its arr.median: " +arr.median());
+        System.out.println();
+
+        MyArrayIns arr2 = new MyArrayIns(maxSize);
+        arr2.insert(0);
+        arr2.insert(1);
+        arr2.insert(3);
+        arr2.insert(4);
+        arr2.insert(4);
+        arr2.insert(5);
+        arr2.insert(5);
+        arr2.insert(5);
+        arr2.insert(18);
+        arr2.insert(18);
+        arr2.insert(20);
+        arr2.insert(15);
+        arr2.insert(10);
+        arr2.insert(10);
+        arr2.insert(9);
+        arr2.insert(9);
+
+        arr2.display();
+        arr2.insertionSortWithCounting();
+        arr2.display();
+        System.out.println();
 
     }
 }
