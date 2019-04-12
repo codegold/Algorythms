@@ -84,33 +84,34 @@ class MyArrayIns {
         System.out.println();
     }
 
-    //--------------------------------------------------------------
-    public void insertionSort2() {
+    //-----------------------------------------------------------------------
+    public void insertionSortFromGitHub() {
         int in, out;
+
         int copyQnt = 0, compareQnt = 0;
 
-        for (out = 1; out < nElems; out++)     // out is dividing line
+        for (out = 1; out < nElems; out++)            // out is dividing line
         {
-            int temp = a[out];            // remove marked item
-            in = out;                      // start shifts at out
-            while (in > 0) // until one is smaller,
+            int temp = a[out];                          // remove marked item
+            in = out;                                  // start shifts at out
+            while (in > 0)                           // until one is smaller,
             {
                 compareQnt++;
 
                 if (a[in - 1] >= temp) {
-                    a[in] = a[in - 1];            // shift item to right
+                    a[in] = a[in - 1];                 // shift item to right
                     copyQnt++;
                     --in;
                 }// go left one position
                 else
                     break;
             }
-            a[in] = temp;                  // insert marked item
-        }  // end for
+            a[in] = temp;                               // insert marked item
+        }
 
         System.out.println("Compared: " + compareQnt + " times(s)");
         System.out.println("Copied: " + copyQnt + " times(s)");
-    }  // end insertionSort()
+    }
 
 //---------------------------------------------------------------------------
 

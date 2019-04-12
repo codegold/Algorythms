@@ -23,7 +23,7 @@ class Person {
 }
 
 public class ClassDataArray {
-    private Person[] a;                 //Link to array.
+    private Person[] a;                 //Link to array.s
     private int nElems;                 //Quantity elements.
 
     public ClassDataArray(int max) {    //Constructor.

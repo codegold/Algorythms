@@ -121,9 +121,9 @@ class OrdArray {
             maxSize += other.nElems;
 
         OrdArray result = new OrdArray(maxSize);
-        if (other == null) {
-            for (int i = 0; i < nElems; i++)
-                result.insert(a[i]);
+        if (other == null) {                    // If other empty
+            for (int i = 0; i < nElems; i++)  // For all elements
+                result.insert(a[i]);           //Insert in result
         } else {
             int i = 0, j = 0;
             while (true) {
@@ -134,7 +134,7 @@ class OrdArray {
                     } else if (a[i] == other.a[j]) {
                         result.insert(a[i]);
                         i++;
-                        j++;
+                        //j++;            //If without duplicates
                     } else {
                         result.insert(other.a[j]);
                         j++;
@@ -213,9 +213,9 @@ class OrderedApp {
         arr1.insert(160);
 
         OrdArray arr2 = new OrdArray(3);
-        arr2.insert(3);
-        arr2.insert(4);
-        arr2.insert(5);
+        arr2.insert(111);
+        arr2.insert(121);
+        arr2.insert(131);
 
         OrdArray arr3 = arr1.merge(arr2);
         System.out.println();

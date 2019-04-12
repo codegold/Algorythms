@@ -6,7 +6,7 @@ class InsertSortApp {
         MyArrayIns arr = new MyArrayIns(maxSize);
 
         for (int i = 0; i < maxSize; i++) {
-            int n = (int) (java.lang.Math.random() * (maxSize -1));
+            int n = (int) (java.lang.Math.random() * (maxSize - 1));
             arr.insert(n);
         }
 
@@ -21,7 +21,7 @@ class InsertSortApp {
         arr.insertionSortWithCounting();
         arr.display();
         System.out.println();
-        System.out.println("Its arr.median: " +arr.median());
+        System.out.println("Its arr.median: " + arr.median());
         arr.display();
         arr.noDuplicates();
         arr.display();
@@ -50,6 +50,7 @@ class InsertSortApp {
         arr2.insertionSortWithCounting();
         arr2.display();
         System.out.println();
+
 
     }
 }
