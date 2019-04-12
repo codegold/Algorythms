@@ -5,18 +5,22 @@ public class BankAccount {
 
 
     public BankAccount(double openingBalance) { //Constructor.
+
         balance = openingBalance;
     }
 
     public void deposit(double amount) { //Vnesenie sredstv.
+
         balance += amount;
     }
 
     public void withdraw(double amount) { //Withdrawal.
+
         balance -= amount;
     }
 
     public void display() { //Show balance.]
+
         System.out.println("Balance is: " + balance);
     }
 }
