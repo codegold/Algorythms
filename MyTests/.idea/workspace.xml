@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f3907e9-b1cb-40cc-a64d-5911313fb107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lafore/Stack/StackApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lafore/Stack/StackX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/StackX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lafore/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lafore/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lafore/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lafore/InsertSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lafore/ObjectSort/ObjectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lafore/ObjectSort/ObjectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lafore/SelectSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lafore/SelectSortApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Stack/StackX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#259#260#0" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
@@ -85,7 +72,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555052312412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555052474043" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -114,7 +102,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="973" height="1129" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -147,8 +134,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Stack/StackX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#259#260#0" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
