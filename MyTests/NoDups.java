@@ -22,7 +22,6 @@ public class NoDups {
                         else a[k] = a[k + 1];
                     nElems--;
                 } else j++;
-
             }
         }
     }

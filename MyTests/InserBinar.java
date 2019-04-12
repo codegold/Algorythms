@@ -1,8 +1,8 @@
 package MyTests;
 
 public class InserBinar {
-    int []a = {1};
-    int nElems = 1;
+    private int []a = {1};
+    private int nElems = 1;
     int value = 1;
     public void insertBinary(int value) {        //Binary search
         int lowerBound = 0;
