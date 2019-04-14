@@ -40,6 +40,7 @@ public class StackX {
     //------------------------------------------------------------
 
     public boolean isFull() {                 //True if stack full
+
         return (top == maxSixe - 1);
     }
 }
