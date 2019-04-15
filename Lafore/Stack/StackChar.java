@@ -1,35 +1,34 @@
 package Stack;
 
-public class StackX {
+public class StackChar {
     private int maxSixe;
-    private int[] stackArray;
+    private char[] stackCharArray;
     private int top;
 
 //----------------------------------------------------------------
 
-    public StackX(int s) {                           //Constructor
+    public StackChar(int s) {                           //Constructor
         maxSixe = s;
-        stackArray = new int[maxSixe];
+        stackCharArray = new char[maxSixe];
         top = -1;
     }
 //----------------------------------------------------------------
 
-    public void push(int j) {    //Put element on top of the stack
+    public void push(char j) {    //Put element on top of the stack
 
-        stackArray[++top] = j;
+        stackCharArray[++top] = j;
     }
 //----------------------------------------------------------------
 
-    public int pop() {                 //Take out element from top
+    public char pop() {                 //Take out element from top
 
-        return stackArray[top--];
+        return stackCharArray[top--];
     }
 //----------------------------------------------------------------
 
+    public char peek() {                         //Reading from top
 
-    public int peek() {                         //Reading from top
-
-        return stackArray[top];
+        return stackCharArray[top];
     }
 //----------------------------------------------------------------
 
