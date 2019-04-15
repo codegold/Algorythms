@@ -1,5 +1,7 @@
 package Reverse;
 
+import Reverse.StackX;
+
 class Reverser {
     private String input;
     private String output;
@@ -14,7 +16,7 @@ class Reverser {
 
     public String doRev() {                          //Permutation
         int stackSize = input.length();                //Size init
-        StackX theStack = new StackX(stackSize);    //Stack create
+        Reverse.StackX theStack = new StackX(stackSize);    //Stack create
 
         for (int j = 0; j < input.length(); j++) {
             char ch = input.charAt(j);//Reading symbols from input
