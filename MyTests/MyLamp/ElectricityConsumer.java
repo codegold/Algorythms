@@ -1,5 +1,6 @@
 package MyLamp;
 
+@FunctionalInterface
 public interface ElectricityConsumer {
-     void electricityIsOn();
+    void electricityIsOn(Object sender);
 }

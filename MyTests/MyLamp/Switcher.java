@@ -7,16 +7,19 @@ public class Switcher {
 
     private List<ElectricityConsumer> listeners = new ArrayList<>();
 
-    public void addElectricityConsumer(ElectricityConsumer listener) {
+    public void addElectricityListener(ElectricityConsumer listener) {
         listeners.add(listener);
     }
 
-    public void removeElectricityConsumer(ElectricityConsumer listener) {
+    public void removeElectricityListener(ElectricityConsumer listener) {
         listeners.remove(listener);
     }
 
     public void switchOn() {
         System.out.println("Tumbler is on!");
-        for (ElectricityConsumer ec : listeners) ec.electricityIsOn();
+        for (ElectricityConsumer ec : listeners)
+            ec.electricityIsOn(this);
     }
+
 }
+ 

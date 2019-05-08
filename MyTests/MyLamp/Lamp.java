@@ -6,7 +6,8 @@ public class Lamp implements ElectricityConsumer{
     }
 
     @Override
-    public void electricityIsOn() {
+    public void electricityIsOn(Object sender) {
         lightOn();
     }
+
 }
