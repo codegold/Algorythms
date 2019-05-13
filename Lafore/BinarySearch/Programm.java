@@ -21,7 +21,7 @@ public class Programm {
         if (start <= stop) {
             System.out.println("Item was on " + mid + " position.");
             System.out.println("Binary count " + count + " times.");
-        }else {
+        } else {
             System.out.println("No such number.");
         }
     }
@@ -29,8 +29,17 @@ public class Programm {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] myArr = {1, 2, 3, 4, 5, 6, 7, 8};
+        int[] myArr = {1,2,3,4,5,6,7,8};
+//        int[] myArr = new int[15];
+//        for (int i = 0; i < myArr.length; i++) {
+//            myArr[i] = ((int) (Math.random() * 20));
+//            //myArr[i] = random.nextInt(99) - 15;
+//
+//            System.out.print(myArr[i] + " ");
+//        }
+
         Arrays.sort(myArr);
+        System.out.println(myArr.toString());
         System.out.println("Enter: ");
         int item = sc.nextInt();
         binarySearch(myArr, item);
