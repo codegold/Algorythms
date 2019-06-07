@@ -11,6 +11,10 @@ public class InsertSort {
         System.out.println(Arrays.toString(myArr));
         insertionSort(myArr);
         System.out.println(Arrays.toString(myArr));
+        String s1 = "ff";
+        String s2 = new String("ff");
+        System.out.println(s1.equals(s2));
+        System.out.println(s1==s2);
     }
 
     static void insertionSort(int[] myArr) {
