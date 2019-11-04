@@ -1,4 +1,4 @@
-package src;
+package src.BankAccount;
 
 public class BankAccount {
     private double balance;
