@@ -15,6 +15,12 @@ public class LowArray {
     public long getElem(int index) {
         return a[index];
     }
+    public void printArr(){
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i]+" ");
+        }
+        System.out.println("PrintArr working))");
+    }
 
 
 }

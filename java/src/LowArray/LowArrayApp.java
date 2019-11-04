@@ -2,7 +2,7 @@ package src.LowArray;
 
 public class LowArrayApp {
     public static void main(String[] args) {
-        LowArray arr = new LowArray(100);
+        LowArray arr = new LowArray(11);
         int nElems;
         int j;
         arr.setElem(0, 77);
@@ -20,16 +20,17 @@ public class LowArrayApp {
             System.out.print(arr.getElem(j) + " ");
         }
         System.out.println();
+        int searchKey = 66;
+        System.out.println("Search for: " + searchKey);
+        for (j = 0; j < nElems; j++)
+            if(arr.getElem(j)==searchKey)
+                break;
+        if(j==nElems) System.out.println("no such");
+        else System.out.println("Gotcha! "+ searchKey+ " founded at "+ j);
+        System.out.println("Testing printArr.");
+        arr.printArr();
 
-        int searchKey = 236;
-        System.out.println("Searching for: " + searchKey);
-        for (j = 0; j < nElems; j++) {
-            if (arr.getElem(j) == searchKey) break;
-        }
-        if (j == nElems) System.out.println("No such " + searchKey);
-        else System.out.println("Founded: " + searchKey+ " was in "+ j + " position");
-
-
+        System.out.println();
         searchKey = 55;
         // Удаление элемента с ключом 55
         System.out.println("Searching for " + searchKey);
@@ -38,7 +39,7 @@ public class LowArrayApp {
         }
         System.out.println();
         for (j = 0; j < nElems; j++) {
-            if (arr.getElem(j) == 55) {
+            if (arr.getElem(j) == searchKey) {
                 break;
             }
         }
@@ -49,7 +50,11 @@ public class LowArrayApp {
         for (j = 0; j < nElems; j++) {
             System.out.print(arr.getElem(j) + " ");
         }
+
         System.out.println();
+        arr.printArr();
     }
 }
+
+
 
