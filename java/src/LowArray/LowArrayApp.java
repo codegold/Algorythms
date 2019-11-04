@@ -21,17 +21,15 @@ public class LowArrayApp {
         }
         System.out.println();
 
-        int searchKey = 26;
+        int searchKey = 236;
+        System.out.println("Searching for: " + searchKey);
         for (j = 0; j < nElems; j++) {
-            if (arr.getElem(j) == searchKey) {
-                break;}
-                
-                System.out.println("no such." + searchKey);
-            } else {
-                System.out.println("founded " + searchKey);
-                break;
-            }
+            if (arr.getElem(j) == searchKey) break;
         }
+        if (j == nElems) System.out.println("No such " + searchKey);
+        else System.out.println("Founded: " + searchKey+ " was in "+ j + " position");
+
+
         searchKey = 55;
         // Удаление элемента с ключом 55
         System.out.println("Searching for " + searchKey);
