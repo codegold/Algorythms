@@ -23,10 +23,10 @@ public class LowArrayApp {
         int searchKey = 66;
         System.out.println("Search for: " + searchKey);
         for (j = 0; j < nElems; j++)
-            if(arr.getElem(j)==searchKey)
+            if (arr.getElem(j) == searchKey)
                 break;
-        if(j==nElems) System.out.println("no such");
-        else System.out.println("Gotcha! "+ searchKey+ " founded at "+ j);
+        if (j == nElems) System.out.println("no such");
+        else System.out.println("Gotcha! " + searchKey + " founded at " + j);
         System.out.println("Testing printArr.");
         arr.printArr();
 
