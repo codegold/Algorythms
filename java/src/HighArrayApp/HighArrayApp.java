@@ -30,6 +30,7 @@ public class HighArrayApp {
         arr.delete(111);
 
         arr.display();
+
     }
 
 
