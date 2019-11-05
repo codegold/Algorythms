@@ -2,7 +2,6 @@ package src.LowArray;
 
 public class LowArray {
     private long[] a;
-    private long[] a2 = new long[10];
 
     public LowArray(int size) {
         a = new long[size];

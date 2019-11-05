@@ -37,10 +37,29 @@ public class HighArray {
         }
     }
 
-    public void display(){
+    public void display() {
         for (int j = 0; j < nElems; j++) {
-            System.out.print(a[j]+" ");
+            System.out.print(a[j] + " ");
         }
         System.out.println();
     }
+
+    public int findWithBinary(long searchKey) {
+        int lowerBound = 0;
+        int upperBound = nElems - 1;
+        int curr;
+
+        while (true) {
+            curr = (lowerBound + upperBound) / 2;
+            if (searchKey == a[curr])
+                return curr;
+            else if (lowerBound > upperBound)
+                return Integer.parseInt("not found");
+            else {
+                if (a[curr] > searchKey) upperBound = curr - 1;
+                else lowerBound = curr + 1;
+            }
+        }
+    }
+
 }
