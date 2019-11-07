@@ -62,4 +62,24 @@ public class HighArray {
         }
     }
 
+    public long getMax() {
+        long cont = 0;
+        int i, j = 0;
+        if (nElems > 0) {
+            for (i = nElems - 1; i > 0; i--)
+                for (j = 0; j < i; j++)
+                    if (a[i] < a[j]) {
+                        cont = a[i];
+                        a[i] = a[j];
+                        a[j] = cont;
+                    }
+
+            return a[nElems - 1];
+        } else {
+            return -1;
+        }
+    }
+
+
+
 }
