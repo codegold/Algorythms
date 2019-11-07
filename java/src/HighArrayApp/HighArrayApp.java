@@ -30,8 +30,11 @@ public class HighArrayApp {
         arr.delete(99);
 
         arr.display();
-        System.out.println("Try getMax().");
-        System.out.println(arr.getMax());
+        System.out.println("Try removeMax().");
+        arr.removeMax();
+        arr.display();
+        arr.removeMax();
+        arr.display();
 
     }
 

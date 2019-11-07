@@ -62,7 +62,7 @@ public class HighArray {
         }
     }
 
-    public long getMax() {
+    public void removeMax() {
         long cont = 0;
         int i, j = 0;
         if (nElems > 0) {
@@ -73,13 +73,10 @@ public class HighArray {
                         a[i] = a[j];
                         a[j] = cont;
                     }
-
-            return a[nElems - 1];
-        } else {
-            return -1;
         }
+        nElems--;
+
+
+
     }
-
-
-
 }
