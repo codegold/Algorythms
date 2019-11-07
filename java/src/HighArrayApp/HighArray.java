@@ -1,8 +1,12 @@
 package src.HighArrayApp;
 
+import java.lang.reflect.Array;
+
 public class HighArray {
     private long[] a;
     private int nElems;
+    private long[] arrForAlgo = a;
+    private int nElemsForAlgo = nElems;
 
     public HighArray(int max) {
         a = new long[max];
@@ -33,7 +37,6 @@ public class HighArray {
                 a[k] = a[k + 1];
             nElems--;
             return true;
-
         }
     }
 
@@ -75,8 +78,13 @@ public class HighArray {
                     }
         }
         nElems--;
+    }
 
-
-
+    public void removeMaxTwo(){
+        long biggest = Integer.MIN_VALUE;
+        for (int i = 0; i < nElems; i++) {
+            if(a[i] > biggest) biggest = a[i];
+        }
+        delete(biggest);
     }
 }

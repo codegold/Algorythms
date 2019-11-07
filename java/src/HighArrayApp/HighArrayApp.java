@@ -31,9 +31,9 @@ public class HighArrayApp {
 
         arr.display();
         System.out.println("Try removeMax().");
-        arr.removeMax();
+        arr.removeMaxTwo();
         arr.display();
-        arr.removeMax();
+        arr.removeMaxTwo();
         arr.display();
 
     }
