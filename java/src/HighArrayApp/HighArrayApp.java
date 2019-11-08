@@ -24,11 +24,16 @@ public class HighArrayApp {
             System.out.println("Founded "+ searchKey);
         else System.out.println("Can't found "+ searchKey);
 
+        System.out.println("Delete 00, 66, 99");
         arr.delete(00);
         arr.delete(66);
-        arr.delete(33);
-        arr.delete(111);
+        arr.delete(99);
 
+        arr.display();
+        System.out.println("Try removeMax().");
+        arr.removeMaxTwo();
+        arr.display();
+        arr.removeMaxTwo();
         arr.display();
 
     }
