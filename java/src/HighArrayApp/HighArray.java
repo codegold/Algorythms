@@ -23,6 +23,10 @@ public class HighArray {
     }
 
     public void insert(long value) {
+        int end = nElems - 1, start = 0, cur = (start + end) / 2;
+        for (int i = 0; i < nElems; i++) {
+
+        }
         a[nElems] = value;
         nElems++;
     }
@@ -80,10 +84,10 @@ public class HighArray {
         nElems--;
     }
 
-    public void removeMaxTwo(){
+    public void removeMaxTwo() {
         long biggest = Integer.MIN_VALUE;
         for (int i = 0; i < nElems; i++) {
-            if(a[i] > biggest) biggest = a[i];
+            if (a[i] > biggest) biggest = a[i];
         }
         delete(biggest);
     }
