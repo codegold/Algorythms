@@ -90,7 +90,7 @@ public class OrdArray {
         }
     }
 
-    public void sortAndPrint(@NotNull int[] a) {
+    public void sortMy(int[] a) {
         for (int i = a.length; i > 0; i--)
             for (int j = i - 1; j > 0; j--)
                 if (a[j] > a[i]) {
@@ -98,7 +98,6 @@ public class OrdArray {
                     a[i] = a[j];
                     a[j] = temp;
                 }
-        display();
     }
 
 
@@ -108,16 +107,41 @@ public class OrdArray {
         System.out.println();
     }
 
-    public void merge(OrdArray a, OrdArray b) {
-        int myLength = a.size() + b.size();
-        OrdArray c = new OrdArray(myLength * 2); //Create max size for future array
-        int i = 0, j = 0, k = 0;
+
+    public static OrdArray merge(OrdArray a, OrdArray b) {
+        int myLength = a.size() + b.size(); //Set needed length.
+
+        OrdArray newArray = new OrdArray(myLength * 2); //Create max size for future array
+        int i = 0, j = 0, k = 0; //Three counters?
+
         while (j < a.size() && k < b.size()) {
-            if (a.getValueAt(j) <= b.getValueAt(k)) {
-                c.setValueAt(i, a.getValueAt(j));
+
+            if (a.getValueAt(j) <= b.getValueAt(k)) { //Compare and insert lowest to a new arr
+                newArray.setValueAt(i, a.getValueAt(j));
                 j++;
+            } else {
+                newArray.setValueAt(i, b.getValueAt(k));
+                k++;
             }
+            newArray.nElems++;
+            i++;
         }
+
+        while (j < a.size()) {
+            newArray.setValueAt(i, a.getValueAt(j));
+            newArray.nElems++;
+            i++;
+            j++;
+        }
+
+        while (k < b.size()) {
+            newArray.setValueAt(i, b.getValueAt(k));
+            newArray.nElems++;
+            i++;
+            k++;
+        }
+
+        return newArray;
     }
 
     private void setValueAt(int index, long value) {
@@ -126,6 +150,14 @@ public class OrdArray {
 
     private int getValueAt(int index) {
         return a[index];
+    }
+
+    public static OrdArray mergeTwo(OrdArray a, OrdArray b) {
+        int newLength = a.nElems + b.nElems;
+        OrdArray newArray = new OrdArray(a.size() + b.size());
+
+
+        return a;
     }
 
 
