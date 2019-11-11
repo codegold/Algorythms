@@ -20,22 +20,38 @@
       <FILTER>src.AlgoDraw.*</FILTER>
     </SUITE>
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="1247">
+                    <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
+                    <folding>
+                      <element signature="e#2987#2988#0" expanded="true" />
+                      <element signature="e#3018#3019#0" expanded="true" />
+                      <element signature="e#3066#3067#0" expanded="true" />
+                      <element signature="e#3096#3097#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OrdArrayApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="899">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
         </entry>
@@ -67,8 +83,8 @@
         <option value="$PROJECT_DIR$/Lafore/BubbleSort/ArrayBub.java" />
         <option value="$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java" />
         <option value="$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java" />
-        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" />
         <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" />
+        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" />
       </list>
     </option>
   </component>
@@ -82,9 +98,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="242" />
+    <option name="x" value="-83" />
     <option name="y" value="23" />
-    <option name="width" value="1216" />
+    <option name="width" value="1010" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -330,7 +346,7 @@
       <workItem from="1573043328258" duration="264000" />
       <workItem from="1573043616885" duration="1351000" />
       <workItem from="1573104265140" duration="9569000" />
-      <workItem from="1573229739797" duration="9571000" />
+      <workItem from="1573229739797" duration="15426000" />
     </task>
     <task id="LOCAL-00001" summary="method printArr(my test)">
       <created>1572868454209</created>
@@ -402,19 +418,26 @@
       <option name="project" value="LOCAL" />
       <updated>1573453858531</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="arr 3 and arr 4 added to OrderedArrayApp">
+      <created>1573462749156</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573462749156</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54653000" />
+    <option name="totallyTimeSpent" value="60508000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="242" y="23" width="1216" height="1417" extended-state="0" />
+    <frame x="-83" y="23" width="1010" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32854208" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32811335" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -426,7 +449,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20272572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24586777" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -488,7 +511,8 @@
     <MESSAGE value="removeMAxTwo() added" />
     <MESSAGE value="Merge branch 'master' of https://github.com/MaxRubshik/Algorythms&#10;&#10;# Conflicts:&#10;#&#9;Algorythms/out/production/Algorythms/src/AlgoDraw/Algo.class" />
     <MESSAGE value="insert() updated with binary search." />
-    <option name="LAST_COMMIT_MESSAGE" value="insert() updated with binary search." />
+    <MESSAGE value="arr 3 and arr 4 added to OrderedArrayApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="arr 3 and arr 4 added to OrderedArrayApp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,13 +520,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -721,13 +738,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/BankAccount.java" />
-    <entry file="file://$PROJECT_DIR$/java/src/LowArray/LowArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/BankAccount/LittleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -783,28 +793,7 @@
         <state relative-caret-position="-159" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LowArray/LowArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/OrdArray.java" />
-    <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -819,17 +808,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="339">
+          <caret line="744" column="31" selection-start-line="744" selection-start-column="31" selection-end-line="744" selection-end-column="31" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="true" />
+            <element signature="e#32095#32096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/LowArray/LowArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/LowArray/LowArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="899">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1247">
+          <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
+          <folding>
+            <element signature="e#2987#2988#0" expanded="true" />
+            <element signature="e#3018#3019#0" expanded="true" />
+            <element signature="e#3066#3067#0" expanded="true" />
+            <element signature="e#3096#3097#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

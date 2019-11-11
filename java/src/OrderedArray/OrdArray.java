@@ -1,5 +1,7 @@
 package src.OrderedArray;
 
+import com.sun.istack.internal.NotNull;
+
 public class OrdArray {
     private int[] a;
     private int nElems;
@@ -88,16 +90,43 @@ public class OrdArray {
         }
     }
 
+    public void sortAndPrint(@NotNull int[] a) {
+        for (int i = a.length; i > 0; i--)
+            for (int j = i - 1; j > 0; j--)
+                if (a[j] > a[i]) {
+                    int temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
+                }
+        display();
+    }
+
+
     public void display() {
         for (int i = 0; i < nElems; i++)
             System.out.print(a[i] + " ");
         System.out.println();
     }
 
-    public void merge() {
-
+    public void merge(OrdArray a, OrdArray b) {
+        int myLength = a.size() + b.size();
+        OrdArray c = new OrdArray(myLength * 2); //Create max size for future array
+        int i = 0, j = 0, k = 0;
+        while (j < a.size() && k < b.size()) {
+            if (a.getValueAt(j) <= b.getValueAt(k)) {
+                c.setValueAt(i, a.getValueAt(j));
+                j++;
+            }
+        }
     }
 
+    private void setValueAt(int index, long value) {
+        a[index] = (int) value;
+    }
+
+    private int getValueAt(int index) {
+        return a[index];
+    }
 
 
 }

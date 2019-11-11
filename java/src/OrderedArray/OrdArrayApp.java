@@ -1,5 +1,7 @@
 package src.OrderedArray;
 
+import com.sun.istack.internal.NotNull;
+
 public class OrdArrayApp {
     public static void main(String[] args) {
         int maxSize = 100;
@@ -7,6 +9,14 @@ public class OrdArrayApp {
         OrdArray arr2 = new OrdArray(maxSize);
         OrdArray arr3 = new OrdArray(20);
         OrdArray arr4 = new OrdArray(20);
+        OrdArray arr5 = new OrdArray(10);
+
+        arr5.insert(777);
+        arr5.insert(11);
+        arr5.insert(88);
+        arr5.insert(333);
+
+
         arr.insert(77);
         arr.insert(99);
         arr.insert(44);
@@ -42,20 +52,35 @@ public class OrdArrayApp {
         arr.insert(16);
         arr.display();
         System.out.println(arr.find(77));
+        System.out.println();
 
-        //------------------------------------------------------
-        //Exercise 5:
+        //-------------------------------------------------
+        //Exercise 5: Adding two arrays with random values.
+
         System.out.println("Exercise 5");
-        for (int i = 0; i < 20; i++) {
-            int random = (int) (Math.random()*100);
+
+        int min = 100;
+        int max = 200;
+
+        for (int i = 0; i < 10; i++) {
+            int random = 80 + (int) (Math.random() * 150);
             arr3.insert(random);
         }
-        System.out.println("This is arr3 :");arr3.display();
+        System.out.println("This is arr3 :");
+        arr3.display();
 
-        for (int i = 0; i < 20; i++) {
-            int random = (int) (Math.random()*200);
+        for (int i = 0; i < 5; i++) {
+            int random = min + (int) ((Math.random() * max));
             arr4.insert(random);
         }
+        System.out.println("This is arr4 :");
+        arr4.display();
+
+        System.out.println("This is arr5 :");
+        arr5.display();
+
+
+
 
     }
 }
