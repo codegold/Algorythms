@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/HighArrayApp/HighArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/HighArrayApp/HighArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/HighArrayApp/OrdArray.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +25,8 @@
       <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="-241">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file leaf-file-name="OrdArrayApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="936">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -60,7 +60,6 @@
         <option value="$PROJECT_DIR$/java/src/LowArray/LowArrayApp.java" />
         <option value="$PROJECT_DIR$/java/src/BankAccount/LittleTest.java" />
         <option value="$PROJECT_DIR$/java/src/OrderedArray/OrderedApp.java" />
-        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" />
         <option value="$PROJECT_DIR$/java/src/AlgoDraw/Algo.java" />
         <option value="$PROJECT_DIR$/java/src/DataArray/ClassDataArray.java" />
         <option value="$PROJECT_DIR$/java/src/DataArray/Person.java" />
@@ -69,6 +68,7 @@
         <option value="$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java" />
         <option value="$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java" />
         <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" />
+        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" />
       </list>
     </option>
   </component>
@@ -84,7 +84,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="242" />
     <option name="y" value="23" />
-    <option name="width" value="1073" />
+    <option name="width" value="1216" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -330,7 +330,7 @@
       <workItem from="1573043328258" duration="264000" />
       <workItem from="1573043616885" duration="1351000" />
       <workItem from="1573104265140" duration="9569000" />
-      <workItem from="1573229739797" duration="5340000" />
+      <workItem from="1573229739797" duration="9571000" />
     </task>
     <task id="LOCAL-00001" summary="method printArr(my test)">
       <created>1572868454209</created>
@@ -395,14 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573230090961</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="insert() updated with binary search.">
+      <created>1573453858531</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573453858531</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50422000" />
+    <option name="totallyTimeSpent" value="54653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="242" y="23" width="1073" height="1417" extended-state="0" />
+    <frame x="242" y="23" width="1216" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -419,7 +426,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23084384" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20272572" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -480,7 +487,8 @@
     <MESSAGE value="getMax() improved to removeMax()" />
     <MESSAGE value="removeMAxTwo() added" />
     <MESSAGE value="Merge branch 'master' of https://github.com/MaxRubshik/Algorythms&#10;&#10;# Conflicts:&#10;#&#9;Algorythms/out/production/Algorythms/src/AlgoDraw/Algo.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/MaxRubshik/Algorythms&#10;&#10;# Conflicts:&#10;#&#9;Algorythms/out/production/Algorythms/src/AlgoDraw/Algo.class" />
+    <MESSAGE value="insert() updated with binary search." />
+    <option name="LAST_COMMIT_MESSAGE" value="insert() updated with binary search." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,20 +496,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/AlgoDraw/Algo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -811,17 +805,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="-241">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="936">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
         </state>
       </provider>
     </entry>

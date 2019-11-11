@@ -5,6 +5,8 @@ public class OrdArrayApp {
         int maxSize = 100;
         OrdArray arr = new OrdArray(maxSize);
         OrdArray arr2 = new OrdArray(maxSize);
+        OrdArray arr3 = new OrdArray(20);
+        OrdArray arr4 = new OrdArray(20);
         arr.insert(77);
         arr.insert(99);
         arr.insert(44);
@@ -39,7 +41,21 @@ public class OrdArrayApp {
         arr.delete(11);
         arr.insert(16);
         arr.display();
+        System.out.println(arr.find(77));
 
+        //------------------------------------------------------
+        //Exercise 5:
+        System.out.println("Exercise 5");
+        for (int i = 0; i < 20; i++) {
+            int random = (int) (Math.random()*100);
+            arr3.insert(random);
+        }
+        System.out.println("This is arr3 :");arr3.display();
+
+        for (int i = 0; i < 20; i++) {
+            int random = (int) (Math.random()*200);
+            arr4.insert(random);
+        }
 
     }
 }

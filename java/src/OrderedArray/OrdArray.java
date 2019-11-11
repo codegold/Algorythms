@@ -72,7 +72,7 @@ public class OrdArray {
         int end = nElems - 1;
         int curr = (start + end) / 2;
 
-        if (value == nElems) return false;
+        if (value == nElems) return false; // can’t find it
         else {
             if (curr == j)
                 return true;
@@ -93,4 +93,11 @@ public class OrdArray {
             System.out.print(a[i] + " ");
         System.out.println();
     }
+
+    public void merge() {
+
+    }
+
+
+
 }
