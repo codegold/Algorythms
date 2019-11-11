@@ -35,13 +35,25 @@ public class OrdArray {
     }
 
     public void insert(int value) {
-        int j;
-        for (j = 0; j < nElems; j++)
-            if (a[j] > value) break;
-        for (int k = nElems; k > j; k--)
+        int start = 0;
+        int end = nElems - 1;
+        int curr = 0;
+
+        while (true) {
+
+            if (start > end) break;
+            curr = (start + end) / 2;
+            if (value > a[curr]) {
+                start = curr + 1;
+                curr++;
+
+            } else end = curr - 1;
+        }
+
+        for (int k = nElems; k > curr; k--)
             a[k] = a[k - 1];
 
-        a[j] = value;
+        a[curr] = value;
         nElems++;
     }
 
@@ -56,7 +68,6 @@ public class OrdArray {
 
     public boolean delete(int value) {
         int j = find(value);
-        int i;
         int start = 0;
         int end = nElems - 1;
         int curr = (start + end) / 2;
