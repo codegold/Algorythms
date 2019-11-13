@@ -2,6 +2,8 @@ package src.OrderedArray;
 
 import com.sun.istack.internal.NotNull;
 
+import java.math.BigDecimal;
+
 public class OrdArrayApp {
     public static void main(String[] args) {
         int maxSize = 100;
@@ -92,9 +94,7 @@ public class OrdArrayApp {
 
         System.out.println("This noDupsGit test. ");
         arr2.display();
-        arr2.noDupsGit();
+        arr2.noDupsMy();
         arr2.display();
-
-
     }
 }

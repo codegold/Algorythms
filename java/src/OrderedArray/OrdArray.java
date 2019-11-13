@@ -161,17 +161,19 @@ public class OrdArray {
         else return b;
     }
 
-    public static void noDupsMy(int[] ordArray) {
-        int i = 0, j = 0;
-        for (i = 0; i < ordArray.length; i++) {
-            for (j = i + 1; j < ordArray.length; j++) {
-                if (ordArray[i] == ordArray[j]) {
-                    for (int k = j; j < ordArray.length; k++) {
-                        ordArray[k] = ordArray[k + 1];
+    public void noDupsMy() {
+        for (int i = 0; i < nElems; i++) {
+            for (int j = i + 1; j < nElems; j++) {
+                if (a[i] == a[j]) {
+                    for (int k = j; k < nElems; k++) {
+                        a[k] = a[k + 1];
                     }
+                    nElems--;
+                    j--;
                 }
             }
         }
+
     }
 
     public void noDupsGit() {
