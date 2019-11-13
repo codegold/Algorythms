@@ -32,8 +32,11 @@ public class OrdArrayApp {
 
         System.out.println("Now my arr2");
         arr2.simpleInsert(10);
-        arr2.simpleInsert(2);
+        arr2.simpleInsert(10);
         arr2.simpleInsert(7);
+        arr2.simpleInsert(5);
+        arr2.simpleInsert(5);
+        arr2.simpleInsert(5);
         arr2.simpleInsert(5);
         System.out.print("After my unsorted test: ");
         arr2.display();
@@ -63,7 +66,7 @@ public class OrdArrayApp {
         int max = 200;
 
         for (int i = 0; i < 10; i++) {
-            int random = 80 + (int) (Math.random() * 150);
+            int random = 80 + (int) (Math.random() * 15);
             arr3.insert(random);
         }
         System.out.println("This is arr3 :");
@@ -73,13 +76,24 @@ public class OrdArrayApp {
             int random = min + (int) ((Math.random() * max));
             arr4.insert(random);
         }
+
+        System.out.println();
+        System.out.println();
         System.out.println("This is arr4 :");
         arr4.display();
 
         System.out.println("This is arr5 :");
         arr5.display();
+        System.out.println();
 
+        System.out.println("This is merged arr from arr 4 and arr 5: ");
+        OrdArray arr6 = OrdArray.merge(arr4, arr5);
+        arr6.display();
 
+        System.out.println("This noDupsGit test. ");
+        arr2.display();
+        arr2.noDupsGit();
+        arr2.display();
 
 
     }

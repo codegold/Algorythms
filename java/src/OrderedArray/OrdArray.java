@@ -109,36 +109,40 @@ public class OrdArray {
 
 
     public static OrdArray merge(OrdArray a, OrdArray b) {
+
         int myLength = a.size() + b.size(); //Set needed length.
+        OrdArray newArray = new OrdArray(myLength * 2);
+        int counterA = 0, counterB = 0, counterC = 0;
 
-        OrdArray newArray = new OrdArray(myLength * 2); //Create max size for future array
-        int i = 0, j = 0, k = 0; //Three counters?
+        while (counterA < a.size() && counterB < b.size()) {//пока счетчики не дошли до конца массивов
 
-        while (j < a.size() && k < b.size()) {
+            if (a.getValueAt(counterA) <= b.getValueAt(counterB)) {//если элем первый меньш равен второму
 
-            if (a.getValueAt(j) <= b.getValueAt(k)) { //Compare and insert lowest to a new arr
-                newArray.setValueAt(i, a.getValueAt(j));
-                j++;
+                newArray.setValueAt(counterC, a.getValueAt(counterA));  //назначаем новому первый а
+                counterA++; //двигаемся по массиву
+
             } else {
-                newArray.setValueAt(i, b.getValueAt(k));
-                k++;
+                newArray.setValueAt(counterC, b.getValueAt(counterB)); //иначе назначаем первый б (б больше)
+                counterB++; //двигаемся по массиву
             }
+            newArray.nElems++; //увеличиваем размер нового массива
+            counterC++; //двигаемся по новому массиву
+
+        }
+        while (counterA < a.size()) {
+
+            newArray.setValueAt(counterC, a.getValueAt(counterA));
             newArray.nElems++;
-            i++;
+            counterC++;
+            counterA++;
         }
 
-        while (j < a.size()) {
-            newArray.setValueAt(i, a.getValueAt(j));
-            newArray.nElems++;
-            i++;
-            j++;
-        }
+        while (counterB < b.size()) {
 
-        while (k < b.size()) {
-            newArray.setValueAt(i, b.getValueAt(k));
+            newArray.setValueAt(counterC, b.getValueAt(counterB));
             newArray.nElems++;
-            i++;
-            k++;
+            counterC++;
+            counterB++;
         }
 
         return newArray;
@@ -152,12 +156,55 @@ public class OrdArray {
         return a[index];
     }
 
+    private int biggestMy(int a, int b) {
+        if (a > b) return a;
+        else return b;
+    }
+
+    public static void noDupsMy(int[] ordArray) {
+        int i = 0, j = 0;
+        for (i = 0; i < ordArray.length; i++) {
+            for (j = i + 1; j < ordArray.length; j++) {
+                if (ordArray[i] == ordArray[j]) {
+                    for (int k = j; j < ordArray.length; k++) {
+                        ordArray[k] = ordArray[k + 1];
+                    }
+                }
+            }
+        }
+    }
+
+    public void noDupsGit() {
+
+        for (int i = 0; i < nElems; i++) {
+            for (int j = i + 1; j < nElems; j++) {
+                if (a[i] == a[j]) {
+                    for (int k = j; k < nElems; k++) {
+                        a[k] = a[k + 1];
+                    }
+                    nElems--;
+                    j--;//WTF
+                }
+            }
+        }
+    }
+
+
     public static OrdArray mergeTwo(OrdArray a, OrdArray b) {
         int newLength = a.nElems + b.nElems;
         OrdArray newArray = new OrdArray(a.size() + b.size());
+        int ac = 0, bc = 0, nc = 0;
+
+        while (ac < a.size() && bc < b.size()) {
+            newArray.setValueAt(nc, a.getValueAt(ac));
+        }
+
+//        for (int i = 0; i < a.nElems; i++) {
+//            newArray.setValueAt(i, a.getValueAt(i));
+//        }
 
 
-        return a;
+        return newArray;
     }
 
 
