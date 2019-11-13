@@ -30,9 +30,34 @@ public class ArrayBub {
     }
 
 
-    private void swap(int one, int two) {
-        long temp = a[one];
-        a[one] = a[two];
-        a[two] = temp;
+    private void swap(long one, long two) {
+        long temp = a[(int) one];
+        a[(int) one] = a[(int) two];
+        a[(int) two] = temp;
+    }
+
+    public void fulfillArray() {
+        int min = 100;
+        int max = 200;
+
+        for (int i = 0; i < 10; i++) {
+            int random = 80 + (int) (Math.random() * 15);
+            a[nElems] = random;
+            nElems++;
+        }
+    }
+
+    public void bubbleSortMy() {
+        int i;
+        boolean isSorted = false;
+        while (!isSorted) {
+            isSorted = true;
+            for (i = 1; i < a.length; i++) {
+                if (a[i] < a[i - 1]) {
+                    swap(a[i], a[i - 1]);
+                    isSorted = false;
+                }
+            }
+        }
     }
 }

@@ -1,6 +1,7 @@
 package src.BubbleSort;
 
 public class BubbleSortApp {
+
     public static void main(String[] args) {
         int maxSize = 100;
         ArrayBub arr = new ArrayBub(maxSize);
@@ -18,5 +19,25 @@ public class BubbleSortApp {
 
         arr.bubbleSort();
         arr.display();
+
+        System.out.println("Create arr2");
+        ArrayBub arr2 = new ArrayBub(maxSize);
+        arr2.fulfillArray();
+//        arr2.insert(77);
+//        arr2.insert(99);
+//        arr2.insert(44);
+//        arr2.insert(55);
+//        arr2.insert(22);
+//        arr2.insert(88);
+//        arr2.insert(11);
+//        arr2.insert(00);
+//        arr2.insert(66);
+//        arr2.insert(33);
+        arr2.display();
+        System.out.println("arr2 After fullfill.");
+        System.out.println("after display");
+
+
+
     }
 }
