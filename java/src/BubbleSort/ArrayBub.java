@@ -26,11 +26,16 @@ public class ArrayBub {
         for (out = nElems - 1; out > 1; out--) {
             for (in = 0; in < out; in++) {
                 if (a[in] > a[out]) {
-                    swap(in, in+1);
+                    swap(in, in + 1);
                 }
             }
         }
     }
 
-
+    public void swap(int a, int b) {
+        int temp;
+        temp = a;
+        a = b;
+        b = temp;
+    }
 }
