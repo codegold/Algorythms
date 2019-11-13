@@ -23,19 +23,16 @@ public class ArrayBub {
 
     public void bubbleSort() {
         int in, out;
-        for (out = nElems - 1; out > 1; out--) {
-            for (in = 0; in < out; in++) {
-                if (a[in] > a[out]) {
+        for (out = nElems - 1; out > 1; out--)
+            for (in = 0; in < out; in++)
+                if (a[in] > a[in + 1])
                     swap(in, in + 1);
-                }
-            }
-        }
     }
 
-    public void swap(int a, int b) {
-        int temp;
-        temp = a;
-        a = b;
-        b = temp;
+
+    private void swap(int one, int two) {
+        long temp = a[one];
+        a[one] = a[two];
+        a[two] = temp;
     }
 }
