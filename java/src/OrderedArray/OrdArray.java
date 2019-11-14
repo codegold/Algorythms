@@ -204,21 +204,7 @@ public class OrdArray {
 //        for (int i = 0; i < a.nElems; i++) {
 //            newArray.setValueAt(i, a.getValueAt(i));
 //        }
-
-
         return newArray;
-    }
-
-    public void selectSort(int[] array) {
-        int smallest;
-        int in, out;
-        for (out = 0; out < nElems - 1; out++) {
-            smallest = out;
-            for (in = out + 1; in < nElems; in++)
-                if (array[in] > array[smallest])
-                    smallest = in;
-            swap(out, in);
-        }
     }
 
 

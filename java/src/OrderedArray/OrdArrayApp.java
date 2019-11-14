@@ -12,6 +12,7 @@ public class OrdArrayApp {
         OrdArray arr3 = new OrdArray(20);
         OrdArray arr4 = new OrdArray(20);
         OrdArray arr5 = new OrdArray(10);
+        OrdArray arr7 = new OrdArray(6);
 
         arr5.insert(777);
         arr5.insert(11);
@@ -96,5 +97,6 @@ public class OrdArrayApp {
         arr2.display();
         arr2.noDupsMy();
         arr2.display();
+
     }
 }
