@@ -36,4 +36,10 @@ public class ArraySel {
         }
     }
 
+    private void swap(int x, int y) {
+        int temp = (int) a[x];
+        a[x] = a[y];
+        a[y] = temp;
+    }
+
 }
