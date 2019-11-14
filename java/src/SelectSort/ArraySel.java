@@ -48,10 +48,20 @@ public class ArraySel {
         for (out = 0; out < nElems - 1; out++) {
             min = out;
             for (in = out + 1; in < nElems; in++)
-                if(a[in] < a[min])
+                if (a[in] < a[min])
                     min = in;
             swap(min, out);
 
+        }
+    }
+
+    public void insertSortTF() {
+        for (int i = 1; i < a.length - 1; i++) {
+            int k = i;
+            while (k > 0 && a[k] > a[k-1]){
+                swap(k, k-1);
+                k--;
+            }
         }
     }
 
