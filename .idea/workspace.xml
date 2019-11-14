@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/SelectSort/ArraySel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/MyBubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/MyBubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +22,8 @@
       <file leaf-file-name="OrdArrayApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+            <state relative-caret-position="100">
+              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArraySel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SelectSort/ArraySel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+            <state relative-caret-position="1088">
+              <caret line="205" column="11" selection-start-line="205" selection-start-column="11" selection-end-line="205" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -76,8 +81,9 @@
         <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" />
-        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" />
         <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" />
+        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" />
+        <option value="$PROJECT_DIR$/java/src/SelectSort/ArraySel.java" />
       </list>
     </option>
   </component>
@@ -131,14 +137,7 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BubbleSort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderedArray" type="462c0819:PsiDirectoryNode" />
+              <item name="SelectSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +314,7 @@
       <workItem from="1573229739797" duration="19202000" />
       <workItem from="1573477282164" duration="9077000" />
       <workItem from="1573641327306" duration="12883000" />
-      <workItem from="1573710246121" duration="5320000" />
+      <workItem from="1573710246121" duration="6473000" />
     </task>
     <task id="LOCAL-00001" summary="method printArr(my test)">
       <created>1572868454209</created>
@@ -450,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573732625809</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="selectSort() deleted from OrderedArray.">
+      <created>1573733710046</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1573733710046</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91564000" />
+    <option name="totallyTimeSpent" value="92717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="946" y="23" width="1574" height="1417" extended-state="0" />
@@ -471,11 +477,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.16032812" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24310216" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24310216" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16318537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16318537" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -546,7 +552,8 @@
     <MESSAGE value="BubbleSortApp class added (all works)" />
     <MESSAGE value="unversioned files from &quot;out&quot;" />
     <MESSAGE value="selectSort() added." />
-    <option name="LAST_COMMIT_MESSAGE" value="selectSort() added." />
+    <MESSAGE value="selectSort() deleted from OrderedArray." />
+    <option name="LAST_COMMIT_MESSAGE" value="selectSort() deleted from OrderedArray." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -576,17 +583,10 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgoDraw/Algo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -903,20 +903,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="205" column="11" selection-start-line="205" selection-start-column="11" selection-end-line="205" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+        <state relative-caret-position="100">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
+    <entry file="file://$PROJECT_DIR$/java/src/SelectSort/ArraySel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+        <state relative-caret-position="551">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
