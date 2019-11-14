@@ -24,14 +24,15 @@ public class ArraySel {
     public void selectionSort() {
         int in, out, min;
         for (out = 0; out < nElems - 1; out++) {
-            min = (int) a[0];
-            for (in = 1; in < nElems; in++) {
-                if (a[in] < min)
-                    a[in] = min;
-                int temp = (int) a[in];
-                a[in] = min;
-                min = temp;
-
+            min = out;
+            for (in = out + 1; in < nElems; in++) {
+                if (a[in] < a[min]) {
+                    min = in;
+                    //swap(out, min);
+                    int temp = (int) a[out];
+                    a[out] = a[min];
+                    a[min] = temp;
+                }
             }
         }
     }
@@ -40,6 +41,18 @@ public class ArraySel {
         int temp = (int) a[x];
         a[x] = a[y];
         a[y] = temp;
+    }
+
+    public void selectionSortMy() {
+        int in, out, min;
+        for (out = 0; out < nElems - 1; out++) {
+            min = out;
+            for (in = out + 1; in < nElems; in++)
+                if(a[in] < a[min])
+                    min = in;
+            swap(min, out);
+
+        }
     }
 
 }
