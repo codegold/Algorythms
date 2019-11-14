@@ -13,6 +13,8 @@ public class MyBubbleSort {
             }
     }
 
+
+
     public static void swap(int i1, int i2) {
         int temp = array[i1];
         array[i1] = array[i2];
@@ -30,13 +32,19 @@ public class MyBubbleSort {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
-
-        System.out.println("Trying to sort.");
         System.out.println();
-        bubbleSortMy(array);
+
+//        System.out.println("Trying to sort.");
+//        System.out.println();
+//        bubbleSortMy(array);
+//
+//        System.out.println("try selectSort.");
+//        selectSort(array);
 
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
+
+
     }
 }
