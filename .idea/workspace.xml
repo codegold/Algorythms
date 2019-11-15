@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SelectSort/SelectSortApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SelectSort/ArraySel.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SelectSort/ArraySel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/SelectSort/ArraySel.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SelectSort/ArraySel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/SelectSort/SelectSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SelectSort/SelectSortApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="ArraySel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/SelectSort/ArraySel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="621">
+              <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -34,8 +33,8 @@
       <file leaf-file-name="SelectSortApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/SelectSort/SelectSortApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="361">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -307,7 +306,7 @@
       <workItem from="1573477282164" duration="9077000" />
       <workItem from="1573641327306" duration="12883000" />
       <workItem from="1573710246121" duration="8648000" />
-      <workItem from="1573737794030" duration="1547000" />
+      <workItem from="1573737794030" duration="6453000" />
     </task>
     <task id="LOCAL-00001" summary="method printArr(my test)">
       <created>1572868454209</created>
@@ -463,11 +462,25 @@
       <option name="project" value="LOCAL" />
       <updated>1573734815578</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="selectionSortMy() added">
+      <created>1573742540487</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1573742540489</updated>
+    </task>
+    <task id="LOCAL-00024" summary="insertSortTF() added">
+      <created>1573744924092</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1573744924092</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96439000" />
+    <option name="totallyTimeSpent" value="101345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-50" y="23" width="954" height="1027" extended-state="0" />
@@ -483,12 +496,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.16032812" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.57623553" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17770767" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22916667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20504385" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -561,7 +574,9 @@
     <MESSAGE value="selectSort() deleted from OrderedArray." />
     <MESSAGE value="selectSort.java" />
     <MESSAGE value="swap() added" />
-    <option name="LAST_COMMIT_MESSAGE" value="swap() added" />
+    <MESSAGE value="selectionSortMy() added" />
+    <MESSAGE value="insertSortTF() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertSortTF() added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -920,15 +935,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SelectSort/ArraySel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="621">
+          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SelectSort/SelectSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="361">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -17,7 +17,7 @@ public class SelectSortApp {
 
         arr.display();
         //arr.selectionSortMy();
-        arr.insertSortTF();
+        arr.insertSortMy();
         arr.display();
     }
 }

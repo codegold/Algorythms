@@ -21,6 +21,7 @@ public class ArraySel {
         System.out.println();
     }
 
+
     public void selectionSort() {
         int in, out, min;
         for (out = 0; out < nElems - 1; out++) {
@@ -58,11 +59,36 @@ public class ArraySel {
     public void insertSortTF() {
         for (int i = 1; i < a.length - 1; i++) {
             int k = i;
-            while (k > 0 && a[k] > a[k-1]){
-                swap(k, k-1);
+            while (k > 0 && a[k] > a[k - 1]) {
+                swap(k, k - 1);
                 k--;
             }
         }
     }
 
+    public void insertSortLafore() {
+        int in, out;
+        for (out = 1; out < nElems; out++) {// out - разделительный маркер
+            long temp = a[out];//Copy marked element
+            in = out;//Start from out
+            while (in > 0 && a[in - 1] >= temp) {//while not found smallest
+                a[in] = a[in - 1]; //move element to left
+                --in;
+            }
+            a[in] = temp;//paste marked element
+        }
+    }
+
+    public void insertSortMy() {
+        int in, out;
+        for (out = 1; out < nElems; out++) {
+            int temp = out;
+            while (temp > 0 && a[temp] > a[temp - 1]) {
+                swap(temp, temp - 1);
+                temp--;
+            }
+
+        }
+
+    }
 }
