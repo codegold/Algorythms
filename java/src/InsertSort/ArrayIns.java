@@ -25,10 +25,12 @@ public class ArrayIns {
 
     public void insertionSort(){
         for (int i = 1; i < nElems; i++) {
-            int temp = i;
-            while (temp > 0 && a[i]> a[i-1]){
-                swap(i, i-1);
-                temp--;
+            int m = i;
+            while (m > 0 && a[m]> a[m -1]){
+                int temp = (int) a[m];
+                a[m] = a[m-1];
+                a[m-1] = temp;
+                m--;
             }
         }
     }
