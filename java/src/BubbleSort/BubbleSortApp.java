@@ -36,9 +36,9 @@ public class BubbleSortApp {
         arr2.display();
         System.out.println("arr2 After fullfill.");
         System.out.println("after display");
-//        arr2.bubbleSortThree();
-//        arr2.display();
-
+        arr2.bubbleSortThree();
+        arr2.display();
+        System.out.println("bubbleSortThree");
 
     }
 }

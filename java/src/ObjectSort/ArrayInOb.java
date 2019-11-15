@@ -1,5 +1,7 @@
 package src.ObjectSort;
 
+import static src.BubbleSort.MyBubbleSort.swap;
+
 public class ArrayInOb {
     private Person[] a;
     private int nElems;
@@ -14,10 +16,23 @@ public class ArrayInOb {
         nElems++;
     }
 
-    public void display(){
+    public void display() {
         for (int i = 0; i < nElems; i++) {
             a[i].displayPerson();
-            System.out.println("");//Check NAX
         }
     }
+
+    public void insertionSort() {
+        int in, out;
+        for (out = 1; out < nElems; out++) {
+            Person temp = a[out];
+            in = out;
+            while (in > 0 && a[in - 1].getLast().compareTo(temp.getLast()) > 0) {
+                a[in] = a[in - 1];
+                in--;
+            }
+            a[in] = temp;
+        }
+    }
+
 }
