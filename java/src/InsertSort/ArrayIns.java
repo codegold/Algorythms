@@ -23,13 +23,13 @@ public class ArrayIns {
         System.out.println();
     }
 
-    public void insertionSort(){
+    public void insertionSort() {
         for (int i = 1; i < nElems; i++) {
             int m = i;
-            while (m > 0 && a[m]> a[m -1]){
+            while (m > 0 && a[m] > a[m - 1]) {
                 int temp = (int) a[m];
-                a[m] = a[m-1];
-                a[m-1] = temp;
+                a[m] = a[m - 1];
+                a[m - 1] = temp;
                 m--;
             }
         }
