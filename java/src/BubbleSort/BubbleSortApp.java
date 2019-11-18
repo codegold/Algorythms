@@ -19,7 +19,7 @@ public class BubbleSortApp {
         arr.insert(33);
         arr.display();
 
-        arr.bubbleSortThree();
+        arr.bubbleSort();
         arr.display();
 
         System.out.println("Create arr2");
@@ -32,19 +32,21 @@ public class BubbleSortApp {
         arr2.bubbleSortThree();
         arr2.display();
         System.out.println("bubbleSortThree");
+        arr2.bubbleSortReverse();
+        arr2.display();
 
-        System.out.println("Task from book.");
-
-        for (int i = 0; i < maxSize2; i++) {
-            long n = (long) (java.lang.Math.random() * (maxSize2 - 1));
-            arr3.insert(n);
-        }
-        long startTime = System.currentTimeMillis();
-        arr3.bubbleSort();
-        long stopTime = System.currentTimeMillis();
-
-        System.out.println("Time = " + (stopTime - startTime));
-        arr3.display();
+//        System.out.println("Task from book.");
+//
+//        for (int i = 0; i < maxSize2; i++) {
+//            long n = (long) (java.lang.Math.random() * (maxSize2 - 1));
+//            arr3.insert(n);
+//        }
+//        long startTime = System.currentTimeMillis();
+//        arr3.bubbleSort();
+//        long stopTime = System.currentTimeMillis();
+//
+//        System.out.println("Time = " + (stopTime - startTime));
+//        arr3.display();
 
     }
 }

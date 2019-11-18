@@ -29,6 +29,14 @@ public class ArrayBub {
                     swap(in, in + 1);
     }
 
+    public void bubbleSortReverse(){
+        int in, out;
+        for (out = 0; out < nElems; out++)
+            for (in = nElems -1;  in > out ; in --)
+                if(a[in] > a[in - 1])
+                    swap(in, in-1);
+    }
+
 
     private void swap(long one, long two) {
         long temp = a[(int) one];
