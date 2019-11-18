@@ -42,14 +42,13 @@ public class ArrayBub {
         int outBottom = 0;
         int in;
         while (outBottom < outTop) {
-            for (in = outBottom; in < outTop; in++)
-                if (a[in] > a[in + 1]) swap(in, in+1);
-            outTop--;
-            for (in = outTop; in > outBottom; in--)
-                if (a[in-1] > a[in]) swap(in, in-1);
+            for (in = outTop; in > 0; in--)
+                if (a[in - 1] > a[in]) swap(in - 1, in);
             outBottom++;
+            for (in = outBottom; in < outTop; in++)
+                if (a[in] > a[in + 1]) swap(in, in + 1);
+            outTop--;
         }
-
     }
 
 

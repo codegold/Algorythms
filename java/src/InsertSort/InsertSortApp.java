@@ -12,18 +12,22 @@ public class InsertSortApp {
         arr.insert(99);
         arr.insert(44);
         arr.insert(55);
-        arr.insert(22);
-        arr.insert(88);
+        arr.insert(55);
+        arr.insert(55);
         arr.insert(11);
-        arr.insert(00);
+        arr.insert(11);
         arr.insert(66);
         arr.insert(33);
         arr.insert(77);
 
         arr.display();
+        System.out.println("Sorting.");
         arr.insertionSort();
         arr.display();
         System.out.println();
+        System.out.println("Test noDups.");
+        arr.noDups();
+        arr.display();
 
         System.out.println("Task from book.");
         for (int i = 0; i < maxSize2 ; i++) {

@@ -34,4 +34,14 @@ public class ArrayIns {
             }
         }
     }
+
+    public void noDups() {
+        insertionSort();
+        for (int i = 0; i < nElems; i++)
+            while (a[i] == a[i + 1]) {
+                for (int j = i + 1; j < nElems; j++)
+                    a[j] = a[j + 1];
+                nElems--;
+            }
+    }
 }

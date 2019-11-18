@@ -34,19 +34,19 @@ public class BubbleSortApp {
         System.out.println("bubbleSortThree");
         arr2.bubbleSortReverse();
         arr2.display();
-
-        System.out.println("Benchmark.");//BubbleSort 18123
 //
-        for (int i = 0; i < maxSize2; i++) {
-            long n = (long) (java.lang.Math.random() * (maxSize2 - 1));
-            arr3.insert(n);
-        }
-        long startTime = System.currentTimeMillis();
-        arr3.doubleDirBubbleSort();
-        long stopTime = System.currentTimeMillis();
-
-        System.out.println("Time = " + (stopTime - startTime));
-        arr3.display();
+//        System.out.println("Benchmark.");//BubbleSort 18123
+//
+//        for (int i = 0; i < maxSize2; i++) {
+//            long n = (long) (java.lang.Math.random() * (maxSize2 - 1));
+//            arr3.insert(n);
+//        }
+//        long startTime = System.currentTimeMillis();
+//        arr3.doubleDirBubbleSort();
+//        long stopTime = System.currentTimeMillis();
+//
+//        System.out.println("Time = " + (stopTime - startTime));
+//        arr3.display();
 
     }
 }

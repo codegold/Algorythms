@@ -4,7 +4,12 @@
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/ArrayBub.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/ArrayBub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/BubbleSortApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/BubbleSortApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/InsertSortApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/InsertSortApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,20 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayBub.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java">
+      <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            <state relative-caret-position="451">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubbleSortApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java">
+      <file leaf-file-name="InsertSortApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="111">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -73,12 +78,12 @@
         <option value="$PROJECT_DIR$/java/src/SelectSort/ArraySel.java" />
         <option value="$PROJECT_DIR$/java/src/ObjectSort/Person.java" />
         <option value="$PROJECT_DIR$/java/src/ObjectSort/ObjectSortApp.java" />
-        <option value="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" />
         <option value="$PROJECT_DIR$/java/src/ObjectSort/ArrayInOb.java" />
-        <option value="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/SelectSort/SelectSortApp.java" />
-        <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" />
+        <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" />
+        <option value="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" />
+        <option value="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" />
       </list>
     </option>
   </component>
@@ -93,7 +98,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
-    <option name="width" value="994" />
+    <option name="width" value="882" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -122,13 +127,6 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BubbleSort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -184,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSortApp">
+  <component name="RunManager" selected="Application.InsertSortApp">
     <configuration name="BubbleSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.BubbleSort.BubbleSortApp" />
       <module name="Algorythms" />
@@ -290,9 +288,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSortApp" />
         <item itemvalue="Application.BubbleSortApp" />
         <item itemvalue="Application.SelectSortApp" />
-        <item itemvalue="Application.InsertSortApp" />
         <item itemvalue="Application.ObjectSortApp" />
         <item itemvalue="Application.OrdArrayApp" />
       </list>
@@ -335,7 +333,7 @@
       <workItem from="1573817246880" duration="2861000" />
       <workItem from="1573821061153" duration="3668000" />
       <workItem from="1573828296681" duration="2031000" />
-      <workItem from="1573885045413" duration="6918000" />
+      <workItem from="1573885045413" duration="9940000" />
     </task>
     <task id="LOCAL-00001" summary="method printArr(my test)">
       <created>1572868454209</created>
@@ -561,14 +559,28 @@
       <option name="project" value="LOCAL" />
       <updated>1574053551047</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="doubleDirBubblesort() made">
+      <created>1574058136156</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1574058136156</updated>
+    </task>
+    <task id="LOCAL-00034" summary="doubleDirBubblesort() test added">
+      <created>1574059328520</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1574059328520</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122083000" />
+    <option name="totallyTimeSpent" value="125105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="994" height="1027" extended-state="0" />
+    <frame x="0" y="24" width="882" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
@@ -586,7 +598,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24285714" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -638,8 +650,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getMax() improved to removeMax()" />
-    <MESSAGE value="removeMAxTwo() added" />
     <MESSAGE value="Merge branch 'master' of https://github.com/MaxRubshik/Algorythms&#10;&#10;# Conflicts:&#10;#&#9;Algorythms/out/production/Algorythms/src/AlgoDraw/Algo.class" />
     <MESSAGE value="insert() updated with binary search." />
     <MESSAGE value="arr 3 and arr 4 added to OrderedArrayApp" />
@@ -663,7 +673,9 @@
     <MESSAGE value="insertionSort() added (book style for Strings)" />
     <MESSAGE value="added benchmark to all three algorythms (array size 100k)" />
     <MESSAGE value="bubbleSortReverse() made" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubbleSortReverse() made" />
+    <MESSAGE value="doubleDirBubblesort() made" />
+    <MESSAGE value="doubleDirBubblesort() test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="doubleDirBubblesort() test added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,13 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SelectSort/SelectSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -990,24 +995,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
+    <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="-12">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="722">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java">
+    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="111">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>
