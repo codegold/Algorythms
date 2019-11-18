@@ -29,12 +29,27 @@ public class ArrayBub {
                     swap(in, in + 1);
     }
 
-    public void bubbleSortReverse(){
+    public void bubbleSortReverse() {
         int in, out;
         for (out = 0; out < nElems; out++)
-            for (in = nElems -1;  in > out ; in --)
-                if(a[in] > a[in - 1])
-                    swap(in, in-1);
+            for (in = nElems - 1; in > out; in--)
+                if (a[in] > a[in - 1])
+                    swap(in, in - 1);
+    }
+
+    public void doubleDirBubbleSort() {
+        int outTop = nElems - 1;
+        int outBottom = 0;
+        int in;
+        while (outBottom < outTop) {
+            for (in = outBottom; in < outTop; in++)
+                if (a[in] > a[in + 1]) swap(a[in], a[in + 1]);
+            outTop--;
+            for (in = outTop; in > outBottom; in--)
+                if (a[in] > a[in - 1]) swap(a[in], a[in - 1]);
+            outBottom++;
+        }
+
     }
 
 
