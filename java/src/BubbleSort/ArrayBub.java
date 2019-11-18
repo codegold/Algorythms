@@ -43,10 +43,10 @@ public class ArrayBub {
         int in;
         while (outBottom < outTop) {
             for (in = outBottom; in < outTop; in++)
-                if (a[in] > a[in + 1]) swap(a[in], a[in + 1]);
+                if (a[in] > a[in + 1]) swap(in, in+1);
             outTop--;
             for (in = outTop; in > outBottom; in--)
-                if (a[in] > a[in - 1]) swap(a[in], a[in - 1]);
+                if (a[in-1] > a[in]) swap(in, in-1);
             outBottom++;
         }
 
