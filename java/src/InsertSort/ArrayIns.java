@@ -35,6 +35,25 @@ public class ArrayIns {
         }
     }
 
+    public void insertionSortNoDups() {
+        insertionSort();
+        int total = nElems;
+        int shiftAmount = 0;
+        long currNum = 0;
+        for (int index = 0; index < total; index++) {
+            if (a[index] == currNum) {
+                shiftAmount++;
+                nElems--;
+            } else {
+                currNum = a[index];
+                a[index - shiftAmount] = a[index];
+            }
+
+        }
+        display();
+
+    }
+
     public void noDups() {
         insertionSort();
         for (int i = 0; i < nElems; i++)

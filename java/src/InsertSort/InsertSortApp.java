@@ -21,23 +21,24 @@ public class InsertSortApp {
         arr.insert(77);
 
         arr.display();
-        System.out.println("Sorting.");
-        arr.insertionSort();
-        arr.display();
-        System.out.println();
-        System.out.println("Test noDups.");
-        arr.noDups();
-        arr.display();
-
-        System.out.println("Task from book.");
-        for (int i = 0; i < maxSize2 ; i++) {
-            long n = (long) (java.lang.Math.random()*(maxSize2-1));
-            arr2.insert(n);
-        }
-        long startTime = System.currentTimeMillis();
-        arr2.insertionSort();
-        long endTime = System.currentTimeMillis();
-        System.out.println("Time: "+(endTime-startTime));
+        arr.insertionSortNoDups();
+//        System.out.println("Sorting.");
+//        arr.insertionSort();
+//        arr.display();
+//        System.out.println();
+//        System.out.println("Test noDups.");
+//        arr.noDups();
+//        arr.display();
+//
+//        System.out.println("Task from book.");
+//        for (int i = 0; i < maxSize2 ; i++) {
+//            long n = (long) (java.lang.Math.random()*(maxSize2-1));
+//            arr2.insert(n);
+//        }
+//        long startTime = System.currentTimeMillis();
+//        arr2.insertionSort();
+//        long endTime = System.currentTimeMillis();
+//        System.out.println("Time: "+(endTime-startTime));
 
     }
 }
