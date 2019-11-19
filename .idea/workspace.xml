@@ -4,11 +4,8 @@
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/ArrayBub.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/ArrayBub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/BubbleSortApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/BubbleSortApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/MyBubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/MyBubbleSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,23 +20,23 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4896122">
       <split-first>
         <leaf>
-          <file leaf-file-name="BubbleSortApp.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="BubbleSortApp.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+                <state relative-caret-position="652">
+                  <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ArrayBub.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ArrayBub.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="83">
-                  <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+                <state relative-caret-position="564">
+                  <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -51,8 +48,8 @@
           <file leaf-file-name="ArrayBub.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1128">
-                  <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
+                <state relative-caret-position="273">
+                  <caret line="68" selection-start-line="67" selection-end-line="68" />
                 </state>
               </provider>
             </entry>
@@ -98,8 +95,8 @@
         <option value="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" />
-        <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" />
+        <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" />
       </list>
     </option>
   </component>
@@ -360,7 +357,7 @@
       <workItem from="1573828296681" duration="2031000" />
       <workItem from="1573885045413" duration="16962000" />
       <workItem from="1574145406875" duration="7211000" />
-      <workItem from="1574169731719" duration="1000000" />
+      <workItem from="1574169731719" duration="2232000" />
     </task>
     <task id="LOCAL-00001" summary="method printArr(my test)">
       <created>1572868454209</created>
@@ -628,14 +625,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574162141177</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="oddEvenSortMy() added. Created by myself">
+      <created>1574171014718</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1574171014718</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140338000" />
+    <option name="totallyTimeSpent" value="141570000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="534" y="23" width="2025" height="1417" extended-state="0" />
+    <frame x="711" y="23" width="1848" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
@@ -650,11 +654,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.2628812" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29903057" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29903057" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10943016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12015504" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -738,7 +742,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="noDups() finished" />
     <MESSAGE value="bubbleSort() added" />
     <MESSAGE value="BubbleSortApp class added (all works)" />
     <MESSAGE value="unversioned files from &quot;out&quot;" />
@@ -763,11 +766,12 @@
     <MESSAGE value="insertionSortNoDups() - for deleting duplicates in O(N) complexity" />
     <MESSAGE value="insertionSortNoDups() - for deleting duplicates in O(N) complexity (gotcha)" />
     <MESSAGE value="oddEvenSort() added. (Sorting in multithread, odd and even)" />
-    <option name="LAST_COMMIT_MESSAGE" value="oddEvenSort() added. (Sorting in multithread, odd and even)" />
+    <MESSAGE value="oddEvenSortMy() added. Created by myself" />
+    <option name="LAST_COMMIT_MESSAGE" value="oddEvenSortMy() added. Created by myself" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="53" />
+      <option name="time" value="54" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1097,17 +1101,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java">
+    <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="564">
+          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java">
+    <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+        <state relative-caret-position="652">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
         </state>
       </provider>
     </entry>
