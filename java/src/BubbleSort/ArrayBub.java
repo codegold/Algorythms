@@ -1,5 +1,7 @@
 package src.BubbleSort;
 
+import static src.BubbleSort.MyBubbleSort.swap;
+
 public class ArrayBub {
     private long[] a;
     private int nElems;
@@ -51,6 +53,37 @@ public class ArrayBub {
         }
     }
 
+    public void oddEvenSort() {
+        int even, odd;
+        int numEvenOddLoops = nElems / 2;
+        while (numEvenOddLoops > 0) {
+            if (nElems % 2 == 0) {
+                for (even = 0; even < nElems - 1; even += 2) {
+                    if (a[even] > a[even + 1]) {
+                        swap(even, even + 1);
+                    }
+                }
+                for (odd = 1; odd < nElems - 2; odd += 2) {
+                    if (a[odd] > a[odd + 1]) {
+                        swap(odd, odd + 1);
+                    }
+                }
+            } else {
+                for (even = 0; even < nElems - 2; even += 2) {
+                    if (a[even] > a[even + 1]) {
+                        swap(even, even + 1);
+                    }
+                }
+            }
+            for (odd = 1; odd < nElems - 1; odd += 2) {
+                if (a[odd] > a[odd + 1]) {
+                    swap(odd, odd + 1);
+                }
+            }
+            numEvenOddLoops--;
+        }
+
+    }
 
     private void swap(long one, long two) {
         long temp = a[(int) one];
