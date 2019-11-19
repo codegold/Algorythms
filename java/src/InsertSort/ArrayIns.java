@@ -37,21 +37,20 @@ public class ArrayIns {
 
     public void insertionSortNoDups() {
         insertionSort();
+        display();
+        int shiftCount = 0;
+        int curr = 0;
         int total = nElems;
-        int shiftAmount = 0;
-        long currNum = 0;
-        for (int index = 0; index < total; index++) {
-            if (a[index] == currNum) {
-                shiftAmount++;
+
+        for (int i = 0; i < total; i++) {
+            if (a[i] == a[i + 1]) {
+                shiftCount++;
                 nElems--;
             } else {
-                currNum = a[index];
-                a[index - shiftAmount] = a[index];
+                curr = (int) a[i];
+                a[i - shiftCount] = a[i];
             }
-
-        }
-        display();
-
+        } display();
     }
 
     public void noDups() {

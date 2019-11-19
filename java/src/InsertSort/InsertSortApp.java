@@ -9,16 +9,16 @@ public class InsertSortApp {
         ArrayIns arr = new ArrayIns(maxSize);
         ArrayIns arr2 = new ArrayIns(maxSize2);
 
-        arr.insert(99);
+      //  arr.insert(99);
         arr.insert(44);
         arr.insert(55);
         arr.insert(55);
         arr.insert(55);
         arr.insert(11);
         arr.insert(11);
-        arr.insert(66);
-        arr.insert(33);
-        arr.insert(77);
+//        arr.insert(66);
+//        arr.insert(33);
+//        arr.insert(77);
 
         arr.display();
         arr.insertionSortNoDups();
