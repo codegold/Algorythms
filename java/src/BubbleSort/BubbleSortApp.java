@@ -43,7 +43,7 @@ public class BubbleSortApp {
             arr3.insert(n);
         }
         long startTime = System.currentTimeMillis();
-        arr3.oddEvenSort();
+        arr3.oddEvenSortMy();
         long stopTime = System.currentTimeMillis();
 
         System.out.println("Time = " + (stopTime - startTime));
