@@ -85,12 +85,23 @@ public class ArrayBub {
 
     }
 
-    public void oddEvenSortMy() {
+
+    public void oddEvenSortMyThree() {
 
         int odd, even;
         int loopsCount = nElems / 2;
 
         while (loopsCount > 0) {
+            if (loopsCount % 3 == 0) {
+                for (even = 1; even < a.length - 1; even += 2) {
+                    if (a[even] > a[even + 1])
+                        swap(even, even + 1);
+                }
+                for (odd = 0; odd < a.length - 2; odd += 2) {
+                    if (a[odd] > a[odd + 1])
+                        swap(odd, odd + 1);
+                }
+            }
             if (loopsCount % 2 == 0) {
                 for (even = 1; even < a.length - 1; even += 2) {
                     if (a[even] > a[even + 1])
@@ -100,7 +111,8 @@ public class ArrayBub {
                     if (a[odd] > a[odd + 1])
                         swap(odd, odd + 1);
                 }
-            } else {
+            }
+            else {
                 for (even = 0; even < a.length - 2; even += 2) {
                     if (a[even] > a[even + 1])
                         swap(even, even + 1);
