@@ -53,7 +53,7 @@ public class ArrayBub {
         }
     }
 
-    public void oddEvenSort() {
+    public void oddEvenSort() { // 9843 sec
         int even, odd;
         int numEvenOddLoops = nElems / 2;
         while (numEvenOddLoops > 0) {
@@ -86,7 +86,7 @@ public class ArrayBub {
     }
 
 
-    public void oddEvenSortMyThree() {
+    public void oddEvenSortMyThree() { //8862 sec
 
         int odd, even;
         int loopsCount = nElems / 2;
@@ -126,7 +126,7 @@ public class ArrayBub {
         }
     }
 
-    public void oddEvenSortMyTwo() {
+    public void oddEvenSortMyTwo() { //9763 sec
         int odd, even;
         int loopsCount = nElems / 2;
 

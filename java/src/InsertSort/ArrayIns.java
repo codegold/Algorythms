@@ -23,6 +23,7 @@ public class ArrayIns {
         System.out.println();
     }
 
+
     public void insertionSort() {
         for (int i = 1; i < nElems; i++) {
             int m = i;
@@ -33,6 +34,30 @@ public class ArrayIns {
                 m--;
             }
         }
+    }
+
+    public void insertionSortCountCopiesAndComp() {
+        int in, out;
+        int copies = 0, comparisons = 0;
+        for (out = 1; out < nElems; out++) {
+            long temp = a[out];
+            copies++;
+            in = out;
+            while (in > 0 && a[in - 1] >= temp) {
+                a[in] = a[in - 1];
+                copies++;
+                if (in == 1) comparisons++;
+                comparisons++;
+                in--;
+            }
+            a[in] = temp;
+            copies++;
+        }
+        System.out.println();
+        System.out.println("This is insertionSortCountMovesAndCopys()");
+        System.out.println(copies + " moves made.");
+        System.out.println(comparisons + " comparisons made.");
+        display();
     }
 
     public void insertionSortNoDups() {
@@ -50,7 +75,8 @@ public class ArrayIns {
                 curr = (int) a[i];
                 a[i - shiftCount] = a[i];
             }
-        } display();
+        }
+        display();
     }
 
     public void noDups() {

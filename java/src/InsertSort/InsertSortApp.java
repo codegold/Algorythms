@@ -1,11 +1,9 @@
 package src.InsertSort;
 
-import java.sql.Time;
-
 public class InsertSortApp {
     public static void main(String[] args) {
         int maxSize = 100;
-        int maxSize2 = 100000;
+        int maxSize2 = 10000;
         ArrayIns arr = new ArrayIns(maxSize);
         ArrayIns arr2 = new ArrayIns(maxSize2);
 
@@ -20,8 +18,8 @@ public class InsertSortApp {
 //        arr.insert(33);
 //        arr.insert(77);
 
-        arr.display();
-        arr.insertionSortNoDups();
+        //arr2.display();
+        //arr.insertionSortCountMovesAndCopys();
 //        System.out.println("Sorting.");
 //        arr.insertionSort();
 //        arr.display();
@@ -30,15 +28,16 @@ public class InsertSortApp {
 //        arr.noDups();
 //        arr.display();
 //
-//        System.out.println("Task from book.");
-//        for (int i = 0; i < maxSize2 ; i++) {
-//            long n = (long) (java.lang.Math.random()*(maxSize2-1));
-//            arr2.insert(n);
-//        }
-//        long startTime = System.currentTimeMillis();
-//        arr2.insertionSort();
-//        long endTime = System.currentTimeMillis();
-//        System.out.println("Time: "+(endTime-startTime));
+        System.out.println("Task from book.");
+        for (int i = 0; i < maxSize2 ; i++) {
+            long n = (long) (java.lang.Math.random()*(maxSize2-1));
+            arr2.insert(n);
+        }
+        arr2.display();
+        long startTime = System.currentTimeMillis();
+        arr2.insertionSortCountCopiesAndComp();
+        long endTime = System.currentTimeMillis();
+        System.out.println("Time: "+(endTime-startTime));
 
     }
 }
