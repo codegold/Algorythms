@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/ArrayIns.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/ArrayIns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/InsertSortApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/InsertSortApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" afterDir="false" />
     </list>
@@ -19,26 +21,43 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertSortApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="453">
+                  <caret line="152" column="14" lean-forward="true" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InsertSortApp.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="738">
+                  <caret line="40" column="39" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="735">
+                  <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,8 +96,8 @@
         <option value="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" />
-        <option value="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" />
         <option value="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" />
+        <option value="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" />
       </list>
     </option>
   </component>
@@ -92,10 +111,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="343" />
-    <option name="y" value="23" />
-    <option name="width" value="1002" />
-    <option name="height" value="926" />
+    <option name="x" value="538" />
+    <option name="y" value="26" />
+    <option name="width" value="1797" />
+    <option name="height" value="1336" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -347,7 +366,7 @@
       <workItem from="1573885045413" duration="16962000" />
       <workItem from="1574145406875" duration="7211000" />
       <workItem from="1574169731719" duration="13848000" />
-      <workItem from="1574247906801" duration="285000" />
+      <workItem from="1574247906801" duration="6755000" />
     </task>
     <task id="LOCAL-00001" summary="method printArr(my test)">
       <created>1572868454209</created>
@@ -657,19 +676,27 @@
       <option name="project" value="LOCAL" />
       <updated>1574240306909</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="noDupsMinusOneTWOOOO() - just my tests">
+      <created>1574248340992</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1574248340992</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153471000" />
+    <option name="totallyTimeSpent" value="159941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="343" y="23" width="1002" height="926" extended-state="0" />
+    <frame x="538" y="26" width="1797" height="1336" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3280757" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -677,20 +704,19 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49791667" weight="0.2624907" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50208336" side_tool="true" weight="0.2624907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5002849" side_tool="true" visible="true" weight="0.2436508" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23020834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12592593" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997151" weight="0.2436508" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3280757" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -767,7 +793,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="selectSort.java" />
     <MESSAGE value="swap() added" />
     <MESSAGE value="selectionSortMy() added" />
     <MESSAGE value="insertSortTF() added" />
@@ -792,7 +817,8 @@
     <MESSAGE value="insertionSortCountCopiesAndComp() added. For counting copies and comparisosns during algorythm." />
     <MESSAGE value="insertionSortCountCopiesAndComp() added comments" />
     <MESSAGE value="noDupsMinusOne() added. During sort, marks copies as -1, then delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="noDupsMinusOne() added. During sort, marks copies as -1, then delete" />
+    <MESSAGE value="noDupsMinusOneTWOOOO() - just my tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="noDupsMinusOneTWOOOO() - just my tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1126,17 +1152,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
+    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        <state relative-caret-position="738">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
+    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="453">
+          <caret line="152" column="14" lean-forward="true" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
         </state>
       </provider>
     </entry>

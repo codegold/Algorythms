@@ -122,7 +122,7 @@ public class ArrayIns {
         for (out = 1; out < nElems; out++) {
             int temp = (int) a[out];
             in = out;
-            while (in > 0 && a[in-1] >= temp) {
+            while (in > 0 && a[in - 1] >= temp) {
                 if (a[in - 1] == temp && temp > -1) {
                     temp = -1;
                     dups++;
@@ -141,5 +141,33 @@ public class ArrayIns {
         display();
     }
 
-
+    public void insertSortAndNoDupsMyTests() {
+        int in, out;
+        int dups = 0;
+        for (out = 1; out < nElems; out++) {// out - разделительный маркеp
+            //long temp = a[out]; // Скопировать помеченный элемент
+            in = out;// Начать перемещения с out
+            if (a[in] == a[in - 1]) {
+                a[in] = -1;
+                dups++;
+            }
+            while (in > 0 && a[in - 1] > a[in]) {
+                int temp = (int) a[in];
+                a[in] = a[in - 1];
+                a[in - 1] = temp;
+                in--;
+//                if (a[in - 1] == a[in]) a[in - 1] = -1;
+//                dups++;
+            }
+        }
+        System.out.println("insertSortAndNoDupsMyTests()");
+        display();
+        System.out.println(dups + " dups.");
+        int totalElems = nElems - dups;
+        for (int i = 0; i < totalElems; i++) {
+            a[i] = a[i + dups];
+        }
+        nElems -= dups;
+        display();
+    }
 }
