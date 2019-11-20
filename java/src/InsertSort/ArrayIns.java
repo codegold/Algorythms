@@ -79,6 +79,33 @@ public class ArrayIns {
         display();
     }
 
+    public void noDupsMinusOne() {
+        int in, out;
+        int numDups = 0;
+        for (out = 1; out < nElems; out++) {
+            long temp = a[out];
+            in = out;
+            while (in > 0 && a[in - 1] >= temp) {
+                if (a[in - 1] == temp && temp > -1) {
+                    temp = -1;
+                    numDups++;
+                }
+                a[in] = a[in - 1];
+                in--;
+            }
+            a[in] = temp;
+        }
+        System.out.println(numDups + " numDups.");
+        display();
+        int totalElements = nElems - numDups;
+        for (int i = 0; i < totalElements; i++) {
+            a[i] = a[i + numDups];
+
+        }
+        nElems -= numDups;
+        display();
+    }
+
     public void noDups() {
         insertionSort();
         for (int i = 0; i < nElems; i++)

@@ -3,7 +3,7 @@ package src.InsertSort;
 public class InsertSortApp {
     public static void main(String[] args) {
         int maxSize = 100;
-        int maxSize2 = 10000;
+        int maxSize2 = 22;
         ArrayIns arr = new ArrayIns(maxSize);
         ArrayIns arr2 = new ArrayIns(maxSize2);
 
@@ -38,6 +38,7 @@ public class InsertSortApp {
         arr2.insertionSortCountCopiesAndComp();
         long endTime = System.currentTimeMillis();
         System.out.println("Time: "+(endTime-startTime));
+        arr2.noDupsMinusOne();
 
     }
 }
