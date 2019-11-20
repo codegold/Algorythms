@@ -38,7 +38,7 @@ public class InsertSortApp {
         arr2.insertionSortCountCopiesAndComp();
         long endTime = System.currentTimeMillis();
         System.out.println("Time: "+(endTime-startTime));
-        arr2.noDupsMinusOne();
+        arr2.noDupsMinusOneTWOOOO();
 
     }
 }

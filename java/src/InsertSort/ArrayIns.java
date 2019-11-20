@@ -115,4 +115,31 @@ public class ArrayIns {
                 nElems--;
             }
     }
+
+    public void noDupsMinusOneTWOOOO() { //Tests
+        int in, out;
+        int dups = 0;
+        for (out = 1; out < nElems; out++) {
+            int temp = (int) a[out];
+            in = out;
+            while (in > 0 && a[in-1] >= temp) {
+                if (a[in - 1] == temp && temp > -1) {
+                    temp = -1;
+                    dups++;
+                }
+                a[in] = a[in - 1];
+                in--;
+            }
+            a[in] = temp;
+        }
+        System.out.println(dups + " dups");
+        int totalElements = nElems - dups;
+        for (int i = 0; i < totalElements; i++) {
+            a[i] = a[i + dups];
+        }
+        nElems -= dups;
+        display();
+    }
+
+
 }

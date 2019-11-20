@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/ArrayIns.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/ArrayIns.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/InsertSortApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/InsertSortApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,12 +19,21 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+            <state relative-caret-position="692">
+              <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertSortApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -69,8 +77,8 @@
         <option value="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" />
-        <option value="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" />
+        <option value="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" />
       </list>
     </option>
   </component>
@@ -84,10 +92,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="755" />
+    <option name="x" value="343" />
     <option name="y" value="23" />
     <option name="width" value="1002" />
-    <option name="height" value="1417" />
+    <option name="height" value="926" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -98,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,7 +164,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -171,7 +179,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -338,7 +346,8 @@
       <workItem from="1573828296681" duration="2031000" />
       <workItem from="1573885045413" duration="16962000" />
       <workItem from="1574145406875" duration="7211000" />
-      <workItem from="1574169731719" duration="10293000" />
+      <workItem from="1574169731719" duration="13848000" />
+      <workItem from="1574247906801" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="method printArr(my test)">
       <created>1572868454209</created>
@@ -641,33 +650,38 @@
       <option name="project" value="LOCAL" />
       <updated>1574229539767</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="noDupsMinusOne() added. During sort, marks copies as -1, then delete">
+      <created>1574240306909</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1574240306909</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149631000" />
+    <option name="totallyTimeSpent" value="153471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="755" y="23" width="1002" height="1417" extended-state="0" />
+    <frame x="343" y="23" width="1002" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3280757" />
-      <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49895832" weight="0.2624907" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50104165" side_tool="true" visible="true" weight="0.2624907" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49791667" weight="0.2624907" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50208336" side_tool="true" weight="0.2624907" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22604166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23020834" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -676,7 +690,9 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3280757" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -684,14 +700,13 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -705,7 +720,6 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.2628812" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18041237" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -714,6 +728,8 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
   </component>
@@ -751,7 +767,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="selectSort() deleted from OrderedArray." />
     <MESSAGE value="selectSort.java" />
     <MESSAGE value="swap() added" />
     <MESSAGE value="selectionSortMy() added" />
@@ -776,7 +791,8 @@
     <MESSAGE value="oddEvenSortMyThree() added. My tests. By speed ts just between book ver. and my 2 ver." />
     <MESSAGE value="insertionSortCountCopiesAndComp() added. For counting copies and comparisosns during algorythm." />
     <MESSAGE value="insertionSortCountCopiesAndComp() added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="insertionSortCountCopiesAndComp() added comments" />
+    <MESSAGE value="noDupsMinusOne() added. During sort, marks copies as -1, then delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="noDupsMinusOne() added. During sort, marks copies as -1, then delete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1089,13 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/ObjectSort/ArrayInOb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -1119,8 +1128,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+        <state relative-caret-position="692">
+          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
