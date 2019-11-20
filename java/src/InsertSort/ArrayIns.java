@@ -40,17 +40,17 @@ public class ArrayIns {
         int in, out;
         int copies = 0, comparisons = 0;
         for (out = 1; out < nElems; out++) {
-            long temp = a[out];
+            long temp = a[out]; // Скопировать помеченный элемент
             copies++;
-            in = out;
-            while (in > 0 && a[in - 1] >= temp) {
-                a[in] = a[in - 1];
+            in = out;  // Начать перемещения с out
+            while (in > 0 && a[in - 1] >= temp) { // Пока не найден меньший элемент
+                a[in] = a[in - 1];// Сдвинуть элемент вправо
                 copies++;
                 if (in == 1) comparisons++;
                 comparisons++;
-                in--;
+                in--; // Перейти на одну позицию влево
             }
-            a[in] = temp;
+            a[in] = temp; // Вставить помеченный элемент
             copies++;
         }
         System.out.println();

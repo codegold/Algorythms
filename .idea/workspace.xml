@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/ArrayIns.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/ArrayIns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/InsertSortApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/InsertSortApp.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,20 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+            <state relative-caret-position="167">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertSortApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InsertSortApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="703">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -93,7 +92,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="233" />
+    <option name="x" value="760" />
     <option name="y" value="23" />
     <option name="width" value="1002" />
     <option name="height" value="1417" />
@@ -340,7 +339,7 @@
       <workItem from="1573828296681" duration="2031000" />
       <workItem from="1573885045413" duration="16962000" />
       <workItem from="1574145406875" duration="7211000" />
-      <workItem from="1574169731719" duration="7304000" />
+      <workItem from="1574169731719" duration="8122000" />
     </task>
     <task id="LOCAL-00001" summary="method printArr(my test)">
       <created>1572868454209</created>
@@ -629,14 +628,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574174976854</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="insertionSortCountCopiesAndComp() added. For counting copies and comparisosns during algorythm.">
+      <created>1574180853444</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1574180853444</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146642000" />
+    <option name="totallyTimeSpent" value="147460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="233" y="23" width="978" height="1417" extended-state="0" />
+    <frame x="760" y="23" width="1002" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
@@ -650,12 +656,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.2624907" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" side_tool="true" visible="true" weight="0.29903057" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49895832" visible="true" weight="0.2624907" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50104165" side_tool="true" weight="0.2624907" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2318376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22604166" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -739,7 +745,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="unversioned files from &quot;out&quot;" />
     <MESSAGE value="selectSort() added." />
     <MESSAGE value="selectSort() deleted from OrderedArray." />
     <MESSAGE value="selectSort.java" />
@@ -764,7 +769,8 @@
     <MESSAGE value="oddEvenSortMy() added. Created by myself" />
     <MESSAGE value="oddEvenSortMyTwo() added. My tests. Its two times longer than oddEvenSortMy()" />
     <MESSAGE value="oddEvenSortMyThree() added. My tests. By speed ts just between book ver. and my 2 ver." />
-    <option name="LAST_COMMIT_MESSAGE" value="oddEvenSortMyThree() added. My tests. By speed ts just between book ver. and my 2 ver." />
+    <MESSAGE value="insertionSortCountCopiesAndComp() added. For counting copies and comparisosns during algorythm." />
+    <option name="LAST_COMMIT_MESSAGE" value="insertionSortCountCopiesAndComp() added. For counting copies and comparisosns during algorythm." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1098,17 +1104,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
+    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        <state relative-caret-position="703">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java">
+    <entry file="file://$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="44" />
+        <state relative-caret-position="167">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
