@@ -106,7 +106,7 @@ public class ArrayIns {
         display();
     }
 
-    public void noDups() {
+    public void noDups() { //o(n2)
         insertionSort();
         for (int i = 0; i < nElems; i++)
             while (a[i] == a[i + 1]) {
@@ -120,31 +120,30 @@ public class ArrayIns {
     public void insertSortAndNoDupsMyTests() {
         System.out.println("insertSortAndNoDupsMyTests()");
         int in, out;
-        int dups = 0;
-        for (out = 1; out < nElems; out++) {// out - разделительный маркеp
-            long temp = a[out]; // Скопировать помеченный элемент
-            in = out;// Начать перемещения с out
 
+        int copies = 0;
+        int comparisons = 0;
+        for (out = 0; out < nElems; out++) {
+            long temp = a[out];
+            in = out;
             while (in > 0 && a[in - 1] >= temp) {
-                if (a[in - 1] == temp && temp > -1) {
-                    temp = -1;
-                    dups++;
-                }
                 a[in] = a[in - 1];
-                in--; int z = 6;
+                if (in == 1) comparisons++;
+                comparisons++;
+                in--;
             }
-            a[in]= temp;
-
-
+            a[in] = temp;
+            copies++;
         }
+
         display();
-        System.out.println(dups + " dups.");
-        int totalElems = nElems - dups;
+
+        int totalElems = nElems - copies;
         for (int i = 0; i < totalElems; i++) {
-            a[i] = a[i + dups];
+            a[i] = a[i + copies];
         }
-        nElems -= dups;
+        System.out.println(copies + " copies.");
+        nElems -= copies;
         display();
-
     }
 }
