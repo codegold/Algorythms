@@ -15,7 +15,8 @@ public class ReverseApp {
                 break;
 
             Reverser reverser = new Reverser(input);
-            output = reverser.doReverse();
+            //output = reverser.doReverse();
+            output = reverser.reverse();
             System.out.println("Reversed: "+ output);
         }
     }
