@@ -26,7 +26,7 @@ public class BracketChecker {
                     if (!stackX.isEmpty()) {
                         char chx = stackX.pop();
                         if ((ch == '}' && chx != '{') ||
-                                (ch == ']' && chx != ']') ||
+                                (ch == ']' && chx != '[') ||
                                 (ch == ')' && chx != '('))
                             System.out.println("Error: + " + ch + " at " + j);
                     }
