@@ -45,5 +45,11 @@ public class Queue {
     public int size() {
         return nItems;
     }
+
+    public void display() {
+        for (int i = 0; i < maxSize; i++) {
+            System.out.print(queArray[i] + " ");
+        }
+    }
 }
 
