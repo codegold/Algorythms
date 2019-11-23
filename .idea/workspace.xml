@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Brackets/BracketsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/Queue/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Brackets/BracketChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Brackets/BracketChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Brackets/BracketsApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Brackets/BracketsApp.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,44 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StackX.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/Brackets/StackX.java">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/Queue/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BracketChecker.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/Brackets/BracketChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-              <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BracketsApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/Brackets/BracketsApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -112,8 +79,9 @@
         <option value="$PROJECT_DIR$/java/src/Reverse/ReverseApp.java" />
         <option value="$PROJECT_DIR$/java/src/Reverse/Reverser.java" />
         <option value="$PROJECT_DIR$/java/src/Brackets/StackX.java" />
-        <option value="$PROJECT_DIR$/java/src/Brackets/BracketsApp.java" />
         <option value="$PROJECT_DIR$/java/src/Brackets/BracketChecker.java" />
+        <option value="$PROJECT_DIR$/java/src/Brackets/BracketsApp.java" />
+        <option value="$PROJECT_DIR$/java/src/Queue/Queue.java" />
       </list>
     </option>
   </component>
@@ -127,7 +95,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="258" />
+    <option name="x" value="119" />
     <option name="y" value="23" />
     <option name="width" value="1130" />
     <option name="height" value="1373" />
@@ -196,6 +164,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ObjectSort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -410,14 +385,7 @@
       <workItem from="1574335641685" duration="10090000" />
       <workItem from="1574409737457" duration="7228000" />
       <workItem from="1574421893608" duration="4221000" />
-      <workItem from="1574430979633" duration="1212000" />
-    </task>
-    <task id="LOCAL-00009" summary="Merge branch 'master' of https://github.com/MaxRubshik/Algorythms&#10;&#10;# Conflicts:&#10;#&#9;Algorythms/out/production/Algorythms/src/AlgoDraw/Algo.class">
-      <created>1573230090961</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1573230090961</updated>
+      <workItem from="1574430979633" duration="3674000" />
     </task>
     <task id="LOCAL-00010" summary="insert() updated with binary search.">
       <created>1573453858531</created>
@@ -755,11 +723,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574430564352</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="BracketsApp added">
+      <created>1574433262617</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1574433262618</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195997000" />
+    <option name="totallyTimeSpent" value="198459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,7 +746,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="23" width="1130" height="1373" extended-state="0" />
+    <frame x="119" y="23" width="1130" height="1373" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
@@ -784,12 +759,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299923" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4944853" weight="0.2613724" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5055147" side_tool="true" visible="true" weight="0.2613724" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48621324" visible="true" weight="0.2613724" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5137868" side_tool="true" visible="true" weight="0.2613724" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32922128" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.22518383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.22518383" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -874,7 +849,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="doubleDirBubblesort() made" />
     <MESSAGE value="doubleDirBubblesort() test added" />
     <MESSAGE value="noDups() added" />
     <MESSAGE value="insertionSortNoDups() - for deleteing duplicates in O(N) complexity" />
@@ -899,7 +873,8 @@
     <MESSAGE value="ReverseApp class added" />
     <MESSAGE value="Brackets package, StackX class added." />
     <MESSAGE value="BracketsChecker class added. (here's logic)" />
-    <option name="LAST_COMMIT_MESSAGE" value="BracketsChecker class added. (here's logic)" />
+    <MESSAGE value="BracketsApp added" />
+    <option name="LAST_COMMIT_MESSAGE" value="BracketsApp added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -907,13 +882,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -1188,13 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="333" column="16" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Reverse/StackX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1241,24 +1202,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Brackets/BracketChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="328" column="7" lean-forward="true" selection-start-line="328" selection-start-column="7" selection-end-line="329" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Brackets/BracketsApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="209">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Brackets/BracketChecker.java">
+    <entry file="file://$PROJECT_DIR$/java/src/Queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
