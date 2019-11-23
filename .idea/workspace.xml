@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/Queue/QueueApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Brackets/BracketsApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Brackets/BracketsApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Queue/Queue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Queue/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="-92">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#651#652#0" expanded="true" />
                 <element signature="e#689#690#0" expanded="true" />
@@ -38,6 +38,15 @@
                 <element signature="e#851#852#0" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueueApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/Queue/QueueApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/java/src/Brackets/BracketChecker.java" />
         <option value="$PROJECT_DIR$/java/src/Brackets/BracketsApp.java" />
         <option value="$PROJECT_DIR$/java/src/Queue/Queue.java" />
+        <option value="$PROJECT_DIR$/java/src/Queue/QueueApp.java" />
       </list>
     </option>
   </component>
@@ -158,27 +168,6 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HighArrayApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="InsertSort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectSort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,7 +208,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BracketsApp">
+  <component name="RunManager" selected="Application.QueueApp">
     <configuration name="BracketsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Brackets.BracketsApp" />
       <module name="Algorythms" />
@@ -245,17 +234,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BubbleSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.BubbleSort.BubbleSortApp" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.BubbleSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="InsertSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.InsertSort.InsertSortApp" />
       <module name="Algorythms" />
@@ -263,6 +241,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.InsertSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="QueueApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Queue.QueueApp" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,19 +320,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSortApp" />
       <item itemvalue="Application.InsertSortApp" />
       <item itemvalue="Application.StackApp" />
       <item itemvalue="Application.ReverseApp" />
       <item itemvalue="Application.BracketsApp" />
+      <item itemvalue="Application.QueueApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueApp" />
         <item itemvalue="Application.BracketsApp" />
         <item itemvalue="Application.ReverseApp" />
         <item itemvalue="Application.StackApp" />
         <item itemvalue="Application.InsertSortApp" />
-        <item itemvalue="Application.BubbleSortApp" />
       </list>
     </recent_temporary>
   </component>
@@ -394,14 +383,7 @@
       <workItem from="1574335641685" duration="10090000" />
       <workItem from="1574409737457" duration="7228000" />
       <workItem from="1574421893608" duration="4221000" />
-      <workItem from="1574430979633" duration="5698000" />
-    </task>
-    <task id="LOCAL-00011" summary="arr 3 and arr 4 added to OrderedArrayApp">
-      <created>1573462749156</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1573462749156</updated>
+      <workItem from="1574430979633" duration="6231000" />
     </task>
     <task id="LOCAL-00012" summary="added getValueAt() and setValueAt()">
       <created>1573468858177</created>
@@ -739,11 +721,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574508613945</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Methods peekFront() isEmpty() isFull() size() added">
+      <created>1574510931779</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1574510931780</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200483000" />
+    <option name="totallyTimeSpent" value="201016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,7 +757,7 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48621324" weight="0.26077813" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5027574" side_tool="true" weight="0.24363917" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5027574" side_tool="true" visible="true" weight="0.2429022" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32922128" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
@@ -857,7 +846,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="noDups() added" />
     <MESSAGE value="insertionSortNoDups() - for deleteing duplicates in O(N) complexity" />
     <MESSAGE value="insertionSortNoDups() - for deleting duplicates in O(N) complexity" />
     <MESSAGE value="insertionSortNoDups() - for deleting duplicates in O(N) complexity (gotcha)" />
@@ -882,7 +870,8 @@
     <MESSAGE value="BracketsChecker class added. (here's logic)" />
     <MESSAGE value="BracketsApp added" />
     <MESSAGE value="QueueApp added. Methods insert, remove added." />
-    <option name="LAST_COMMIT_MESSAGE" value="QueueApp added. Methods insert, remove added." />
+    <MESSAGE value="Methods peekFront() isEmpty() isFull() size() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Methods peekFront() isEmpty() isFull() size() added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -890,13 +879,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -1254,8 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="-92">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#651#652#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
@@ -1266,6 +1248,13 @@
             <element signature="e#851#852#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Queue/QueueApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
