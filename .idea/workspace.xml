@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCountersApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/QueueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/QueueApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Queue/QueueApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Queue/QueueApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueNoCounters.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QueueNoCounters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+            <state relative-caret-position="190">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="e#589#590#0" expanded="true" />
                 <element signature="e#627#628#0" expanded="true" />
@@ -62,11 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QueueApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Queue/QueueApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueueNoCountersApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCountersApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -123,6 +128,7 @@
         <option value="$PROJECT_DIR$/java/src/Queue/Queue.java" />
         <option value="$PROJECT_DIR$/java/src/Queue/QueueApp.java" />
         <option value="$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java" />
+        <option value="$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCountersApp.java" />
       </list>
     </option>
   </component>
@@ -131,6 +137,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -414,14 +426,7 @@
       <workItem from="1574421893608" duration="4221000" />
       <workItem from="1574430979633" duration="6722000" />
       <workItem from="1574512257409" duration="188000" />
-      <workItem from="1574667295925" duration="3681000" />
-    </task>
-    <task id="LOCAL-00013" summary="added merge()  github way">
-      <created>1573477875794</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1573477875794</updated>
+      <workItem from="1574667295925" duration="4636000" />
     </task>
     <task id="LOCAL-00014" summary="noDups() finished">
       <created>1573643810151</created>
@@ -759,11 +764,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574511558034</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="QueueNoCounters app added. Operational methods added (remove, insert etc)">
+      <created>1574683446684</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1574683446685</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205376000" />
+    <option name="totallyTimeSpent" value="206331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -775,7 +787,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="122" width="1015" height="1027" extended-state="0" />
+    <frame x="357" y="52" width="1104" height="1312" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
@@ -786,14 +798,14 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299923" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48363635" weight="0.26077813" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5163636" side_tool="true" visible="true" weight="0.26077813" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5163636" side_tool="true" visible="true" weight="0.20064725" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32922128" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.22404933" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.20527308" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -878,7 +890,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="insertionSortNoDups() - for deleting duplicates in O(N) complexity" />
     <MESSAGE value="insertionSortNoDups() - for deleting duplicates in O(N) complexity (gotcha)" />
     <MESSAGE value="oddEvenSort() added. (Sorting in multithread, odd and even)" />
     <MESSAGE value="oddEvenSortMy() added. Created by myself" />
@@ -903,7 +914,8 @@
     <MESSAGE value="QueueApp added. Methods insert, remove added." />
     <MESSAGE value="Methods peekFront() isEmpty() isFull() size() added" />
     <MESSAGE value="QueueApp class added." />
-    <option name="LAST_COMMIT_MESSAGE" value="QueueApp class added." />
+    <MESSAGE value="QueueNoCounters app added. Operational methods added (remove, insert etc)" />
+    <option name="LAST_COMMIT_MESSAGE" value="QueueNoCounters app added. Operational methods added (remove, insert etc)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -911,13 +923,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1242,13 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Queue/QueueApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1268,8 +1266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        <state relative-caret-position="190">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="e#589#590#0" expanded="true" />
             <element signature="e#627#628#0" expanded="true" />
@@ -1278,6 +1276,20 @@
             <element signature="e#769#770#0" expanded="true" />
             <element signature="e#813#814#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCountersApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Queue/QueueApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
