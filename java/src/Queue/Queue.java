@@ -23,6 +23,7 @@ public class Queue {
     }
 
     public long remove() {
+        //if (isEmpty() == true) System.out.println("It empty.");
         long temp = queArray[front++];
         if (front == maxSize)
             front = 0;

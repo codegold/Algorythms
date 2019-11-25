@@ -4,6 +4,8 @@ public class QueueApp {
     public static void main(String[] args) {
         Queue queue = new Queue(5);
 
+        queue.isEmpty();
+
         queue.insert(11);
         queue.insert(22);
         queue.insert(33);
@@ -20,6 +22,8 @@ public class QueueApp {
         queue.insert(66);
         queue.insert(77);
         queue.insert(88);
+
+        queue.isFull();
 
         while (!queue.isEmpty()){
             long n = queue.remove();

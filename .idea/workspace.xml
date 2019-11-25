@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Queue/QueueApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/QueueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/QueueApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Queue/QueueApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Queue/QueueApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +29,8 @@
       <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Queue/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state>
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="e#651#652#0" expanded="true" />
                 <element signature="e#689#690#0" expanded="true" />
@@ -42,11 +45,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QueueNoCounters.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+              <folding>
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueueApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Queue/QueueApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state>
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -102,6 +122,7 @@
         <option value="$PROJECT_DIR$/java/src/Brackets/BracketsApp.java" />
         <option value="$PROJECT_DIR$/java/src/Queue/Queue.java" />
         <option value="$PROJECT_DIR$/java/src/Queue/QueueApp.java" />
+        <option value="$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java" />
       </list>
     </option>
   </component>
@@ -115,9 +136,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="867" />
-    <option name="height" value="1027" />
+    <option name="x" value="357" />
+    <option name="y" value="52" />
+    <option name="width" value="1104" />
+    <option name="height" value="1312" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,9 +150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +196,13 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="QueueNoCounters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Reverse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,6 +223,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,7 +237,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -383,14 +412,9 @@
       <workItem from="1574335641685" duration="10090000" />
       <workItem from="1574409737457" duration="7228000" />
       <workItem from="1574421893608" duration="4221000" />
-      <workItem from="1574430979633" duration="6231000" />
-    </task>
-    <task id="LOCAL-00012" summary="added getValueAt() and setValueAt()">
-      <created>1573468858177</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1573468858177</updated>
+      <workItem from="1574430979633" duration="6722000" />
+      <workItem from="1574512257409" duration="188000" />
+      <workItem from="1574667295925" duration="3681000" />
     </task>
     <task id="LOCAL-00013" summary="added merge()  github way">
       <created>1573477875794</created>
@@ -728,11 +752,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574510931780</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="QueueApp class added.">
+      <created>1574511558034</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1574511558034</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201016000" />
+    <option name="totallyTimeSpent" value="205376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,7 +775,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="867" height="1027" extended-state="0" />
+    <frame x="26" y="122" width="1015" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -756,12 +788,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299923" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48621324" weight="0.26077813" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5027574" side_tool="true" visible="true" weight="0.2429022" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48363635" weight="0.26077813" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5163636" side_tool="true" visible="true" weight="0.26077813" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32922128" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2521212" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.22404933" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -846,7 +878,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="insertionSortNoDups() - for deleteing duplicates in O(N) complexity" />
     <MESSAGE value="insertionSortNoDups() - for deleting duplicates in O(N) complexity" />
     <MESSAGE value="insertionSortNoDups() - for deleting duplicates in O(N) complexity (gotcha)" />
     <MESSAGE value="oddEvenSort() added. (Sorting in multithread, odd and even)" />
@@ -871,7 +902,8 @@
     <MESSAGE value="BracketsApp added" />
     <MESSAGE value="QueueApp added. Methods insert, remove added." />
     <MESSAGE value="Methods peekFront() isEmpty() isFull() size() added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Methods peekFront() isEmpty() isFull() size() added" />
+    <MESSAGE value="QueueApp class added." />
+    <option name="LAST_COMMIT_MESSAGE" value="QueueApp class added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,13 +911,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
@@ -1143,13 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,13 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,9 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1234,10 +1242,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Queue/QueueApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state>
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="e#651#652#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
@@ -1251,10 +1266,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Queue/QueueApp.java">
+    <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="640">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+          <folding>
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
