@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/PriorityQ/PriorityQApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/QueueNoCounters/QueueMyNoCounters.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/QueueNoCounters/QueueMyNoCounters.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriorityQ.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PriorityQ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="494">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="e#682#683#0" expanded="true" />
                 <element signature="e#723#724#0" expanded="true" />
@@ -66,6 +65,15 @@
                 <element signature="e#894#895#0" expanded="true" />
                 <element signature="e#936#937#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriorityQApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/PriorityQ/PriorityQApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -170,8 +178,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="14" />
     <option name="y" value="23" />
-    <option name="width" value="878" />
-    <option name="height" value="1027" />
+    <option name="width" value="936" />
+    <option name="height" value="1129" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,7 +191,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -263,6 +270,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueNoCountersApp">
+  <component name="RunManager" selected="Application.PriorityQApp">
     <configuration name="BracketsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Brackets.BracketsApp" />
       <module name="Algorythms" />
@@ -298,6 +306,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Brackets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PriorityQApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.PriorityQ.PriorityQApp" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.PriorityQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,17 +350,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Reverse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Stack.StackApp" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,19 +396,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.StackApp" />
       <item itemvalue="Application.ReverseApp" />
       <item itemvalue="Application.BracketsApp" />
       <item itemvalue="Application.QueueApp" />
       <item itemvalue="Application.QueueNoCountersApp" />
+      <item itemvalue="Application.PriorityQApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PriorityQApp" />
         <item itemvalue="Application.QueueNoCountersApp" />
         <item itemvalue="Application.QueueApp" />
         <item itemvalue="Application.BracketsApp" />
         <item itemvalue="Application.ReverseApp" />
-        <item itemvalue="Application.StackApp" />
       </list>
     </recent_temporary>
   </component>
@@ -454,14 +462,8 @@
       <workItem from="1574430979633" duration="6722000" />
       <workItem from="1574512257409" duration="188000" />
       <workItem from="1574667295925" duration="7611000" />
-      <workItem from="1574764386493" duration="2021000" />
-    </task>
-    <task id="LOCAL-00016" summary="swap() added">
-      <created>1573654468290</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1573654468290</updated>
+      <workItem from="1574764386493" duration="2307000" />
+      <workItem from="1574842511609" duration="895000" />
     </task>
     <task id="LOCAL-00017" summary="BubbleSortApp class added (all works)">
       <created>1573655256599</created>
@@ -799,11 +801,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574698205330</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="PriorityQ class added (logic)">
+      <created>1574777742418</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1574777742418</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211327000" />
+    <option name="totallyTimeSpent" value="212508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -815,7 +824,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="23" width="878" height="1027" extended-state="0" />
+    <frame x="14" y="23" width="936" height="1129" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
@@ -827,12 +836,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299923" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.48305085" visible="true" weight="0.2597266" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48305085" weight="0.2345679" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5169492" side_tool="true" weight="0.2605178" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32922128" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.24043062" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.23042506" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -844,20 +853,21 @@
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32690826" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -879,7 +889,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -918,7 +927,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="oddEvenSortMy() added. Created by myself" />
     <MESSAGE value="oddEvenSortMyTwo() added. My tests. Its two times longer than oddEvenSortMy()" />
     <MESSAGE value="oddEvenSortMyThree() added. My tests. By speed ts just between book ver. and my 2 ver." />
     <MESSAGE value="insertionSortCountCopiesAndComp() added. For counting copies and comparisosns during algorythm." />
@@ -943,7 +951,8 @@
     <MESSAGE value="QueueNoCounters app added. Operational methods added (remove, insert etc)" />
     <MESSAGE value="QueueNoCountersApp class added for test of cycle queue" />
     <MESSAGE value="QueueMyNoCounters class - added just for tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="QueueMyNoCounters class - added just for tests" />
+    <MESSAGE value="PriorityQ class added (logic)" />
+    <option name="LAST_COMMIT_MESSAGE" value="PriorityQ class added (logic)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -951,13 +960,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/BankAccount/LittleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1314,8 +1316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="494">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="e#682#683#0" expanded="true" />
             <element signature="e#723#724#0" expanded="true" />
@@ -1326,6 +1328,13 @@
             <element signature="e#894#895#0" expanded="true" />
             <element signature="e#936#937#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/PriorityQ/PriorityQApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
