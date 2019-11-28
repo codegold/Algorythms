@@ -13,8 +13,8 @@ public class PriorityQ {
 
     public void insert(long item) {
         int j;
-        if (nElems == 0) {
-            queArray[nElems++] = item;
+        if (nElems == 0) { //if no elems
+            queArray[nElems++] = item; //insert to Zero index
         } else {
             for (j = nElems - 1; j >= 0; j--) {
                 if (item > queArray[j])
