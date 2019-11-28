@@ -31,11 +31,11 @@ public class StackX {
         return top + 1;
     }
 
-    public char peekN(int n){
+    public char peekN(int n) {
         return stackArray[n];
     }
 
-    public void displayStack(String s){
+    public void displayStack(String s) {
         System.out.print(s);
         System.out.print("Stack (bottom --> top): ");
         for (int i = 0; i < size(); i++) {

@@ -36,7 +36,7 @@ public class InToPost {// Преобразование инфиксной за
                     break; // write to output
             }
         }
-        while (!theStack.isEmpty()){
+        while (!theStack.isEmpty()) {
             theStack.displayStack("While "); //diagnostics
             output = output + theStack.pop();  // write to output
         }
@@ -45,9 +45,34 @@ public class InToPost {// Преобразование инфиксной за
     }
 
     private void gotParen(char ch) {
+        while (!theStack.isEmpty()) {
+            char chx = theStack.pop();
+            if (chx == '(')
+                break;
+            else
+                output = output + chx;
+        }
     }
 
     public void gotOper(char opThis, int prec1) {
-
+        while (!theStack.isEmpty()) {
+            char opTop = theStack.pop();
+            if (opTop == '(') {
+                theStack.push(opTop);
+                break;
+            } else {
+                int prec2;
+                if (opTop == '+' || opTop == '-')// Определение приоритета
+                    prec2 = 1;
+                else
+                    prec2 = 2;
+                if (prec2 < prec1) {
+                    theStack.push(opTop);
+                    break;
+                } else
+                    output = output + opTop;
+            }
+        }
+        theStack.push(opThis);
     }
 }
