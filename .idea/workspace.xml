@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/infix/StackX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/infix/InToPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StackX.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StackX.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/infix/StackX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+            <state relative-caret-position="380">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#262#263#0" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
@@ -42,6 +41,15 @@
                 <element signature="e#643#644#0" expanded="true" />
                 <element signature="e#679#680#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InToPost.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/infix/InToPost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -103,6 +111,7 @@
         <option value="$PROJECT_DIR$/java/src/PriorityQ/PriorityQApp.java" />
         <option value="$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java" />
         <option value="$PROJECT_DIR$/java/src/infix/StackX.java" />
+        <option value="$PROJECT_DIR$/java/src/infix/InToPost.java" />
       </list>
     </option>
   </component>
@@ -122,8 +131,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1129" />
-    <option name="y" value="23" />
+    <option name="x" value="1217" />
+    <option name="y" value="29" />
     <option name="width" value="1384" />
     <option name="height" value="1234" />
   </component>
@@ -363,14 +372,7 @@
       <workItem from="1574842511609" duration="3552000" />
       <workItem from="1574861716179" duration="5844000" />
       <workItem from="1574926566672" duration="126000" />
-      <workItem from="1574931947874" duration="919000" />
-    </task>
-    <task id="LOCAL-00018" summary="unversioned files from &quot;out&quot;">
-      <created>1573710562362</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1573710562362</updated>
+      <workItem from="1574931947874" duration="3533000" />
     </task>
     <task id="LOCAL-00019" summary="selectSort() added.">
       <created>1573732625809</created>
@@ -708,11 +710,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574847508853</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="infix app. StackX class (logic)">
+      <created>1574934786910</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1574934786911</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222054000" />
+    <option name="totallyTimeSpent" value="224668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,7 +733,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1129" y="23" width="1384" height="1234" extended-state="0" />
+    <frame x="1217" y="29" width="1384" height="1234" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
@@ -736,7 +745,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32953465" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48211625" weight="0.23402418" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48211625" visible="true" weight="0.23402418" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5052161" side_tool="true" weight="0.23402418" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.328585" />
       <window_info id="Capture Tool" order="5" />
@@ -827,7 +836,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="oddEvenSortMyThree() added. My tests. By speed ts just between book ver. and my 2 ver." />
     <MESSAGE value="insertionSortCountCopiesAndComp() added. For counting copies and comparisosns during algorythm." />
     <MESSAGE value="insertionSortCountCopiesAndComp() added comments" />
     <MESSAGE value="noDupsMinusOne() added. During sort, marks copies as -1, then delete" />
@@ -852,7 +860,8 @@
     <MESSAGE value="QueueMyNoCounters class - added just for tests" />
     <MESSAGE value="PriorityQ class added (logic)" />
     <MESSAGE value="PriorityQApp class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="PriorityQApp class added" />
+    <MESSAGE value="infix app. StackX class (logic)" />
+    <option name="LAST_COMMIT_MESSAGE" value="infix app. StackX class (logic)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -860,13 +869,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -1213,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/infix/StackX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#262#263#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
@@ -1229,6 +1231,13 @@
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#679#680#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/infix/InToPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
         </state>
       </provider>
     </entry>
