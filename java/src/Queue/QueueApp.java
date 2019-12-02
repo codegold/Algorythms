@@ -16,7 +16,7 @@ public class QueueApp {
         queue.remove();
         queue.remove();
 
-        queue.display();
+        //queue.display();
         System.out.println();
 
         queue.insert(66);
