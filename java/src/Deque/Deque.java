@@ -27,6 +27,14 @@ public class Deque {
         else return false;
     }
 
+    public long peekRight() {
+        return queArray[right];
+    }
+
+    public long peekLeft() {
+        return queArray[left];
+    }
+
     public void insertLeft(long value) {
         if (!isFull()) {
             left--;
@@ -70,12 +78,12 @@ public class Deque {
         return -1;
     }
 
-    public void display(){
-        System.out.println("Left is: "+left+ "Right is: "+right);
+    public void display() {
+        System.out.println("Left is: " + left + "Right is: " + right);
         int index = left;
         for (int i = 0; i < nItems; i++) {
-            if(index >= maxSize) index = 0;
-            System.out.print(queArray[index]+ " ");
+            if (index >= maxSize) index = 0;
+            System.out.print(queArray[index] + " ");
             index++;
         }
         System.out.println();
