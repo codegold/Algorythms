@@ -27,8 +27,35 @@ public class PriorityQ {
         }
     }
 
+    public void insertQuick(long item) {
+        if (!isFull()) {
+            System.out.println("It's full");
+        } else {
+            queArray[nElems] = item;
+            nElems++;
+        }
+    }
+
     public long remove() {
         return queArray[--nElems];
+    }
+
+    public long removeSlow() {
+        if (isEmpty()) {
+            System.out.println("It's empty.");
+            return -1;
+        }
+        int minIndex = 0;
+        for (int i = 0; i < nElems; i++)
+            if (queArray[i] < queArray[minIndex]) ;
+
+        //store the minimum value for return later
+        long temp = queArray[minIndex];
+
+        //shift all entries down and decrement nItems
+        for (int j = minIndex; j < ; j++) {
+
+        }
     }
 
     public long peekMin() {
