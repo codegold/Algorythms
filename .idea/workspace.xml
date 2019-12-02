@@ -4,6 +4,7 @@
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/java/src/StackTask/StackTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Deque/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Deque/Deque.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +26,21 @@
             <file leaf-file-name="StackTask.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/java/src/StackTask/StackTask.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="152">
-                    <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+                  <state relative-caret-position="589">
+                    <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
                     <folding>
-                      <element signature="e#134#135#0" expanded="true" />
-                      <element signature="e#172#173#0" expanded="true" />
+                      <element signature="e#135#136#0" expanded="true" />
+                      <element signature="e#178#179#0" expanded="true" />
+                      <element signature="e#210#211#0" expanded="true" />
+                      <element signature="e#250#251#0" expanded="true" />
+                      <element signature="e#275#276#0" expanded="true" />
+                      <element signature="e#321#322#0" expanded="true" />
+                      <element signature="e#347#348#0" expanded="true" />
+                      <element signature="e#391#392#0" expanded="true" />
+                      <element signature="e#423#424#0" expanded="true" />
+                      <element signature="e#465#466#0" expanded="true" />
+                      <element signature="e#496#497#0" expanded="true" />
+                      <element signature="e#537#538#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -48,8 +59,14 @@
       <file leaf-file-name="Deque.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Deque/Deque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="361">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -401,13 +418,6 @@
       <workItem from="1575271926657" duration="785000" />
       <workItem from="1575272966675" duration="5076000" />
     </task>
-    <task id="LOCAL-00018" summary="unversioned files from &quot;out&quot;">
-      <created>1573710562362</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1573710562362</updated>
-    </task>
     <task id="LOCAL-00019" summary="selectSort() added.">
       <created>1573732625809</created>
       <option name="number" value="00019" />
@@ -744,11 +754,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575288218063</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="peekLeft() peekRight() added">
+      <created>1575294041368</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1575294041369</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222240000" />
+    <option name="totallyTimeSpent" value="223096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,7 +902,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="oddEvenSortMyThree() added. My tests. By speed ts just between book ver. and my 2 ver." />
     <MESSAGE value="insertionSortCountCopiesAndComp() added. For counting copies and comparisosns during algorythm." />
     <MESSAGE value="insertionSortCountCopiesAndComp() added comments" />
     <MESSAGE value="noDupsMinusOne() added. During sort, marks copies as -1, then delete" />
@@ -910,7 +926,8 @@
     <MESSAGE value="QueueMyNoCounters class - added just for tests" />
     <MESSAGE value="PriorityQ class added (logic)" />
     <MESSAGE value="Deque class added. Task from book 4.2 page 178" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deque class added. Task from book 4.2 page 178" />
+    <MESSAGE value="peekLeft() peekRight() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="peekLeft() peekRight() added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1253,21 +1270,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/StackTask/StackTask.java">
+    <entry file="file://$PROJECT_DIR$/java/src/Deque/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="361">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Deque/Deque.java">
+    <entry file="file://$PROJECT_DIR$/java/src/StackTask/StackTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="21" />
+        <state relative-caret-position="589">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

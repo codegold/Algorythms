@@ -17,12 +17,12 @@ public class Deque {
     }
 
 
-    private boolean isFull() {
+    public Boolean isFull() {
         if (nItems == maxSize) return true;
         else return false;
     }
 
-    private boolean isEmpty() {
+    public Boolean isEmpty() {
         if (nItems == 0) return true;
         else return false;
     }
