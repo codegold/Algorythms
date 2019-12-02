@@ -70,5 +70,16 @@ public class Deque {
         return -1;
     }
 
+    public void display(){
+        System.out.println("Left is: "+left+ "Right is: "+right);
+        int index = left;
+        for (int i = 0; i < nItems; i++) {
+            if(index >= maxSize) index = 0;
+            System.out.print(queArray[index]+ " ");
+            index++;
+        }
+        System.out.println();
+    }
+
 
 }
