@@ -53,9 +53,12 @@ public class PriorityQ {
         long temp = queArray[minIndex];
 
         //shift all entries down and decrement nItems
-        for (int j = minIndex; j < ; j++) {
-
+        for (int j = minIndex; j < nElems; j++) {
+            queArray[j] = queArray[j + 1];
         }
+        nElems--;
+
+        return temp;
     }
 
     public long peekMin() {
