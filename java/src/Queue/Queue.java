@@ -1,6 +1,10 @@
 package src.Queue;
 
 public class Queue {
+    public boolean justAdded;//so that when runningTally is 0, new items
+    public long runningTally; //in checkout program, use to track how far
+    //the checker is with the customer's order
+    //aren't deleted right away.
     private int maxSize;
     private long[] queArray;
     private int front;
