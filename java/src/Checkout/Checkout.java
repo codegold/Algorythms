@@ -101,4 +101,18 @@ public class Checkout {
         }
     }
 
+    public void display(){
+        for (int i = 0; i < queues.length; i++) {
+            System.out.print("Line "+ (i+1) + ": ");
+            queues[i].display();
+            System.out.println("   -Running Tally: " + queues[i].runningTally);
+        }
+        if(fastLine != null){
+            System.out.print("Fast Lane: ");
+            fastLine.display();
+            System.out.println("   -Running Tally: " + fastLine.runningTally);
+        }
+    }
+
+
 }

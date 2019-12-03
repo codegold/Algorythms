@@ -4,7 +4,6 @@
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/Checkout/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Checkout/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Queue/Queue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +25,8 @@
             <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/java/src/Checkout/Checkout.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="182">
-                    <caret line="28" selection-start-line="28" selection-end-line="28" />
+                  <state relative-caret-position="1103">
+                    <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="4" />
                   </state>
                 </provider>
               </entry>
@@ -114,8 +113,8 @@
         <option value="$PROJECT_DIR$/java/src/StackTask/StackTask.java" />
         <option value="$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java" />
         <option value="$PROJECT_DIR$/java/src/PriorityQ/Test.java" />
-        <option value="$PROJECT_DIR$/java/src/Checkout/Checkout.java" />
         <option value="$PROJECT_DIR$/java/src/Queue/Queue.java" />
+        <option value="$PROJECT_DIR$/java/src/Checkout/Checkout.java" />
       </list>
     </option>
   </component>
@@ -385,21 +384,7 @@
       <workItem from="1575271926657" duration="785000" />
       <workItem from="1575272966675" duration="5076000" />
       <workItem from="1575297068685" duration="776000" />
-      <workItem from="1575369147045" duration="3271000" />
-    </task>
-    <task id="LOCAL-00021" summary="selectSort.java">
-      <created>1573734677340</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1573734677340</updated>
-    </task>
-    <task id="LOCAL-00022" summary="swap() added">
-      <created>1573734815578</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1573734815578</updated>
+      <workItem from="1575369147045" duration="5339000" />
     </task>
     <task id="LOCAL-00023" summary="selectionSortMy() added">
       <created>1573742540487</created>
@@ -730,11 +715,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575359231751</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Checkout class. addCustomer() in process">
+      <created>1575373325045</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1575373325046</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Checkout class. addCustomer() added process() added">
+      <created>1575377831795</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1575377831795</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232487000" />
+    <option name="totallyTimeSpent" value="234555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,6 +746,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="970" height="1247" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -758,7 +758,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299923" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48305085" weight="0.25867507" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.48305085" visible="true" weight="0.25789922" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5169492" side_tool="true" weight="0.26048172" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
@@ -848,8 +848,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="noDupsMinusOne() added. During sort, marks copies as -1, then delete" />
-    <MESSAGE value="noDupsMinusOneTWOOOO() - just my tests" />
     <MESSAGE value="insertSortAndNoDupsMyTests() made myself, start based on MFTI" />
     <MESSAGE value="delete doubled method" />
     <MESSAGE value="Stack package. Methods push() pop() added" />
@@ -873,7 +871,9 @@
     <MESSAGE value="peekLeft() peekRight() added" />
     <MESSAGE value="StackTask class. Stack realization with base of  Deque class" />
     <MESSAGE value="Checkout class (in process)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout class (in process)" />
+    <MESSAGE value="Checkout class. addCustomer() in process" />
+    <MESSAGE value="Checkout class. addCustomer() added process() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout class. addCustomer() added process() added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1221,8 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Checkout/Checkout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="1103">
+          <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="4" />
         </state>
       </provider>
     </entry>
