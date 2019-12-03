@@ -52,5 +52,9 @@ public class Queue {
             System.out.print(queArray[i] + " ");
         }
     }
+
+    public long itemAt(int i) {
+        return queArray[i];
+    }
 }
 

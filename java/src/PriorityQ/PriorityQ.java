@@ -45,9 +45,13 @@ public class PriorityQ {
             System.out.println("It's empty.");
             return -1;
         }
+
+        //find lowest value and store its index
+
         int minIndex = 0;
         for (int i = 0; i < nElems; i++)
-            if (queArray[i] < queArray[minIndex]) ;
+            if (queArray[i] < queArray[minIndex])
+                minIndex = i;
 
         //store the minimum value for return later
         long temp = queArray[minIndex];
