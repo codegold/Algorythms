@@ -37,6 +37,7 @@ public class Checkout {
         //If there's a fast lane, consider using it
         if (fastLine != null && customerBuying <= 10) {
             temp = base * fastLine.size();
+
             for (int i = 0; i < fastLine.size(); i++) {
                 temp += fastLine.itemAt(i);
                 if (shortestLength > temp) {
@@ -61,12 +62,43 @@ public class Checkout {
                 System.out.println("Customer buying " + customerBuying + "Added to fast Line");
                 //prevent process() from deleting new customer when queue is empty
                 fastLine.justAdded = true;
+
             } else {//otherwise add the customer to the shortest regular line
                 queues[shortest].insert((int) customerBuying);
                 System.out.println("Customer buyings " + customerBuying +
                         " added to line " + (shortest + 1));
+
                 //prevent process() from deleting new customer when queue is empty
-                if(queues[shortest].runningTally <= 0)
+                if (queues[shortest].runningTally <= 0)
+                    queues[shortest].justAdded = true;
 
             }
         }
+    }
+
+    public void process(int time) { //pass a given amount of time and update queues
+        for (int i = 0; i < time; i++) { //do a bunch of operations for each time-tick
+
+            for (int j = 0; j < queues.length; j++) {//go through each queue and update
+                if (queues[i].runningTally <= 0) { //if cashier has finished customer
+
+                    //remove front customer and get new one
+                    if (!queues[j].isEmpty() && !queues[j].justAdded)
+                        queues[j].remove();
+                    queues[j].runningTally = queues[j].peekFront();
+                } else queues[j].runningTally--; //decrement runningTally for each tick
+                queues[j].justAdded = false; //after 1 tick, any new items can be processed
+            }
+            if (fastLine != null) {
+                if (fastLine.runningTally <= 0) {
+                    if (!fastLine.isEmpty() && !fastLine.justAdded) fastLine.remove();
+                    fastLine.runningTally = fastLine.peekFront();
+                } else fastLine.runningTally--;
+                fastLine.justAdded = false;
+            }
+            if ((Math.random() * 100) <= percent) //every tick, possibly generate new customer
+                addCustomer();
+        }
+    }
+
+}
