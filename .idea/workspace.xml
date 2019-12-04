@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Checkout/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Checkout/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Checkout/Checkout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="959">
-              <caret line="119" column="67" selection-start-line="119" selection-start-column="67" selection-end-line="119" selection-end-column="67" />
+            <state relative-caret-position="617">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckoutApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +104,7 @@
         <option value="$PROJECT_DIR$/java/src/Queue/Queue.java" />
         <option value="$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java" />
         <option value="$PROJECT_DIR$/java/src/Checkout/Checkout.java" />
+        <option value="$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java" />
       </list>
     </option>
   </component>
@@ -112,10 +124,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="793" />
-    <option name="y" value="44" />
-    <option name="width" value="1254" />
-    <option name="height" value="1288" />
+    <option name="x" value="675" />
+    <option name="y" value="23" />
+    <option name="width" value="1005" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -326,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueApp">
+  <component name="RunManager" selected="Application.CheckoutApp">
     <configuration name="BracketsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Brackets.BracketsApp" />
       <module name="Algorythms" />
@@ -334,6 +346,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Brackets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CheckoutApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Checkout.CheckoutApp" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Checkout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,17 +390,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Reverse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Stack.StackApp" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,19 +436,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.StackApp" />
       <item itemvalue="Application.ReverseApp" />
       <item itemvalue="Application.BracketsApp" />
       <item itemvalue="Application.QueueApp" />
       <item itemvalue="Application.QueueNoCountersApp" />
+      <item itemvalue="Application.CheckoutApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckoutApp" />
         <item itemvalue="Application.QueueApp" />
         <item itemvalue="Application.QueueNoCountersApp" />
         <item itemvalue="Application.BracketsApp" />
         <item itemvalue="Application.ReverseApp" />
-        <item itemvalue="Application.StackApp" />
       </list>
     </recent_temporary>
   </component>
@@ -498,13 +510,6 @@
       <workItem from="1575272966675" duration="5076000" />
       <workItem from="1575297068685" duration="776000" />
       <workItem from="1575369147045" duration="5339000" />
-    </task>
-    <task id="LOCAL-00023" summary="selectionSortMy() added">
-      <created>1573742540487</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1573742540489</updated>
     </task>
     <task id="LOCAL-00024" summary="insertSortTF() added">
       <created>1573744924092</created>
@@ -842,11 +847,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575377831795</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="initialize() added">
+      <created>1575465422565</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1575465422565</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236050000" />
+    <option name="totallyTimeSpent" value="237064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -858,12 +870,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="793" y="44" width="1254" height="1288" extended-state="0" />
+    <frame x="675" y="23" width="1005" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.3262169" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -871,11 +884,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48305085" weight="0.25867507" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5169492" side_tool="true" weight="0.26048172" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5169492" side_tool="true" visible="true" weight="0.3280757" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.1509901" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.19003116" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -910,7 +923,6 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5169492" side_tool="true" weight="0.26048172" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.3262169" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info id="Designer" order="2" />
@@ -983,7 +995,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="insertSortAndNoDupsMyTests() made myself, start based on MFTI" />
     <MESSAGE value="delete doubled method" />
     <MESSAGE value="Stack package. Methods push() pop() added" />
     <MESSAGE value="Stack package. Methods peek() isEmpty() isFull() added" />
@@ -1008,7 +1019,8 @@
     <MESSAGE value="Checkout class (in process)" />
     <MESSAGE value="Checkout class. addCustomer() in process" />
     <MESSAGE value="Checkout class. addCustomer() added process() added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout class. addCustomer() added process() added" />
+    <MESSAGE value="initialize() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialize() added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1016,13 +1028,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/DataArray/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/DataArray/ClassDataArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
@@ -1371,8 +1376,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Checkout/Checkout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="959">
-          <caret line="119" column="67" selection-start-line="119" selection-start-column="67" selection-end-line="119" selection-end-column="67" />
+        <state relative-caret-position="617">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
