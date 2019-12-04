@@ -101,16 +101,25 @@ public class Checkout {
         }
     }
 
-    public void display(){
+    public void display() {
         for (int i = 0; i < queues.length; i++) {
-            System.out.print("Line "+ (i+1) + ": ");
+            System.out.print("Line " + (i + 1) + ": ");
             queues[i].display();
             System.out.println("   -Running Tally: " + queues[i].runningTally);
         }
-        if(fastLine != null){
+        if (fastLine != null) {
             System.out.print("Fast Lane: ");
             fastLine.display();
             System.out.println("   -Running Tally: " + fastLine.runningTally);
+        }
+    }
+
+    public void initialize() { //start with a bunch of random customers
+        for (int i = 0; i < queues.length; i++) {
+            for (int j = 0; j < (Math.floor(Math.random() * 4)); j++) {
+                queues[i].insert((int) Math.ceil(Math.random() * 30));
+            }
+            fastLine.runningTally = fastLine.peekFront();
         }
     }
 

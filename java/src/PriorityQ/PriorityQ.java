@@ -76,4 +76,11 @@ public class PriorityQ {
     public boolean isFull() {
         return (nElems == maxSize);
     }
+
+    public void display() {
+        for (int i = 0; i < nElems; i++) {
+            System.out.print(queArray[i] + " ");
+        }
+        System.out.println();
+    }
 }
