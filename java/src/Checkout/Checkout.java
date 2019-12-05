@@ -2,6 +2,8 @@ package src.Checkout;
 
 import src.Queue.Queue;
 
+import java.io.IOException;
+
 public class Checkout {
     private int numQueues;
     private int maxQueSize;
@@ -14,10 +16,10 @@ public class Checkout {
     private double percent; //chance of generating a new customer at each step,
     // keep low!
 
-    public Checkout(int numQueues, int size, boolean fast) {
-        this.numQueues = numQueues;
-        maxQueSize = size;
-        queues = new Queue[maxQueSize];
+    public Checkout(int nQueues, int nSize, boolean fast) {
+        numQueues = nQueues;
+        maxQueSize = nSize;
+        queues = new Queue[numQueues];
 
         if (fast) fastLine = new Queue(maxQueSize);
         for (int i = 0; i < numQueues; i++) {
@@ -113,7 +115,7 @@ public class Checkout {
         }
     }
 
-    public void initialize() throws NullPointerException{ //start with a bunch of random customers
+    public void initialize() throws NullPointerException, IOException { //start with a bunch of random customers
         for (int i = 0; i < queues.length; i++) {
             for (int j = 0; j < (Math.floor(Math.random() * 4)+1); j++) {
                 queues[i].insert((long) Math.ceil(Math.random() * 30));

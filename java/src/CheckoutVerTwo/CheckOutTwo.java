@@ -50,4 +50,18 @@ public class CheckOutTwo {
         }
         System.out.println("______________");
     }
+
+    public void incrementTime(int incLength) {
+        time += incLength;
+
+        for (CirQueue line : lines) {
+            if (line.isEmpty()) {  // skip empty queues
+                continue;
+            }
+
+            line.decFront(processPerMin); // decrement item count
+        }
+
+        display();
+    }
 }
