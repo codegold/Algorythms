@@ -1,11 +1,11 @@
 package src.CheckoutVerTwo;
 
-public class CheckoutVerTwo {
+public class CirQueue {
     private int max, rear, front;
     private int[] arr;
     private int size;
 
-    public CheckoutVerTwo(int m) {
+    public CirQueue(int m) {
         max = m;
         size = 0;
         arr = new int[max];

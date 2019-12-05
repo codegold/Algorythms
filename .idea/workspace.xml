@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckoutVerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/PriorityQ/PriorityQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/PriorityQ/PriorityQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/QueueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/QueueApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/QueueNoCounters/QueueNoCountersApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/QueueNoCounters/QueueNoCountersApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckoutVerTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CheckoutVerTwo/CirQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,17 +29,17 @@
       <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Checkout/Checkout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state>
               <caret line="88" column="87" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutVerTwo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckoutVerTwo.java">
+      <file leaf-file-name="CirQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/CheckoutVerTwo/CirQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="-107">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding>
                 <element signature="e#1176#1177#0" expanded="true" />
                 <element signature="e#1203#1204#0" expanded="true" />
@@ -50,6 +47,18 @@
                 <element signature="e#1282#1283#0" expanded="true" />
                 <element signature="e#1314#1315#0" expanded="true" />
                 <element signature="e#1348#1349#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckOutTwo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +127,8 @@
         <option value="$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java" />
         <option value="$PROJECT_DIR$/java/src/Checkout/Checkout.java" />
         <option value="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckoutVerTwo.java" />
+        <option value="$PROJECT_DIR$/java/src/CheckoutVerTwo/CirQueue.java" />
+        <option value="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutTwo.java" />
       </list>
     </option>
   </component>
@@ -137,9 +148,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
     <option name="y" value="23" />
-    <option name="width" value="1230" />
+    <option name="width" value="1179" />
     <option name="height" value="1209" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -184,13 +194,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CheckoutVerTwo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,14 +399,7 @@
       <workItem from="1575272966675" duration="5076000" />
       <workItem from="1575297068685" duration="776000" />
       <workItem from="1575369147045" duration="5339000" />
-      <workItem from="1575528508660" duration="4263000" />
-    </task>
-    <task id="LOCAL-00025" summary="insertSortLafore() and insertSortMy() added">
-      <created>1573799432139</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1573799432139</updated>
+      <workItem from="1575528508660" duration="6410000" />
     </task>
     <task id="LOCAL-00026" summary="InsertSort package added with ArrayIns class">
       <created>1573802364566</created>
@@ -741,11 +737,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575536397851</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="CheckoutVerTwo class. Indian version of task 4.5">
+      <created>1575539489348</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1575539489348</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242376000" />
+    <option name="totallyTimeSpent" value="244523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,7 +760,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="23" width="1230" height="1209" extended-state="0" />
+    <frame x="0" y="23" width="1179" height="1209" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
@@ -772,11 +775,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48305085" weight="0.25772285" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50428164" side_tool="true" visible="true" weight="0.3318623" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32921028" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3290441" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.1952862" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.20404573" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -860,7 +863,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stack package. Methods push() pop() added" />
     <MESSAGE value="Stack package. Methods peek() isEmpty() isFull() added" />
     <MESSAGE value="StackApp class added" />
     <MESSAGE value="StackX little upds" />
@@ -885,7 +887,8 @@
     <MESSAGE value="Checkout class. addCustomer() added process() added" />
     <MESSAGE value="initialize() added" />
     <MESSAGE value="NullPointerException. Need to fix." />
-    <option name="LAST_COMMIT_MESSAGE" value="NullPointerException. Need to fix." />
+    <MESSAGE value="CheckoutVerTwo class. Indian version of task 4.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="CheckoutVerTwo class. Indian version of task 4.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -893,9 +896,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lafore/BinarySearch/Programm.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lafore/BubbleSort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-520" />
@@ -1240,15 +1240,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Checkout/Checkout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
+        <state>
           <caret line="88" column="87" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckoutVerTwo.java">
+    <entry file="file://$PROJECT_DIR$/java/src/CheckoutVerTwo/CirQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="-107">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding>
             <element signature="e#1176#1177#0" expanded="true" />
             <element signature="e#1203#1204#0" expanded="true" />
@@ -1256,6 +1256,16 @@
             <element signature="e#1282#1283#0" expanded="true" />
             <element signature="e#1314#1315#0" expanded="true" />
             <element signature="e#1348#1349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
