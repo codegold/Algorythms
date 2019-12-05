@@ -71,7 +71,6 @@ public class Checkout {
                 //prevent process() from deleting new customer when queue is empty
                 if (queues[shortest].runningTally <= 0)
                     queues[shortest].justAdded = true;
-
             }
         }
     }
@@ -114,14 +113,19 @@ public class Checkout {
         }
     }
 
-    public void initialize() { //start with a bunch of random customers
+    public void initialize() throws NullPointerException{ //start with a bunch of random customers
         for (int i = 0; i < queues.length; i++) {
-            for (int j = 0; j < (Math.floor(Math.random() * 4)); j++) {
-                queues[i].insert((int) Math.ceil(Math.random() * 30));
+            for (int j = 0; j < (Math.floor(Math.random() * 4)+1); j++) {
+                queues[i].insert((long) Math.ceil(Math.random() * 30));
             }
-            fastLine.runningTally = fastLine.peekFront();
+            queues[i].runningTally = queues[i].peekFront();//get started on first customer
+        }
+        if (fastLine != null) {
+
+            for (int j = 0; j < (Math.floor(Math.random() * 4)+1); j++) {
+                fastLine.insert((long) Math.ceil(Math.random() * 10));
+            }
+            fastLine.runningTally = fastLine.peekFront(); //get started on first customer
         }
     }
-
-
 }
