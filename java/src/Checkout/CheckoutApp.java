@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 public class CheckoutApp {
     public static void main(String[] args) throws NullPointerException, IOException {
         String input;
-        Checkout grocery = new Checkout(3, 20, true);
+        Checkout grocery = new Checkout(2, 3, true);
         grocery.initialize();
         grocery.display();
 
