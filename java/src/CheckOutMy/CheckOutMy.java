@@ -72,36 +72,39 @@ public class CheckOutMy {
         }
     }
 
-    public void process(int time) {
-        for (int i = 0; i < time; i++) {
-
-            for (int j = 0; j < queues.length; j++) {//go through each queue and update
-                if (queues[i].runningTally <= 0) { //if cashier has finished customer
-
-                    //remove front customer and get new one
-                    if (!queues[j].isEmpty() && !queues[j].justAdded)
-                        queues[j].remove();
-                    int justReduce;
-
-                    //Прикинем текущий тотал?
-                    queues[j].runningTally = queues[j].peekFront();
-
-
-                } else queues[j].runningTally--; //decrement runningTally for each tick
-                queues[j].justAdded = false;  //after 1 tick, any new items can be processed
-            }
-
-            if (fastLine != null) {
-                if (fastLine.runningTally <= 0) {
-                    if (!fastLine.isEmpty() && !fastLine.justAdded) fastLine.remove();
-                    fastLine.runningTally = fastLine.peekFront();
-                }else fastLine.runningTally--;
-                fastLine.justAdded = false;
-            }
-                if ((Math.random() * 100) <= percent)
-                    addCustomer();
-        }
-    }
+//    public void process(int time) {
+//        for (int i = 0; i < time; i++) {
+//
+//            for (int j = 0; j < queues.length; j++) {//go through each queue and update
+//                if (queues[i].runningTally <= 0) { //if cashier has finished customer
+//
+//                    //remove front customer and get new one
+//                    if (!queues[j].isEmpty() && !queues[j].justAdded)
+//                        queues[j].remove();
+//                    int justReduce;
+//
+//                    //Прикинем текущий тотал?
+//                    queues[j].runningTally = queues[j].peekFront();
+//
+//
+//                } else queues[j].runningTally--; //decrement runningTally for each tick
+//                queues[j].justAdded = false;  //after 1 tick, any new items can be processed
+//            }
+//
+//            if (fastLine != null) {
+//
+//                if (fastLine.runningTally <= 0) {
+//                    if (!fastLine.isEmpty() && !fastLine.justAdded) fastLine.remove();
+//                    fastLine.runningTally = fastLine.peekFront();
+//                }else fastLine.runningTally--;
+//                fastLine.justAdded = false;
+//
+//            }
+//                if ((Math.random() * 100) <= percent)
+//                    addCustomer();
+//
+//        }
+//    }
     public void display() {
         for (int i = 0; i < queues.length; i++) {
             System.out.println("Line " +(i+1) + ": ");
