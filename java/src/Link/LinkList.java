@@ -4,10 +4,12 @@ public class LinkList {
     private Link first; //Link to first elem
 
     public void LinkList() { //List still has no elems
+
         first = null;
     }
 
     public boolean isEmpty() {
+
         return (first == null);
     }
 
@@ -26,7 +28,7 @@ public class LinkList {
     public void displayList() {
         System.out.print("List (first --> last): ");
         Link current = first;
-        while (current!=null){
+        while (current != null) {
             current.displayLink();
             current = current.next;
         }
