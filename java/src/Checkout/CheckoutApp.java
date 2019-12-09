@@ -6,9 +6,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class CheckoutApp {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws NullPointerException, IOException {
         String input;
-        Checkout grocery = new Checkout(3, 20, true);
+        Checkout grocery = new Checkout(2, 3, true);
         grocery.initialize();
         grocery.display();
 
@@ -24,7 +24,7 @@ public class CheckoutApp {
         }
     }
 
-    public static String getString() throws IOException {
+    public static String getString() throws NullPointerException, IOException {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         String s = br.readLine();

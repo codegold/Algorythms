@@ -2,6 +2,8 @@ package src.Checkout;
 
 import src.Queue.Queue;
 
+import java.io.IOException;
+
 public class Checkout {
     private int numQueues;
     private int maxQueSize;
@@ -14,10 +16,10 @@ public class Checkout {
     private double percent; //chance of generating a new customer at each step,
     // keep low!
 
-    public Checkout(int numQueues, int size, boolean fast) {
-        this.numQueues = numQueues;
-        maxQueSize = size;
-        queues = new Queue[maxQueSize];
+    public Checkout(int nQueues, int nSize, boolean fast) {
+        numQueues = nQueues;
+        maxQueSize = nSize;
+        queues = new Queue[numQueues];
 
         if (fast) fastLine = new Queue(maxQueSize);
         for (int i = 0; i < numQueues; i++) {
@@ -71,7 +73,6 @@ public class Checkout {
                 //prevent process() from deleting new customer when queue is empty
                 if (queues[shortest].runningTally <= 0)
                     queues[shortest].justAdded = true;
-
             }
         }
     }
@@ -85,10 +86,12 @@ public class Checkout {
                     //remove front customer and get new one
                     if (!queues[j].isEmpty() && !queues[j].justAdded)
                         queues[j].remove();
+
                     queues[j].runningTally = queues[j].peekFront();
                 } else queues[j].runningTally--; //decrement runningTally for each tick
                 queues[j].justAdded = false; //after 1 tick, any new items can be processed
             }
+
             if (fastLine != null) {
                 if (fastLine.runningTally <= 0) {
                     if (!fastLine.isEmpty() && !fastLine.justAdded) fastLine.remove();
@@ -107,6 +110,7 @@ public class Checkout {
             queues[i].display();
             System.out.println("   -Running Tally: " + queues[i].runningTally);
         }
+
         if (fastLine != null) {
             System.out.print("Fast Lane: ");
             fastLine.display();
@@ -114,14 +118,21 @@ public class Checkout {
         }
     }
 
-    public void initialize() { //start with a bunch of random customers
+    public void initialize() throws NullPointerException { //start with a bunch of random customers
         for (int i = 0; i < queues.length; i++) {
-            for (int j = 0; j < (Math.floor(Math.random() * 4)); j++) {
-                queues[i].insert((int) Math.ceil(Math.random() * 30));
+            for (int j = 0; j < (Math.floor(Math.random() * 4) + 1); j++) {
+                queues[i].insert((long) Math.ceil(Math.random() * 30));
             }
-            fastLine.runningTally = fastLine.peekFront();
+
+            queues[i].runningTally = queues[i].peekFront();//get started on first customer
+        }
+
+        if (fastLine != null) {
+
+            for (int j = 0; j < (Math.floor(Math.random() * 4) + 1); j++) {
+                fastLine.insert((long) Math.ceil(Math.random() * 10));
+            }
+            fastLine.runningTally = fastLine.peekFront(); //get started on first customer
         }
     }
-
-
 }

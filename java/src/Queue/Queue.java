@@ -19,7 +19,7 @@ public class Queue {
         nItems = 0;
     }
 
-    public void insert(int s) {
+    public void insert(long s) {
         if (rear == maxSize - 1)
             rear = -1;
         queArray[++rear] = s;
