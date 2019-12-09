@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Checkout/CheckoutApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Checkout/CheckoutApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Checkout/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Checkout/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Checkout/Checkout.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Checkout/Checkout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,12 +25,12 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file leaf-file-name="CheckOutMy.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="959">
-                    <caret line="103" selection-start-line="103" selection-end-line="103" />
+                  <state relative-caret-position="1029">
+                    <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
                   </state>
                 </provider>
               </entry>
@@ -47,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckoutApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckoutApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="288">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Checkout/Checkout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="202">
+              <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +72,8 @@
       <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Queue/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="436">
+              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
               <folding>
                 <element signature="e#945#946#0" expanded="true" />
                 <element signature="e#983#984#0" expanded="true" />
@@ -155,9 +153,9 @@
         <option value="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutAppTwo.java" />
         <option value="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutTwo.java" />
         <option value="$PROJECT_DIR$/java/src/ClassNameHere/Checkout.java" />
-        <option value="$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java" />
         <option value="$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java" />
         <option value="$PROJECT_DIR$/java/src/Checkout/Checkout.java" />
+        <option value="$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java" />
       </list>
     </option>
   </component>
@@ -437,21 +435,9 @@
       <workItem from="1575369147045" duration="5339000" />
       <workItem from="1575528508660" duration="13548000" />
       <workItem from="1575567128796" duration="1289000" />
-      <workItem from="1575614556635" duration="10558000" />
-    </task>
-    <task id="LOCAL-00028" summary="ObjectSort package. Class person added.">
-      <created>1573805160521</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1573805160521</updated>
-    </task>
-    <task id="LOCAL-00029" summary="ArrayIns class &amp; bubbleSortThree() added">
-      <created>1573816235766</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1573816235766</updated>
+      <workItem from="1575614556635" duration="10876000" />
+      <workItem from="1575664646950" duration="171000" />
+      <workItem from="1575878797301" duration="964000" />
     </task>
     <task id="LOCAL-00030" summary="insertionSort() added (book style for Strings)">
       <created>1573823302655</created>
@@ -782,11 +768,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575548887754</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Beautify">
+      <created>1575645067017</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1575645067018</updated>
+    </task>
+    <task id="LOCAL-00078" summary="My test of supermarket task">
+      <created>1575645092784</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1575645092784</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263508000" />
+    <option name="totallyTimeSpent" value="264961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -799,6 +799,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1198" height="1205" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -810,8 +811,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299923" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.23383084" weight="0.25772285" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76616913" side_tool="true" weight="0.32127097" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.24913494" visible="true" weight="0.2568645" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75086504" side_tool="true" weight="0.2568645" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
@@ -822,7 +823,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.3482587" visible="true" weight="0.2745793" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3482587" weight="0.2745793" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
@@ -900,8 +901,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="StackX little upds" />
-    <MESSAGE value="Reverse app. Added StackX class" />
     <MESSAGE value="Class Revreser. method doReverse() added" />
     <MESSAGE value="ReverseApp class added" />
     <MESSAGE value="Brackets package, StackX class added." />
@@ -925,7 +924,9 @@
     <MESSAGE value="CheckoutVerTwo class. Indian version of task 4.5" />
     <MESSAGE value="CheckoutVerTwo and CirQueue classes. Indian version of task 4.5" />
     <MESSAGE value="Checkout class. NullPointerEx fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout class. NullPointerEx fixed." />
+    <MESSAGE value="Beautify" />
+    <MESSAGE value="My test of supermarket task" />
+    <option name="LAST_COMMIT_MESSAGE" value="My test of supermarket task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1303,9 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,17 +1339,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java">
+    <entry file="file://$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="959">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="288">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="436">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
           <folding>
             <element signature="e#945#946#0" expanded="true" />
             <element signature="e#983#984#0" expanded="true" />
@@ -1367,21 +1368,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Checkout/Checkout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="202">
+          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java">
+    <entry file="file://$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1029">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>

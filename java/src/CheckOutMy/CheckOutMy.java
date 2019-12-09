@@ -94,11 +94,25 @@ public class CheckOutMy {
             if (fastLine != null) {
                 if (fastLine.runningTally <= 0) {
                     if (!fastLine.isEmpty() && !fastLine.justAdded) fastLine.remove();
-                    fastLine.justAdded = false;
-                }
+                    fastLine.runningTally = fastLine.peekFront();
+                }else fastLine.runningTally--;
+                fastLine.justAdded = false;
+            }
                 if ((Math.random() * 100) <= percent)
                     addCustomer();
-            }
+        }
+    }
+    public void display() {
+        for (int i = 0; i < queues.length; i++) {
+            System.out.println("Line " +(i+1) + ": ");
+            queues[i].display();
+            System.out.println("   -Running Tall: " + queues[i].runningTally);
+        }
+
+        if (fastLine != null) {
+            System.out.print(" Fat Lane: ");
+            fastLine.display();
+            System.out.println("   -Running Tally: " + fastLine.runningTally);
         }
     }
 
