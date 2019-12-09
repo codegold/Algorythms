@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="Link class added (realizing linked list)">
-      <change afterPath="$PROJECT_DIR$/java/src/Link/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/Link/LinkList.java" afterDir="false" />
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Link/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Link/LinkList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/java/src/Link/Link.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#230#231#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
@@ -43,8 +41,8 @@
       <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Link/LinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="576">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
                 <element signature="e#127#128#0" expanded="true" />
@@ -221,7 +219,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -411,21 +409,7 @@
       <workItem from="1575567128796" duration="1289000" />
       <workItem from="1575614556635" duration="10876000" />
       <workItem from="1575664646950" duration="171000" />
-      <workItem from="1575878797301" duration="5070000" />
-    </task>
-    <task id="LOCAL-00031" summary="added benchmark to all three algorythms (array size 100k)">
-      <created>1573894116776</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1573894116776</updated>
-    </task>
-    <task id="LOCAL-00032" summary="bubbleSortReverse() made">
-      <created>1574053551047</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1574053551047</updated>
+      <workItem from="1575878797301" duration="6113000" />
     </task>
     <task id="LOCAL-00033" summary="doubleDirBubblesort() made">
       <created>1574058136156</created>
@@ -756,11 +740,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575879781197</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Link class added (realizing linked list)">
+      <created>1575893470860</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1575893470860</updated>
+    </task>
+    <task id="LOCAL-00081" summary="LinkList class added (realizing linked list)">
+      <created>1575895263166</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1575895263166</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269067000" />
+    <option name="totallyTimeSpent" value="270110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -785,7 +783,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299923" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.24913494" visible="true" weight="0.2568645" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.24913494" weight="0.2568645" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75086504" side_tool="true" weight="0.2568645" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
@@ -875,7 +873,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Brackets package, StackX class added." />
     <MESSAGE value="BracketsChecker class added. (here's logic)" />
     <MESSAGE value="BracketsApp added" />
     <MESSAGE value="QueueApp added. Methods insert, remove added." />
@@ -900,7 +897,8 @@
     <MESSAGE value="My test of supermarket task" />
     <MESSAGE value="My test of supermarket task (display())" />
     <MESSAGE value="Link class added (realizing linked list)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link class added (realizing linked list)" />
+    <MESSAGE value="LinkList class added (realizing linked list)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkList class added (realizing linked list)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1346,7 +1344,7 @@
     <entry file="file://$PROJECT_DIR$/java/src/Link/Link.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#230#231#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
@@ -1356,8 +1354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Link/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="576">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="e#99#100#0" expanded="true" />
             <element signature="e#127#128#0" expanded="true" />
