@@ -34,10 +34,20 @@ public class LinkList {
                 current = current.next;
             }
         }
-    if(current == first)
-        first = first.next;
+        if (current == first)
+            first = first.next;
         else
             previous.next = current.next;
         return current;
+    }
+
+    public void displayList() {
+        System.out.print("List (first-->last): ");
+        Link current = first;
+        while (current != null) {
+            current.displayLink();
+            current = current.next;
+        }
+        System.out.println("");
     }
 }
