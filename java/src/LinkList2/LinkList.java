@@ -26,18 +26,19 @@ public class LinkList {
     public Link delete(int key) {
         Link current = first;
         Link previous = first;
+
         while (current.iData != key) {
-            if (current.next == null)
+            if (current.next == null) {
                 return null;
-            else {
+            } else {
                 previous = current;
                 current = current.next;
             }
         }
-        if (current == first)
+        if (current == first) {
             first = first.next;
-        else
-            previous.next = current.next;
+        }
+        else previous.next = current.next;
         return current;
     }
 
