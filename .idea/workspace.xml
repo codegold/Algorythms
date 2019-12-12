@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/LinkList2/LinkList2App.java" afterDir="false" />
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="migrate to imac">
+      <change afterPath="$PROJECT_DIR$/java/src/FirstLastList/Link.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkList2/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LinkList2/LinkList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,68 +25,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/Link/Link.java">
+      <file leaf-file-name="Link.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/Link/LinkList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/LinkList2/Link.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/LinkList2/LinkList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkList2App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/LinkList2/LinkList2App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkListApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/Link/LinkListApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -109,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/DataArray/ClassDataApp.java" />
         <option value="$PROJECT_DIR$/Lafore/BubbleSort/ArrayBub.java" />
         <option value="$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java" />
         <option value="$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java" />
@@ -158,8 +103,9 @@
         <option value="$PROJECT_DIR$/java/src/MyLink/MyLink.java" />
         <option value="$PROJECT_DIR$/java/src/Link/LinkList.java" />
         <option value="$PROJECT_DIR$/java/src/LinkList2/Link.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkList2/LinkList.java" />
         <option value="$PROJECT_DIR$/java/src/LinkList2/LinkList2App.java" />
+        <option value="$PROJECT_DIR$/java/src/LinkList2/LinkList.java" />
+        <option value="$PROJECT_DIR$/java/src/FirstLastList/Link.java" />
       </list>
     </option>
   </component>
@@ -180,7 +126,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="831" />
+    <option name="width" value="868" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -192,8 +138,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,20 +164,12 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Link" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkList2" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstLastList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,21 +376,8 @@
       <workItem from="1575878797301" duration="6113000" />
       <workItem from="1575899190211" duration="1179000" />
       <workItem from="1575901031206" duration="2616000" />
-      <workItem from="1575919425991" duration="3685000" />
-    </task>
-    <task id="LOCAL-00035" summary="noDups() added">
-      <created>1574062007459</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1574062007459</updated>
-    </task>
-    <task id="LOCAL-00036" summary="insertionSortNoDups() - for deleting duplicates in O(N) complexity">
-      <created>1574082903922</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1574082903922</updated>
+      <workItem from="1575919425991" duration="10050000" />
+      <workItem from="1576142937718" duration="479000" />
     </task>
     <task id="LOCAL-00037" summary="insertionSortNoDups() - for deleting duplicates in O(N) complexity (gotcha)">
       <created>1574154117254</created>
@@ -782,11 +708,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575921989182</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="LinkList2App class added.">
+      <created>1575973642081</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1575973642081</updated>
+    </task>
+    <task id="LOCAL-00085" summary="migrate to imac">
+      <created>1576045700758</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1576045700758</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277590000" />
+    <option name="totallyTimeSpent" value="284434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,33 +738,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="831" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="868" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.24913494" weight="0.2568645" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75086504" side_tool="true" visible="true" weight="0.25657204" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.42332065" weight="0.25657204" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6022409" side_tool="true" weight="0.27444795" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" weight="0.27249682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.26513317" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3482587" weight="0.2745793" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3977591" weight="0.27444795" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -834,13 +774,14 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -862,7 +803,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -901,8 +841,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="QueueApp added. Methods insert, remove added." />
-    <MESSAGE value="Methods peekFront() isEmpty() isFull() size() added" />
     <MESSAGE value="QueueApp class added." />
     <MESSAGE value="QueueNoCounters app added. Operational methods added (remove, insert etc)" />
     <MESSAGE value="QueueNoCountersApp class added for test of cycle queue" />
@@ -926,7 +864,9 @@
     <MESSAGE value="LinkList class added (realizing linked list)" />
     <MESSAGE value="MyLinkListApp class added. My tests." />
     <MESSAGE value="LinkList2 class added. Searching and deleting elems." />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkList2 class added. Searching and deleting elems." />
+    <MESSAGE value="LinkList2App class added." />
+    <MESSAGE value="migrate to imac" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrate to imac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1008,17 +948,10 @@
           <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="77" />
+      <option name="time" value="86" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/ObjectSort/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/ObjectSort/ObjectSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1333,16 +1266,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Link/LinkListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Link/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#278#279#0" expanded="true" />
@@ -1353,37 +1279,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Link/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="608">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/LinkList2/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/LinkList2/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="779">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/LinkList2/LinkList2App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Link/LinkListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
