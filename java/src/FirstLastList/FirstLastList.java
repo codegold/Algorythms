@@ -1,10 +1,10 @@
 package src.FirstLastList;
 
-public class FirstLastLink {
+public class FirstLastList {
     private Link first;
     private Link last;
 
-    public FirstLastLink() {
+    public FirstLastList() {
         first = null;
         last = null;
     }
@@ -27,6 +27,7 @@ public class FirstLastLink {
             first = newLink;
         else
             last.next = newLink;
+        last = newLink;
     }
 
     public long deleteFirst() {
@@ -37,7 +38,7 @@ public class FirstLastLink {
         return temp;
     }
 
-    public void displayLink() {
+    public void displayList() {
         System.out.print("List (first-->last): ");
         Link current = first;
         while (current!= null){
