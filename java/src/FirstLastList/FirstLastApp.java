@@ -1,6 +1,6 @@
 package src.FirstLastList;
 
-public class FisrtClassApp {
+public class FirstLastApp {
     public static void main(String[] args) {
         FirstLastList theList = new FirstLastList();
 

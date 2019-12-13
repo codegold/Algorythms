@@ -1,7 +1,7 @@
 package src.LinkStack;
 
 public class Link {
-    private long dData;
+    public long dData;
     public Link next;
 
     public Link(long dData) {

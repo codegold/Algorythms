@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/LinkStack/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/LinkStack/LinkList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/FirstLastList/FisrtClassApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FirstLastList/FirstLastApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/LinkStack/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LinkStack/Link.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,53 +27,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FirstLastList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Link.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/LinkStack/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding>
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FisrtClassApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/FisrtClassApp.java">
+      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/LinkStack/LinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/Link.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="437">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,6 +68,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java" />
+        <option value="$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java" />
+        <option value="$PROJECT_DIR$/java/src/Sorting/BubbleSort.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" />
         <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" />
@@ -134,16 +111,13 @@
         <option value="$PROJECT_DIR$/java/src/Checkout/Checkout.java" />
         <option value="$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java" />
         <option value="$PROJECT_DIR$/java/src/Link/Link.java" />
-        <option value="$PROJECT_DIR$/java/src/Link/LinkListApp.java" />
-        <option value="$PROJECT_DIR$/java/src/MyLink/MyLink.java" />
         <option value="$PROJECT_DIR$/java/src/Link/LinkList.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkList2/Link.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkList2/LinkList2App.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkList2/LinkList.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/Link.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/FirstLastLink.java" />
+        <option value="$PROJECT_DIR$/java/src/Link/LinkListApp.java" />
         <option value="$PROJECT_DIR$/java/src/FirstLastList/FisrtClassApp.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java" />
+        <option value="$PROJECT_DIR$/java/src/FirstLastList/FsrtClassApp.java" />
+        <option value="$PROJECT_DIR$/java/src/FirstLastList/FirstClassApp.java" />
+        <option value="$PROJECT_DIR$/java/src/FirstLastList/FirstLastApp.java" />
+        <option value="$PROJECT_DIR$/java/src/LinkStack/LinkList.java" />
         <option value="$PROJECT_DIR$/java/src/LinkStack/Link.java" />
       </list>
     </option>
@@ -165,8 +139,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="853" />
-    <option name="height" value="1027" />
+    <option name="width" value="1015" />
+    <option name="height" value="1061" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -177,9 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +182,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +196,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -236,7 +210,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FisrtClassApp">
+  <component name="RunManager" selected="Application.FirstLastApp">
+    <configuration name="CheckOutAppTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.CheckoutVerTwo.CheckOutAppTwo" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.CheckoutVerTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CheckoutApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Checkout.CheckoutApp" />
       <module name="Algorythms" />
@@ -248,24 +233,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FisrtClassApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.FirstLastList.FisrtClassApp" />
+    <configuration name="FirstLastApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.FirstLastList.FirstLastApp" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.FirstLastList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LinkList2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LinkList2.LinkList2App" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.LinkList2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,13 +255,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyLinkListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.MyLink.MyLinkListApp" />
+    <configuration name="QueueApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Queue.QueueApp" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.MyLink.*" />
+          <option name="PATTERN" value="src.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,19 +308,19 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Application.QueueApp" />
       <item itemvalue="Application.CheckoutApp" />
+      <item itemvalue="Application.CheckOutAppTwo" />
       <item itemvalue="Application.LinkListApp" />
-      <item itemvalue="Application.MyLinkListApp" />
-      <item itemvalue="Application.LinkList2App" />
-      <item itemvalue="Application.FisrtClassApp" />
+      <item itemvalue="Application.FirstLastApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FisrtClassApp" />
-        <item itemvalue="Application.LinkList2App" />
-        <item itemvalue="Application.MyLinkListApp" />
+        <item itemvalue="Application.FirstLastApp" />
         <item itemvalue="Application.LinkListApp" />
         <item itemvalue="Application.CheckoutApp" />
+        <item itemvalue="Application.CheckOutAppTwo" />
+        <item itemvalue="Application.QueueApp" />
       </list>
     </recent_temporary>
   </component>
@@ -414,9 +388,50 @@
       <workItem from="1575664646950" duration="171000" />
       <workItem from="1575878797301" duration="6113000" />
       <workItem from="1575899190211" duration="1179000" />
-      <workItem from="1575901031206" duration="2616000" />
-      <workItem from="1575919425991" duration="10050000" />
-      <workItem from="1576142937718" duration="6488000" />
+      <workItem from="1576242568439" duration="1614000" />
+      <workItem from="1576273287926" duration="1008000" />
+    </task>
+    <task id="LOCAL-00034" summary="doubleDirBubblesort() test added">
+      <created>1574059328520</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1574059328520</updated>
+    </task>
+    <task id="LOCAL-00035" summary="noDups() added">
+      <created>1574062007459</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1574062007459</updated>
+    </task>
+    <task id="LOCAL-00036" summary="insertionSortNoDups() - for deleting duplicates in O(N) complexity">
+      <created>1574082903922</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1574082903922</updated>
+    </task>
+    <task id="LOCAL-00037" summary="insertionSortNoDups() - for deleting duplicates in O(N) complexity (gotcha)">
+      <created>1574154117254</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1574154117254</updated>
+    </task>
+    <task id="LOCAL-00038" summary="oddEvenSort() added. (Sorting in multithread, odd and even)">
+      <created>1574162141177</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1574162141177</updated>
+    </task>
+    <task id="LOCAL-00039" summary="oddEvenSortMy() added. Created by myself">
+      <created>1574171014718</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1574171014718</updated>
     </task>
     <task id="LOCAL-00040" summary="oddEvenSortMyTwo() added. My tests. Its two times longer than oddEvenSortMy()">
       <created>1574174676717</created>
@@ -712,60 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575895263166</updated>
     </task>
-    <task id="LOCAL-00082" summary="MyLinkListApp class added. My tests.">
-      <created>1575919089996</created>
+    <task id="LOCAL-00082" summary="move to imac">
+      <created>1576242370710</created>
       <option name="number" value="00082" />
       <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1575919089996</updated>
+      <updated>1576242370711</updated>
     </task>
-    <task id="LOCAL-00083" summary="LinkList2 class added. Searching and deleting elems.">
-      <created>1575921989181</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1575921989182</updated>
-    </task>
-    <task id="LOCAL-00084" summary="LinkList2App class added.">
-      <created>1575973642081</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1575973642081</updated>
-    </task>
-    <task id="LOCAL-00085" summary="migrate to imac">
-      <created>1576045700758</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1576045700758</updated>
-    </task>
-    <task id="LOCAL-00086" summary="class Link added">
-      <created>1576143739448</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1576143739448</updated>
-    </task>
-    <task id="LOCAL-00087" summary="class FirstLastLink added (logic)">
-      <created>1576153817573</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1576153817573</updated>
-    </task>
-    <task id="LOCAL-00088" summary="class FirstLastApp added (logic) + fixed insertLast()">
-      <created>1576154992087</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1576154992087</updated>
-    </task>
-    <option name="localTasksCounter" value="89" />
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290443000" />
+    <option name="totallyTimeSpent" value="274105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,33 +750,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="853" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1015" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299923" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.46362516" weight="0.2555205" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53637487" side_tool="true" visible="true" weight="0.25446898" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.24913494" weight="0.2568645" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75086504" side_tool="true" weight="0.2568645" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.270037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.21993834" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3977591" weight="0.27444795" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3482587" weight="0.2741117" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -813,37 +786,37 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
+      <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Image Layers" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75086504" side_tool="true" weight="0.2568645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
+      <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3280757" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Key Promoter X" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.2628812" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18041237" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299923" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
+      <window_info anchor="right" id="Key Promoter X" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.24913494" weight="0.2568645" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.21993834" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.328892" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3482587" weight="0.2741117" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -880,6 +853,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="BracketsChecker class added. (here's logic)" />
+    <MESSAGE value="BracketsApp added" />
+    <MESSAGE value="QueueApp added. Methods insert, remove added." />
+    <MESSAGE value="Methods peekFront() isEmpty() isFull() size() added" />
+    <MESSAGE value="QueueApp class added." />
+    <MESSAGE value="QueueNoCounters app added. Operational methods added (remove, insert etc)" />
+    <MESSAGE value="QueueNoCountersApp class added for test of cycle queue" />
     <MESSAGE value="QueueMyNoCounters class - added just for tests" />
     <MESSAGE value="PriorityQ class added (logic)" />
     <MESSAGE value="Deque class added. Task from book 4.2 page 178" />
@@ -898,14 +878,7 @@
     <MESSAGE value="My test of supermarket task (display())" />
     <MESSAGE value="Link class added (realizing linked list)" />
     <MESSAGE value="LinkList class added (realizing linked list)" />
-    <MESSAGE value="MyLinkListApp class added. My tests." />
-    <MESSAGE value="LinkList2 class added. Searching and deleting elems." />
-    <MESSAGE value="LinkList2App class added." />
-    <MESSAGE value="migrate to imac" />
-    <MESSAGE value="class Link added" />
-    <MESSAGE value="class FirstLastLink added (logic)" />
-    <MESSAGE value="class FirstLastApp added (logic) + fixed insertLast()" />
-    <option name="LAST_COMMIT_MESSAGE" value="class FirstLastApp added (logic) + fixed insertLast()" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkList class added (realizing linked list)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -986,11 +959,114 @@
           </properties>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>23</line>
+          <properties class="src.FirstLastList.FirstLastList" method="insertLast">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>32</line>
+          <properties class="src.FirstLastList.FirstLastList" method="deleteFirst">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="86" />
+      <option name="time" value="90" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java/src/ObjectSort/ObjectSortApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="398" column="30" selection-start-line="398" selection-start-column="30" selection-end-line="398" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SelectSort/SelectSortApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
@@ -1268,26 +1344,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/MyLink/MyLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
           <folding>
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Link/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#278#279#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
@@ -1297,66 +1370,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Link/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkList2/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkList2/LinkList2App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="666">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Link/LinkListApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkList2/LinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/FisrtClassApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="468">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
@@ -1364,15 +1393,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/LinkStack/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="190">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/LinkStack/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
