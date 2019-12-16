@@ -3,7 +3,7 @@ package src.LinkStack;
 public class LinkList {
     private Link first;
 
-    public LinkList(Link first) {
+    public LinkList() {
         this.first = null;
     }
 
@@ -19,7 +19,7 @@ public class LinkList {
 
     public long deleteFirst(){
         Link temp = first;
-        first.next = first;
+        first = first.next;
         return temp.dData;
     }
 

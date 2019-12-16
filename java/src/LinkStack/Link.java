@@ -4,8 +4,9 @@ public class Link {
     public long dData;
     public Link next;
 
-    public Link(long dData) {
-        this.dData = dData;
+    public Link(long dd) {
+
+        this.dData = dd;
     }
 
     public void displayLink() {
