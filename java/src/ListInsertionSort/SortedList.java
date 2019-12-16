@@ -34,6 +34,4 @@ public class SortedList {
         first = first.next;
         return temp;
     }
-
-
 }
