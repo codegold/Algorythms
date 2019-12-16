@@ -7,5 +7,4 @@ public class Link {
     public Link(long dd){
         dData = dd;
     }
-
 }

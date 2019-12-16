@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SortedList/SortedListApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SortedList/SortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SortedList/SortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/ListInsertionSort/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ListInsertionSort/Link.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,38 +27,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SortedList/Link.java">
+        <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SortedList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SortedList/SortedList.java">
+        <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            <state relative-caret-position="612">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortedListApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SortedList/SortedListApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -81,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" />
-        <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" />
         <option value="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/Stack/StackX.java" />
@@ -132,6 +119,8 @@
         <option value="$PROJECT_DIR$/java/src/SortedList/Link.java" />
         <option value="$PROJECT_DIR$/java/src/SortedList/SortedListApp.java" />
         <option value="$PROJECT_DIR$/java/src/SortedList/SortedList.java" />
+        <option value="$PROJECT_DIR$/java/src/ListInsertionSort/Link.java" />
+        <option value="$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java" />
       </list>
     </option>
   </component>
@@ -183,6 +172,13 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ListInsertionSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -402,14 +398,7 @@
       <workItem from="1576486219617" duration="1091000" />
       <workItem from="1576499978660" duration="3423000" />
       <workItem from="1576508874726" duration="1284000" />
-      <workItem from="1576523014634" duration="558000" />
-    </task>
-    <task id="LOCAL-00043" summary="insertionSortCountCopiesAndComp() added comments">
-      <created>1574229539767</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1574229539767</updated>
+      <workItem from="1576523014634" duration="1699000" />
     </task>
     <task id="LOCAL-00044" summary="noDupsMinusOne() added. During sort, marks copies as -1, then delete">
       <created>1574240306909</created>
@@ -747,11 +736,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576509219640</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="ListInsertionSort class added. (Link creation)">
+      <created>1576528108450</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1576528108451</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300499000" />
+    <option name="totallyTimeSpent" value="301640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,6 +760,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-28" y="23" width="962" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -865,7 +862,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="peekLeft() peekRight() added" />
     <MESSAGE value="StackTask class. Stack realization with base of  Deque class" />
     <MESSAGE value="Checkout class (in process)" />
     <MESSAGE value="Checkout class. addCustomer() in process" />
@@ -890,7 +886,8 @@
     <MESSAGE value="class LinkQueue added. (logic)" />
     <MESSAGE value="SortedList app. Realization of insert in sorted list." />
     <MESSAGE value="SortedList class added (logic)" />
-    <option name="LAST_COMMIT_MESSAGE" value="SortedList class added (logic)" />
+    <MESSAGE value="ListInsertionSort class added. (Link creation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListInsertionSort class added. (Link creation)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,20 +973,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Reverse/ReverseApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Reverse/Reverser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -1348,6 +1331,28 @@
           <folding>
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
