@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SortedList/SortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SortedList/SortedListApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/SortedList/SortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SortedList/SortedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/SortedList/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state>
               <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#116#117#0" expanded="true" />
@@ -43,12 +44,21 @@
       <file leaf-file-name="SortedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/SortedList/SortedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+            <state relative-caret-position="629">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
               <folding>
                 <element signature="e#160#161#0" expanded="true" />
                 <element signature="e#196#197#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortedListApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/SortedList/SortedListApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -71,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" />
@@ -121,6 +130,7 @@
         <option value="$PROJECT_DIR$/java/src/FirstLastList/LinkQueue.java" />
         <option value="$PROJECT_DIR$/java/src/FirstLastList/LinkQueueApp.java" />
         <option value="$PROJECT_DIR$/java/src/SortedList/Link.java" />
+        <option value="$PROJECT_DIR$/java/src/SortedList/SortedListApp.java" />
         <option value="$PROJECT_DIR$/java/src/SortedList/SortedList.java" />
       </list>
     </option>
@@ -155,7 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,26 +184,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SortedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +203,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkQueueApp">
+  <component name="RunManager" selected="Application.SortedListApp">
     <configuration name="FisrtClassApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.FirstLastList.FisrtClassApp" />
       <module name="Algorythms" />
@@ -266,13 +262,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyLinkListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.MyLink.MyLinkListApp" />
+    <configuration name="SortedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SortedList.SortedListApp" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.MyLink.*" />
+          <option name="PATTERN" value="src.SortedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,19 +315,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MyLinkListApp" />
       <item itemvalue="Application.LinkList2App" />
       <item itemvalue="Application.FisrtClassApp" />
       <item itemvalue="Application.LinkStackApp" />
       <item itemvalue="Application.LinkQueueApp" />
+      <item itemvalue="Application.SortedListApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedListApp" />
         <item itemvalue="Application.LinkQueueApp" />
         <item itemvalue="Application.LinkStackApp" />
         <item itemvalue="Application.FisrtClassApp" />
         <item itemvalue="Application.LinkList2App" />
-        <item itemvalue="Application.MyLinkListApp" />
       </list>
     </recent_temporary>
   </component>
@@ -405,14 +401,8 @@
       <workItem from="1576485411927" duration="570000" />
       <workItem from="1576486219617" duration="1091000" />
       <workItem from="1576499978660" duration="3423000" />
-      <workItem from="1576508874726" duration="272000" />
-    </task>
-    <task id="LOCAL-00042" summary="insertionSortCountCopiesAndComp() added. For counting copies and comparisosns during algorythm.">
-      <created>1574180853444</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1574180853444</updated>
+      <workItem from="1576508874726" duration="1284000" />
+      <workItem from="1576523014634" duration="558000" />
     </task>
     <task id="LOCAL-00043" summary="insertionSortCountCopiesAndComp() added comments">
       <created>1574229539767</created>
@@ -750,11 +740,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576506308000</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="SortedList class added (logic)">
+      <created>1576509219639</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1576509219640</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298929000" />
+    <option name="totallyTimeSpent" value="300499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,23 +764,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-28" y="23" width="962" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.46362516" visible="true" weight="0.25446898" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53637487" side_tool="true" weight="0.25446898" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.46195653" weight="0.25446898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5380435" side_tool="true" weight="0.25446898" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2597826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2652174" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -792,23 +789,23 @@
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3977591" weight="0.27444795" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.328892" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -830,7 +827,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -869,7 +865,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Deque class added. Task from book 4.2 page 178" />
     <MESSAGE value="peekLeft() peekRight() added" />
     <MESSAGE value="StackTask class. Stack realization with base of  Deque class" />
     <MESSAGE value="Checkout class (in process)" />
@@ -894,7 +889,8 @@
     <MESSAGE value="class FirstLastApp added (logic) + fixed insertLast()" />
     <MESSAGE value="class LinkQueue added. (logic)" />
     <MESSAGE value="SortedList app. Realization of insert in sorted list." />
-    <option name="LAST_COMMIT_MESSAGE" value="SortedList app. Realization of insert in sorted list." />
+    <MESSAGE value="SortedList class added (logic)" />
+    <option name="LAST_COMMIT_MESSAGE" value="SortedList class added (logic)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -980,13 +976,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/Reverse/StackX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -1334,7 +1323,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SortedList/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state>
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#116#117#0" expanded="true" />
@@ -1345,10 +1334,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SortedList/SortedListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SortedList/SortedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        <state relative-caret-position="629">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding>
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#196#197#0" expanded="true" />
