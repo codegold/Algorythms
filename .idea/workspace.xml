@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,12 +28,8 @@
       <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="102">
               <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +50,8 @@
       <file leaf-file-name="ListInsertSortApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -149,9 +144,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-28" />
+    <option name="x" value="21" />
     <option name="y" value="23" />
-    <option name="width" value="962" />
+    <option name="width" value="1110" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -163,7 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,8 +188,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortedListApp">
+  <component name="RunManager" selected="Application.ListInsertSortApp">
     <configuration name="FisrtClassApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.FirstLastList.FisrtClassApp" />
       <module name="Algorythms" />
@@ -230,17 +225,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.FirstLastList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LinkList2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LinkList2.LinkList2App" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.LinkList2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,6 +247,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.LinkStack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ListInsertSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.ListInsertionSort.ListInsertSortApp" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ListInsertionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,19 +315,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LinkList2App" />
       <item itemvalue="Application.FisrtClassApp" />
       <item itemvalue="Application.LinkStackApp" />
       <item itemvalue="Application.LinkQueueApp" />
       <item itemvalue="Application.SortedListApp" />
+      <item itemvalue="Application.ListInsertSortApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListInsertSortApp" />
         <item itemvalue="Application.SortedListApp" />
         <item itemvalue="Application.LinkQueueApp" />
         <item itemvalue="Application.LinkStackApp" />
         <item itemvalue="Application.FisrtClassApp" />
-        <item itemvalue="Application.LinkList2App" />
       </list>
     </recent_temporary>
   </component>
@@ -407,14 +402,8 @@
       <workItem from="1576486219617" duration="1091000" />
       <workItem from="1576499978660" duration="3423000" />
       <workItem from="1576508874726" duration="1284000" />
-      <workItem from="1576523014634" duration="2289000" />
-    </task>
-    <task id="LOCAL-00045" summary="noDupsMinusOneTWOOOO() - just my tests">
-      <created>1574248340992</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1574248340992</updated>
+      <workItem from="1576523014634" duration="2326000" />
+      <workItem from="1576576064949" duration="1290000" />
     </task>
     <task id="LOCAL-00046" summary="insertSortAndNoDupsMyTests() made myself, start based on MFTI">
       <created>1574257160099</created>
@@ -752,11 +741,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576529943431</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="ListInsertionSortApp class (in process)">
+      <created>1576530639516</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1576530639516</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="302230000" />
+    <option name="totallyTimeSpent" value="303557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,7 +764,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-28" y="23" width="962" height="1027" extended-state="0" />
+    <frame x="21" y="23" width="962" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
@@ -786,7 +782,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2652174" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.27065217" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -804,14 +800,13 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -833,6 +828,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -871,7 +867,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Checkout class (in process)" />
     <MESSAGE value="Checkout class. addCustomer() in process" />
     <MESSAGE value="Checkout class. addCustomer() added process() added" />
     <MESSAGE value="initialize() added" />
@@ -896,7 +891,8 @@
     <MESSAGE value="SortedList class added (logic)" />
     <MESSAGE value="ListInsertionSort class added. (Link creation)" />
     <MESSAGE value="ListInsertionSort class added (logic)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListInsertionSort class added (logic)" />
+    <MESSAGE value="ListInsertionSortApp class (in process)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListInsertionSortApp class (in process)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1172,10 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1240,16 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,10 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1339,12 +1317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="102">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1361,8 +1335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
