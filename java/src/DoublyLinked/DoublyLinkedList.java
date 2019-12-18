@@ -63,4 +63,38 @@ public class DoublyLinkedList {
         current.next = newLink;
         return true;
     }
+
+    public Link deleteKey(long key) {
+        Link curr = first;
+        while (curr.dData != key) {
+            curr = curr.next;
+            if (curr == null)
+                return null;
+        }
+        if (curr == first) //Key founded at first
+            first = first.next;
+        else
+            curr.next.previous = curr.previous;
+        return curr;
+    }
+
+    public void displayForward() {
+        System.out.print("List (first-->last): ");
+        Link curr = first;
+        while (curr != null) {
+            curr.displayLink();
+            curr = curr.next;
+        }
+        System.out.println();
+    }
+
+    public void displayBackward(){
+        System.out.print("List (last-->first): ");
+        Link curr = last;
+        while (curr != null) {
+            curr.displayLink();
+            curr = curr.previous;
+        }
+        System.out.println();
+    }
 }
