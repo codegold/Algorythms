@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/DoublyLinked/Link.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="SortedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="629">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#107#108#0" expanded="true" />
                 <element signature="e#135#136#0" expanded="true" />
@@ -47,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListInsertSortApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Link.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/DoublyLinked/Link.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListInsertSortApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -144,10 +153,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
     <option name="y" value="23" />
-    <option name="width" value="1110" />
-    <option name="height" value="1027" />
+    <option name="width" value="927" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -158,7 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,14 +190,21 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DoublyLinked" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ListInsertionSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,13 +419,9 @@
       <workItem from="1576508874726" duration="1284000" />
       <workItem from="1576523014634" duration="2326000" />
       <workItem from="1576576064949" duration="1290000" />
-    </task>
-    <task id="LOCAL-00046" summary="insertSortAndNoDupsMyTests() made myself, start based on MFTI">
-      <created>1574257160099</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1574257160099</updated>
+      <workItem from="1576582934579" duration="2054000" />
+      <workItem from="1576612497169" duration="13000" />
+      <workItem from="1576656812215" duration="924000" />
     </task>
     <task id="LOCAL-00047" summary="delete doubled method">
       <created>1574264633096</created>
@@ -748,11 +759,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576530639516</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="ListInsertionSortApp class (added)">
+      <created>1576582967132</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1576582967132</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303557000" />
+    <option name="totallyTimeSpent" value="306548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,13 +782,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="23" width="962" height="1027" extended-state="0" />
+    <frame x="-3" y="23" width="927" height="1060" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -782,7 +799,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.27065217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.30056497" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -791,22 +808,24 @@
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3977591" weight="0.27444795" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.328892" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -828,7 +847,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -867,7 +885,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Checkout class. addCustomer() in process" />
     <MESSAGE value="Checkout class. addCustomer() added process() added" />
     <MESSAGE value="initialize() added" />
     <MESSAGE value="NullPointerException. Need to fix." />
@@ -892,7 +909,8 @@
     <MESSAGE value="ListInsertionSort class added. (Link creation)" />
     <MESSAGE value="ListInsertionSort class added (logic)" />
     <MESSAGE value="ListInsertionSortApp class (in process)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListInsertionSortApp class (in process)" />
+    <MESSAGE value="ListInsertionSortApp class (added)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListInsertionSortApp class (added)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -978,13 +996,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/Brackets/StackX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Brackets/BracketChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1288,12 +1299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1308,10 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1322,10 +1323,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#107#108#0" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
@@ -1333,10 +1341,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java">
+    <entry file="file://$PROJECT_DIR$/java/src/DoublyLinked/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
