@@ -34,6 +34,16 @@ public class DoublyLinkedList {
         last = newLink;
     }
 
+    public Link deleteFirst() {
+        Link temp = first;
+        if (first.next == null)
+            last = null;
+        else
+            first.next.previous = null;
+        first = first.next;
+        return temp;
+    }
+
     public Link deleteLast() {
         Link temp = last;
         if (first.next == null) //If only one elem;
@@ -74,6 +84,11 @@ public class DoublyLinkedList {
         if (curr == first) //Key founded at first
             first = first.next;
         else
+            curr.previous.next = curr.next;
+
+        if(curr == last)
+            last = curr.previous;
+        else
             curr.next.previous = curr.previous;
         return curr;
     }
@@ -88,7 +103,7 @@ public class DoublyLinkedList {
         System.out.println();
     }
 
-    public void displayBackward(){
+    public void displayBackward() {
         System.out.print("List (last-->first): ");
         Link curr = last;
         while (curr != null) {
@@ -97,4 +112,5 @@ public class DoublyLinkedList {
         }
         System.out.println();
     }
+
 }
