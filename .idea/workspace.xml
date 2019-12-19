@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/InterIterator/LinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/InterIterator/ListIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/InterIterator/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InterIterator/Link.java" afterDir="false" />
     </list>
@@ -29,8 +29,8 @@
       <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/InterIterator/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="e#122#123#0" expanded="true" />
                 <element signature="e#144#145#0" expanded="true" />
@@ -44,12 +44,11 @@
       <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/InterIterator/LinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="153">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
                 <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
@@ -57,6 +56,19 @@
                 <element signature="e#318#319#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
                 <element signature="e#436#437#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/InterIterator/ListIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Reverse/Reverser.java" />
         <option value="$PROJECT_DIR$/java/src/Brackets/StackX.java" />
         <option value="$PROJECT_DIR$/java/src/Brackets/BracketChecker.java" />
         <option value="$PROJECT_DIR$/java/src/Brackets/BracketsApp.java" />
@@ -129,8 +140,9 @@
         <option value="$PROJECT_DIR$/java/src/DoublyLinked/Link.java" />
         <option value="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedApp.java" />
         <option value="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedList.java" />
-        <option value="$PROJECT_DIR$/java/src/InterIterator/Link.java" />
         <option value="$PROJECT_DIR$/java/src/InterIterator/LinkList.java" />
+        <option value="$PROJECT_DIR$/java/src/InterIterator/ListIterator.java" />
+        <option value="$PROJECT_DIR$/java/src/InterIterator/Link.java" />
       </list>
     </option>
   </component>
@@ -532,13 +544,6 @@
       <workItem from="1576667739128" duration="3822000" />
       <workItem from="1576680337920" duration="714000" />
     </task>
-    <task id="LOCAL-00050" summary="StackApp class added">
-      <created>1574351985373</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1574351985373</updated>
-    </task>
     <task id="LOCAL-00051" summary="StackX little upds">
       <created>1574354705443</created>
       <option name="number" value="00051" />
@@ -875,11 +880,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576758487167</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="LinkList class added. (logic).">
+      <created>1576759055383</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1576759055383</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315463000" />
+    <option name="totallyTimeSpent" value="315993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1016,7 +1028,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CheckoutVerTwo class. Indian version of task 4.5" />
     <MESSAGE value="CheckoutVerTwo and CirQueue classes. Indian version of task 4.5" />
     <MESSAGE value="Checkout class. NullPointerEx fixed." />
     <MESSAGE value="Beautify" />
@@ -1041,7 +1052,8 @@
     <MESSAGE value="DoublyLinked App. Link class (added)" />
     <MESSAGE value="DoublyLinkedList class added. (logic)" />
     <MESSAGE value="InterIterator app. Link class added." />
-    <option name="LAST_COMMIT_MESSAGE" value="InterIterator app. Link class added." />
+    <MESSAGE value="LinkList class added. (logic)." />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkList class added. (logic)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1127,13 +1139,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueMyNoCounters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1467,8 +1472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/InterIterator/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#122#123#0" expanded="true" />
             <element signature="e#144#145#0" expanded="true" />
@@ -1478,14 +1483,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/InterIterator/ListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/InterIterator/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="e#99#100#0" expanded="true" />
             <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
