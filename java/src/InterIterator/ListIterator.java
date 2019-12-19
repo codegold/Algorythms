@@ -29,6 +29,7 @@ public class ListIterator {
     }
 
     public void insertAfter(long dd) {
+
         Link newLink = new Link(dd);
 
         if (ourList.isEmpty()) {
@@ -42,7 +43,9 @@ public class ListIterator {
     }
 
     public void insertBefore(long dd) {
+
         Link newLink = new Link(dd);
+
         if (previous == null) {
             newLink.next = ourList.getFirst();
             ourList.setFirst(newLink);
@@ -57,6 +60,7 @@ public class ListIterator {
     public long deleteCurrent() {
 
         long value = current.dData;
+
         if (previous == null) {
             ourList.setFirst(current.next);
             reset();
