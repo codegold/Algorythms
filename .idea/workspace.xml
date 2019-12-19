@@ -4,7 +4,6 @@
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/java/src/InterIterator/ListIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InterIterator/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InterIterator/Link.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,46 +28,36 @@
       <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/InterIterator/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/InterIterator/LinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
                 <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListIterator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListIterator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/InterIterator/ListIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="874">
+              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding>
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,8 +130,8 @@
         <option value="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedApp.java" />
         <option value="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/java/src/InterIterator/LinkList.java" />
-        <option value="$PROJECT_DIR$/java/src/InterIterator/ListIterator.java" />
         <option value="$PROJECT_DIR$/java/src/InterIterator/Link.java" />
+        <option value="$PROJECT_DIR$/java/src/InterIterator/ListIterator.java" />
       </list>
     </option>
   </component>
@@ -175,9 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +193,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,123 +210,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/ListInsertionSort/ListInsertSortApp.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedList.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/DoublyLinked/DoublyLinkedApp.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/DoublyLinked/DoublyLinkedList.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/DoublyLinked/Link.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedApp.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -543,13 +415,8 @@
       <workItem from="1576656812215" duration="924000" />
       <workItem from="1576667739128" duration="3822000" />
       <workItem from="1576680337920" duration="714000" />
-    </task>
-    <task id="LOCAL-00051" summary="StackX little upds">
-      <created>1574354705443</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1574354705443</updated>
+      <workItem from="1576765664779" duration="3000" />
+      <workItem from="1576765689136" duration="268000" />
     </task>
     <task id="LOCAL-00052" summary="Reverse app. Added StackX class">
       <created>1574410326558</created>
@@ -887,11 +754,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576759055383</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="fixed err @ getIterator()">
+      <created>1576759578609</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1576759578609</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315993000" />
+    <option name="totallyTimeSpent" value="318454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -909,19 +783,18 @@
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.46195653" weight="0.25446898" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5380435" side_tool="true" visible="true" weight="0.25406504" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.46101695" weight="0.25406504" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53898305" side_tool="true" weight="0.25446898" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.3141243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.32768363" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -929,36 +802,15 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3977591" weight="0.27444795" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
-      <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.328892" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.3141243" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
-      <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3977591" weight="0.27444795" />
-      <window_info anchor="right" id="Key Promoter X" order="10" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.46101695" visible="true" weight="0.25446898" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32595217" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917038" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53898305" side_tool="true" weight="0.25446898" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.328892" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1028,7 +880,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CheckoutVerTwo and CirQueue classes. Indian version of task 4.5" />
     <MESSAGE value="Checkout class. NullPointerEx fixed." />
     <MESSAGE value="Beautify" />
     <MESSAGE value="My test of supermarket task" />
@@ -1053,7 +904,8 @@
     <MESSAGE value="DoublyLinkedList class added. (logic)" />
     <MESSAGE value="InterIterator app. Link class added." />
     <MESSAGE value="LinkList class added. (logic)." />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkList class added. (logic)." />
+    <MESSAGE value="fixed err @ getIterator()" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed err @ getIterator()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1472,42 +1324,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/InterIterator/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/InterIterator/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/InterIterator/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="119">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="e#99#100#0" expanded="true" />
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/InterIterator/ListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
           </folding>
         </state>
       </provider>
