@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/InterIterator/LinkList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/InterIterator/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InterIterator/Link.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +25,44 @@
     <favorites_list name="Algorythms" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/InterIterator/Link.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/InterIterator/LinkList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,8 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Reverse/StackX.java" />
-        <option value="$PROJECT_DIR$/java/src/Reverse/ReverseApp.java" />
         <option value="$PROJECT_DIR$/java/src/Reverse/Reverser.java" />
         <option value="$PROJECT_DIR$/java/src/Brackets/StackX.java" />
         <option value="$PROJECT_DIR$/java/src/Brackets/BracketChecker.java" />
@@ -92,6 +129,8 @@
         <option value="$PROJECT_DIR$/java/src/DoublyLinked/Link.java" />
         <option value="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedApp.java" />
         <option value="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/java/src/InterIterator/Link.java" />
+        <option value="$PROJECT_DIR$/java/src/InterIterator/LinkList.java" />
       </list>
     </option>
   </component>
@@ -144,6 +183,13 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="InterIterator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -486,13 +532,6 @@
       <workItem from="1576667739128" duration="3822000" />
       <workItem from="1576680337920" duration="714000" />
     </task>
-    <task id="LOCAL-00049" summary="Stack package. Methods peek() isEmpty() isFull() added">
-      <created>1574351684212</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1574351684213</updated>
-    </task>
     <task id="LOCAL-00050" summary="StackApp class added">
       <created>1574351985373</created>
       <option name="number" value="00050" />
@@ -829,11 +868,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576678790703</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="InterIterator app. Link class added.">
+      <created>1576758487166</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1576758487167</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314815000" />
+    <option name="totallyTimeSpent" value="315463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -846,6 +892,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="927" height="1060" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -969,7 +1016,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NullPointerException. Need to fix." />
     <MESSAGE value="CheckoutVerTwo class. Indian version of task 4.5" />
     <MESSAGE value="CheckoutVerTwo and CirQueue classes. Indian version of task 4.5" />
     <MESSAGE value="Checkout class. NullPointerEx fixed." />
@@ -994,7 +1040,8 @@
     <MESSAGE value="ListInsertionSortApp class (added)" />
     <MESSAGE value="DoublyLinked App. Link class (added)" />
     <MESSAGE value="DoublyLinkedList class added. (logic)" />
-    <option name="LAST_COMMIT_MESSAGE" value="DoublyLinkedList class added. (logic)" />
+    <MESSAGE value="InterIterator app. Link class added." />
+    <option name="LAST_COMMIT_MESSAGE" value="InterIterator app. Link class added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1080,20 +1127,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/Brackets/BracketsApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCountersApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="5" selection-start-line="5" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1429,6 +1462,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/InterIterator/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/InterIterator/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
