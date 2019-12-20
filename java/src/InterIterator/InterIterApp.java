@@ -44,6 +44,27 @@ public class InterIterApp {
                     } else
                         System.out.println("List is Empty.");
                     break;
+                case 'b':
+                    System.out.print("Enter value to insert: ");
+                    System.out.flush();
+                    value = getInt();
+                    iter1.insertBefore(value);
+                    break;
+                case 'a':
+                    System.out.print("Enter value to insert: ");
+                    System.out.flush();
+                    value = getInt();
+                    iter1.insertAfter(value);
+                    break;
+                case 'd':
+                    if (theList.isEmpty()) {
+                        value = iter1.deleteCurrent();
+                        System.out.println("Deleted " + value);
+                    } else
+                        System.out.println("Can't delete");
+                    break;
+                default:
+                    System.out.println("Invalid entry.");
             }
         }
     }
