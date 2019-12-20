@@ -28,6 +28,7 @@ public class ListIterator {
         return current;
     }
 
+
     public void insertAfter(long dd) {
 
         Link newLink = new Link(dd);
@@ -41,6 +42,7 @@ public class ListIterator {
             nextLink();
         }
     }
+
 
     public void insertBefore(long dd) {
 

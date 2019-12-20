@@ -1,4 +1,4 @@
-package src.InterIterator;
+package src.InterIterator2;
 
 public class LinkList {
     private Link first;
@@ -15,20 +15,19 @@ public class LinkList {
         first = f;
     }
 
-    public boolean isEmpty() {
+    public boolean isEmpty(){
         return first == null;
     }
 
     public ListIterator getIterator() {
-
         return new ListIterator(this);
     }
 
     public void displayList() {
-        Link current = first;
-        while (current!= null){
-            current.displayLink();
-            current = current.next;
+        Link curr = first;
+        while (curr!=null){
+            curr.displayLink();
+            curr = curr.next;
         }
         System.out.println();
     }
