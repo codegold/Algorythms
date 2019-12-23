@@ -19,5 +19,5 @@ public class ListIterator {
         return current.next == null;
     }
 
-    public  void
+
 }
