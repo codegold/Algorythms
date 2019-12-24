@@ -5,7 +5,7 @@ public class CLink {
     public CLink next;
 
     public CLink(long value) {
-        this.dData = value;
+        dData = value;
     }
 
     public void displayCLink() {

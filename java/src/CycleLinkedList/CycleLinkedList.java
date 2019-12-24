@@ -23,7 +23,7 @@ public class CycleLinkedList {
 
     public void insert(long value) {
 
-        if (!isEmpty()) {
+        if (isEmpty()) {
             current = new CLink(value);
             current.next = current;
 
@@ -55,20 +55,15 @@ public class CycleLinkedList {
     }
 
     public CLink peek() {
-
-        if (!isEmpty()) {
-            return current;
-        } else
-            System.out.println("List is empty.");
-        return null;
+        return current;
     }
 
     public void display() {
 
-        System.out.println("Display from current.");
+        System.out.print("Display from current.");
         CLink index = current;
         for (int i = 0; i < nItems; i++) {
-            System.out.println(index.dData + " ");
+            System.out.print(index.dData + " ");
             index = index.next;
         }
         System.out.println("");
