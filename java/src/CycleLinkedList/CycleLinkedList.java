@@ -35,6 +35,18 @@ public class CycleLinkedList {
         nItems++;
     }
 
+    public CLink find(long value){
+        for (int i = 0; i < nItems; i++) {
+            if(current.dData == value){
+                System.out.println("Found: "+ value);
+                return current;
+            }
+            else step();
+        }
+        System.out.println("Couldn't find " + value);
+        return null;
+    }
+
     public CLink delete() {
 
         if (isEmpty()) {

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/CycleLinkedList/CycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CycleLinkedList/CycleLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="CLink.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#161#162#0" expanded="true" />
@@ -45,8 +44,8 @@
       <file leaf-file-name="CycleLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CycleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+            <state relative-caret-position="-128">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="e#251#252#0" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
@@ -64,8 +63,8 @@
       <file leaf-file-name="CircularApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -136,9 +135,9 @@
         <option value="$PROJECT_DIR$/java/src/PriorQueue/SortedList.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/Link.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/ChapterFive.java" />
-        <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java" />
         <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java" />
         <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CycleLinkedList.java" />
+        <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java" />
       </list>
     </option>
   </component>
@@ -159,7 +158,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="791" />
+    <option name="width" value="950" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -426,14 +425,7 @@
       <workItem from="1576765689136" duration="268000" />
       <workItem from="1577096416355" duration="3502000" />
       <workItem from="1577129674953" duration="26000" />
-      <workItem from="1577129720520" duration="8262000" />
-    </task>
-    <task id="LOCAL-00060" summary="Methods peekFront() isEmpty() isFull() size() added">
-      <created>1574510931779</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1574510931780</updated>
+      <workItem from="1577129720520" duration="8781000" />
     </task>
     <task id="LOCAL-00061" summary="QueueApp class added.">
       <created>1574511558034</created>
@@ -771,11 +763,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577191881493</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="CircularApp class added">
+      <created>1577193516269</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1577193516269</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332866000" />
+    <option name="totallyTimeSpent" value="333385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,7 +786,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="901" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="950" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" />
@@ -800,12 +799,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.45867288" visible="true" weight="0.25341746" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5413271" side_tool="true" visible="true" weight="0.25341746" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.4581498" visible="true" weight="0.25341746" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5418502" side_tool="true" visible="true" weight="0.25341746" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.25261933" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.23898679" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
@@ -890,7 +889,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LinkList2App class added." />
     <MESSAGE value="migrate to imac" />
     <MESSAGE value="class Link added" />
     <MESSAGE value="class FirstLastLink added (logic)" />
@@ -915,7 +913,8 @@
     <MESSAGE value="ChapterFive (app is here) class added." />
     <MESSAGE value="CLink class added. Cycle Linked List realizing." />
     <MESSAGE value="CycleLinkedList class (logic) added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CycleLinkedList class (logic) added" />
+    <MESSAGE value="CircularApp class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CircularApp class added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1359,8 +1358,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
@@ -1372,8 +1371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CycleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+        <state relative-caret-position="-128">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
@@ -1389,8 +1388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="285">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>

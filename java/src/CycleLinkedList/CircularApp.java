@@ -12,7 +12,7 @@ public class CircularApp {
 
         theList.delete();
         theList.display();
-        theList.delete();
         theList.display();
+        theList.find(2);
     }
 }
