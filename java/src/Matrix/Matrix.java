@@ -32,4 +32,26 @@ public class Matrix {
             }
         }
     }
+
+    public boolean insert(double value, int row, int col) {
+
+        //If out of range
+        if (row > nRows || col > nCols || row < 0 || col < 0) {
+
+            System.out.println("Must be in range (0,0) to (" + nRows + "," + nCols + ")");
+            return false;
+        } else {
+            current = first;
+            for (int i = 1; i < row; i++) {
+                current = current.nextRow;
+            }
+            for (int i = 1; i < col; i++) {
+                current = current.nextCol;
+            }
+            current.dData = value;
+
+            System.out.println("Inserted value at row: " + row + "and at col: " + col);
+            return true;
+        }
+    }
 }
