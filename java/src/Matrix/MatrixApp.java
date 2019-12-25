@@ -5,5 +5,6 @@ public class MatrixApp {
 
         Matrix theMatrix = new Matrix(4,6);
         theMatrix.display();
+        //this is just for test
     }
 }
