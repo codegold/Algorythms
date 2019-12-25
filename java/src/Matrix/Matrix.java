@@ -18,9 +18,11 @@ public class Matrix {
         //initialize all cells to 0
         MatrixLink temp;
         for (int i = 0; i < nRows; i++) {
+
             temp = current;
 
             for (int j = 1; j < nCols; j++) {
+
                 temp.nextCol = new MatrixLink(0);
                 temp = temp.nextCol;
             }
@@ -41,17 +43,38 @@ public class Matrix {
             System.out.println("Must be in range (0,0) to (" + nRows + "," + nCols + ")");
             return false;
         } else {
+
             current = first;
             for (int i = 1; i < row; i++) {
+
                 current = current.nextRow;
             }
             for (int i = 1; i < col; i++) {
+
                 current = current.nextCol;
             }
             current.dData = value;
 
             System.out.println("Inserted value at row: " + row + "and at col: " + col);
             return true;
+        }
+    }
+
+    public void display() {
+
+        current = first;
+
+        MatrixLink temp;
+        while (current != null) {
+
+            temp = current;
+            while (temp != null) {
+
+                temp.displayLink();
+                temp = temp.nextCol;
+            }
+            System.out.println("");
+            current = current.nextRow;
         }
     }
 }
