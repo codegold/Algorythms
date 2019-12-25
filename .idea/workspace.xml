@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="JosephusApp class added.">
+      <change afterPath="$PROJECT_DIR$/java/src/Matrix/MatrixLink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Josephus/JosephusApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Josephus/JosephusApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/Josephus/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Josephus/Josephus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Josephus/JosephusApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Josephus/JosephusApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,38 +23,30 @@
       <FILTER>src.AlgoDraw.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Algorythms" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CircularApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CLink.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Josephus.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Josephus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Josephus/Josephus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="-46">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
@@ -61,19 +56,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CycleLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CycleLinkedList.java">
+      <file leaf-file-name="MatrixLink.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/Matrix/MatrixLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JosephusApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/Josephus/JosephusApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -96,8 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/CheckoutVerTwo/CirQueue.java" />
-        <option value="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutAppTwo.java" />
         <option value="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutTwo.java" />
         <option value="$PROJECT_DIR$/java/src/ClassNameHere/Checkout.java" />
         <option value="$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java" />
@@ -147,6 +145,8 @@
         <option value="$PROJECT_DIR$/java/src/CStack/CStackApp.java" />
         <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java" />
         <option value="$PROJECT_DIR$/java/src/Josephus/Josephus.java" />
+        <option value="$PROJECT_DIR$/java/src/Josephus/JosephusApp.java" />
+        <option value="$PROJECT_DIR$/java/src/Matrix/MatrixLink.java" />
       </list>
     </option>
   </component>
@@ -165,9 +165,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="780" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -205,7 +205,7 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Josephus" type="462c0819:PsiDirectoryNode" />
+              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CStackApp">
+  <component name="RunManager" selected="Application.JosephusApp">
     <configuration name="CStackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.CStack.CStackApp" />
       <module name="Algorythms" />
@@ -272,13 +272,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DoublyLinkedApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.DoublyLinked.DoublyLinkedApp" />
+    <configuration name="JosephusApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Josephus.JosephusApp" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.DoublyLinked.*" />
+          <option name="PATTERN" value="src.Josephus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,19 +336,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DoublyLinkedApp" />
       <item itemvalue="Application.LinkList2App" />
       <item itemvalue="Application.ChapterFive" />
       <item itemvalue="Application.CircularApp" />
       <item itemvalue="Application.CStackApp" />
+      <item itemvalue="Application.JosephusApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JosephusApp" />
         <item itemvalue="Application.CStackApp" />
         <item itemvalue="Application.CircularApp" />
         <item itemvalue="Application.ChapterFive" />
         <item itemvalue="Application.LinkList2App" />
-        <item itemvalue="Application.DoublyLinkedApp" />
       </list>
     </recent_temporary>
   </component>
@@ -436,21 +436,7 @@
       <workItem from="1577129674953" duration="26000" />
       <workItem from="1577129720520" duration="10768000" />
       <workItem from="1577199536070" duration="682000" />
-      <workItem from="1577265583016" duration="1790000" />
-    </task>
-    <task id="LOCAL-00065" summary="PriorityQ class added (logic)">
-      <created>1574777742418</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1574777742418</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Deque class added. Task from book 4.2 page 178">
-      <created>1575288218063</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1575288218063</updated>
+      <workItem from="1577265583016" duration="3649000" />
     </task>
     <task id="LOCAL-00067" summary="peekLeft() peekRight() added">
       <created>1575294041368</created>
@@ -781,11 +767,25 @@
       <option name="project" value="LOCAL" />
       <updated>1577218505072</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Josephus class added (logic).">
+      <created>1577269366029</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1577269366029</updated>
+    </task>
+    <task id="LOCAL-00115" summary="JosephusApp class added.">
+      <created>1577269504296</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1577269504297</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337844000" />
+    <option name="totallyTimeSpent" value="339703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -797,24 +797,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="780" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" anchor="right" id="Key Promoter X" order="10" visible="true" weight="0.30341882" />
+      <window_info anchor="right" id="Key Promoter X" order="10" weight="0.2716728" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4957265" weight="0.32492113" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4581498" weight="0.25341746" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6035242" side_tool="true" weight="0.27444795" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.45604396" weight="0.25341746" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.54395604" side_tool="true" visible="true" weight="0.20294426" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.13675214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.30352303" />
       <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -823,7 +824,6 @@
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.39647576" weight="0.27444795" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49632353" weight="0.32492113" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
@@ -900,8 +900,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class LinkQueue added. (logic)" />
-    <MESSAGE value="SortedList app. Realization of insert in sorted list." />
     <MESSAGE value="SortedList class added (logic)" />
     <MESSAGE value="ListInsertionSort class added. (Link creation)" />
     <MESSAGE value="ListInsertionSort class added (logic)" />
@@ -925,7 +923,9 @@
     <MESSAGE value="CStack class added. Task to realize Stack on the base of CycleLinkedList." />
     <MESSAGE value="CStackApp class added." />
     <MESSAGE value="Josephus class started." />
-    <option name="LAST_COMMIT_MESSAGE" value="Josephus class started." />
+    <MESSAGE value="Josephus class added (logic)." />
+    <MESSAGE value="JosephusApp class added." />
+    <option name="LAST_COMMIT_MESSAGE" value="JosephusApp class added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1011,20 +1011,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/CheckoutVerTwo/CirQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/infix/InToPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Postfix/StackX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1377,14 +1363,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Josephus/JosephusApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Josephus/Josephus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="-46">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#647#648#0" expanded="true" />
             <element signature="e#669#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Matrix/MatrixLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
           </folding>
         </state>
       </provider>

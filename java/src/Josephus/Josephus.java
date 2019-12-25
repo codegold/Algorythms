@@ -33,7 +33,7 @@ public class Josephus {
 
     //steps through list by count and removes an item
     private CLink kill() {
-        for (int i = 0; i < count - 1; i++) {
+        for (int i = 0; i < count - 1; i++) { //count-1 because CList deletes item AFTER list.current
             theList.step();
         }
         CLink temp = theList.delete();
