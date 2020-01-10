@@ -10,23 +10,23 @@ public class AnagramApp {
     static char[] arrChar = new char[100];
 
     public static void main(String[] args) throws IOException {
-        System.out.print("Enter a word: ");
+        System.out.print("Enter a word: "); //get a word
         String input = getString();
-        size = input.length();
+        size = input.length(); //define size
         count = 0;
-        for (int j = 0; j < size; j++)
+        for (int j = 0; j < size; j++) //save to array
             arrChar[j] = input.charAt(j);
-        doAnagram(size);
+        doAnagram(size); //create anagram
     }
 
     public static void doAnagram(int newSize) {
-        if (newSize == 1)
-            return;
-        for (int j = 0; j < newSize; j++) {
-            doAnagram(newSize - 1);
-            if (newSize == 2)
+        if (newSize == 1) //if word to small
+            return; //stop
+        for (int j = 0; j < newSize; j++) { //for each position
+            doAnagram(newSize - 1); //create anagram left letters
+            if (newSize == 2) //if inside condition
                 displayWord();
-            rotate(newSize);
+            rotate(newSize); //cycle move of all word
         }
     }
 
@@ -45,7 +45,14 @@ public class AnagramApp {
             System.out.println(" ");
     }
 
+    // rotate left all chars from position to end
     private static void rotate(int newSize) {
+        int j;
+        int position = size - newSize;
+        char temp = arrChar[position]; //save first letter
+        for (j = position + 1; j < size; j++) //move all letters to the left
+            arrChar[j - 1] = arrChar[j]; //move first letter to the right
+        arrChar[j - 1] = temp;
     }
 
     public static String getString() throws IOException {
