@@ -30,6 +30,15 @@ public class AnagramApp {
         }
     }
 
+    // rotate left all chars from position to end
+    private static void rotate(int newSize) {
+        int j;
+        int position = size - newSize;
+        char temp = arrChar[position]; //save first letter
+        for (j = position + 1; j < size; j++) //move all letters to the left
+            arrChar[j - 1] = arrChar[j]; //move first letter to the right
+        arrChar[j - 1] = temp;
+    }
 
     private static void displayWord() {
         if (count < 99)
@@ -42,17 +51,7 @@ public class AnagramApp {
         System.out.print(" ");
         System.out.flush();
         if (count % 6 == 0)
-            System.out.println(" ");
-    }
-
-    // rotate left all chars from position to end
-    private static void rotate(int newSize) {
-        int j;
-        int position = size - newSize;
-        char temp = arrChar[position]; //save first letter
-        for (j = position + 1; j < size; j++) //move all letters to the left
-            arrChar[j - 1] = arrChar[j]; //move first letter to the right
-        arrChar[j - 1] = temp;
+            System.out.println("");
     }
 
     public static String getString() throws IOException {
