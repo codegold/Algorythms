@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Factorial/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Factorial/Factorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Factorial/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +58,8 @@
       <file leaf-file-name="AnagramApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="458">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -445,14 +443,7 @@
       <workItem from="1577265583016" duration="5240000" />
       <workItem from="1577347290730" duration="3196000" />
       <workItem from="1577446508629" duration="2753000" />
-      <workItem from="1578639706000" duration="1676000" />
-    </task>
-    <task id="LOCAL-00073" summary="NullPointerException. Need to fix.">
-      <created>1575536397850</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1575536397851</updated>
+      <workItem from="1578639706000" duration="2239000" />
     </task>
     <task id="LOCAL-00074" summary="CheckoutVerTwo class. Indian version of task 4.5">
       <created>1575539489348</created>
@@ -790,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577451964985</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="AnagrammApp class added. doAnagram() added">
+      <created>1578644457510</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1578644457514</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353031000" />
+    <option name="totallyTimeSpent" value="353594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -908,7 +906,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DoublyLinkedList class added. (logic)" />
     <MESSAGE value="InterIterator app. Link class added." />
     <MESSAGE value="LinkList class added. (logic)." />
     <MESSAGE value="fixed err @ getIterator()" />
@@ -933,7 +930,8 @@
     <MESSAGE value="test new branch" />
     <MESSAGE value="MatrixApp added." />
     <MESSAGE value="Factorial app added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Factorial app added." />
+    <MESSAGE value="AnagrammApp class added. doAnagram() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="AnagrammApp class added. doAnagram() added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1410,8 +1408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="458">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
