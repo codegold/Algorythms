@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="AnagramApp finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" afterDir="false" />
     </list>
@@ -45,8 +45,8 @@
       <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Factorial/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="270">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#92#93#0" expanded="true" />
                 <element signature="e#140#141#0" expanded="true" />
@@ -58,8 +58,8 @@
       <file leaf-file-name="AnagramApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,10 +155,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="722" />
+    <option name="x" value="863" />
     <option name="y" value="23" />
-    <option name="width" value="1151" />
-    <option name="height" value="1027" />
+    <option name="width" value="1185" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -169,6 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,33 +189,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Anagram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Factorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Triangle" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -242,14 +221,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
-    <configuration name="CStackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.CStack.CStackApp" />
+  <component name="RunManager" selected="Application.AnagramApp">
+    <configuration name="AnagramApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Anagram.AnagramApp" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.CStack.*" />
+          <option name="PATTERN" value="src.Anagram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,19 +319,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CStackApp" />
       <item itemvalue="Application.JosephusApp" />
       <item itemvalue="Application.MatrixApp" />
       <item itemvalue="Application.TriangleApp" />
       <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.AnagramApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnagramApp" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.TriangleApp" />
         <item itemvalue="Application.MatrixApp" />
         <item itemvalue="Application.JosephusApp" />
-        <item itemvalue="Application.CStackApp" />
       </list>
     </recent_temporary>
   </component>
@@ -444,20 +423,7 @@
       <workItem from="1577347290730" duration="3196000" />
       <workItem from="1577446508629" duration="2753000" />
       <workItem from="1578639706000" duration="2239000" />
-    </task>
-    <task id="LOCAL-00074" summary="CheckoutVerTwo class. Indian version of task 4.5">
-      <created>1575539489348</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1575539489348</updated>
-    </task>
-    <task id="LOCAL-00075" summary="CheckoutVerTwo and CirQueue classes. Indian version of task 4.5">
-      <created>1575544662635</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1575544662635</updated>
+      <workItem from="1578645116423" duration="2571000" />
     </task>
     <task id="LOCAL-00076" summary="Checkout class. NullPointerEx fixed.">
       <created>1575548887754</created>
@@ -788,11 +754,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578644457514</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="rotate() added">
+      <created>1578647415211</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1578647415211</updated>
+    </task>
+    <task id="LOCAL-00124" summary="AnagramApp finished">
+      <created>1578651308389</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1578651308389</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353594000" />
+    <option name="totallyTimeSpent" value="356165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,7 +784,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="722" y="23" width="1151" height="1027" extended-state="0" />
+    <frame x="863" y="23" width="1185" height="1060" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.2716728" />
@@ -817,19 +797,19 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4274121" visible="true" weight="0.2513144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5725879" side_tool="true" visible="true" weight="0.2513144" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5725879" side_tool="true" visible="true" weight="0.19207317" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4274121" weight="0.2513144" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.19837691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.1959755" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3940487" weight="0.27339643" />
+      <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
@@ -840,14 +820,13 @@
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -869,6 +848,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -906,8 +886,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="InterIterator app. Link class added." />
-    <MESSAGE value="LinkList class added. (logic)." />
     <MESSAGE value="fixed err @ getIterator()" />
     <MESSAGE value="InterIterApp new ver" />
     <MESSAGE value="Task from book. Unlimited insertion. Every 1000 println." />
@@ -931,7 +909,9 @@
     <MESSAGE value="MatrixApp added." />
     <MESSAGE value="Factorial app added." />
     <MESSAGE value="AnagrammApp class added. doAnagram() added" />
-    <option name="LAST_COMMIT_MESSAGE" value="AnagrammApp class added. doAnagram() added" />
+    <MESSAGE value="rotate() added" />
+    <MESSAGE value="AnagramApp finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="AnagramApp finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1397,8 +1377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Factorial/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#92#93#0" expanded="true" />
             <element signature="e#140#141#0" expanded="true" />
@@ -1408,8 +1388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
