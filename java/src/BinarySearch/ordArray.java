@@ -36,13 +36,15 @@ public class ordArray {
 
     public void insert(long value) {
         int j;
-        for (j = 0; j < nElens; j++)
-            if (a[j] > value)
-                break;
-        for (int k = nElens; k > j; k--)
+        for (j = 0; j < nElens; j++) {
+            if (a[j] > value) break;
+        }
+        for (int k = nElens; k > j; k--) {
             a[k] = a[k - 1];
+        }
         a[j] = value;
         nElens++;
+
     }
 
     public void display() {
