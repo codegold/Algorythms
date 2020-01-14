@@ -2,7 +2,7 @@ package src.Towers;
 
 // Решение головоломки "Ханойская башня"
 public class TowersApp {
-    static  int nDisks = 3;
+    static  int nDisks = 4;
 
     public static void main(String[] args) {
         doTowers(nDisks, 'A', 'B', 'C');
