@@ -5,6 +5,7 @@ public class Hanoi {
     static int nDisks = 4;
 
     public static void main(String[] args) {
+
         hanoi(3, 1, 2);
     }
 

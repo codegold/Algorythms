@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="Towers App added">
-      <change afterPath="$PROJECT_DIR$/java/src/Towers/Hanoi.java" afterDir="false" />
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/Towers/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Towers/TowersApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Towers/TowersApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Towers/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Towers/Hanoi.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,27 +44,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TowersApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/Towers/TowersApp.java">
+      <file leaf-file-name="TaskOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="266">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hanoi.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/Towers/Hanoi.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/Towers/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="304">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/Link.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/FirstLastLink.java" />
         <option value="$PROJECT_DIR$/java/src/FirstLastList/FisrtClassApp.java" />
         <option value="$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java" />
         <option value="$PROJECT_DIR$/java/src/LinkStack/LinkStack.java" />
@@ -137,7 +136,9 @@
         <option value="$PROJECT_DIR$/java/src/Towers/TowersApp.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/hanoi.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/H.java" />
+        <option value="$PROJECT_DIR$/java/src/Towers/Solution.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/Hanoi.java" />
+        <option value="$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java" />
       </list>
     </option>
   </component>
@@ -194,6 +195,13 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RecursionSomeTasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Towers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,18 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hanoi">
-    <configuration name="AnagramApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Anagram.AnagramApp" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Anagram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.TaskOne">
     <configuration name="BinarySearchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.BinarySearch.BinarySearchApp" />
       <module name="Algorythms" />
@@ -260,17 +257,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Factorial.Factorial" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Factorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Towers.Hanoi" />
       <module name="Algorythms" />
@@ -278,6 +264,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Towers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Towers.Solution" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Towers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.RecursionSomeTasks.TaskOne" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.RecursionSomeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,19 +343,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.AnagramApp" />
       <item itemvalue="Application.BinarySearchApp" />
       <item itemvalue="Application.TowersApp" />
       <item itemvalue="Application.Hanoi" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.TaskOne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskOne" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Hanoi" />
         <item itemvalue="Application.TowersApp" />
         <item itemvalue="Application.BinarySearchApp" />
-        <item itemvalue="Application.AnagramApp" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -443,14 +451,7 @@
       <workItem from="1578775117522" duration="16000" />
       <workItem from="1578908524862" duration="7013000" />
       <workItem from="1578924500335" duration="548000" />
-      <workItem from="1579004071864" duration="2699000" />
-    </task>
-    <task id="LOCAL-00079" summary="My test of supermarket task (display())">
-      <created>1575879781197</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1575879781197</updated>
+      <workItem from="1579004071864" duration="6169000" />
     </task>
     <task id="LOCAL-00080" summary="Link class added (realizing linked list)">
       <created>1575893470860</created>
@@ -788,11 +789,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579004777521</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary=" Hanoi MFTI version">
+      <created>1579010998309</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1579010998309</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366829000" />
+    <option name="totallyTimeSpent" value="370299000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,8 +825,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.42616034" visible="true" weight="0.2504744" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.57383966" side_tool="true" visible="true" weight="0.2504744" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.42616034" weight="0.2504744" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.3578059" side_tool="true" visible="true" weight="0.24667932" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
@@ -829,7 +837,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3940487" weight="0.27339643" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6421941" visible="true" weight="0.24667932" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
@@ -906,7 +914,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task from book. Realize Priority queue base of connected list. Class link added." />
     <MESSAGE value="SortedList class added." />
     <MESSAGE value="LaforePriorityQueue class added." />
     <MESSAGE value="ChapterFive (app is here) class added." />
@@ -931,7 +938,8 @@
     <MESSAGE value="Binary search with recursion. OrdArray class added." />
     <MESSAGE value="BinarySearchApp class added" />
     <MESSAGE value="Towers App added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Towers App added" />
+    <MESSAGE value=" Hanoi MFTI version" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Hanoi MFTI version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1056,19 +1064,59 @@
           <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="93" />
+      <option name="time" value="101" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/FisrtClassApp.java" />
-    <entry file="file://$PROJECT_DIR$/java/src/Stack/StackX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/LinkStack/Link.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1404,22 +1452,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Towers/TowersApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Towers/Hanoi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="152">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Towers/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
           </folding>
         </state>
       </provider>
