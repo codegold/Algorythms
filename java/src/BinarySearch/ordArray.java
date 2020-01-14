@@ -22,13 +22,12 @@ public class ordArray {
 
         curIn = (lowerBound + upperBound) / 2;
         if (a[curIn] == searchKey)
-            return curIn;//founded
+            return curIn;
         else if (lowerBound > upperBound)
-            return nElens;//not founded
+            return nElens;
         else {
             if (a[curIn] < searchKey)
                 return recFind(searchKey, curIn + 1, upperBound);
-
             else
                 return recFind(searchKey, lowerBound, curIn - 1);
         }
