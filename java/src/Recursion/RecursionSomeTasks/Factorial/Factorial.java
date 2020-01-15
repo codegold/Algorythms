@@ -1,4 +1,4 @@
-package src.Factorial;
+package src.Recursion.RecursionSomeTasks.Factorial;
 
 public class Factorial {
     public static void main(String[] args) {

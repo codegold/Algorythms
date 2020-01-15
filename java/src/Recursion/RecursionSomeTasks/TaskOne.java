@@ -1,4 +1,4 @@
-package src.RecursionSomeTasks;
+package src.Recursion.RecursionSomeTasks;
 
 //Дано натуральное число n. Выведите все числа от 1 до n.
 //
