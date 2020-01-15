@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Factorial/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Factorial/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/RecursionSomeTasks/TaskOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="MergeApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state relative-caret-position="456">
+              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -222,18 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TaskOne">
-    <configuration name="BinarySearchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.BinarySearch.BinarySearchApp" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeApp">
     <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Towers.Hanoi" />
       <module name="Algorythms" />
@@ -241,6 +230,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Towers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MergeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Recursion.RecursionSomeTasks.Merge.MergeApp" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Recursion.RecursionSomeTasks.Merge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,19 +320,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearchApp" />
       <item itemvalue="Application.TowersApp" />
       <item itemvalue="Application.Hanoi" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.TaskOne" />
+      <item itemvalue="Application.MergeApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeApp" />
         <item itemvalue="Application.TaskOne" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Hanoi" />
         <item itemvalue="Application.TowersApp" />
-        <item itemvalue="Application.BinarySearchApp" />
       </list>
     </recent_temporary>
   </component>
@@ -429,21 +429,7 @@
       <workItem from="1578908524862" duration="7013000" />
       <workItem from="1578924500335" duration="548000" />
       <workItem from="1579004071864" duration="6985000" />
-      <workItem from="1579076724743" duration="2784000" />
-    </task>
-    <task id="LOCAL-00081" summary="LinkList class added (realizing linked list)">
-      <created>1575895263166</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1575895263166</updated>
-    </task>
-    <task id="LOCAL-00082" summary="MyLinkListApp class added. My tests.">
-      <created>1575919089996</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1575919089996</updated>
+      <workItem from="1579076724743" duration="3738000" />
     </task>
     <task id="LOCAL-00083" summary="LinkList2 class added. Searching and deleting elems.">
       <created>1575921989181</created>
@@ -774,11 +760,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579015338259</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="MergeApp class added. merge() added.">
+      <created>1579081247168</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1579081247171</updated>
+    </task>
+    <task id="LOCAL-00131" summary="display() added.">
+      <created>1579086930076</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1579086930076</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="373899000" />
+    <option name="totallyTimeSpent" value="374853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,18 +796,19 @@
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.2716728" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49451476" weight="0.3245985" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.42531645" weight="0.24981357" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57468355" side_tool="true" weight="0.196868" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.42447257" weight="0.24981357" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5755274" side_tool="true" visible="true" weight="0.16480239" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.20590717" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.20590717" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -816,7 +817,6 @@
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6421941" weight="0.24667932" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49451476" weight="0.3245985" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -892,7 +892,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LaforePriorityQueue class added." />
     <MESSAGE value="ChapterFive (app is here) class added." />
     <MESSAGE value="CLink class added. Cycle Linked List realizing." />
     <MESSAGE value="CycleLinkedList class (logic) added" />
@@ -905,7 +904,6 @@
     <MESSAGE value="JosephusApp class added." />
     <MESSAGE value="Task from book. Matrix bases on 2-dimens linked list MatrixLink class added." />
     <MESSAGE value="insert() added." />
-    <MESSAGE value="display() added." />
     <MESSAGE value="test new branch" />
     <MESSAGE value="MatrixApp added." />
     <MESSAGE value="Factorial app added." />
@@ -917,7 +915,9 @@
     <MESSAGE value="Towers App added" />
     <MESSAGE value=" Hanoi MFTI version" />
     <MESSAGE value="some tasks on recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="some tasks on recursion" />
+    <MESSAGE value="MergeApp class added. merge() added." />
+    <MESSAGE value="display() added." />
+    <option name="LAST_COMMIT_MESSAGE" value="display() added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1407,8 +1407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="456">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
         </state>
       </provider>
     </entry>

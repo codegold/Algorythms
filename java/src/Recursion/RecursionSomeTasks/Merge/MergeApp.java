@@ -22,11 +22,11 @@ public class MergeApp {
             else
                 arrayC[cDex++] = arrayB[bDex++];
 
-        while (aDex < sizeA)
-            arrayC[cDex++] = arrayA[aDex++];
+        while (aDex < sizeA)                // Массив arrayB пуст
+            arrayC[cDex++] = arrayA[aDex++];// в arrayA остались элементы
 
-        while (bDex < sizeB)
-            arrayC[cDex++] = arrayB[bDex++];
+        while (bDex < sizeB)                // Массив arrayA пуст,
+            arrayC[cDex++] = arrayB[bDex++];// в arrayB остались элементы
     }
 
     public static void display(int[] theArray, int size) {
