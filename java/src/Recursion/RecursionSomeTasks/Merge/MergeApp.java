@@ -29,6 +29,11 @@ public class MergeApp {
             arrayC[cDex++] = arrayB[bDex++];
     }
 
+    public static void display(int[] theArray, int size) {
 
+        for (int j = 0; j < size; j++)
+            System.out.print(theArray[j] + " ");
 
+        System.out.println("");
+    }
 }
