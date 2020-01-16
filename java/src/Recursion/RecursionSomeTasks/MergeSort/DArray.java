@@ -12,8 +12,9 @@ public class DArray {
     public void display() {
         for (int j = 0; j < nElems; j++) {
             System.out.print(theArray[j] + " ");
-            System.out.println("");
+            System.out.print("");
         }
+        System.out.println();
     }
 
     public void mergeSort() {
@@ -21,7 +22,8 @@ public class DArray {
         recMergeSort(workSpace, 0, nElems - 1);
     }
 
-    private void recMergeSort(long[] workSpace, int lowerBound, int upperBound) {
+    private void recMergeSort(long[] workSpace, int lowerBound,
+                                                int upperBound) {
         if (lowerBound == upperBound)
             return;
         else {
@@ -44,18 +46,17 @@ public class DArray {
             if (theArray[lowPtr] < theArray[highPtr])
                 workSpace[j++] = theArray[lowPtr++];
             else
-                workSpace[j++] = theArray[lowPtr++];
-
-            while (lowPtr <= mid)
-                workSpace[j++] = theArray[lowPtr++];
-
-            while (highPtr <= upperBound)
                 workSpace[j++] = theArray[highPtr++];
 
-        for (j = 0; j < n; j++) {
-            theArray[lowerBound+j] = workSpace[j];
-        }
+        while (lowPtr <= mid)
+            workSpace[j++] = theArray[lowPtr++];
 
+        while (highPtr <= upperBound)
+            workSpace[j++] = theArray[highPtr++];
+
+        for (j = 0; j < n; j++) {
+            theArray[lowerBound + j] = workSpace[j];
+        }
     }
 
 

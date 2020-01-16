@@ -3,8 +3,7 @@ package src.Recursion.RecursionSomeTasks.MergeSort;
 public class MergeSortApp {
     public static void main(String[] args) {
         int maxSize = 100;
-        DArray arr;
-        arr = new DArray(maxSize);
+        DArray arr = new DArray(maxSize);
 
         arr.insert(64);
         arr.insert(21);

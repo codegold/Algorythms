@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="740">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSortApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -77,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/LinkStack/Link.java" />
         <option value="$PROJECT_DIR$/java/src/LinkStack/LinkStackApp.java" />
         <option value="$PROJECT_DIR$/java/src/LinkStack/LinkList.java" />
         <option value="$PROJECT_DIR$/java/src/FirstLastList/LInkQueue.java" />
@@ -127,6 +136,7 @@
         <option value="$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/TaskOne.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" />
+        <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" />
       </list>
     </option>
@@ -235,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeApp">
+  <component name="RunManager" selected="Application.MergeSortApp">
     <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Towers.Hanoi" />
       <module name="Algorythms" />
@@ -258,6 +268,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="MergeSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Recursion.RecursionSomeTasks.MergeSort.MergeSortApp" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Recursion.RecursionSomeTasks.MergeSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Towers.Solution" />
       <module name="Algorythms" />
@@ -276,17 +297,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Recursion.RecursionSomeTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TowersApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Towers.TowersApp" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Towers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,19 +343,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TowersApp" />
       <item itemvalue="Application.Hanoi" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.TaskOne" />
       <item itemvalue="Application.MergeApp" />
+      <item itemvalue="Application.MergeSortApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortApp" />
         <item itemvalue="Application.MergeApp" />
         <item itemvalue="Application.TaskOne" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Hanoi" />
-        <item itemvalue="Application.TowersApp" />
       </list>
     </recent_temporary>
   </component>
@@ -443,21 +453,7 @@
       <workItem from="1578924500335" duration="548000" />
       <workItem from="1579004071864" duration="6985000" />
       <workItem from="1579076724743" duration="6647000" />
-      <workItem from="1579099549459" duration="7780000" />
-    </task>
-    <task id="LOCAL-00086" summary="class Link added">
-      <created>1576143739448</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1576143739448</updated>
-    </task>
-    <task id="LOCAL-00087" summary="class FirstLastLink added (logic)">
-      <created>1576153817573</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1576153817573</updated>
+      <workItem from="1579099549459" duration="8050000" />
     </task>
     <task id="LOCAL-00088" summary="class FirstLastApp added (logic) + fixed insertLast()">
       <created>1576154992087</created>
@@ -788,11 +784,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579185262888</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="DArray class added.">
+      <created>1579185708061</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1579185708061</updated>
+    </task>
+    <task id="LOCAL-00136" summary="insert() added">
+      <created>1579185895193</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1579185895193</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385542000" />
+    <option name="totallyTimeSpent" value="385812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -906,8 +916,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="find() added.&#10;step() added." />
-    <MESSAGE value="CStack class added. Task to realize Stack on the base of CycleLinkedList." />
     <MESSAGE value="CStackApp class added." />
     <MESSAGE value="Josephus class started." />
     <MESSAGE value="Josephus class added (logic)." />
@@ -931,7 +939,9 @@
     <MESSAGE value="MergeApp refactored" />
     <MESSAGE value="MergeSortApp in process" />
     <MESSAGE value="MergeSortApp in process. display() mergeSort() added." />
-    <option name="LAST_COMMIT_MESSAGE" value="MergeSortApp in process. display() mergeSort() added." />
+    <MESSAGE value="DArray class added." />
+    <MESSAGE value="insert() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert() added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1061,13 +1071,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/LinkStack/LinkStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/LinkStack/LinkStackApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1417,8 +1420,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="740">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
