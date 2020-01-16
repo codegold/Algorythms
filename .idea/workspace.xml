@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/Merge/MergeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/Merge/MergeApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +53,8 @@
       <file leaf-file-name="DArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+            <state relative-caret-position="422">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -446,14 +443,7 @@
       <workItem from="1578924500335" duration="548000" />
       <workItem from="1579004071864" duration="6985000" />
       <workItem from="1579076724743" duration="6647000" />
-      <workItem from="1579099549459" duration="7256000" />
-    </task>
-    <task id="LOCAL-00085" summary="migrate to imac">
-      <created>1576045700758</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1576045700758</updated>
+      <workItem from="1579099549459" duration="7780000" />
     </task>
     <task id="LOCAL-00086" summary="class Link added">
       <created>1576143739448</created>
@@ -791,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579090113312</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="MergeSortApp in process. display() mergeSort() added.">
+      <created>1579185262887</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1579185262888</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385018000" />
+    <option name="totallyTimeSpent" value="385542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,8 +817,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4236287" weight="0.24981357" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5763713" side_tool="true" visible="true" weight="0.17737003" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.42222223" weight="0.24974516" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5777778" side_tool="true" weight="0.24974516" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
@@ -909,8 +906,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CycleLinkedList class (logic) added" />
-    <MESSAGE value="CircularApp class added" />
     <MESSAGE value="find() added.&#10;step() added." />
     <MESSAGE value="CStack class added. Task to realize Stack on the base of CycleLinkedList." />
     <MESSAGE value="CStackApp class added." />
@@ -934,7 +929,9 @@
     <MESSAGE value="display() added." />
     <MESSAGE value="some comments added" />
     <MESSAGE value="MergeApp refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergeApp refactored" />
+    <MESSAGE value="MergeSortApp in process" />
+    <MESSAGE value="MergeSortApp in process. display() mergeSort() added." />
+    <option name="LAST_COMMIT_MESSAGE" value="MergeSortApp in process. display() mergeSort() added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1420,8 +1417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        <state relative-caret-position="422">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>

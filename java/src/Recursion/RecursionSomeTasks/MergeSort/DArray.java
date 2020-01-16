@@ -59,4 +59,8 @@ public class DArray {
     }
 
 
+    public void insert(long value) {
+        theArray[nElems] = value;
+        nElems++;
+    }
 }
