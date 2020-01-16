@@ -41,8 +41,21 @@ public class DArray {
         int n = upperBound - lowerBound + 1; //quantity of elements
 
         while (lowPtr <= mid && highPtr <= upperBound)
-            if(theArray[lowPtr] < theArray[highPtr])
+            if (theArray[lowPtr] < theArray[highPtr])
                 workSpace[j++] = theArray[lowPtr++];
+            else
+                workSpace[j++] = theArray[lowPtr++];
+
+            while (lowPtr <= mid)
+                workSpace[j++] = theArray[lowPtr++];
+
+            while (highPtr <= upperBound)
+                workSpace[j++] = theArray[highPtr++];
+
+        for (j = 0; j < n; j++) {
+            theArray[lowerBound+j] = workSpace[j];
+        }
+
     }
 
 
