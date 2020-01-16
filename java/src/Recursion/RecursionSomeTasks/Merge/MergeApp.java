@@ -16,12 +16,12 @@ public class MergeApp {
                              int[] arrayC) {
         int aDex = 0, bDex = 0, cDex = 0;
         while (aDex < sizeA && bDex < sizeB)  // Ни один из массивов не пуст
-
+        {
             if (arrayA[aDex] < arrayB[bDex])
                 arrayC[cDex++] = arrayA[aDex++];
             else
                 arrayC[cDex++] = arrayB[bDex++];
-
+        }
         while (aDex < sizeA)                  // Массив arrayB пуст,
             arrayC[cDex++] = arrayA[aDex++];  // в arrayA остались элементы
 
