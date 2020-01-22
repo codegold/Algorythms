@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Anagram/AnagramLite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Triangle/TriangleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Triangle/TriangleApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +45,8 @@
             <file leaf-file-name="AnagramMyVer.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="217">
-                    <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+                  <state relative-caret-position="253">
+                    <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
@@ -82,8 +79,8 @@
       <file leaf-file-name="AnagramLite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="188">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,24 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <file leaf-file-name="AnagramLiteTwo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="2896" column="18" selection-start-line="2896" selection-start-column="18" selection-end-line="2896" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1693">
-              <caret line="269" column="33" selection-start-line="269" selection-start-column="33" selection-end-line="269" selection-end-column="33" />
-              <folding>
-                <element signature="e#10659#10660#0" expanded="true" />
-                <element signature="e#10730#10731#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="377">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -131,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/LInkQueue.java" />
         <option value="$PROJECT_DIR$/java/src/FirstLastList/LinkQueue.java" />
         <option value="$PROJECT_DIR$/java/src/FirstLastList/LinkQueueApp.java" />
         <option value="$PROJECT_DIR$/java/src/SortedList/Link.java" />
@@ -182,6 +165,7 @@
         <option value="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLite.java" />
+        <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java" />
       </list>
     </option>
   </component>
@@ -202,7 +186,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
-    <option name="width" value="1004" />
+    <option name="width" value="968" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -303,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnagramLite">
+  <component name="RunManager" selected="Application.AnagramLiteTwo">
     <configuration name="AnagramApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Anagram.AnagramApp" />
       <module name="Algorythms" />
@@ -326,8 +310,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="AnagramMyVer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Anagram.AnagramMyVer" />
+    <configuration name="AnagramLiteTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Anagram.AnagramLiteTwo" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -337,13 +321,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MergeSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Recursion.RecursionSomeTasks.MergeSort.MergeSortApp" />
+    <configuration name="AnagramMyVer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Anagram.AnagramMyVer" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Recursion.RecursionSomeTasks.MergeSort.*" />
+          <option name="PATTERN" value="src.Anagram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -401,19 +385,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSortApp" />
       <item itemvalue="Application.TriangleApp" />
       <item itemvalue="Application.AnagramApp" />
       <item itemvalue="Application.AnagramMyVer" />
       <item itemvalue="Application.AnagramLite" />
+      <item itemvalue="Application.AnagramLiteTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnagramLiteTwo" />
         <item itemvalue="Application.AnagramLite" />
         <item itemvalue="Application.AnagramApp" />
         <item itemvalue="Application.AnagramMyVer" />
         <item itemvalue="Application.TriangleApp" />
-        <item itemvalue="Application.MergeSortApp" />
       </list>
     </recent_temporary>
   </component>
@@ -514,14 +498,7 @@
       <workItem from="1579099549459" duration="15197000" />
       <workItem from="1579273200671" duration="2362000" />
       <workItem from="1579463797247" duration="10637000" />
-      <workItem from="1579681296484" duration="2971000" />
-    </task>
-    <task id="LOCAL-00090" summary="SortedList app. Realization of insert in sorted list.">
-      <created>1576506307999</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1576506308000</updated>
+      <workItem from="1579681296484" duration="4296000" />
     </task>
     <task id="LOCAL-00091" summary="SortedList class added (logic)">
       <created>1576509219639</created>
@@ -859,11 +836,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579186454130</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Anagramm Task HR">
+      <created>1579689322686</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1579689322687</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408929000" />
+    <option name="totallyTimeSpent" value="410254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -875,7 +859,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1004" height="1027" extended-state="0" />
+    <frame x="0" y="24" width="968" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.2716728" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -892,7 +877,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.23700623" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2462203" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -976,7 +961,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Josephus class added (logic)." />
     <MESSAGE value="JosephusApp class added." />
     <MESSAGE value="Task from book. Matrix bases on 2-dimens linked list MatrixLink class added." />
     <MESSAGE value="insert() added." />
@@ -1001,7 +985,8 @@
     <MESSAGE value="insert() added" />
     <MESSAGE value="bug fixed (wrong counting)" />
     <MESSAGE value="add mofified files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mofified files" />
+    <MESSAGE value="Anagramm Task HR" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anagramm Task HR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1251,13 +1236,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/LinkQueueApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/LinkQueue/FirstClassLInk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1567,26 +1545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1693">
@@ -1605,10 +1563,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="188">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
