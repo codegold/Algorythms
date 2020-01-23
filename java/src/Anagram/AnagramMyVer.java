@@ -3,6 +3,7 @@ package src.Anagram;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class AnagramMyVer {
     static int size;
@@ -10,7 +11,8 @@ public class AnagramMyVer {
     static char[] myChar = new char[100];
 
     public static void main(String[] args) throws IOException {
-        System.out.print("Enter a word: ");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a word: ");
         String input = getString();
         size = input.length();
         count = 0;
@@ -20,29 +22,27 @@ public class AnagramMyVer {
         doAnagram(size);
     }
 
-    public static void doAnagram(int newSize) { //minus bukva iz slova
-
-        if (newSize == 1)
-            return;
+    public static void doAnagram(int newSize) {
+        if (newSize == 1) return;
         for (int i = 0; i < newSize; i++) {
             doAnagram(newSize - 1);
-            if (newSize == 2)
-                displayWord();
+            if (newSize == 2) displayWord();
             rotate(newSize);
         }
     }
 
-
     public static void rotate(int newSize) {
-        int i;
+        int j;
         int position = size - newSize;
         char temp = myChar[position];
-        for (i = position + 1; i < size; i++)
-            myChar[i - 1] = myChar[i];
-        myChar[i - 1] = temp;
+        for (j=position+ 1; j < size; j++)
+            myChar[j-1] = myChar[j];
+        myChar[j-1] = temp;
     }
 
     private static void displayWord() {
+//        if (count < 9)
+//            System.out.print(" ");
         if (count < 99)
             System.out.print(" ");
         System.out.print(++count + " ");

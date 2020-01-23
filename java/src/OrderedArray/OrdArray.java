@@ -15,6 +15,7 @@ public class OrdArray {
         return nElems;
     }
 
+
     public int find(int searchKey) {
         int startLimit = 0;
         int endLimit = nElems - 1;
@@ -33,6 +34,24 @@ public class OrdArray {
                     endLimit = curr - 1;
 
             }
+        }
+    }
+
+    public int findTwo(int searchKey) {
+        return recFind(searchKey, 0, nElems - 1);
+    }
+
+    private int recFind(int searchKey, int lower, int upper) {
+        int curr = (lower + upper) / 2;
+        if (a[curr] == searchKey) return curr;
+
+        else if (lower > upper) return nElems;
+
+        else {
+            if (a[curr] < searchKey)
+                return recFind(searchKey, curr + 1, upper);
+            else
+                return recFind(searchKey, lower, curr - 1);
         }
     }
 

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/MyTests/Binary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Anagram/AnagramMyVer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Anagram/AnagramMyVer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,62 +40,45 @@
     <expand />
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="AnagramMyVer.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="253">
-                    <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Algorythms" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AnagramApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
+      <file leaf-file-name="Binary.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/MyTests/Binary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#4260#4261#0" expanded="true" />
+                <element signature="e#4298#4299#0" expanded="true" />
+                <element signature="e#4339#4340#0" expanded="true" />
+                <element signature="e#4370#4371#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnagramLite.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLite.java">
+      <file leaf-file-name="OrdArrayApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="-612">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnagramLiteTwo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -115,8 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/LinkQueue.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/LinkQueueApp.java" />
         <option value="$PROJECT_DIR$/java/src/SortedList/Link.java" />
         <option value="$PROJECT_DIR$/java/src/SortedList/SortedListApp.java" />
         <option value="$PROJECT_DIR$/java/src/SortedList/SortedList.java" />
@@ -163,9 +147,11 @@
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" />
         <option value="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" />
-        <option value="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLite.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java" />
+        <option value="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" />
+        <option value="$PROJECT_DIR$/java/src/MyTests/Binary.java" />
+        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" />
       </list>
     </option>
   </component>
@@ -185,8 +171,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="968" />
+    <option name="x" value="86" />
+    <option name="y" value="23" />
+    <option name="width" value="876" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -198,6 +185,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,30 +211,21 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Anagram" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RecursionSomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RecursionSomeTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Merge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RecursionSomeTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="MergeSort" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderedArray" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -257,9 +238,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +251,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -287,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnagramLiteTwo">
+  <component name="RunManager" selected="Application.AnagramApp">
     <configuration name="AnagramApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Anagram.AnagramApp" />
       <module name="Algorythms" />
@@ -393,10 +371,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnagramLiteTwo" />
-        <item itemvalue="Application.AnagramLite" />
         <item itemvalue="Application.AnagramApp" />
         <item itemvalue="Application.AnagramMyVer" />
+        <item itemvalue="Application.AnagramLiteTwo" />
+        <item itemvalue="Application.AnagramLite" />
         <item itemvalue="Application.TriangleApp" />
       </list>
     </recent_temporary>
@@ -498,14 +476,8 @@
       <workItem from="1579099549459" duration="15197000" />
       <workItem from="1579273200671" duration="2362000" />
       <workItem from="1579463797247" duration="10637000" />
-      <workItem from="1579681296484" duration="4296000" />
-    </task>
-    <task id="LOCAL-00091" summary="SortedList class added (logic)">
-      <created>1576509219639</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1576509219640</updated>
+      <workItem from="1579681296484" duration="16244000" />
+      <workItem from="1579782980509" duration="2042000" />
     </task>
     <task id="LOCAL-00092" summary="ListInsertionSort class added. (Link creation)">
       <created>1576528108450</created>
@@ -843,11 +815,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579689322687</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Anagramm Task HR (ver 2.0)">
+      <created>1579699393813</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1579699393813</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="410254000" />
+    <option name="totallyTimeSpent" value="424244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -859,33 +838,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="968" height="1027" extended-state="0" />
+    <frame x="86" y="23" width="876" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.2716728" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49451476" weight="0.3245985" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.36070687" side_tool="true" visible="true" weight="0.24500526" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5838384" weight="0.24974516" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.58315337" weight="0.24921136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50528336" side_tool="true" weight="0.2555205" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2462203" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.28057554" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.63929313" weight="0.24500526" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4947166" weight="0.25446898" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49451476" weight="0.3245985" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -895,13 +874,14 @@
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -923,7 +903,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -961,7 +940,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JosephusApp class added." />
     <MESSAGE value="Task from book. Matrix bases on 2-dimens linked list MatrixLink class added." />
     <MESSAGE value="insert() added." />
     <MESSAGE value="test new branch" />
@@ -986,7 +964,8 @@
     <MESSAGE value="bug fixed (wrong counting)" />
     <MESSAGE value="add mofified files" />
     <MESSAGE value="Anagramm Task HR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anagramm Task HR" />
+    <MESSAGE value="Anagramm Task HR (ver 2.0)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anagramm Task HR (ver 2.0)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1115,14 +1094,6 @@
           </properties>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>21</line>
-          <properties class="src.Anagram.AnagramApp" method="doAnagram">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
           <line>32</line>
@@ -1177,86 +1148,11 @@
           <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="127" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/LinkQueue/FirstClassLInk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkList2/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkQueue/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SortedList/Link.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1549,10 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1693">
           <caret line="269" column="33" selection-start-line="269" selection-start-column="33" selection-end-line="269" selection-end-column="33" />
-          <folding>
-            <element signature="e#10659#10660#0" expanded="true" />
-            <element signature="e#10730#10731#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1563,20 +1455,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1579774121983" expanded="true" signature="1176:1190" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="438">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java">
+    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1585,17 +1488,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLite.java">
+    <entry file="file://$PROJECT_DIR$/java/src/MyTests/Binary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4298#4299#0" expanded="true" />
+            <element signature="e#4339#4340#0" expanded="true" />
+            <element signature="e#4370#4371#0" expanded="true" />
           </folding>
         </state>
       </provider>
