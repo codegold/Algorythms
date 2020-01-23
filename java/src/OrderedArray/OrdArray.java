@@ -38,20 +38,20 @@ public class OrdArray {
     }
 
     public int findTwo(int searchKey) {
-        return recFind(searchKey, 0, nElems - 1);
+        return recursFind(searchKey, 0, nElems - 1);
     }
 
-    private int recFind(int searchKey, int lower, int upper) {
+    public int recursFind(int searchKey, int lower, int upper) {
         int curr = (lower + upper) / 2;
-        if (a[curr] == searchKey) return curr;
-
-        else if (lower > upper) return nElems;
-
+        if (a[curr] == searchKey)
+            return curr;
+        else if (lower > upper)
+            return nElems;
         else {
-            if (a[curr] < searchKey)
-                return recFind(searchKey, curr + 1, upper);
+            if (searchKey < a[curr])
+                return recursFind(searchKey, lower, curr - 1);
             else
-                return recFind(searchKey, lower, curr - 1);
+                return recursFind(searchKey, curr + 1, upper);
         }
     }
 
@@ -76,6 +76,19 @@ public class OrdArray {
 
         a[curr] = value;
         nElems++;
+    }
+
+    public void insertTwo(int value) {
+        int j;
+        for (j = 0; j < nElems; j++) {
+            if (a[j] > value)
+                break;
+        }
+        for (int k = nElems; k > j; k--) {
+            a[k] = a[k - 1];
+            a[j] = value;
+            nElems++;
+        }
     }
 
     public void simpleInsert(int value) {

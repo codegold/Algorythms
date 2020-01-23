@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/MyTests/Binary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Anagram/AnagramMyVer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Anagram/AnagramMyVer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +54,11 @@
       <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="524">
+              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
               <folding>
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
                 <element signature="e#4260#4261#0" expanded="true" />
                 <element signature="e#4298#4299#0" expanded="true" />
                 <element signature="e#4339#4340#0" expanded="true" />
@@ -171,7 +168,6 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
     <option name="y" value="23" />
     <option name="width" value="876" />
     <option name="height" value="1027" />
@@ -477,14 +473,7 @@
       <workItem from="1579273200671" duration="2362000" />
       <workItem from="1579463797247" duration="10637000" />
       <workItem from="1579681296484" duration="16244000" />
-      <workItem from="1579782980509" duration="2042000" />
-    </task>
-    <task id="LOCAL-00092" summary="ListInsertionSort class added. (Link creation)">
-      <created>1576528108450</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1576528108451</updated>
+      <workItem from="1579782980509" duration="4691000" />
     </task>
     <task id="LOCAL-00093" summary="ListInsertionSort class added (logic)">
       <created>1576529943431</created>
@@ -822,11 +811,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579699393813</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="findTwo() added. Recursion used way of binary search.">
+      <created>1579786852986</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1579786852987</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424244000" />
+    <option name="totallyTimeSpent" value="426893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -838,7 +834,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="23" width="876" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="876" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.2716728" />
@@ -855,7 +851,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.28057554" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.28057554" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -940,7 +936,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task from book. Matrix bases on 2-dimens linked list MatrixLink class added." />
     <MESSAGE value="insert() added." />
     <MESSAGE value="test new branch" />
     <MESSAGE value="MatrixApp added." />
@@ -965,7 +960,8 @@
     <MESSAGE value="add mofified files" />
     <MESSAGE value="Anagramm Task HR" />
     <MESSAGE value="Anagramm Task HR (ver 2.0)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anagramm Task HR (ver 2.0)" />
+    <MESSAGE value="findTwo() added. Recursion used way of binary search." />
+    <option name="LAST_COMMIT_MESSAGE" value="findTwo() added. Recursion used way of binary search." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1512,11 +1508,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="524">
+          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
           <folding>
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
             <element signature="e#4260#4261#0" expanded="true" />
             <element signature="e#4298#4299#0" expanded="true" />
             <element signature="e#4339#4340#0" expanded="true" />
