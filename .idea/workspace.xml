@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Towers/TowersApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/Towers/MyHanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BinarySearch/ordArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BinarySearch/ordArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Towers/TowersApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Towers/TowersApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Towers/TowersApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Towers/TowersApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,14 +48,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TowersApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/Towers/TowersApp.java">
+      <file leaf-file-name="Hanoi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/Towers/Hanoi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnagramApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/Towers/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyHanoi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/Towers/MyHanoi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,22 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Link/LinkList.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkList2/Link.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkList2/LinkList.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/Link.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/FirstLastLink.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/FisrtClassApp.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkStack/LinkStack.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkStack/Link.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkStack/LinkStackApp.java" />
-        <option value="$PROJECT_DIR$/java/src/LinkStack/LinkList.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/LInkQueue.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/LinkQueue.java" />
-        <option value="$PROJECT_DIR$/java/src/FirstLastList/LinkQueueApp.java" />
-        <option value="$PROJECT_DIR$/java/src/SortedList/Link.java" />
-        <option value="$PROJECT_DIR$/java/src/SortedList/SortedListApp.java" />
         <option value="$PROJECT_DIR$/java/src/SortedList/SortedList.java" />
         <option value="$PROJECT_DIR$/java/src/ListInsertionSort/Link.java" />
         <option value="$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java" />
@@ -119,12 +138,28 @@
         <option value="$PROJECT_DIR$/java/src/Matrix/MatrixLink.java" />
         <option value="$PROJECT_DIR$/java/src/Matrix/Matrix.java" />
         <option value="$PROJECT_DIR$/java/src/Matrix/MatrixApp.java" />
-        <option value="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" />
         <option value="$PROJECT_DIR$/java/src/Factorial/Factorial.java" />
-        <option value="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" />
         <option value="$PROJECT_DIR$/java/src/BinarySearch/BinarySearchApp.java" />
         <option value="$PROJECT_DIR$/java/src/BinarySearch/ordArray.java" />
+        <option value="$PROJECT_DIR$/java/src/Towers/hanoi.java" />
+        <option value="$PROJECT_DIR$/java/src/Towers/H.java" />
+        <option value="$PROJECT_DIR$/java/src/Towers/Solution.java" />
+        <option value="$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java" />
+        <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/TaskOne.java" />
+        <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" />
+        <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.java" />
+        <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" />
+        <option value="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" />
+        <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLite.java" />
+        <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java" />
+        <option value="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" />
+        <option value="$PROJECT_DIR$/java/src/MyTests/Binary.java" />
+        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" />
+        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/TowersApp.java" />
+        <option value="$PROJECT_DIR$/java/src/Towers/MyHanoi.java" />
+        <option value="$PROJECT_DIR$/java/src/Towers/Hanoi.java" />
+        <option value="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" />
       </list>
     </option>
   </component>
@@ -144,10 +179,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="182" />
+    <option name="x" value="180" />
     <option name="y" value="23" />
-    <option name="width" value="1227" />
-    <option name="height" value="1130" />
+    <option name="width" value="951" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -181,6 +216,13 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Anagram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Towers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,9 +236,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +252,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchApp">
+  <component name="RunManager" selected="Application.AnagramApp">
     <configuration name="AnagramApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Anagram.AnagramApp" />
       <module name="Algorythms" />
@@ -236,46 +278,46 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BinarySearchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.BinarySearch.BinarySearchApp" />
+    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Towers.Hanoi" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.BinarySearch.*" />
+          <option name="PATTERN" value="src.Towers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Factorial.Factorial" />
+    <configuration name="MyHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Towers.MyHanoi" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Factorial.*" />
+          <option name="PATTERN" value="src.Towers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MatrixApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Matrix.MatrixApp" />
+    <configuration name="OrdArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.OrderedArray.OrdArrayApp" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Matrix.*" />
+          <option name="PATTERN" value="src.OrderedArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TriangleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Triangle.TriangleApp" />
+    <configuration name="TowersApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Towers.TowersApp" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Triangle.*" />
+          <option name="PATTERN" value="src.Towers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,19 +364,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MatrixApp" />
-      <item itemvalue="Application.TriangleApp" />
-      <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.AnagramApp" />
-      <item itemvalue="Application.BinarySearchApp" />
+      <item itemvalue="Application.OrdArrayApp" />
+      <item itemvalue="Application.Hanoi" />
+      <item itemvalue="Application.TowersApp" />
+      <item itemvalue="Application.MyHanoi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchApp" />
         <item itemvalue="Application.AnagramApp" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.TriangleApp" />
-        <item itemvalue="Application.MatrixApp" />
+        <item itemvalue="Application.Hanoi" />
+        <item itemvalue="Application.MyHanoi" />
+        <item itemvalue="Application.TowersApp" />
+        <item itemvalue="Application.OrdArrayApp" />
       </list>
     </recent_temporary>
   </component>
@@ -430,119 +472,15 @@
       <workItem from="1578775117522" duration="16000" />
       <workItem from="1578908524862" duration="7013000" />
       <workItem from="1578924500335" duration="548000" />
-      <workItem from="1579004071864" duration="600000" />
-    </task>
-    <task id="LOCAL-00078" summary="My test of supermarket task">
-      <created>1575645092784</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1575645092784</updated>
-    </task>
-    <task id="LOCAL-00079" summary="My test of supermarket task (display())">
-      <created>1575879781197</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1575879781197</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Link class added (realizing linked list)">
-      <created>1575893470860</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1575893470860</updated>
-    </task>
-    <task id="LOCAL-00081" summary="LinkList class added (realizing linked list)">
-      <created>1575895263166</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1575895263166</updated>
-    </task>
-    <task id="LOCAL-00082" summary="MyLinkListApp class added. My tests.">
-      <created>1575919089996</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1575919089996</updated>
-    </task>
-    <task id="LOCAL-00083" summary="LinkList2 class added. Searching and deleting elems.">
-      <created>1575921989181</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1575921989182</updated>
-    </task>
-    <task id="LOCAL-00084" summary="LinkList2App class added.">
-      <created>1575973642081</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1575973642081</updated>
-    </task>
-    <task id="LOCAL-00085" summary="migrate to imac">
-      <created>1576045700758</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1576045700758</updated>
-    </task>
-    <task id="LOCAL-00086" summary="class Link added">
-      <created>1576143739448</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1576143739448</updated>
-    </task>
-    <task id="LOCAL-00087" summary="class FirstLastLink added (logic)">
-      <created>1576153817573</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1576153817573</updated>
-    </task>
-    <task id="LOCAL-00088" summary="class FirstLastApp added (logic) + fixed insertLast()">
-      <created>1576154992087</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1576154992087</updated>
-    </task>
-    <task id="LOCAL-00089" summary="class LinkQueue added. (logic)">
-      <created>1576491884085</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1576491884086</updated>
-    </task>
-    <task id="LOCAL-00090" summary="SortedList app. Realization of insert in sorted list.">
-      <created>1576506307999</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1576506308000</updated>
-    </task>
-    <task id="LOCAL-00091" summary="SortedList class added (logic)">
-      <created>1576509219639</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1576509219640</updated>
-    </task>
-    <task id="LOCAL-00092" summary="ListInsertionSort class added. (Link creation)">
-      <created>1576528108450</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1576528108451</updated>
-    </task>
-    <task id="LOCAL-00093" summary="ListInsertionSort class added (logic)">
-      <created>1576529943431</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1576529943431</updated>
+      <workItem from="1579004071864" duration="6985000" />
+      <workItem from="1579076724743" duration="6647000" />
+      <workItem from="1579099549459" duration="15197000" />
+      <workItem from="1579273200671" duration="2362000" />
+      <workItem from="1579463797247" duration="10637000" />
+      <workItem from="1579681296484" duration="16244000" />
+      <workItem from="1579782980509" duration="6976000" />
+      <workItem from="1579871084738" duration="5122000" />
+      <workItem from="1580135618508" duration="12260000" />
     </task>
     <task id="LOCAL-00094" summary="ListInsertionSortApp class (in process)">
       <created>1576530639516</created>
@@ -775,11 +713,123 @@
       <option name="project" value="LOCAL" />
       <updated>1578916913962</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Towers App added">
+      <created>1579004777519</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1579004777521</updated>
+    </task>
+    <task id="LOCAL-00128" summary=" Hanoi MFTI version">
+      <created>1579010998309</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1579010998309</updated>
+    </task>
+    <task id="LOCAL-00129" summary="some tasks on recursion">
+      <created>1579015338259</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1579015338259</updated>
+    </task>
+    <task id="LOCAL-00130" summary="MergeApp class added. merge() added.">
+      <created>1579081247168</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1579081247171</updated>
+    </task>
+    <task id="LOCAL-00131" summary="display() added.">
+      <created>1579086930076</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1579086930076</updated>
+    </task>
+    <task id="LOCAL-00132" summary="some comments added">
+      <created>1579087363443</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1579087363443</updated>
+    </task>
+    <task id="LOCAL-00133" summary="MergeApp refactored">
+      <created>1579090113312</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1579090113312</updated>
+    </task>
+    <task id="LOCAL-00134" summary="MergeSortApp in process. display() mergeSort() added.">
+      <created>1579185262887</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1579185262888</updated>
+    </task>
+    <task id="LOCAL-00135" summary="DArray class added.">
+      <created>1579185708061</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1579185708061</updated>
+    </task>
+    <task id="LOCAL-00136" summary="insert() added">
+      <created>1579185895193</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1579185895193</updated>
+    </task>
+    <task id="LOCAL-00137" summary="bug fixed (wrong counting)">
+      <created>1579186183761</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1579186183761</updated>
+    </task>
+    <task id="LOCAL-00138" summary="add mofified files">
+      <created>1579186454130</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1579186454130</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Anagramm Task HR">
+      <created>1579689322686</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1579689322687</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Anagramm Task HR (ver 2.0)">
+      <created>1579699393813</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1579699393813</updated>
+    </task>
+    <task id="LOCAL-00141" summary="findTwo() added. Recursion used way of binary search.">
+      <created>1579786852986</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1579786852987</updated>
+    </task>
+    <task id="LOCAL-00142" summary="insertTwo() added.">
+      <created>1579792822054</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1579792822054</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364730000" />
+    <option name="totallyTimeSpent" value="446560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,40 +841,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="23" width="1227" height="1130" extended-state="0" />
-    <editor active="true" />
+    <frame x="180" y="23" width="951" height="1027" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.2716728" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49451476" weight="0.3245985" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.42692307" weight="0.2513144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5730769" side_tool="true" weight="0.2513144" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.579758" visible="true" weight="0.24921136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.420242" side_tool="true" visible="true" weight="0.24921136" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.20253165" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.28162816" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.3940487" weight="0.27339643" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5506792" weight="0.3575184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49451476" weight="0.3245985" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3264202" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -893,23 +942,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task from book. Unlimited insertion. Every 1000 println." />
-    <MESSAGE value="Task from book. Realize Priority queue base of connected list. Class link added." />
-    <MESSAGE value="SortedList class added." />
-    <MESSAGE value="LaforePriorityQueue class added." />
-    <MESSAGE value="ChapterFive (app is here) class added." />
-    <MESSAGE value="CLink class added. Cycle Linked List realizing." />
-    <MESSAGE value="CycleLinkedList class (logic) added" />
-    <MESSAGE value="CircularApp class added" />
-    <MESSAGE value="find() added.&#10;step() added." />
-    <MESSAGE value="CStack class added. Task to realize Stack on the base of CycleLinkedList." />
-    <MESSAGE value="CStackApp class added." />
-    <MESSAGE value="Josephus class started." />
-    <MESSAGE value="Josephus class added (logic)." />
-    <MESSAGE value="JosephusApp class added." />
-    <MESSAGE value="Task from book. Matrix bases on 2-dimens linked list MatrixLink class added." />
-    <MESSAGE value="insert() added." />
-    <MESSAGE value="display() added." />
     <MESSAGE value="test new branch" />
     <MESSAGE value="MatrixApp added." />
     <MESSAGE value="Factorial app added." />
@@ -918,7 +950,24 @@
     <MESSAGE value="AnagramApp finished" />
     <MESSAGE value="Binary search with recursion. OrdArray class added." />
     <MESSAGE value="BinarySearchApp class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchApp class added" />
+    <MESSAGE value="Towers App added" />
+    <MESSAGE value=" Hanoi MFTI version" />
+    <MESSAGE value="some tasks on recursion" />
+    <MESSAGE value="MergeApp class added. merge() added." />
+    <MESSAGE value="display() added." />
+    <MESSAGE value="some comments added" />
+    <MESSAGE value="MergeApp refactored" />
+    <MESSAGE value="MergeSortApp in process" />
+    <MESSAGE value="MergeSortApp in process. display() mergeSort() added." />
+    <MESSAGE value="DArray class added." />
+    <MESSAGE value="insert() added" />
+    <MESSAGE value="bug fixed (wrong counting)" />
+    <MESSAGE value="add mofified files" />
+    <MESSAGE value="Anagramm Task HR" />
+    <MESSAGE value="Anagramm Task HR (ver 2.0)" />
+    <MESSAGE value="findTwo() added. Recursion used way of binary search." />
+    <MESSAGE value="insertTwo() added." />
+    <option name="LAST_COMMIT_MESSAGE" value="insertTwo() added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1000,153 +1049,144 @@
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java</url>
-          <line>18</line>
-          <properties class="src.Triangle.TriangleApp" method="triangle">
+          <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
+          <line>38</line>
+          <properties class="src.Recursion.RecursionSomeTasks.MergeSort.DArray" method="merge">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="86" />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
+          <line>19</line>
+          <properties class="src.Recursion.RecursionSomeTasks.MergeSort.DArray" method="mergeSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
+          <line>11</line>
+          <properties class="src.Recursion.RecursionSomeTasks.MergeSort.DArray" method="display">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
+          <line>6</line>
+          <properties class="src.Recursion.RecursionSomeTasks.MergeSort.DArray" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
+          <line>24</line>
+          <properties class="src.Recursion.RecursionSomeTasks.MergeSort.DArray" method="recMergeSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
+          <line>33</line>
+          <properties class="src.Anagram.AnagramApp" method="rotate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/Towers/TowersApp.java</url>
+          <line>10</line>
+          <properties class="src.Towers.TowersApp" method="doTowers">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="87" />
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="88" />
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
+          <line>34</line>
           <properties />
-          <option name="timeStamp" value="89" />
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java</url>
+          <url>file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java</url>
           <line>21</line>
           <properties />
-          <option name="timeStamp" value="92" />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Towers/TowersApp.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Towers/TowersApp.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Towers/TowersApp.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Towers/TowersApp.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="134" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="93" />
+      <option name="time" value="135" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/Link/LinkListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/FisrtClassApp.java" />
-    <entry file="file://$PROJECT_DIR$/java/src/Stack/StackX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkStack/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkStack/LinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkStack/LinkStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkStack/LinkStackApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/LinkQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/FirstLastList/LinkQueueApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkQueue/FirstClassLInk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkList2/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/LinkQueue/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SortedList/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SortedList/SortedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1351,30 +1391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Factorial/Factorial.java">
+    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Factorial/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1389,20 +1409,149 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/TaskOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1693">
+          <caret line="269" column="33" selection-start-line="269" selection-start-column="33" selection-end-line="269" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="2896" column="18" selection-start-line="2896" selection-start-column="18" selection-end-line="2896" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
           <folding>
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1579774121983" expanded="true" signature="1176:1190" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/MyTests/Binary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="965">
+          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Towers/MyHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Towers/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Towers/TowersApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Towers/Hanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
