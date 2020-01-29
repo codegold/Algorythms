@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Towers/MyHanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Towers/TowersApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Towers/TowersApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Towers/TowersApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Towers/TowersApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnagramApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnagramApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="28">
               <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Towers/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -179,9 +172,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
     <option name="y" value="23" />
-    <option name="width" value="951" />
+    <option name="width" value="1203" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -266,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnagramApp">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="AnagramApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Anagram.AnagramApp" />
       <module name="Algorythms" />
@@ -300,13 +292,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="OrdArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.OrderedArray.OrdArrayApp" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Towers.Solution" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.OrderedArray.*" />
+          <option name="PATTERN" value="src.Towers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,18 +357,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AnagramApp" />
-      <item itemvalue="Application.OrdArrayApp" />
       <item itemvalue="Application.Hanoi" />
       <item itemvalue="Application.TowersApp" />
       <item itemvalue="Application.MyHanoi" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.AnagramApp" />
         <item itemvalue="Application.Hanoi" />
         <item itemvalue="Application.MyHanoi" />
         <item itemvalue="Application.TowersApp" />
-        <item itemvalue="Application.OrdArrayApp" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +472,7 @@
       <workItem from="1579681296484" duration="16244000" />
       <workItem from="1579782980509" duration="6976000" />
       <workItem from="1579871084738" duration="5122000" />
-      <workItem from="1580135618508" duration="12260000" />
+      <workItem from="1580135618508" duration="13705000" />
     </task>
     <task id="LOCAL-00094" summary="ListInsertionSortApp class (in process)">
       <created>1576530639516</created>
@@ -829,7 +821,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446560000" />
+    <option name="totallyTimeSpent" value="448005000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,7 +833,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="23" width="951" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1203" height="1027" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.2716728" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -853,12 +845,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.579758" visible="true" weight="0.24921136" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.420242" side_tool="true" visible="true" weight="0.24921136" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.57881135" visible="true" weight="0.24921136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.42118862" side_tool="true" visible="true" weight="0.24921136" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.28162816" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.22049958" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -911,6 +903,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1521,13 +1523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Towers/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Towers/TowersApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1548,11 +1543,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Anagram/AnagramApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="28">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Towers/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>
