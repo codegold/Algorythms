@@ -15,6 +15,7 @@ public class OrdArray {
         return nElems;
     }
 
+
     public int find(int searchKey) {
         int startLimit = 0;
         int endLimit = nElems - 1;
@@ -33,6 +34,24 @@ public class OrdArray {
                     endLimit = curr - 1;
 
             }
+        }
+    }
+
+    public int findTwo(int searchKey) {
+        return recursFind(searchKey, 0, nElems - 1);
+    }
+
+    public int recursFind(int searchKey, int lower, int upper) {
+        int curr = (lower + upper) / 2;
+        if (a[curr] == searchKey)
+            return curr;
+        else if (lower > upper)
+            return nElems;
+        else {
+            if (searchKey < a[curr])
+                return recursFind(searchKey, lower, curr - 1);
+            else
+                return recursFind(searchKey, curr + 1, upper);
         }
     }
 
@@ -57,6 +76,20 @@ public class OrdArray {
 
         a[curr] = value;
         nElems++;
+    }
+
+    public void insertTwo(int value) {
+        int i;
+        for (i = 0; i < nElems; i++)
+            if (a[i] > value)
+                break;
+
+
+        for (int j = nElems; j > i; j--)
+            a[j] = a[j - 1];
+            a[i] = value;
+            nElems++;
+
     }
 
     public void simpleInsert(int value) {

@@ -12,7 +12,7 @@ public class OrdArrayApp {
         OrdArray arr3 = new OrdArray(20);
         OrdArray arr4 = new OrdArray(20);
         OrdArray arr5 = new OrdArray(10);
-        OrdArray arr7 = new OrdArray(6);
+        OrdArray arr7 = new OrdArray(20);
 
         arr5.insert(777);
         arr5.insert(11);
@@ -20,18 +20,20 @@ public class OrdArrayApp {
         arr5.insert(333);
 
 
-        arr.insert(77);
-        arr.insert(99);
-        arr.insert(44);
-        arr.insert(55);
-        arr.insert(22);
-        arr.insert(88);
-        arr.insert(11);
-        arr.insert(00);
-        arr.insert(66);
-        arr.insert(33);
+        arr.insertTwo(111);
+        arr.insertTwo(888);
+        arr.insertTwo(999);
+        arr.insertTwo(555);
+//        arr.insert(99);
+//        arr.insert(44);
+//        arr.insert(55);
+//        arr.insert(22);
+
         System.out.print("After book way: ");
         arr.display();
+        System.out.println();
+        System.out.println(arr.findTwo(999));
+        System.out.println();
 
         System.out.println("Now my arr2");
         arr2.simpleInsert(10);
