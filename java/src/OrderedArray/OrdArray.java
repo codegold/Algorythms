@@ -79,16 +79,17 @@ public class OrdArray {
     }
 
     public void insertTwo(int value) {
-        int j;
-        for (j = 0; j < nElems; j++) {
-            if (a[j] > value)
+        int i;
+        for (i = 0; i < nElems; i++)
+            if (a[i] > value)
                 break;
-        }
-        for (int k = nElems; k > j; k--) {
-            a[k] = a[k - 1];
-            a[j] = value;
+
+
+        for (int j = nElems; j > i; j--)
+            a[j] = a[j - 1];
+            a[i] = value;
             nElems++;
-        }
+
     }
 
     public void simpleInsert(int value) {
