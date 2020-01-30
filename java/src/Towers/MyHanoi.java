@@ -15,7 +15,7 @@ public class MyHanoi {
             myHanoi(nD - 1, from, to, tmp);
             System.out.println("disk " + nD + " from: " +from+ " to: " +to);
 
-            //myHanoi(nD-1, tmp, from, to);
+            myHanoi(nD-1, tmp, from, to);
         }
     }
 }
