@@ -8,13 +8,9 @@ public class MyBubbleSort {
         for (int i = finish; i > 0; i--)
             if (array[i] > array[i - 1]) {
                 swap(array[i], array[i - 1]);
-
                 finish--;
             }
     }
-
-
-
 
 
     public static void swap(int i1, int i2) {
