@@ -11,7 +11,7 @@ public class StackTriangleApp {
     static int codePart;
     static Params theseParams;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.print("Enter a number: ");
         theNumber = getInt();
         recTriangle();
