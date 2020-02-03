@@ -1,8 +1,10 @@
 package src.Recursion.RecursionSomeTasks.MergeSort;
 
-import static com.sun.deploy.util.ArrayUtil.arrayToString;
-
 public class MergeYou {
+
+    public static void main(String[] args) {
+        int[] array = new int[]{64, 42, 73, 41, 32, 53, 16, 24, 57, 42, 74, 55, 36};
+    }
 
 
     private static void mergeYou(int[] src1, int src1Start, int[] src2, int src2Start,
@@ -50,6 +52,20 @@ public class MergeYou {
             System.out.println(arrayToString(currentSrc));
         }
 
+
+    }
+
+    private static String arrayToString(int[] array) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        for (int i = 0; i < array.length; i++) {
+            if (i > 0) {
+                sb.append(", ");
+            }
+            sb.append(array[i]);
+        }
+        sb.append("]");
+        return sb.toString();
 
     }
 }

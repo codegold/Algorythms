@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/MergeSort/DArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/MergeSort/DArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,8 +57,8 @@
       <file leaf-file-name="MergeYou.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="806">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -463,21 +461,7 @@
       <workItem from="1580369142499" duration="16368000" />
       <workItem from="1580479479275" duration="3678000" />
       <workItem from="1580717180882" duration="696000" />
-      <workItem from="1580719086917" duration="1738000" />
-    </task>
-    <task id="LOCAL-00099" summary="LinkList class added. (logic).">
-      <created>1576759055383</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1576759055383</updated>
-    </task>
-    <task id="LOCAL-00100" summary="fixed err @ getIterator()">
-      <created>1576759578609</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1576759578609</updated>
+      <workItem from="1580719086917" duration="2921000" />
     </task>
     <task id="LOCAL-00101" summary="InterIterApp new ver">
       <created>1576855322425</created>
@@ -808,11 +792,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580388163406</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="MergeSort. Y version. MergeYou() added.">
+      <created>1580721490447</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1580721490448</updated>
+    </task>
+    <task id="LOCAL-00149" summary="MergeSortY() added">
+      <created>1580728020909</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1580728020909</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="479688000" />
+    <option name="totallyTimeSpent" value="480871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,7 +835,7 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5231788" side_tool="true" weight="0.19348055" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.47682118" weight="0.24921136" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.47682118" weight="0.24872579" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
@@ -947,8 +945,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AnagrammApp class added. doAnagram() added" />
-    <MESSAGE value="rotate() added" />
     <MESSAGE value="AnagramApp finished" />
     <MESSAGE value="Binary search with recursion. OrdArray class added." />
     <MESSAGE value="BinarySearchApp class added" />
@@ -972,7 +968,9 @@
     <MESSAGE value="few edits" />
     <MESSAGE value="TEST HEAD branch" />
     <MESSAGE value="Merge Sort. My version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge Sort. My version" />
+    <MESSAGE value="MergeSort. Y version. MergeYou() added." />
+    <MESSAGE value="MergeSortY() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="MergeSortY() added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1476,8 +1474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="806">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
         </state>
       </provider>
     </entry>
