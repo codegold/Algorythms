@@ -1,6 +1,9 @@
 package src.Recursion.RecursionSomeTasks.MergeSort;
 
+import static com.sun.deploy.util.ArrayUtil.arrayToString;
+
 public class MergeYou {
+
 
     private static void mergeYou(int[] src1, int src1Start, int[] src2, int src2Start,
                                  int[] dest, int destStart, int size) {
@@ -27,5 +30,26 @@ public class MergeYou {
         }
     }
 
+    public static int[] mergeSortY(int[] array) {
+        int[] tmp;
+        int[] currentSrc = array;
+        int[] currentDest = new int[array.length];
 
+        int size = 1;
+        while (size < array.length) {
+            for (int i = 0; i < array.length; i += 2 * size) {
+                mergeYou(currentSrc, i, currentSrc, i + size, currentDest, i, size);
+            }
+
+            tmp = currentSrc;
+            currentSrc = currentDest;
+            currentDest = tmp;
+
+            size = size * 2;
+
+            System.out.println(arrayToString(currentSrc));
+        }
+
+
+    }
 }
