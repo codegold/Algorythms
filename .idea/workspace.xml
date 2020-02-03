@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/StackTriangle/Params.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/StackTriangle/StackX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,11 +54,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Params.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Params.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/Params.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackX.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/StackX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+              <folding>
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/java/src/InterIterator/LinkList.java" />
         <option value="$PROJECT_DIR$/java/src/InterIterator/Link.java" />
         <option value="$PROJECT_DIR$/java/src/InterIterator/ListIterator.java" />
@@ -137,6 +149,7 @@
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" />
         <option value="$PROJECT_DIR$/java/src/StackTriangle/Params.java" />
+        <option value="$PROJECT_DIR$/java/src/StackTriangle/StackX.java" />
       </list>
     </option>
   </component>
@@ -446,14 +459,7 @@
       <workItem from="1580369142499" duration="16368000" />
       <workItem from="1580479479275" duration="3678000" />
       <workItem from="1580717180882" duration="696000" />
-      <workItem from="1580719086917" duration="4762000" />
-    </task>
-    <task id="LOCAL-00103" summary="Task from book. Realize Priority queue base of connected list. Class link added.">
-      <created>1577101960175</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1577101960175</updated>
+      <workItem from="1580719086917" duration="5359000" />
     </task>
     <task id="LOCAL-00104" summary="SortedList class added.">
       <created>1577132751100</created>
@@ -791,11 +797,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580729744504</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="class Params added. to incapsulate return adress &amp; arg of () n. Objects to stack.">
+      <created>1580731889645</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1580731889645</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="482712000" />
+    <option name="totallyTimeSpent" value="483309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,19 +826,19 @@
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4936575" weight="0.32386962" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4925575" weight="0.32313967" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5224327" side_tool="true" weight="0.24921136" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5231788" side_tool="true" visible="true" weight="0.19266056" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5074425" side_tool="true" visible="true" weight="0.19266056" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.47682118" weight="0.24872579" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.25845736" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.25845736" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -930,7 +943,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BinarySearchApp class added" />
     <MESSAGE value="Towers App added" />
     <MESSAGE value=" Hanoi MFTI version" />
     <MESSAGE value="some tasks on recursion" />
@@ -955,7 +967,8 @@
     <MESSAGE value="MergeSortY() added" />
     <MESSAGE value="arrayToString() added." />
     <MESSAGE value="main() finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="main() finished" />
+    <MESSAGE value="class Params added. to incapsulate return adress &amp; arg of () n. Objects to stack." />
+    <option name="LAST_COMMIT_MESSAGE" value="class Params added. to incapsulate return adress &amp; arg of () n. Objects to stack." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1111,13 +1124,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/InterIterator/LinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/InterIterator/ListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="733">
@@ -1461,6 +1467,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/StackX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
