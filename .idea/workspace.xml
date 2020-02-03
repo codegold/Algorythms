@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/StackTriangle/StackX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +63,15 @@
       <file leaf-file-name="StackX.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/StackX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#363#364#0" expanded="true" />
                 <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,7 +171,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="781" />
+    <option name="width" value="987" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -459,21 +460,7 @@
       <workItem from="1580369142499" duration="16368000" />
       <workItem from="1580479479275" duration="3678000" />
       <workItem from="1580717180882" duration="696000" />
-      <workItem from="1580719086917" duration="5359000" />
-    </task>
-    <task id="LOCAL-00104" summary="SortedList class added.">
-      <created>1577132751100</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1577132751101</updated>
-    </task>
-    <task id="LOCAL-00105" summary="LaforePriorityQueue class added.">
-      <created>1577132782078</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1577132782078</updated>
+      <workItem from="1580719086917" duration="5606000" />
     </task>
     <task id="LOCAL-00106" summary="ChapterFive (app is here) class added.">
       <created>1577132804404</created>
@@ -804,11 +791,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580731889645</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="class StackX added. Stack methods here.">
+      <created>1580732561482</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1580732561482</updated>
+    </task>
+    <task id="LOCAL-00154" summary="class StackX finished">
+      <created>1580732713879</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1580732713879</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483309000" />
+    <option name="totallyTimeSpent" value="483556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,8 +834,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5224327" side_tool="true" weight="0.24921136" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5074425" side_tool="true" visible="true" weight="0.19266056" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.47682118" weight="0.24872579" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49120432" side_tool="true" weight="0.24872579" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.5087957" visible="true" weight="0.24872579" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
@@ -943,8 +944,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Towers App added" />
-    <MESSAGE value=" Hanoi MFTI version" />
     <MESSAGE value="some tasks on recursion" />
     <MESSAGE value="MergeApp class added. merge() added." />
     <MESSAGE value="display() added." />
@@ -968,7 +967,9 @@
     <MESSAGE value="arrayToString() added." />
     <MESSAGE value="main() finished" />
     <MESSAGE value="class Params added. to incapsulate return adress &amp; arg of () n. Objects to stack." />
-    <option name="LAST_COMMIT_MESSAGE" value="class Params added. to incapsulate return adress &amp; arg of () n. Objects to stack." />
+    <MESSAGE value="class StackX added. Stack methods here." />
+    <MESSAGE value="class StackX finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="class StackX finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1472,11 +1473,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/StackX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#363#364#0" expanded="true" />
             <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
           </folding>
         </state>
       </provider>

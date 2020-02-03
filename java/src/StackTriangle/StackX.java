@@ -22,5 +22,4 @@ public class StackX {
     public Params peek() {
         return stackArray[top];  // Чтение элемента на вершине стека
     }
-
 }
