@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/StackTriangle/Params.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +45,7 @@
       <file leaf-file-name="TriangleApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="570">
               <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeYou.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java">
+      <file leaf-file-name="Params.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/Params.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -86,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedApp.java" />
         <option value="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/java/src/InterIterator/LinkList.java" />
         <option value="$PROJECT_DIR$/java/src/InterIterator/Link.java" />
@@ -137,6 +136,7 @@
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" />
+        <option value="$PROJECT_DIR$/java/src/StackTriangle/Params.java" />
       </list>
     </option>
   </component>
@@ -157,7 +157,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1004" />
+    <option name="width" value="781" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -194,22 +194,7 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RecursionSomeTasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RecursionSomeTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="MergeSort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Triangle" type="462c0819:PsiDirectoryNode" />
+              <item name="StackTriangle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,14 +446,7 @@
       <workItem from="1580369142499" duration="16368000" />
       <workItem from="1580479479275" duration="3678000" />
       <workItem from="1580717180882" duration="696000" />
-      <workItem from="1580719086917" duration="3788000" />
-    </task>
-    <task id="LOCAL-00102" summary="Task from book. Unlimited insertion. Every 1000 println.">
-      <created>1577098178088</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1577098178091</updated>
+      <workItem from="1580719086917" duration="4762000" />
     </task>
     <task id="LOCAL-00103" summary="Task from book. Realize Priority queue base of connected list. Class link added.">
       <created>1577101960175</created>
@@ -806,11 +784,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580729077687</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="main() finished">
+      <created>1580729744504</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1580729744504</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="481738000" />
+    <option name="totallyTimeSpent" value="482712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,24 +807,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1004" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="781" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4936575" weight="0.32386962" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5224327" side_tool="true" weight="0.24921136" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5231788" side_tool="true" weight="0.19348055" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5231788" side_tool="true" visible="true" weight="0.19266056" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.47682118" weight="0.24872579" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.1985447" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.25845736" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -848,7 +834,6 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.74367297" weight="0.3575184" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4936575" weight="0.32386962" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -945,7 +930,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Binary search with recursion. OrdArray class added." />
     <MESSAGE value="BinarySearchApp class added" />
     <MESSAGE value="Towers App added" />
     <MESSAGE value=" Hanoi MFTI version" />
@@ -970,7 +954,8 @@
     <MESSAGE value="MergeSort. Y version. MergeYou() added." />
     <MESSAGE value="MergeSortY() added" />
     <MESSAGE value="arrayToString() added." />
-    <option name="LAST_COMMIT_MESSAGE" value="arrayToString() added." />
+    <MESSAGE value="main() finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="main() finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1126,13 +1111,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/InterIterator/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/InterIterator/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1462,9 +1440,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="570">
           <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1472,10 +1457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java">
+    <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/Params.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

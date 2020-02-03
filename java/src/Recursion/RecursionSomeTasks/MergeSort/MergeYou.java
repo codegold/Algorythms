@@ -6,7 +6,7 @@ public class MergeYou {
         int[] array = new int[]{64, 42, 73, 41, 32, 53, 16, 24, 57, 42, 74, 55, 36};
         System.out.println(arrayToString(array));
         array = mergeSortY(array);
-        System.out.println(arrayToString(array));
+        //System.out.println(mergeSortY(array));
     }
 
 
