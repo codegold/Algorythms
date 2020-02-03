@@ -1,20 +1,19 @@
 package src.Recursion.RecursionSomeTasks.MergeSort;
 
 public class DArray {
-    private long[] theArray;          // Ссылка на массив theArray
-    private int nElems;               // Количество элементов данных
+    private long[] theArray; // Ссылка на массив theArray
+    private int nElems; // Количество элементов данных
 
     public DArray(int max) {
-        theArray = new long[max]; // Создание массива
+        theArray = new long[max];
         nElems = 0;
     }
 
     public void display() {
-        for (int j = 0; j < nElems; j++) {
-            System.out.print(theArray[j] + " ");
-            System.out.print("");
-        }
-        System.out.println();
+        for (int i = 0; i < nElems; i++)
+            System.out.print(theArray[i] + " ");
+        System.out.println("");
+
     }
 
     public void mergeSort() {
@@ -22,25 +21,27 @@ public class DArray {
         recMergeSort(workSpace, 0, nElems - 1);
     }
 
-    private void recMergeSort(long[] workSpace, int lowerBound,
-                                                int upperBound) {
+    private void recMergeSort(long[] workSpace, int lowerBound, int upperBound) {
         if (lowerBound == upperBound)
             return;
         else {
-            int mid = (lowerBound + upperBound) / 2; //search for middle
-
-            recMergeSort(workSpace, lowerBound, mid); //sort of bottom half
-            recMergeSort(workSpace, mid + 1, upperBound); //sort of upper
-
-            merge(workSpace, lowerBound, mid + 1, upperBound);//merge
+            int mid = (lowerBound + upperBound) / 2;
+            recMergeSort(workSpace, lowerBound, mid);
+            recMergeSort(workSpace, mid + 1, upperBound);
+            merge(workSpace, lowerBound, mid + 1, upperBound);
         }
     }
+//    В аргументах метода merge() передается начальная точка подмассива
+//    нижней половины, начальная точка подмассива верхней половины, а
+//    также верхняя граница подмассива верхней половины. На основании
+//    этой информации метод вычисляет размеры подмассивов.
 
-    private void merge(long[] workSpace, int lowPtr, int highPtr, int upperBound) {
-        int j = 0;                         //index in working area
+    private void merge(long[] workSpace, int lowPtr,
+                       int highPtr, int upperBound) {
+        int j = 0;
         int lowerBound = lowPtr;
         int mid = highPtr - 1;
-        int n = upperBound - lowerBound + 1; //quantity of elements
+        int n = upperBound - lowerBound + 1;
 
         while (lowPtr <= mid && highPtr <= upperBound)
             if (theArray[lowPtr] < theArray[highPtr])
@@ -50,7 +51,6 @@ public class DArray {
 
         while (lowPtr <= mid)
             workSpace[j++] = theArray[lowPtr++];
-
         while (highPtr <= upperBound)
             workSpace[j++] = theArray[highPtr++];
 
