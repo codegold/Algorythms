@@ -4,6 +4,9 @@ public class MergeYou {
 
     public static void main(String[] args) {
         int[] array = new int[]{64, 42, 73, 41, 32, 53, 16, 24, 57, 42, 74, 55, 36};
+        System.out.println(arrayToString(array));
+        array = mergeSortY(array);
+        System.out.println(arrayToString(array));
     }
 
 
@@ -51,8 +54,7 @@ public class MergeYou {
 
             System.out.println(arrayToString(currentSrc));
         }
-
-
+        return currentSrc;
     }
 
     private static String arrayToString(int[] array) {
@@ -66,6 +68,5 @@ public class MergeYou {
         }
         sb.append("]");
         return sb.toString();
-
     }
 }

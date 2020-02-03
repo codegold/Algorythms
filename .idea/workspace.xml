@@ -57,8 +57,8 @@
       <file leaf-file-name="MergeYou.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+            <state relative-caret-position="525">
+              <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -243,9 +243,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TriangleApp">
+  <component name="RunManager" selected="Application.MergeYou">
     <configuration name="MergeSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Recursion.RecursionSomeTasks.MergeSort.MergeSortApp" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Recursion.RecursionSomeTasks.MergeSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MergeYou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Recursion.RecursionSomeTasks.MergeSort.MergeYou" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -273,17 +284,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Recursion.RecursionSomeTasks.Merge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TowersApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Towers.TowersApp" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Towers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,19 +341,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TowersApp" />
       <item itemvalue="Application.MyHanoi" />
       <item itemvalue="Application.MyMerge" />
       <item itemvalue="Application.MergeSortApp" />
       <item itemvalue="Application.TriangleApp" />
+      <item itemvalue="Application.MergeYou" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeYou" />
         <item itemvalue="Application.TriangleApp" />
         <item itemvalue="Application.MergeSortApp" />
         <item itemvalue="Application.MyMerge" />
         <item itemvalue="Application.MyHanoi" />
-        <item itemvalue="Application.TowersApp" />
       </list>
     </recent_temporary>
   </component>
@@ -461,14 +461,7 @@
       <workItem from="1580369142499" duration="16368000" />
       <workItem from="1580479479275" duration="3678000" />
       <workItem from="1580717180882" duration="696000" />
-      <workItem from="1580719086917" duration="2921000" />
-    </task>
-    <task id="LOCAL-00101" summary="InterIterApp new ver">
-      <created>1576855322425</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1576855322425</updated>
+      <workItem from="1580719086917" duration="3788000" />
     </task>
     <task id="LOCAL-00102" summary="Task from book. Unlimited insertion. Every 1000 println.">
       <created>1577098178088</created>
@@ -806,11 +799,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580728020909</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="arrayToString() added.">
+      <created>1580729077687</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1580729077687</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="480871000" />
+    <option name="totallyTimeSpent" value="481738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,7 +945,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AnagramApp finished" />
     <MESSAGE value="Binary search with recursion. OrdArray class added." />
     <MESSAGE value="BinarySearchApp class added" />
     <MESSAGE value="Towers App added" />
@@ -970,7 +969,8 @@
     <MESSAGE value="Merge Sort. My version" />
     <MESSAGE value="MergeSort. Y version. MergeYou() added." />
     <MESSAGE value="MergeSortY() added" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergeSortY() added" />
+    <MESSAGE value="arrayToString() added." />
+    <option name="LAST_COMMIT_MESSAGE" value="arrayToString() added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1474,8 +1474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="525">
+          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
