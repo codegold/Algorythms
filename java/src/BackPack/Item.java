@@ -15,7 +15,7 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item{" + "weight=" + weight + ", value=" + value + '}';
+        return "{" + "weight=" + weight + ", value=" + value + "}";
     }
 
     public int getWeight() {
