@@ -9,9 +9,9 @@ public class StackTriangle2App {
     static int theAnswer;
     static StackX theStack;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.print("Enetr a number: ");
-        theNumber = getInt;
+        theNumber = getInt();
         stackTriangle();
         System.out.println("Triangle is: " + theAnswer);
     }
@@ -38,5 +38,8 @@ public class StackTriangle2App {
         return s;
     }
 
-
+    public static int getInt() throws IOException {
+        String s = getString();
+        return Integer.parseInt(s);
+    }
 }
