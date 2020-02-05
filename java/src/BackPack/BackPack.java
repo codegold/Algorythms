@@ -16,33 +16,32 @@ public class BackPack {
 
         System.out.println(Arrays.toString(items));
 
-        Arrays.sort(items, Comparator.comparingDouble
-                (Item::valuePerUnitOfWeight).reversed());
+        Arrays.sort(items, Comparator.comparingDouble(
+                Item::valuePerUnitOfWeight).reversed());
 
         System.out.println(Arrays.toString(items));
 
-        final int Сapacity = 7; //Сapacity of our backpack
+        final int Capacity = 7;
 
-        int currWeight = 0; //current total weight
-        double currValue = 0; //current total value
-        int currentItemIndex = 0;
+        int currWeight = 0;
+        double currValue = 0;
+        int currItemIndex = 0;
 
-        while (currentItemIndex < items.length && currWeight != Сapacity) {
-            //берем обьект целиком
-            if (currWeight + items[currentItemIndex].getWeight() < Сapacity) {
-                currValue += items[currentItemIndex].getValue();
-                currWeight += items[currentItemIndex].getWeight();
-            } else
-            //берем часть
-            {
-                currValue += ((Сapacity - currWeight) /
-                        (double) items[currentItemIndex].getWeight())
-                        * items[currentItemIndex].getValue();
-
-                currWeight = Сapacity; //backpack is full
+        while (currItemIndex < items.length && currWeight < Capacity) {
+            if (currWeight + items[currItemIndex].getWeight() < Capacity){
+                currWeight += items[currItemIndex].getWeight();
+                currValue += items[currItemIndex].getValue();
             }
-            currentItemIndex++;
+            else {
+                currValue += ((Capacity - currWeight) / (double)items[currItemIndex].getWeight())
+                        * items[currItemIndex].getValue();
+
+                currWeight = Capacity;
+            }
+
+            currItemIndex++;
         }
-        System.out.println("Ценность наивысшего набора: " + currValue);
+
+        System.out.println("Max value in backpack is: " + currValue);
     }
 }

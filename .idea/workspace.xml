@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/BackPack/BackPack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/BackPack/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/BookTasks/SixOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Triangle/TriangleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Triangle/TriangleApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/BackPack/BackPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BackPack/BackPack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,28 +43,15 @@
     <favorites_list name="Algorythms" />
   </component>
   <component name="FileColors">
-    <fileColor scope="All" color="efefef" />
+    <fileColor scope="All" color="a2a2a2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StackX.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/StackTriangle2/StackX.java">
+      <file leaf-file-name="SixOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackTriangle2App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/StackTriangle2/StackTriangle2App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,30 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackPack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/BackPack/BackPack.java">
+      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/Factorial/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/BackPack/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -122,8 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/LinkList2/LinkList2App.java" />
-        <option value="$PROJECT_DIR$/java/src/InterIterator2/ListIterator.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/PriorQueueLink.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/PQSortedList.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/LaforePriorityQueue.java" />
@@ -148,7 +115,6 @@
         <option value="$PROJECT_DIR$/java/src/Towers/Solution.java" />
         <option value="$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/TaskOne.java" />
-        <option value="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLite.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" />
@@ -173,6 +139,9 @@
         <option value="$PROJECT_DIR$/java/src/StackTriangle2/StackX.java" />
         <option value="$PROJECT_DIR$/java/src/StackTriangle2/StackTriangle2App.java" />
         <option value="$PROJECT_DIR$/java/src/BackPack/Item.java" />
+        <option value="$PROJECT_DIR$/java/src/BackPack/BackPack.java" />
+        <option value="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" />
+        <option value="$PROJECT_DIR$/java/src/BookTasks/SixOne.java" />
       </list>
     </option>
   </component>
@@ -193,8 +162,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="839" />
-    <option name="height" value="1057" />
+    <option name="width" value="884" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -230,7 +199,14 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BackPack" type="462c0819:PsiDirectoryNode" />
+              <item name="BookTasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Factorial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,7 +216,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="random&#9;PSI&#9;JAVA://java.lang.Math#random" />
+    <property name="SearchEverywhereHistoryKey" value="getInt&#9;PSI&#9;JAVA://src.StackTriangle.StackTriangleApp#getInt&#10;random&#9;PSI&#9;JAVA://java.lang.Math#random" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -250,7 +226,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,14 +240,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackTriangleApp">
-    <configuration name="MergeSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Recursion.RecursionSomeTasks.MergeSort.MergeSortApp" />
+  <component name="RunManager" selected="Application.SixOne">
+    <configuration name="BackPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.BackPack.BackPack" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Recursion.RecursionSomeTasks.MergeSort.*" />
+          <option name="PATTERN" value="src.BackPack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,13 +263,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Recursion.RecursionSomeTasks.Merge.MyMerge" />
+    <configuration name="SixOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.BookTasks.SixOne" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Recursion.RecursionSomeTasks.Merge.*" />
+          <option name="PATTERN" value="src.BookTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,19 +338,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MyMerge" />
-      <item itemvalue="Application.MergeSortApp" />
       <item itemvalue="Application.TriangleApp" />
       <item itemvalue="Application.MergeYou" />
       <item itemvalue="Application.StackTriangleApp" />
+      <item itemvalue="Application.BackPack" />
+      <item itemvalue="Application.SixOne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SixOne" />
+        <item itemvalue="Application.TriangleApp" />
+        <item itemvalue="Application.BackPack" />
         <item itemvalue="Application.StackTriangleApp" />
         <item itemvalue="Application.MergeYou" />
-        <item itemvalue="Application.TriangleApp" />
-        <item itemvalue="Application.MergeSortApp" />
-        <item itemvalue="Application.MyMerge" />
       </list>
     </recent_temporary>
   </component>
@@ -484,21 +460,7 @@
       <workItem from="1580717180882" duration="696000" />
       <workItem from="1580719086917" duration="9737000" />
       <workItem from="1580802244524" duration="3261000" />
-      <workItem from="1580820884595" duration="266000" />
-    </task>
-    <task id="LOCAL-00113" summary="Josephus class started.">
-      <created>1577218505071</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1577218505072</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Josephus class added (logic).">
-      <created>1577269366029</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1577269366029</updated>
+      <workItem from="1580820884595" duration="10328000" />
     </task>
     <task id="LOCAL-00115" summary="JosephusApp class added.">
       <created>1577269504296</created>
@@ -829,11 +791,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580805087989</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="BackPack Task. Item class added.">
+      <created>1580821184729</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1580821184730</updated>
+    </task>
+    <task id="LOCAL-00163" summary="BackPack class finished">
+      <created>1580824950682</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1580824950682</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="491214000" />
+    <option name="totallyTimeSpent" value="501276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -845,33 +821,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="839" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="884" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4925575" weight="0.32313967" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.50793654" weight="0.24872579" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49120432" side_tool="true" weight="0.16106014" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5065934" weight="0.24872579" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45994475" side_tool="true" weight="0.3567788" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.25094104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2375297" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.74367297" weight="0.3575184" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5400553" weight="0.3567788" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4925575" weight="0.32313967" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -968,8 +944,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DArray class added." />
-    <MESSAGE value="insert() added" />
     <MESSAGE value="bug fixed (wrong counting)" />
     <MESSAGE value="add mofified files" />
     <MESSAGE value="Anagramm Task HR" />
@@ -993,7 +967,9 @@
     <MESSAGE value="StackTriangle2. Using stack. StackX class added." />
     <MESSAGE value="StackTriangle2App class. stackTriangle() added, getString() added." />
     <MESSAGE value="getInt() added." />
-    <option name="LAST_COMMIT_MESSAGE" value="getInt() added." />
+    <MESSAGE value="BackPack Task. Item class added." />
+    <MESSAGE value="BackPack class finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="BackPack class finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,25 +1120,53 @@
           <properties />
           <option name="timeStamp" value="134" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/BackPack/BackPack.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/BackPack/BackPack.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/BackPack/BackPack.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/BackPack/BackPack.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/BackPack/BackPack.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/BackPack/BackPack.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/BackPack/BackPack.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="140" />
+      <option name="time" value="149" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/PriorQueue/SortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/PriorQueue/LaforePriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/PriorQueue/ChapterFive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
@@ -1339,17 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Towers/TowersApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Towers/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1407,13 +1400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MyMerge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1443,16 +1429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/Params.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1464,16 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/StackTriangleApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1500,24 +1466,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/BackPack/BackPack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="522">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Towers/TowersApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Triangle/TriangleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/BackPack/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#238#239#0" expanded="true" />
             <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/StackTriangle/StackTriangleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Factorial/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
