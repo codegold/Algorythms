@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/BookTasks/SixOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/BookTasks/SixTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Triangle/TriangleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Triangle/TriangleApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BackPack/BackPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BackPack/BackPack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BookTasks/SixOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BookTasks/SixOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/BookTasks/SixOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BookTasks/SixOne.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,18 +43,27 @@
     <favorites_list name="Algorythms" />
   </component>
   <component name="FileColors">
-    <fileColor scope="All" color="a2a2a2" />
+    <fileColor scope="All" color="575757" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SixOne.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SixOne.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SixTwo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -91,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/PriorQueue/PriorQueueLink.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/PQSortedList.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/LaforePriorityQueue.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/SortedList.java" />
@@ -142,6 +150,7 @@
         <option value="$PROJECT_DIR$/java/src/BackPack/BackPack.java" />
         <option value="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" />
         <option value="$PROJECT_DIR$/java/src/BookTasks/SixOne.java" />
+        <option value="$PROJECT_DIR$/java/src/BookTasks/SixTwo.java" />
       </list>
     </option>
   </component>
@@ -162,7 +171,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="884" />
+    <option name="width" value="1353" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -460,14 +469,7 @@
       <workItem from="1580717180882" duration="696000" />
       <workItem from="1580719086917" duration="9737000" />
       <workItem from="1580802244524" duration="3261000" />
-      <workItem from="1580820884595" duration="10328000" />
-    </task>
-    <task id="LOCAL-00115" summary="JosephusApp class added.">
-      <created>1577269504296</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1577269504297</updated>
+      <workItem from="1580820884595" duration="13455000" />
     </task>
     <task id="LOCAL-00116" summary="Task from book. Matrix bases on 2-dimens linked list MatrixLink class added.">
       <created>1577274093560</created>
@@ -805,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580824950682</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="Book Task # 6.1.">
+      <created>1580904639372</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1580904639373</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="501276000" />
+    <option name="totallyTimeSpent" value="504403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,7 +830,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="884" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1353" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.27118644" />
@@ -835,18 +844,18 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5065934" weight="0.24872579" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45994475" side_tool="true" weight="0.3567788" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46071702" side_tool="true" visible="true" weight="0.3564669" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2375297" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.1525553" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5400553" weight="0.3567788" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.539283" visible="true" weight="0.3564669" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
@@ -944,7 +953,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bug fixed (wrong counting)" />
     <MESSAGE value="add mofified files" />
     <MESSAGE value="Anagramm Task HR" />
     <MESSAGE value="Anagramm Task HR (ver 2.0)" />
@@ -969,7 +977,8 @@
     <MESSAGE value="getInt() added." />
     <MESSAGE value="BackPack Task. Item class added." />
     <MESSAGE value="BackPack class finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="BackPack class finished" />
+    <MESSAGE value="Book Task # 6.1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Book Task # 6.1." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1163,17 +1172,10 @@
           <option name="timeStamp" value="148" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="149" />
+      <option name="time" value="150" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/PriorQueue/ChapterFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/CStack/CStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -1537,11 +1539,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -16,6 +16,7 @@ import java.io.InputStreamReader;
 public class SixOne {
 
     public static void main(String[] args) {
+
         double x = 3;
         double y = 3;
 
@@ -31,6 +32,7 @@ public class SixOne {
 
     //Computes x^y recursively
     public static double power(double x, double y) {
+
         if (y == 1)
             return x; //at end, return back up
         else if (y % 2 == 0)
@@ -38,10 +40,12 @@ public class SixOne {
         else return x * power(x, x - 1);
     }
 
-    public static double mult(double x, double y) {
-        if (y == 1)
-            return x;
-        else return x + mult(x, y - 1);
+    public static double mult(double a, double b) {
+
+        if (b == 1)
+            return a;
+        else
+        return a + mult(a, b - 1);
     }
 
 }
