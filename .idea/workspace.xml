@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/BookTasks/SixFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BookTasks/SixOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BookTasks/SixOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BookTasks/SixTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BookTasks/SixTwo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/BookTasks/SixTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BookTasks/SixTwo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +24,9 @@
     <SUITE FILE_PATH="coverage/Algorythms$TriangleApp.ic" NAME="TriangleApp Coverage Results" MODIFIED="1577448217750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>src.Triangle.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Algorythms$SixTwo.ic" NAME="SixTwo Coverage Results" MODIFIED="1580980607159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.BookTasks.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -38,6 +42,28 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="BackPack.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/java/src/BackPack/BackPack.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="75">
+                    <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Algorythms" />
   </component>
@@ -46,24 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SixTwo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixTwo.java">
+      <file leaf-file-name="SixFour.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixFour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Math.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4693">
-              <caret line="291" column="25" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
-              <folding>
-                <element signature="e#11119#11120#0" expanded="true" />
-                <element signature="e#11200#11201#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -91,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/PriorQueue/PQSortedList.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/LaforePriorityQueue.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/SortedList.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/Link.java" />
@@ -142,6 +154,7 @@
         <option value="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" />
         <option value="$PROJECT_DIR$/java/src/BookTasks/SixOne.java" />
         <option value="$PROJECT_DIR$/java/src/BookTasks/SixTwo.java" />
+        <option value="$PROJECT_DIR$/java/src/BookTasks/SixFour.java" />
       </list>
     </option>
   </component>
@@ -162,7 +175,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1011" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -174,8 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +206,13 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BackPack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -226,7 +246,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SixTwo">
+  <component name="RunManager" selected="Application.SixFour">
     <configuration name="BackPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.BackPack.BackPack" />
       <module name="Algorythms" />
@@ -248,6 +268,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.BackPack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SixFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.BookTasks.SixFour" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.BookTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,17 +301,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.BookTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StackTriangleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.StackTriangle.StackTriangleApp" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.StackTriangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,18 +359,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TriangleApp" />
-      <item itemvalue="Application.StackTriangleApp" />
       <item itemvalue="Application.BackPack" />
       <item itemvalue="Application.SixOne" />
       <item itemvalue="Application.SixTwo" />
+      <item itemvalue="Application.SixFour" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SixFour" />
         <item itemvalue="Application.SixTwo" />
         <item itemvalue="Application.SixOne" />
         <item itemvalue="Application.TriangleApp" />
         <item itemvalue="Application.BackPack" />
-        <item itemvalue="Application.StackTriangleApp" />
       </list>
     </recent_temporary>
   </component>
@@ -463,13 +483,7 @@
       <workItem from="1580820884595" duration="15434000" />
       <workItem from="1580926992507" duration="4000" />
       <workItem from="1580978291438" duration="867000" />
-    </task>
-    <task id="LOCAL-00117" summary="insert() added.">
-      <created>1577280061563</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1577280061564</updated>
+      <workItem from="1580980096141" duration="2691000" />
     </task>
     <task id="LOCAL-00118" summary="display() added.">
       <created>1577280570399</created>
@@ -807,11 +821,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580910006785</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Book Task # 6.2. upadates">
+      <created>1580980126639</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1580980126640</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="507253000" />
+    <option name="totallyTimeSpent" value="509944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -823,8 +844,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1011" height="1027" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -836,37 +856,36 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.506105" visible="true" weight="0.24815983" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.493895" side_tool="true" weight="0.24815983" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.50460595" weight="0.12828602" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46280992" side_tool="true" weight="0.26498422" />
+      <window_info active="true" anchor="right" id="Coverage" order="11" side_tool="true" visible="true" weight="0.32507738" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.124542125" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.21259029" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53846157" weight="0.26498422" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5376677" weight="0.26498422" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3264202" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -888,6 +907,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -946,7 +966,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Anagramm Task HR" />
     <MESSAGE value="Anagramm Task HR (ver 2.0)" />
     <MESSAGE value="findTwo() added. Recursion used way of binary search." />
     <MESSAGE value="insertTwo() added." />
@@ -971,7 +990,8 @@
     <MESSAGE value="BackPack class finished" />
     <MESSAGE value="Book Task # 6.1." />
     <MESSAGE value="Book Task # 6.2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Book Task # 6.2." />
+    <MESSAGE value="Book Task # 6.2. upadates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Book Task # 6.2. upadates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1078,7 +1098,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/BookTasks/SixTwo.java</url>
-          <line>38</line>
+          <line>39</line>
           <properties class="src.BookTasks.SixTwo" method="display">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1218,13 +1238,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java/src/BookTasks/SixTwo.java</url>
-          <line>33</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="157" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java/src/BookTasks/SixTwo.java</url>
-          <line>34</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="158" />
         </line-breakpoint>
@@ -1233,13 +1253,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/CStack/CStackApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1505,16 +1518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/BackPack/BackPack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Towers/TowersApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1563,7 +1566,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4693">
+        <state>
           <caret line="291" column="25" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
           <folding>
             <element signature="e#11119#11120#0" expanded="true" />
@@ -1572,17 +1575,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixOne.java">
+    <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="142">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixTwo.java">
+    <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="270">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/BackPack/BackPack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/BookTasks/SixFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>

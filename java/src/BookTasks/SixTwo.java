@@ -25,15 +25,16 @@ public class SixTwo {
 
         if (left - right == 0) return;
         int midpt = (left + right) / 2;
+
         for (int i = left; i < right; i++) {
             if (i == midpt)
                 tree[row] += "X";
-            else tree[row] += "-";
+            else
+                tree[row] += "-";
         }
 
         makeBranches(left, midpt, row + 1);
         makeBranches(midpt + 1, right, row + 1);
-
     }
 
     public static void display(String[] tree) {
@@ -42,6 +43,4 @@ public class SixTwo {
             System.out.println(tree[i]);
         }
     }
-
-
 }
