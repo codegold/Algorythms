@@ -12,7 +12,7 @@ public class SixTwo {
 
     public static void main(String[] args) {
 
-        int rowSize = 64;
+        int rowSize = 8;
         int numRows = (int) (Math.log(rowSize) / Math.log(2)) + 1;
         tree = new String[numRows];
         for (int i = 0; i < tree.length; i++)
