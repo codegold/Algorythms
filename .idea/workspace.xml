@@ -2,136 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/AlgoDraw/Algo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Algo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Anagram/AnagramApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Anagram/AnagramLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Anagram/AnagramLite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Anagram/AnagramLiteTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Anagram/AnagramMyVer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Anagram/AnagramMyVer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BackPack/BackPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BackPack/BackPack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BackPack/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BackPack/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BankAccount/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BankAccount/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BankAccount/LittleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BankAccount/LittleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BinarySearch/BinarySearchApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BinarySearch/BinarySearchApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BinarySearch/ordArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BinarySearch/ordArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BookTasks/SixFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BookTasks/SixFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BookTasks/SixOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BookTasks/SixOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BookTasks/SixTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BookTasks/SixTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Brackets/BracketChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Brackets/BracketChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Brackets/BracketsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Brackets/BracketsApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Brackets/StackX.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Brackets/StackX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BubbleSort/ArrayBub.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BubbleSort/ArrayBub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BubbleSort/BubbleSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BubbleSort/BubbleSortApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BubbleSort/MyBubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CStack/CStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CStack/CStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CStack/CStackApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CStack/CStackApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CheckOutMy/CheckOutMy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CheckOutMy/CheckOutMy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Checkout/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Checkout/CheckoutApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/CheckoutApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutAppTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CheckoutVerTwo/CheckOutAppTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CheckoutVerTwo/CheckOutTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CheckoutVerTwo/CheckOutTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CheckoutVerTwo/CirQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CheckoutVerTwo/CirQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CycleLinkedList/CLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CycleLinkedList/CircularApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CycleLinkedList/CycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CycleLinkedList/CycleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/DataArray/ClassDataApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/DataArray/ClassDataApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/DataArray/ClassDataArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/DataArray/ClassDataArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/DataArray/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/DataArray/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Deque/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Deque/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/DoublyLinked/DoublyLinkedApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/DoublyLinked/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/DoublyLinked/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/DoublyLinked/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/DoublyLinked/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Factorial/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/FirstLastList/FirstLastApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/FirstLastList/FirstLastApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/FirstLastList/FirstLastList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/FirstLastList/FirstLastList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/FirstLastList/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/FirstLastList/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/FirstLastList/LinkQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/FirstLastList/LinkQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/FirstLastList/LinkQueueApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/FirstLastList/LinkQueueApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/HighArrayApp/HighArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/HighArrayApp/HighArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/HighArrayApp/HighArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/HighArrayApp/HighArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InsertSort/ArrayIns.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/InsertSort/ArrayIns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InsertSort/InsertSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/InsertSort/InsertSortApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InterIterator/InterIterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/InterIterator/InterIterApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InterIterator/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/InterIterator/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InterIterator/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/InterIterator/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InterIterator/ListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/InterIterator/ListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InterIterator2/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/InterIterator2/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InterIterator2/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/InterIterator2/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/InterIterator2/ListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/InterIterator2/ListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Josephus/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Josephus/Josephus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Josephus/JosephusApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Josephus/JosephusApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Link/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Link/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Link/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Link/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Link/LinkListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Link/LinkListApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkList2/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LinkList2/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkList2/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LinkList2/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkList2/LinkList2App.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LinkList2/LinkList2App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkQueue/FirstClassLInk.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LinkQueue/FirstClassLInk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkQueue/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LinkQueue/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkStack/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LinkStack/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkStack/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LinkStack/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkStack/LinkStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LinkStack/LinkStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LinkStack/LinkStackApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LinkStack/LinkStackApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/ListInsertionSort/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/ListInsertionSort/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/ListInsertionSort/ListInsertSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/ListInsertionSort/ListInsertSortApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/ListInsertionSort/SortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/ListInsertionSort/SortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LowArray/LowArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LowArray/LowArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/LowArray/LowArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/LowArray/LowArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Matrix/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Matrix/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Matrix/MatrixApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Matrix/MatrixApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Matrix/MatrixLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Matrix/MatrixLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/MyLink/MyLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/MyLink/MyLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/MyTests/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/MyTests/Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/ObjectSort/ArrayInOb.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/ObjectSort/ArrayInOb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/ObjectSort/ObjectSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/ObjectSort/ObjectSortApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/ObjectSort/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/ObjectSort/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/OrderedArray/OrdArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/OrderedArray/OrdArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Postfix/ParsePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Postfix/ParsePost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Postfix/PostfixApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Postfix/PostfixApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Postfix/StackX.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Postfix/StackX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/PriorQueue/ChapterFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/PriorQueue/ChapterFive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/PriorQueue/LaforePriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/PriorQueue/LaforePriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/PriorQueue/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/PriorQueue/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/PriorQueue/SortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/PriorQueue/SortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/PriorityQ/PriorityQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/PriorityQ/PriorityQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/PriorityQ/PriorityQApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/PriorityQ/PriorityQApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Queue/QueueApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Queue/QueueApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/QueueNoCounters/QueueMyNoCounters.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/QueueNoCounters/QueueMyNoCounters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCounters.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/QueueNoCounters/QueueNoCounters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/QueueNoCounters/QueueNoCountersApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/QueueNoCounters/QueueNoCountersApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/Factorial/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/Merge/MergeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MyMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/Merge/MyMerge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/MergeSort/DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/MergeSort/MergeSortApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/MergeSort/MergeYou.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/TaskOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Reverse/ReverseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Reverse/ReverseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Reverse/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Reverse/Reverser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Reverse/StackX.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Reverse/StackX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SelectSort/ArraySel.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/SelectSort/ArraySel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SelectSort/SelectSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/SelectSort/SelectSortApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SortedList/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/SortedList/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SortedList/SortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/SortedList/SortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SortedList/SortedListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/SortedList/SortedListApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Stack/StackApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Stack/StackApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Stack/StackX.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Stack/StackX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/StackTask/StackTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTask/StackTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/StackTriangle/Params.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTriangle/Params.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/StackTriangle/StackTriangleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTriangle/StackTriangleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/StackTriangle/StackX.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTriangle/StackX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/StackTriangle2/StackTriangle2App.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTriangle2/StackTriangle2App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/StackTriangle2/StackX.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTriangle2/StackX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Towers/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/Hanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Towers/MyHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/MyHanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Towers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Towers/TowersApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/TowersApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Triangle/TriangleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/infix/InToPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/infix/InToPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/infix/InfixApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/infix/InfixApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/infix/StackX.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/infix/StackX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/AlgoDraw/Algo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Anagram/AnagramApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Anagram/AnagramLite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Anagram/AnagramLiteTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Anagram/AnagramMyVer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BackPack/BackPack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BackPack/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BankAccount/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BankAccount/LittleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BinarySearch/BinarySearchApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BinarySearch/ordArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BookTasks/SixOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BookTasks/SixTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Brackets/BracketChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Brackets/BracketsApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Brackets/StackX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/ArrayBub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/BubbleSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/BubbleSort/MyBubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/CStack/CStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/CStack/CStackApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/CheckOutMy/CheckOutMy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Checkout/Checkout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Checkout/CheckoutApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/CheckoutVerTwo/CheckOutAppTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/CheckoutVerTwo/CheckOutTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/CheckoutVerTwo/CirQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/CycleLinkedList/CLink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/CycleLinkedList/CircularApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/CycleLinkedList/CycleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/DataArray/ClassDataApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/DataArray/ClassDataArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/DataArray/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Deque/Deque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/DoublyLinked/DoublyLinkedApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/DoublyLinked/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/DoublyLinked/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Factorial/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/FirstLastList/FirstLastApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/FirstLastList/FirstLastList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/FirstLastList/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/FirstLastList/LinkQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/FirstLastList/LinkQueueApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/HighArrayApp/HighArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/HighArrayApp/HighArrayApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/ArrayIns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InsertSort/InsertSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InterIterator/InterIterApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InterIterator/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InterIterator/LinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InterIterator/ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InterIterator2/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InterIterator2/LinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/InterIterator2/ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Josephus/Josephus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Josephus/JosephusApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Link/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Link/LinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Link/LinkListApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LinkList2/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LinkList2/LinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LinkList2/LinkList2App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LinkQueue/FirstClassLInk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LinkQueue/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LinkStack/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LinkStack/LinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LinkStack/LinkStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LinkStack/LinkStackApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/ListInsertionSort/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/ListInsertionSort/ListInsertSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/ListInsertionSort/SortedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LowArray/LowArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/LowArray/LowArrayApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Matrix/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Matrix/MatrixApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Matrix/MatrixLink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/MyLink/MyLink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/MyLink/MyLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/MyLink/MyLinkListApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/MyTests/Binary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/ObjectSort/ArrayInOb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/ObjectSort/ObjectSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/ObjectSort/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/OrderedArray/OrdArrayApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Postfix/ParsePost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Postfix/PostfixApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Postfix/StackX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/PriorQueue/ChapterFive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/PriorQueue/LaforePriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/PriorQueue/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/PriorQueue/SortedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/PriorityQ/PriorityQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/PriorityQ/PriorityQApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Queue/QueueApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/QueueNoCounters/QueueMyNoCounters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/QueueNoCounters/QueueNoCounters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/QueueNoCounters/QueueNoCountersApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/Factorial/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/Merge/MergeApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/Merge/MyMerge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/MergeSort/DArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Recursion/RecursionSomeTasks/TaskOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Reverse/ReverseApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Reverse/Reverser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Reverse/StackX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SelectSort/ArraySel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SelectSort/SelectSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SortedList/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SortedList/SortedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SortedList/SortedListApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Stack/StackApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Stack/StackX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/StackTask/StackTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/StackTriangle/Params.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/StackTriangle/StackTriangleApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/StackTriangle/StackX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/StackTriangle2/StackTriangle2App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/StackTriangle2/StackX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Towers/Hanoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Towers/MyHanoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Towers/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Towers/TowersApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/Triangle/TriangleApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/infix/InToPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/infix/InfixApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/infix/StackX.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -176,23 +178,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SixFour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BookTasks/SixFour.java">
+      <file leaf-file-name="Symbols.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackPack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BackPack/BackPack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -220,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/PriorQueue/SortedList.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/Link.java" />
         <option value="$PROJECT_DIR$/java/src/PriorQueue/ChapterFive.java" />
         <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java" />
@@ -271,6 +260,7 @@
         <option value="$PROJECT_DIR$/java/src/BookTasks/SixTwo.java" />
         <option value="$PROJECT_DIR$/java/src/BookTasks/SixFour.java" />
         <option value="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BackPack/BackPack.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java" />
       </list>
     </option>
   </component>
@@ -304,6 +294,8 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,13 +314,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
+              <item name="PartTreeTasks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -357,18 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SixFour">
-    <configuration name="BackPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.AlgorythmsWork.AlgoDraw.BackPack.BackPack" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.AlgorythmsWork.AlgoDraw.BackPack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Symbols">
     <configuration name="SixFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.AlgorythmsWork.AlgoDraw.BookTasks.SixFour" />
       <module name="Algorythms" />
@@ -398,6 +392,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.AlgorythmsWork.AlgoDraw.BookTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Symbols" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.PartTreeTasks.Symbols" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SchildtWork.PartTreeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,18 +461,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TriangleApp" />
-      <item itemvalue="Application.BackPack" />
       <item itemvalue="Application.SixOne" />
       <item itemvalue="Application.SixTwo" />
       <item itemvalue="Application.SixFour" />
+      <item itemvalue="Application.Symbols" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Symbols" />
         <item itemvalue="Application.SixFour" />
         <item itemvalue="Application.SixTwo" />
         <item itemvalue="Application.SixOne" />
         <item itemvalue="Application.TriangleApp" />
-        <item itemvalue="Application.BackPack" />
       </list>
     </recent_temporary>
   </component>
@@ -581,14 +586,8 @@
       <workItem from="1580926992507" duration="4000" />
       <workItem from="1580978291438" duration="867000" />
       <workItem from="1580980096141" duration="3706000" />
-      <workItem from="1580988136728" duration="244000" />
-    </task>
-    <task id="LOCAL-00119" summary="test new branch">
-      <created>1577280898309</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1577280898309</updated>
+      <workItem from="1580988136728" duration="874000" />
+      <workItem from="1580991437648" duration="876000" />
     </task>
     <task id="LOCAL-00120" summary="MatrixApp added.">
       <created>1577349226502</created>
@@ -926,11 +925,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580987015973</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Updated hierarchy in Algorythms folder.">
+      <created>1580988447145</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1580988447145</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="511203000" />
+    <option name="totallyTimeSpent" value="512709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,49 +949,47 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1011" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4925575" weight="0.32313967" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46280992" side_tool="true" weight="0.26498422" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.50460595" weight="0.12828602" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4633643" side_tool="true" visible="true" weight="0.26498422" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.23013416" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.23426212" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5376677" weight="0.26498422" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5366357" visible="true" weight="0.26498422" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4925575" weight="0.32313967" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32507738" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -1007,6 +1011,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -1065,7 +1070,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="findTwo() added. Recursion used way of binary search." />
     <MESSAGE value="insertTwo() added." />
     <MESSAGE value="few edits" />
     <MESSAGE value="TEST HEAD branch" />
@@ -1090,7 +1094,8 @@
     <MESSAGE value="Book Task # 6.2." />
     <MESSAGE value="Book Task # 6.2. upadates" />
     <MESSAGE value="Book Task # 6.4." />
-    <option name="LAST_COMMIT_MESSAGE" value="Book Task # 6.4." />
+    <MESSAGE value="Updated hierarchy in Algorythms folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated hierarchy in Algorythms folder." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1098,13 +1103,13 @@
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
           <line>7</line>
-          <properties field="numQueues" class="src.Checkout.Checkout" />
+          <properties field="queues" class="src.AlgorythmsWork.AlgoDraw.Checkout.Checkout" />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
           <line>8</line>
-          <properties field="maxQueSize" class="src.Checkout.Checkout" />
+          <properties field="fastLine" class="src.AlgorythmsWork.AlgoDraw.Checkout.Checkout" />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
@@ -1116,7 +1121,7 @@
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
           <line>10</line>
-          <properties field="fastLine" class="src.Checkout.Checkout" />
+          <properties field="base" class="src.AlgorythmsWork.AlgoDraw.Checkout.Checkout" />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
@@ -1134,7 +1139,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
           <line>18</line>
-          <properties class="src.Checkout.Checkout" method="&lt;init&gt;">
+          <properties class="src.AlgorythmsWork.AlgoDraw.Checkout.Checkout">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="71" />
@@ -1142,7 +1147,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
           <line>32</line>
-          <properties class="src.Checkout.Checkout" method="addCustomer">
+          <properties class="src.AlgorythmsWork.AlgoDraw.Checkout.Checkout">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="72" />
@@ -1150,7 +1155,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
           <line>79</line>
-          <properties class="src.Checkout.Checkout" method="process">
+          <properties class="src.AlgorythmsWork.AlgoDraw.Checkout.Checkout">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="73" />
@@ -1158,7 +1163,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
           <line>106</line>
-          <properties class="src.Checkout.Checkout" method="display">
+          <properties class="src.AlgorythmsWork.AlgoDraw.Checkout.Checkout">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="74" />
@@ -1166,7 +1171,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
           <line>120</line>
-          <properties class="src.Checkout.Checkout" method="initialize">
+          <properties class="src.AlgorythmsWork.AlgoDraw.Checkout.Checkout">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="75" />
@@ -1174,7 +1179,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Anagram/AnagramApp.java</url>
           <line>33</line>
-          <properties class="src.Anagram.AnagramApp" method="rotate">
+          <properties class="src.AlgorythmsWork.AlgoDraw.Anagram.AnagramApp" method="rotate">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="111" />
@@ -1182,7 +1187,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/TowersApp.java</url>
           <line>10</line>
-          <properties class="src.Towers.TowersApp" method="doTowers">
+          <properties class="src.AlgorythmsWork.AlgoDraw.Towers.TowersApp" method="doTowers">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="127" />
@@ -1190,7 +1195,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BookTasks/SixTwo.java</url>
           <line>23</line>
-          <properties class="src.BookTasks.SixTwo" method="makeBranches">
+          <properties class="src.AlgorythmsWork.AlgoDraw.BookTasks.SixTwo" method="makeBranches">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="156" />
@@ -1198,7 +1203,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BookTasks/SixTwo.java</url>
           <line>39</line>
-          <properties class="src.BookTasks.SixTwo" method="display">
+          <properties class="src.AlgorythmsWork.AlgoDraw.BookTasks.SixTwo" method="display">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="159" />
@@ -1347,18 +1352,29 @@
           <properties />
           <option name="timeStamp" value="158" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="160" />
+      <option name="time" value="163" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CycleLinkedList/CircularApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CycleLinkedList/CLink.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1693,11 +1709,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BackPack/BackPack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
