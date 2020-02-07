@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/ShowBitsDemo/ShowBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +57,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiftDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java">
+      <file leaf-file-name="ShowBits.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ShowBitsDemo/ShowBits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Josephus/Josephus.java" />
         <option value="$PROJECT_DIR$/java/src/Josephus/JosephusApp.java" />
         <option value="$PROJECT_DIR$/java/src/Matrix/MatrixLink.java" />
         <option value="$PROJECT_DIR$/java/src/Matrix/Matrix.java" />
@@ -140,6 +143,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/ShowBitsDemo/ShowBits.java" />
       </list>
     </option>
   </component>
@@ -221,6 +225,14 @@
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
+              <item name="ShowBitsDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="Lafore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShiftDemo">
+  <component name="RunManager" selected="Application.ShowBitsDemo">
     <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part8Exercises.Bubble" />
       <module name="Algorythms" />
@@ -272,17 +284,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.SchildtWork.Part8Exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CaseChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.PartTreeTasks.CaseChange" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SchildtWork.PartTreeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,6 +317,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.SchildtWork.Part8Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ShowBitsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.ShowBitsDemo.ShowBitsDemo" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SchildtWork.ShowBitsDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,19 +374,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CaseChange" />
       <item itemvalue="Application.Finalize" />
       <item itemvalue="Application.Bubble" />
       <item itemvalue="Application.QDemo" />
       <item itemvalue="Application.ShiftDemo" />
+      <item itemvalue="Application.ShowBitsDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShowBitsDemo" />
         <item itemvalue="Application.ShiftDemo" />
         <item itemvalue="Application.QDemo" />
         <item itemvalue="Application.Bubble" />
         <item itemvalue="Application.Finalize" />
-        <item itemvalue="Application.CaseChange" />
       </list>
     </recent_temporary>
   </component>
@@ -490,14 +502,7 @@
       <workItem from="1580980096141" duration="3706000" />
       <workItem from="1580988136728" duration="874000" />
       <workItem from="1580991437648" duration="11398000" />
-      <workItem from="1581081618572" duration="1049000" />
-    </task>
-    <task id="LOCAL-00125" summary="Binary search with recursion. OrdArray class added.">
-      <created>1578911059792</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1578911059793</updated>
+      <workItem from="1581081618572" duration="2344000" />
     </task>
     <task id="LOCAL-00126" summary="BinarySearchApp class added">
       <created>1578916913962</created>
@@ -835,11 +840,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581081923372</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="Schildt. Shift (bite moves) Demo">
+      <created>1581085015481</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1581085015481</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="524280000" />
+    <option name="totallyTimeSpent" value="525575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,8 +876,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.5011792" visible="true" weight="0.3767492" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882075" side_tool="true" visible="true" weight="0.3767492" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5011792" weight="0.3767492" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882075" side_tool="true" weight="0.3229279" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
@@ -974,7 +986,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MergeSortY() added" />
     <MESSAGE value="arrayToString() added." />
     <MESSAGE value="main() finished" />
     <MESSAGE value="class Params added. to incapsulate return adress &amp; arg of () n. Objects to stack." />
@@ -999,7 +1010,8 @@
     <MESSAGE value="Schildt. Finalize Demo" />
     <MESSAGE value="Schildt. Bubble Demo" />
     <MESSAGE value="Schildt. Queue Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Schildt. Queue Demo" />
+    <MESSAGE value="Schildt. Shift (bite moves) Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Schildt. Shift (bite moves) Demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1279,13 +1291,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1693">
-          <caret line="269" column="33" selection-start-line="269" selection-start-column="33" selection-end-line="269" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -1606,6 +1611,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1613,10 +1625,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java">
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ShowBitsDemo/ShowBits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="442">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
