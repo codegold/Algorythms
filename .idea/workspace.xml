@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/CaseChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/FinalizeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +49,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CaseChange.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/CaseChange.java">
+      <file leaf-file-name="FinalizeDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/FinalizeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="450">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bubble.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -80,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/PriorQueue/ChapterFive.java" />
         <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java" />
         <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CycleLinkedList.java" />
         <option value="$PROJECT_DIR$/java/src/CStack/CStack.java" />
@@ -131,6 +148,7 @@
         <option value="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BackPack/BackPack.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/CaseChange.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/FinalizeDemo.java" />
       </list>
     </option>
   </component>
@@ -150,8 +168,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="422" />
-    <option name="y" value="31" />
+    <option name="x" value="803" />
+    <option name="y" value="23" />
     <option name="width" value="877" />
     <option name="height" value="1027" />
   </component>
@@ -198,6 +216,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Part8Exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
               <item name="PartTreeTasks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -233,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CaseChange">
+  <component name="RunManager" selected="Application.Finalize">
     <configuration name="CaseChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.PartTreeTasks.CaseChange" />
       <module name="Algorythms" />
@@ -245,19 +271,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SixFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.AlgorythmsWork.AlgoDraw.BookTasks.SixFour" />
+    <configuration name="Finalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part8Exercises.Finalize" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.AlgorythmsWork.AlgoDraw.BookTasks.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part8Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SixOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.AlgorythmsWork.AlgoDraw.BookTasks.SixOne" />
+    <configuration name="SixFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.AlgorythmsWork.AlgoDraw.BookTasks.SixFour" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -331,19 +357,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SixOne" />
       <item itemvalue="Application.SixTwo" />
       <item itemvalue="Application.SixFour" />
       <item itemvalue="Application.Symbols" />
       <item itemvalue="Application.CaseChange" />
+      <item itemvalue="Application.Finalize" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Finalize" />
         <item itemvalue="Application.CaseChange" />
         <item itemvalue="Application.Symbols" />
         <item itemvalue="Application.SixFour" />
         <item itemvalue="Application.SixTwo" />
-        <item itemvalue="Application.SixOne" />
       </list>
     </recent_temporary>
   </component>
@@ -458,14 +484,7 @@
       <workItem from="1580978291438" duration="867000" />
       <workItem from="1580980096141" duration="3706000" />
       <workItem from="1580988136728" duration="874000" />
-      <workItem from="1580991437648" duration="3342000" />
-    </task>
-    <task id="LOCAL-00121" summary="Factorial app added.">
-      <created>1577451964983</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1577451964985</updated>
+      <workItem from="1580991437648" duration="5260000" />
     </task>
     <task id="LOCAL-00122" summary="AnagrammApp class added. doAnagram() added">
       <created>1578644457510</created>
@@ -803,11 +822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580994239448</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="Schildt repeat. 3 part. Cases change task.">
+      <created>1580996755810</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1580996755810</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515175000" />
+    <option name="totallyTimeSpent" value="517093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,25 +845,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="422" y="31" width="877" height="1027" extended-state="0" />
+    <frame x="803" y="23" width="877" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49101797" weight="0.3228181" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48982036" weight="0.3228181" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.50460595" weight="0.12828602" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50898206" side_tool="true" visible="true" weight="0.26498422" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.502994" weight="0.16719243" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497006" side_tool="true" visible="true" weight="0.3396425" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="325" y="187" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" type="FLOATING" weight="0.27185628" />
+      <window_info active="true" content_ui="combo" x="226" y="116" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" type="FLOATING" visible="true" weight="0.27185628" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -942,7 +968,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="few edits" />
     <MESSAGE value="TEST HEAD branch" />
     <MESSAGE value="Merge Sort. My version" />
     <MESSAGE value="MergeSort. Y version. MergeYou() added." />
@@ -967,7 +992,8 @@
     <MESSAGE value="Book Task # 6.4." />
     <MESSAGE value="Updated hierarchy in Algorythms folder." />
     <MESSAGE value="Schildt repeat. 3 part. Spaces task." />
-    <option name="LAST_COMMIT_MESSAGE" value="Schildt repeat. 3 part. Spaces task." />
+    <MESSAGE value="Schildt repeat. 3 part. Cases change task." />
+    <option name="LAST_COMMIT_MESSAGE" value="Schildt repeat. 3 part. Cases change task." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1247,20 +1273,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/CycleLinkedList/CycleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Josephus/Josephus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/SortedList/SortedListApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1591,8 +1603,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/CaseChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="255">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/FinalizeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
