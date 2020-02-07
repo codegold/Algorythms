@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="Schildt. Bubble Demo">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/CopyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java" afterDir="false" />
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,29 +48,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bubble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="272">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java">
+      <file leaf-file-name="ShiftDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="425">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -100,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java" />
         <option value="$PROJECT_DIR$/java/src/Josephus/Josephus.java" />
         <option value="$PROJECT_DIR$/java/src/Josephus/JosephusApp.java" />
         <option value="$PROJECT_DIR$/java/src/Matrix/MatrixLink.java" />
@@ -151,6 +139,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/CopyArray.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java" />
       </list>
     </option>
   </component>
@@ -170,10 +159,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="803" />
+    <option name="x" value="1030" />
     <option name="y" value="23" />
-    <option name="width" value="877" />
-    <option name="height" value="1027" />
+    <option name="width" value="890" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -185,8 +174,6 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,23 +221,6 @@
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Part8Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="QDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="PartTreeTasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="Lafore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,6 +235,8 @@
         <option name="show-excluded-files" value="false" />
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QDemo">
+  <component name="RunManager" selected="Application.ShiftDemo">
     <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part8Exercises.Bubble" />
       <module name="Algorythms" />
@@ -337,13 +309,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Symbols" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.PartTreeTasks.Symbols" />
+    <configuration name="ShiftDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part8Exercises.ShiftDemo" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.PartTreeTasks.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part8Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,19 +362,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Symbols" />
       <item itemvalue="Application.CaseChange" />
       <item itemvalue="Application.Finalize" />
       <item itemvalue="Application.Bubble" />
       <item itemvalue="Application.QDemo" />
+      <item itemvalue="Application.ShiftDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShiftDemo" />
         <item itemvalue="Application.QDemo" />
         <item itemvalue="Application.Bubble" />
         <item itemvalue="Application.Finalize" />
         <item itemvalue="Application.CaseChange" />
-        <item itemvalue="Application.Symbols" />
       </list>
     </recent_temporary>
   </component>
@@ -518,14 +490,7 @@
       <workItem from="1580980096141" duration="3706000" />
       <workItem from="1580988136728" duration="874000" />
       <workItem from="1580991437648" duration="11398000" />
-      <workItem from="1581081618572" duration="118000" />
-    </task>
-    <task id="LOCAL-00124" summary="AnagramApp finished">
-      <created>1578651308389</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1578651308389</updated>
+      <workItem from="1581081618572" duration="1049000" />
     </task>
     <task id="LOCAL-00125" summary="Binary search with recursion. OrdArray class added.">
       <created>1578911059792</created>
@@ -863,11 +828,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581068417923</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="Schildt. Queue Demo">
+      <created>1581081923371</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1581081923372</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523349000" />
+    <option name="totallyTimeSpent" value="524280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -879,24 +851,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="803" y="23" width="877" height="1027" extended-state="0" />
+    <frame x="1030" y="23" width="890" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48982036" weight="0.3228181" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5017964" weight="0.37749738" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4982036" side_tool="true" weight="0.32386962" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.5011792" visible="true" weight="0.3767492" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882075" side_tool="true" visible="true" weight="0.3767492" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="1333" y="76" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" type="FLOATING" weight="0.27185628" />
+      <window_info content_ui="combo" x="1489" y="109" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" type="FLOATING" weight="0.27185628" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -905,7 +878,6 @@
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53532934" weight="0.26498422" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48982036" weight="0.3228181" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1002,7 +974,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MergeSort. Y version. MergeYou() added." />
     <MESSAGE value="MergeSortY() added" />
     <MESSAGE value="arrayToString() added." />
     <MESSAGE value="main() finished" />
@@ -1027,7 +998,8 @@
     <MESSAGE value="Schildt repeat. 3 part. Cases change task." />
     <MESSAGE value="Schildt. Finalize Demo" />
     <MESSAGE value="Schildt. Bubble Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Schildt. Bubble Demo" />
+    <MESSAGE value="Schildt. Queue Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Schildt. Queue Demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1307,13 +1279,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/TaskOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1693">
@@ -1634,17 +1599,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
