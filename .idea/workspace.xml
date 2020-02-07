@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/FinalizeDemo.java" afterDir="false" />
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="Schildt. Bubble Demo">
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/CopyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,28 +50,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FinalizeDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/FinalizeDemo.java">
+      <file leaf-file-name="Bubble.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bubble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -98,10 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CircularApp.java" />
-        <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CycleLinkedList.java" />
-        <option value="$PROJECT_DIR$/java/src/CStack/CStack.java" />
-        <option value="$PROJECT_DIR$/java/src/CStack/CStackApp.java" />
         <option value="$PROJECT_DIR$/java/src/CycleLinkedList/CLink.java" />
         <option value="$PROJECT_DIR$/java/src/Josephus/Josephus.java" />
         <option value="$PROJECT_DIR$/java/src/Josephus/JosephusApp.java" />
@@ -149,6 +147,10 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/CaseChange.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/FinalizeDemo.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/CopyArray.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java" />
       </list>
     </option>
   </component>
@@ -195,6 +197,17 @@
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -224,7 +237,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Part8Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="QDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
               <item name="PartTreeTasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="Lafore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="Lafore" type="462c0819:PsiDirectoryNode" />
+              <item name="BubbleSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +292,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Finalize">
+  <component name="RunManager" selected="Application.QDemo">
+    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part8Exercises.Bubble" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SchildtWork.Part8Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CaseChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.PartTreeTasks.CaseChange" />
       <module name="Algorythms" />
@@ -282,24 +326,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SixFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.AlgorythmsWork.AlgoDraw.BookTasks.SixFour" />
+    <configuration name="QDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part8Exercises.QDemo.QDemo" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.AlgorythmsWork.AlgoDraw.BookTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SixTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.AlgorythmsWork.AlgoDraw.BookTasks.SixTwo" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.AlgorythmsWork.AlgoDraw.BookTasks.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part8Exercises.QDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,19 +390,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SixTwo" />
-      <item itemvalue="Application.SixFour" />
       <item itemvalue="Application.Symbols" />
       <item itemvalue="Application.CaseChange" />
       <item itemvalue="Application.Finalize" />
+      <item itemvalue="Application.Bubble" />
+      <item itemvalue="Application.QDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QDemo" />
+        <item itemvalue="Application.Bubble" />
         <item itemvalue="Application.Finalize" />
         <item itemvalue="Application.CaseChange" />
         <item itemvalue="Application.Symbols" />
-        <item itemvalue="Application.SixFour" />
-        <item itemvalue="Application.SixTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -484,21 +517,8 @@
       <workItem from="1580978291438" duration="867000" />
       <workItem from="1580980096141" duration="3706000" />
       <workItem from="1580988136728" duration="874000" />
-      <workItem from="1580991437648" duration="5260000" />
-    </task>
-    <task id="LOCAL-00122" summary="AnagrammApp class added. doAnagram() added">
-      <created>1578644457510</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1578644457514</updated>
-    </task>
-    <task id="LOCAL-00123" summary="rotate() added">
-      <created>1578647415211</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1578647415211</updated>
+      <workItem from="1580991437648" duration="11398000" />
+      <workItem from="1581081618572" duration="118000" />
     </task>
     <task id="LOCAL-00124" summary="AnagramApp finished">
       <created>1578651308389</created>
@@ -829,11 +849,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580996755810</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="Schildt. Finalize Demo">
+      <created>1581066647494</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1581066647494</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Schildt. Bubble Demo">
+      <created>1581068417923</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1581068417923</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="517093000" />
+    <option name="totallyTimeSpent" value="523349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -851,43 +885,44 @@
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48982036" weight="0.3228181" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.502994" weight="0.16719243" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497006" side_tool="true" visible="true" weight="0.3396425" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5017964" weight="0.37749738" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4982036" side_tool="true" weight="0.32386962" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" x="226" y="116" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" type="FLOATING" visible="true" weight="0.27185628" />
+      <window_info content_ui="combo" x="1333" y="76" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" type="FLOATING" weight="0.27185628" />
       <window_info anchor="right" id="Database" order="6" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5366357" weight="0.26498422" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53532934" weight="0.26498422" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48982036" weight="0.3228181" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="9" weight="0.32931727" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32507738" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2878449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -909,7 +944,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32966024" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24373041" />
     </layout-to-restore>
@@ -968,8 +1002,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TEST HEAD branch" />
-    <MESSAGE value="Merge Sort. My version" />
     <MESSAGE value="MergeSort. Y version. MergeYou() added." />
     <MESSAGE value="MergeSortY() added" />
     <MESSAGE value="arrayToString() added." />
@@ -993,7 +1025,9 @@
     <MESSAGE value="Updated hierarchy in Algorythms folder." />
     <MESSAGE value="Schildt repeat. 3 part. Spaces task." />
     <MESSAGE value="Schildt repeat. 3 part. Cases change task." />
-    <option name="LAST_COMMIT_MESSAGE" value="Schildt repeat. 3 part. Cases change task." />
+    <MESSAGE value="Schildt. Finalize Demo" />
+    <MESSAGE value="Schildt. Bubble Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Schildt. Bubble Demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1273,49 +1307,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/SortedList/SortedListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Matrix/MatrixLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Matrix/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Matrix/MatrixApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Triangle/Triangle.java" />
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Josephus/JosephusApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/Factorial/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/TaskOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1608,25 +1599,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Algorythms/src/Linear/Greedy.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorythms/src/Binary/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/FinalizeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lafore/BubbleSort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lafore/BubbleSort/ArrayBub.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/CopyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
