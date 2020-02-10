@@ -10,12 +10,17 @@ public class StringBack {
         int strLength = s.length();
         String result = "";
         for (int i = 0; i < strLength; i++) {
-           result = s.charAt(i) + result;
+            result = s.charAt(i) + result;
         }
 
         System.out.println(result);
 
         System.out.println(reverseWithRecursion(d));
+
+        String newString = reverseWithRecursion(d);
+
+        String newS =  reverseWithRecursion(newString);
+        System.out.println(newS);
     }
 
     public static String reverseWithRecursion(String ss) {
@@ -23,11 +28,12 @@ public class StringBack {
         String right;
         int length = ss.length();
 
-        if (length <= 1)
+        if (length <= 1) {
             return ss;
+        }
 
-        left = ss.substring(0, length/2);
-        right = ss.substring(length/2, length);
+        left = ss.substring(0, ss.length() / 2);
+        right = ss.substring(ss.length() / 2, ss.length());
 
         return reverseWithRecursion(right) + reverseWithRecursion(left);
     }

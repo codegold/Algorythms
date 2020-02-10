@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java" afterDir="false" />
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="Schildt. String back with recursion.">
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part8Exercises/StringBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part8Exercises/StringBack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +20,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Algorythms$CheckoutApp.ic" NAME="CheckoutApp Coverage Results" MODIFIED="1575535130791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>src.Checkout.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Algorythms$StringBack.ic" NAME="StringBack Coverage Results" MODIFIED="1581335786891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.SchildtWork.Part8Exercises.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Algorythms$Algo.ic" NAME="Algo Coverage Results" MODIFIED="1573039595536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>src.AlgoDraw.*</FILTER>
@@ -48,14 +56,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringBack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java">
+      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="375">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding>
-                <marker date="1581332946191" expanded="true" signature="150:246" ph="..." />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bike.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding>
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Truck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="67" />
+              <folding>
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TruckDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -83,10 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/BinarySearch/ordArray.java" />
-        <option value="$PROJECT_DIR$/java/src/Towers/hanoi.java" />
-        <option value="$PROJECT_DIR$/java/src/Towers/H.java" />
-        <option value="$PROJECT_DIR$/java/src/Towers/Solution.java" />
         <option value="$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/TaskOne.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLite.java" />
@@ -134,6 +191,10 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java" />
       </list>
     </option>
   </component>
@@ -153,9 +214,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="970" />
+    <option name="x" value="794" />
     <option name="y" value="23" />
-    <option name="width" value="890" />
+    <option name="width" value="886" />
     <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -212,7 +273,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Part8Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -258,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringBack">
+  <component name="RunManager" selected="Application.TruckDemo">
     <configuration name="CallByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.ByValueAndRef.CallByRef" />
       <module name="Algorythms" />
@@ -292,17 +353,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ShowBitsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.ShowBitsDemo.ShowBitsDemo" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SchildtWork.ShowBitsDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="StringBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part8Exercises.StringBack" />
       <module name="Algorythms" />
@@ -310,6 +360,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.SchildtWork.Part8Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TruckDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Inheritance.TruckDemo" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SchildtWork.Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,19 +417,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ShowBitsDemo" />
       <item itemvalue="Application.CallByValue" />
       <item itemvalue="Application.CallByRef" />
       <item itemvalue="Application.ErrInfo" />
       <item itemvalue="Application.StringBack" />
+      <item itemvalue="Application.TruckDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TruckDemo" />
         <item itemvalue="Application.StringBack" />
         <item itemvalue="Application.ErrInfo" />
         <item itemvalue="Application.CallByRef" />
         <item itemvalue="Application.CallByValue" />
-        <item itemvalue="Application.ShowBitsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -485,28 +546,7 @@
       <workItem from="1580988136728" duration="874000" />
       <workItem from="1580991437648" duration="11398000" />
       <workItem from="1581081618572" duration="3292000" />
-      <workItem from="1581321849065" duration="7213000" />
-    </task>
-    <task id="LOCAL-00129" summary="some tasks on recursion">
-      <created>1579015338259</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1579015338259</updated>
-    </task>
-    <task id="LOCAL-00130" summary="MergeApp class added. merge() added.">
-      <created>1579081247168</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1579081247171</updated>
-    </task>
-    <task id="LOCAL-00131" summary="display() added.">
-      <created>1579086930076</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1579086930076</updated>
+      <workItem from="1581321849065" duration="12840000" />
     </task>
     <task id="LOCAL-00132" summary="some comments added">
       <created>1579087363443</created>
@@ -830,11 +870,32 @@
       <option name="project" value="LOCAL" />
       <updated>1581330255829</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Schildt. String back">
+      <created>1581333902986</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1581333902987</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Schildt. String back">
+      <created>1581333937105</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1581333937105</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Schildt. String back with recursion.">
+      <created>1581336037593</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1581336037593</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533736000" />
+    <option name="totallyTimeSpent" value="539363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -846,7 +907,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="970" y="23" width="890" height="1005" extended-state="0" />
+    <frame x="794" y="23" width="886" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
@@ -859,24 +920,24 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.5011792" weight="0.3767492" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.46698114" side_tool="true" visible="true" weight="0.26372445" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3767492" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46755555" side_tool="true" visible="true" weight="0.26372445" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32444444" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2712264" />
+      <window_info active="true" content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.20379147" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5330189" visible="true" weight="0.26372445" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5324444" weight="0.26372445" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32507738" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
@@ -969,8 +1030,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class StackX added. Stack methods here." />
-    <MESSAGE value="class StackX finished" />
     <MESSAGE value="class StackTriangleApp added." />
     <MESSAGE value="step() added. Switches cases." />
     <MESSAGE value="getString() and getInt() added." />
@@ -994,7 +1053,9 @@
     <MESSAGE value="Schildt. Showbits Demo" />
     <MESSAGE value="Schildt. By value and by ref Demo" />
     <MESSAGE value="Schildt. By value and by ref Demo. Upgraded." />
-    <option name="LAST_COMMIT_MESSAGE" value="Schildt. By value and by ref Demo. Upgraded." />
+    <MESSAGE value="Schildt. String back" />
+    <MESSAGE value="Schildt. String back with recursion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Schildt. String back with recursion." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1106,6 +1167,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java</url>
+          <line>25</line>
+          <properties class="src.SchildtWork.Part8Exercises.StringBack" method="reverseWithRecursion">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Anagram/AnagramApp.java</url>
@@ -1294,41 +1363,10 @@
           <option name="timeStamp" value="166" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="174" />
+      <option name="time" value="178" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/OrderedArray/OrdArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/OrderedArray/OrdArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="965">
-          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/Hanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Anagram/AnagramApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1634,11 +1672,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="375">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding>
-            <marker date="1581332946191" expanded="true" signature="150:246" ph="..." />
+            <marker date="1581338591312" expanded="true" signature="177:271" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="67" />
+          <folding>
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
