@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,38 +48,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CallByValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ByValueAndRef/CallByValue.java">
+      <file leaf-file-name="StringBack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ByValueAndRef/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallByRef.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ByValueAndRef/CallByRef.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ErrorInfo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <marker date="1581332946191" expanded="true" signature="150:246" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/BinarySearch/BinarySearchApp.java" />
         <option value="$PROJECT_DIR$/java/src/BinarySearch/ordArray.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/hanoi.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/H.java" />
@@ -158,6 +133,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ByValueAndRef/CallByValue.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java" />
       </list>
     </option>
   </component>
@@ -236,16 +212,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="ErrorMessage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="ErrorMessage" type="462c0819:PsiDirectoryNode" />
-              <item name="ErrorInfo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Part8Exercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -291,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StringBack">
     <configuration name="CallByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.ByValueAndRef.CallByRef" />
       <module name="Algorythms" />
@@ -325,17 +292,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ShiftDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part8Exercises.ShiftDemo" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part8Exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="ShowBitsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.ShowBitsDemo.ShowBitsDemo" />
       <module name="Algorythms" />
@@ -343,6 +299,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.SchildtWork.ShowBitsDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part8Exercises.StringBack" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SchildtWork.Part8Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,19 +356,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ShiftDemo" />
       <item itemvalue="Application.ShowBitsDemo" />
       <item itemvalue="Application.CallByValue" />
       <item itemvalue="Application.CallByRef" />
       <item itemvalue="Application.ErrInfo" />
+      <item itemvalue="Application.StringBack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBack" />
         <item itemvalue="Application.ErrInfo" />
         <item itemvalue="Application.CallByRef" />
         <item itemvalue="Application.CallByValue" />
         <item itemvalue="Application.ShowBitsDemo" />
-        <item itemvalue="Application.ShiftDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -518,14 +485,7 @@
       <workItem from="1580988136728" duration="874000" />
       <workItem from="1580991437648" duration="11398000" />
       <workItem from="1581081618572" duration="3292000" />
-      <workItem from="1581321849065" duration="5134000" />
-    </task>
-    <task id="LOCAL-00128" summary=" Hanoi MFTI version">
-      <created>1579010998309</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1579010998309</updated>
+      <workItem from="1581321849065" duration="7213000" />
     </task>
     <task id="LOCAL-00129" summary="some tasks on recursion">
       <created>1579015338259</created>
@@ -863,11 +823,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581322727952</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Schildt. By value and by ref Demo. Upgraded.">
+      <created>1581330255829</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1581330255829</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="531657000" />
+    <option name="totallyTimeSpent" value="533736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -893,7 +860,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.5011792" weight="0.3767492" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46698114" side_tool="true" weight="0.26372445" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.46698114" side_tool="true" visible="true" weight="0.26372445" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
@@ -904,7 +871,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5330189" visible="true" weight="0.26372445" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5330189" visible="true" weight="0.26372445" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
@@ -1002,7 +969,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class Params added. to incapsulate return adress &amp; arg of () n. Objects to stack." />
     <MESSAGE value="class StackX added. Stack methods here." />
     <MESSAGE value="class StackX finished" />
     <MESSAGE value="class StackTriangleApp added." />
@@ -1027,7 +993,8 @@
     <MESSAGE value="Schildt. Shift (bite moves) Demo" />
     <MESSAGE value="Schildt. Showbits Demo" />
     <MESSAGE value="Schildt. By value and by ref Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Schildt. By value and by ref Demo" />
+    <MESSAGE value="Schildt. By value and by ref Demo. Upgraded." />
+    <option name="LAST_COMMIT_MESSAGE" value="Schildt. By value and by ref Demo. Upgraded." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1331,13 +1298,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/MyTests/Binary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/OrderedArray/OrdArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -1667,8 +1627,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="615">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <marker date="1581332946191" expanded="true" signature="150:246" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
