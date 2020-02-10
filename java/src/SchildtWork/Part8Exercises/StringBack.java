@@ -3,8 +3,8 @@ package src.SchildtWork.Part8Exercises;
 public class StringBack {
     public static void main(String[] args) {
         String s = "abcde";
-//        StringBuffer reveresed = new StringBuffer(s).reverse();
-//        System.out.println(reveresed);
+//        StringBuffer reversed = new StringBuffer(s).reverse();
+//        System.out.println(reversed);
 
         int strLength = s.length();
         String result = "";
