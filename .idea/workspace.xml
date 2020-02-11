@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="Schildt. String back with recursion.">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java" afterDir="false" />
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part8Exercises/StringBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part8Exercises/StringBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,67 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java">
+      <file leaf-file-name="ErrorMsg.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-              <folding>
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#926#927#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bike.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Truck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="67" />
-              <folding>
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TruckDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="345">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -188,13 +127,13 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ByValueAndRef/Test.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ByValueAndRef/CallByRef.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ByValueAndRef/CallByValue.java" />
-        <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java" />
-        <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java" />
       </list>
     </option>
   </component>
@@ -213,11 +152,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="794" />
-    <option name="y" value="23" />
-    <option name="width" value="886" />
-    <option name="height" value="1005" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="850" />
+    <option name="width" value="830" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -229,8 +167,9 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,7 +212,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="ErrorMessage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Part8Exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
+              <item name="PartTreeTasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -291,11 +246,10 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="getInt&#9;PSI&#9;JAVA://src.StackTriangle.StackTriangleApp#getInt&#10;random&#9;PSI&#9;JAVA://java.lang.Math#random" />
+    <property name="SearchEverywhereHistoryKey" value="err&#9;FILE&#9;file:///Users/aa/IdeaProjects/Algorythms/java/src/SchildtWork/ErrorMessage/ErrorInfo.java&#10;getInt&#9;PSI&#9;JAVA://src.StackTriangle.StackTriangleApp#getInt&#10;random&#9;PSI&#9;JAVA://java.lang.Math#random" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -305,7 +259,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -319,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TruckDemo">
+  <component name="RunManager" selected="Application.ErrInfo">
     <configuration name="CallByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.ByValueAndRef.CallByRef" />
       <module name="Algorythms" />
@@ -425,9 +379,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ErrInfo" />
         <item itemvalue="Application.TruckDemo" />
         <item itemvalue="Application.StringBack" />
-        <item itemvalue="Application.ErrInfo" />
         <item itemvalue="Application.CallByRef" />
         <item itemvalue="Application.CallByValue" />
       </list>
@@ -546,14 +500,9 @@
       <workItem from="1580988136728" duration="874000" />
       <workItem from="1580991437648" duration="11398000" />
       <workItem from="1581081618572" duration="3292000" />
-      <workItem from="1581321849065" duration="12840000" />
-    </task>
-    <task id="LOCAL-00132" summary="some comments added">
-      <created>1579087363443</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1579087363443</updated>
+      <workItem from="1581321849065" duration="13265000" />
+      <workItem from="1581400968985" duration="3000" />
+      <workItem from="1581405487243" duration="1168000" />
     </task>
     <task id="LOCAL-00133" summary="MergeApp refactored">
       <created>1579090113312</created>
@@ -891,11 +840,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581336037593</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="Schildt. Inheritance Demo.">
+      <created>1581342645475</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1581342645475</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="539363000" />
+    <option name="totallyTimeSpent" value="540959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,27 +863,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="794" y="23" width="886" height="1005" extended-state="0" />
+    <frame x="850" y="0" width="830" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4870283" weight="0.32185146" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3767492" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46755555" side_tool="true" visible="true" weight="0.26372445" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32444444" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49881518" weight="0.3767492" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5011848" side_tool="true" weight="0.26372445" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.20379147" />
+      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" weight="0.34898478" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.4988764" visible="true" weight="0.32831326" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -935,12 +890,13 @@
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5324444" weight="0.26372445" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4870283" weight="0.32185146" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32444444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
@@ -1030,7 +986,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class StackTriangleApp added." />
     <MESSAGE value="step() added. Switches cases." />
     <MESSAGE value="getString() and getInt() added." />
     <MESSAGE value="added exception to main" />
@@ -1055,7 +1010,8 @@
     <MESSAGE value="Schildt. By value and by ref Demo. Upgraded." />
     <MESSAGE value="Schildt. String back" />
     <MESSAGE value="Schildt. String back with recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Schildt. String back with recursion." />
+    <MESSAGE value="Schildt. Inheritance Demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Schildt. Inheritance Demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1663,13 +1619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/StringBack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1680,27 +1629,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java">
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state relative-caret-position="210">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1708,7 +1645,7 @@
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="67" />
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="67" />
           <folding>
             <element signature="e#325#326#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
@@ -1718,22 +1655,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java">
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java">
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
