@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Exceptions/excDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/ErrorMessage/Err.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/ErrorMessage/ErrInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/ErrorMessage/ErrInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/ErrorMessage/ErrorInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ErrorMsg.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java">
+      <file leaf-file-name="excDemo1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Exceptions/excDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -83,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/RecursionSomeTasks/TaskOne.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/TaskOne.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLite.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramLiteTwo.java" />
@@ -134,6 +137,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorInfo.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Exceptions/excDemo1.java" />
       </list>
     </option>
   </component>
@@ -152,10 +156,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="850" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="847" />
+    <option name="y" value="23" />
     <option name="width" value="830" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,9 +172,6 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,23 +214,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="ErrorMessage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Part8Exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="PartTreeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -246,6 +232,9 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,20 +262,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ErrInfo">
+  <component name="RunManager" selected="Application.excDemo1">
     <configuration name="CallByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.ByValueAndRef.CallByRef" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SchildtWork.ByValueAndRef.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.ByValueAndRef.CallByValue" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -332,6 +310,17 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="excDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Exceptions.excDemo1" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SchildtWork.Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -371,19 +360,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CallByValue" />
       <item itemvalue="Application.CallByRef" />
       <item itemvalue="Application.ErrInfo" />
       <item itemvalue="Application.StringBack" />
       <item itemvalue="Application.TruckDemo" />
+      <item itemvalue="Application.excDemo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.excDemo1" />
         <item itemvalue="Application.ErrInfo" />
         <item itemvalue="Application.TruckDemo" />
         <item itemvalue="Application.StringBack" />
         <item itemvalue="Application.CallByRef" />
-        <item itemvalue="Application.CallByValue" />
       </list>
     </recent_temporary>
   </component>
@@ -502,14 +491,9 @@
       <workItem from="1581081618572" duration="3292000" />
       <workItem from="1581321849065" duration="13265000" />
       <workItem from="1581400968985" duration="3000" />
-      <workItem from="1581405487243" duration="1168000" />
-    </task>
-    <task id="LOCAL-00133" summary="MergeApp refactored">
-      <created>1579090113312</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1579090113312</updated>
+      <workItem from="1581405487243" duration="2544000" />
+      <workItem from="1581411896754" duration="838000" />
+      <workItem from="1581495203922" duration="868000" />
     </task>
     <task id="LOCAL-00134" summary="MergeSortApp in process. display() mergeSort() added.">
       <created>1579185262887</created>
@@ -847,11 +831,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581342645475</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Schildt. Error msg. Upgraded with constants.">
+      <created>1581408467679</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1581408467680</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="540959000" />
+    <option name="totallyTimeSpent" value="544041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,7 +854,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="850" y="0" width="830" height="1050" extended-state="0" />
+    <frame x="847" y="23" width="830" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
@@ -875,14 +866,13 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49881518" weight="0.3767492" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5011848" side_tool="true" weight="0.26372445" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49881518" weight="0.37577003" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5011848" side_tool="true" weight="0.2630522" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" weight="0.34898478" />
+      <window_info active="true" content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.34898478" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.4988764" visible="true" weight="0.32831326" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -893,6 +883,7 @@
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4870283" weight="0.32185146" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32831326" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32444444" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -986,7 +977,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="step() added. Switches cases." />
     <MESSAGE value="getString() and getInt() added." />
     <MESSAGE value="added exception to main" />
     <MESSAGE value="StackTriangle2. Using stack. StackX class added." />
@@ -1011,7 +1001,8 @@
     <MESSAGE value="Schildt. String back" />
     <MESSAGE value="Schildt. String back with recursion." />
     <MESSAGE value="Schildt. Inheritance Demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Schildt. Inheritance Demo." />
+    <MESSAGE value="Schildt. Error msg. Upgraded with constants." />
+    <option name="LAST_COMMIT_MESSAGE" value="Schildt. Error msg. Upgraded with constants." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1323,13 +1314,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/MyHanoi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1633,12 +1617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1646,12 +1624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="67" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="67" />
-          <folding>
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1671,8 +1643,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/ErrorMessage/ErrorMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="390">
+          <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Exceptions/excDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
