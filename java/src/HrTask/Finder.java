@@ -1,7 +1,6 @@
 package src.HrTask;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 public class Finder {
     /**
