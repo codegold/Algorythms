@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part10/ShowFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part10/ShowFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,26 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShowFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java">
+      <file leaf-file-name="RWData.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CopyFile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/CopyFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="219">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -100,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Towers/Hanoi.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/MyHanoi.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" />
         <option value="$PROJECT_DIR$/java/src/Merge/MergeApp.java" />
@@ -151,6 +133,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/CopyFile.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java" />
       </list>
     </option>
   </component>
@@ -262,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CopyFile">
+  <component name="RunManager" selected="Application.RWData">
     <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.CopyFile" />
       <module name="Algorythms" />
@@ -285,6 +268,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="RWData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.RWData" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SchildtWork.Part10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ReadBytes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.ReadBytes" />
       <module name="Algorythms" />
@@ -303,17 +297,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.SchildtWork.Part10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="UseThrowAbleMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Exceptions.UseThrowAbleMethods" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,19 +343,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.UseThrowAbleMethods" />
       <item itemvalue="Application.Finder" />
       <item itemvalue="Application.ReadBytes" />
       <item itemvalue="Application.ShowFile" />
       <item itemvalue="Application.CopyFile" />
+      <item itemvalue="Application.RWData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RWData" />
         <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.ShowFile" />
         <item itemvalue="Application.ReadBytes" />
         <item itemvalue="Application.Finder" />
-        <item itemvalue="Application.UseThrowAbleMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -498,14 +481,7 @@
       <workItem from="1581504420063" duration="751000" />
       <workItem from="1581505400386" duration="43000" />
       <workItem from="1581580233618" duration="487000" />
-      <workItem from="1581581050698" duration="8290000" />
-    </task>
-    <task id="LOCAL-00143" summary="insertTwo() added.">
-      <created>1580295997735</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1580295997736</updated>
+      <workItem from="1581581050698" duration="9752000" />
     </task>
     <task id="LOCAL-00144" summary="few edits">
       <created>1580369405588</created>
@@ -843,11 +819,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581598330965</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="Open 2 files demo.">
+      <created>1581602294876</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1581602294876</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="555877000" />
+    <option name="totallyTimeSpent" value="557339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -860,7 +843,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="952" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -872,12 +854,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24815983" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5021978" side_tool="true" visible="true" weight="0.17350158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5021978" side_tool="true" visible="true" weight="0.22187172" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4978022" weight="0.3753943" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.34175825" />
+      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.25054947" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -982,7 +964,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Book Task # 6.1." />
     <MESSAGE value="Book Task # 6.2." />
     <MESSAGE value="Book Task # 6.2. upadates" />
     <MESSAGE value="Book Task # 6.4." />
@@ -1007,7 +988,8 @@
     <MESSAGE value="Byte stream demo." />
     <MESSAGE value="IO demo." />
     <MESSAGE value="Added finally." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added finally." />
+    <MESSAGE value="Open 2 files demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Open 2 files demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1319,7 +1301,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MyMerge.java" />
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/MergeSort/MergeSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1669,6 +1650,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
