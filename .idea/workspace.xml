@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="Hr task finished.">
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/HrTask/Finder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/HrTask/Finder.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,29 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MembersGroup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/HrTask/MembersGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Finder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/HrTask/Finder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/HrTask/Member.java">
+      <file leaf-file-name="ReadBytes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -100,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArray.java" />
-        <option value="$PROJECT_DIR$/java/src/OrderedArray/OrdArrayApp.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/TowersApp.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/Hanoi.java" />
@@ -151,6 +133,8 @@
         <option value="$PROJECT_DIR$/java/src/HrTask/MembersGroup.java" />
         <option value="$PROJECT_DIR$/java/src/HrTask/Member.java" />
         <option value="$PROJECT_DIR$/java/src/HrTask/Finder.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadByet.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java" />
       </list>
     </option>
   </component>
@@ -213,13 +197,6 @@
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HrTask" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,18 +205,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="Part10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="Lafore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="Lafore" type="462c0819:PsiDirectoryNode" />
-              <item name="BubbleSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +232,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -275,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Finder">
+  <component name="RunManager" selected="Application.ReadBytes">
     <configuration name="ExcDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Exceptions.ExcDemo2" />
       <module name="Algorythms" />
@@ -309,6 +280,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="ReadBytes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.ReadBytes" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SchildtWork.Part10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="UseThrowAbleMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Exceptions.UseThrowAbleMethods" />
       <module name="Algorythms" />
@@ -322,17 +304,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="excDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Exceptions.excDemo1" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -373,19 +344,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.excDemo1" />
       <item itemvalue="Application.ExcDemo2" />
       <item itemvalue="Application.NotHandled" />
       <item itemvalue="Application.UseThrowAbleMethods" />
       <item itemvalue="Application.Finder" />
+      <item itemvalue="Application.ReadBytes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadBytes" />
         <item itemvalue="Application.Finder" />
         <item itemvalue="Application.UseThrowAbleMethods" />
         <item itemvalue="Application.ExcDemo2" />
         <item itemvalue="Application.NotHandled" />
-        <item itemvalue="Application.excDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -511,21 +482,7 @@
       <workItem from="1581504420063" duration="751000" />
       <workItem from="1581505400386" duration="43000" />
       <workItem from="1581580233618" duration="487000" />
-      <workItem from="1581581050698" duration="3830000" />
-    </task>
-    <task id="LOCAL-00138" summary="add mofified files">
-      <created>1579186454130</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1579186454130</updated>
-    </task>
-    <task id="LOCAL-00139" summary="Anagramm Task HR">
-      <created>1579689322686</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1579689322687</updated>
+      <workItem from="1581581050698" duration="5302000" />
     </task>
     <task id="LOCAL-00140" summary="Anagramm Task HR (ver 2.0)">
       <created>1579699393813</created>
@@ -856,11 +813,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581587953155</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="Hr task finished.">
+      <created>1581588444311</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1581588444311</updated>
+    </task>
+    <task id="LOCAL-00188" summary="Hr task finished.">
+      <created>1581588501390</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1581588501390</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="551417000" />
+    <option name="totallyTimeSpent" value="552889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1332,7 +1303,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/Merge/MergeApp.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -1652,13 +1622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/HrTask/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/HrTask/MembersGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1668,8 +1631,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/HrTask/Finder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/HrTask/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
