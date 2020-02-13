@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/HrTask/Finder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/HrTask/Finder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,11 +51,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReadBytes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java">
+      <file leaf-file-name="ShowFile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="360">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Towers/TowersApp.java" />
         <option value="$PROJECT_DIR$/java/src/Anagram/AnagramApp.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/Hanoi.java" />
         <option value="$PROJECT_DIR$/java/src/Towers/MyHanoi.java" />
@@ -135,6 +136,7 @@
         <option value="$PROJECT_DIR$/java/src/HrTask/Finder.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadByet.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java" />
       </list>
     </option>
   </component>
@@ -246,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadBytes">
+  <component name="RunManager" selected="Application.ShowFile">
     <configuration name="ExcDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Exceptions.ExcDemo2" />
       <module name="Algorythms" />
@@ -269,19 +271,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NotHandled" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Exceptions.NotHandled" />
+    <configuration name="ReadBytes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.ReadBytes" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Exceptions.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReadBytes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.ReadBytes" />
+    <configuration name="ShowFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.ShowFile" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -345,18 +347,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExcDemo2" />
-      <item itemvalue="Application.NotHandled" />
       <item itemvalue="Application.UseThrowAbleMethods" />
       <item itemvalue="Application.Finder" />
       <item itemvalue="Application.ReadBytes" />
+      <item itemvalue="Application.ShowFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShowFile" />
         <item itemvalue="Application.ReadBytes" />
         <item itemvalue="Application.Finder" />
         <item itemvalue="Application.UseThrowAbleMethods" />
         <item itemvalue="Application.ExcDemo2" />
-        <item itemvalue="Application.NotHandled" />
       </list>
     </recent_temporary>
   </component>
@@ -482,14 +484,7 @@
       <workItem from="1581504420063" duration="751000" />
       <workItem from="1581505400386" duration="43000" />
       <workItem from="1581580233618" duration="487000" />
-      <workItem from="1581581050698" duration="5302000" />
-    </task>
-    <task id="LOCAL-00140" summary="Anagramm Task HR (ver 2.0)">
-      <created>1579699393813</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1579699393813</updated>
+      <workItem from="1581581050698" duration="6064000" />
     </task>
     <task id="LOCAL-00141" summary="findTwo() added. Recursion used way of binary search.">
       <created>1579786852986</created>
@@ -827,11 +822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581588501390</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="Byte stream demo.">
+      <created>1581596069197</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1581596069197</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="552889000" />
+    <option name="totallyTimeSpent" value="553651000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,12 +858,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24872579" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5139594" side_tool="true" visible="true" weight="0.13985279" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5139594" side_tool="true" visible="true" weight="0.13985279" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49881518" weight="0.37577003" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2884972" />
+      <window_info active="true" content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2884972" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -966,7 +968,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getInt() added." />
     <MESSAGE value="BackPack Task. Item class added." />
     <MESSAGE value="BackPack class finished" />
     <MESSAGE value="Book Task # 6.1." />
@@ -991,7 +992,8 @@
     <MESSAGE value="Schildt. Exception demo. Use throwable demo." />
     <MESSAGE value="in process" />
     <MESSAGE value="Hr task finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="Hr task finished." />
+    <MESSAGE value="Byte stream demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Byte stream demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1303,13 +1305,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/Merge/MyMerge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1645,8 +1640,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="195">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
