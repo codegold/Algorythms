@@ -21,21 +21,28 @@ public class ShowFile {
             System.out.println("File not found");
             return;
         }
-        try {
-            // read while not meet EOF
+
+        try {      // read while not meet EOF
             do {
                 i = fin.read();
                 if (i != -1) System.out.println((char) i);
             } while (i != -1);
         } catch (IOException e) {
             System.out.println("Error while reading file.");
+            //For closing use FINALLY
+        } finally {
+            try {
+                fin.close();
+            } catch (IOException exc) {
+                System.out.println("Error while closingggg.");
+            }
         }
 
-        try {
-            fin.close();
-        } catch (IOException exc) {
-            System.out.println("Error while closing.");
-        }
+//        try {
+//            fin.close();
+//        } catch (IOException exc) {
+//            System.out.println("Error while closing.");
+//        }
 
 
     }
