@@ -1,37 +1,33 @@
 package src.HrTask;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class Finder {
-
     /**
      * Поиск групп людей старше определенного возраста.
-     * * *
-     *
      * @param groups    группы *
      * @param targetAge возраст для поиска *
      * @return список имен групп из списка групп
      * старше возраста targetAge
      */
-    public Set<String> findOldMembers(List<MembersGroup> groups, int targetAge) {
 
-        Set<String> groupsNames = new HashSet<>();
-        for (MembersGroup membersGroup : groups) {
-            for (Member member : membersGroup.getMembers()) {
-                if (member.getAge() > targetAge) {
-                    String name = member.getName();
-                    groupsNames.add(name);
-                }
-            }
-        }
-        return groupsNames;
+    public static Set<String> findOldMembers(List<MembersGroup> groups, int targetAge)
+    {
+        Set<String> newGroup = new HashSet<>();
+        groups.stream()
+                .forEach(s -> s.getMembers()
+                .stream()
+                .filter(t -> t.getAge() > targetAge)
+                .forEach(w -> newGroup.add(w.getName())));
+        System.out.println(newGroup);
+
+        return newGroup;
     }
 
-    public static void main(String[] args) {
+    //Для проверки, убедиться что работает.
+    public static void main(String[] args)
+    {
         Member member1 = new Member("Vasya", 11);
         Member member2 = new Member("Sasha", 22);
         Member member3 = new Member("Masha", 33);
@@ -40,11 +36,7 @@ public class Finder {
         list.add(member2);
         list.add(member3);
         MembersGroup mGroup = new MembersGroup("Test", list);
-
-        Stream.of(mGroup).filter(x -> x.equals(22))
-                .forEach(System.out::println);
-        //System.out.println("its here");
-
+        System.out.println(findOldMembers(Collections.singletonList(mGroup), 22));
     }
 }
 
