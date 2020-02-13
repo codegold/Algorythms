@@ -20,7 +20,6 @@ public class Finder {
                 .stream()
                 .filter(t -> t.getAge() > targetAge)
                 .forEach(w -> newGroup.add(w.getName())));
-        System.out.println(newGroup);
 
         return newGroup;
     }
