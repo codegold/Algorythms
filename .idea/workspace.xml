@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/RandomAccessDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadChars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part10/RandomAccessDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/RandomAccessDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,32 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CompFiles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/CompFiles.java">
+      <file leaf-file-name="ReadChars.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadChars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomAccessDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/RandomAccessDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CopyFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/CopyFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Merge/MergeApp.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MyMerge.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MyMerge.java" />
@@ -158,6 +137,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/CompFiles.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/RandomAccessDemo.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadChars.java" />
       </list>
     </option>
   </component>
@@ -269,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomAccessDemo">
+  <component name="RunManager" selected="Application.ReadChars">
     <configuration name="CompFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.CompFiles" />
       <module name="Algorythms" />
@@ -314,8 +294,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ShowFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.ShowFile" />
+    <configuration name="ReadChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.ReadChars" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -367,19 +347,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ShowFile" />
       <item itemvalue="Application.CopyFile" />
       <item itemvalue="Application.RWData" />
       <item itemvalue="Application.CompFiles" />
       <item itemvalue="Application.RandomAccessDemo" />
+      <item itemvalue="Application.ReadChars" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadChars" />
         <item itemvalue="Application.RandomAccessDemo" />
         <item itemvalue="Application.CompFiles" />
         <item itemvalue="Application.RWData" />
         <item itemvalue="Application.CopyFile" />
-        <item itemvalue="Application.ShowFile" />
       </list>
     </recent_temporary>
   </component>
@@ -506,14 +486,7 @@
       <workItem from="1581505400386" duration="43000" />
       <workItem from="1581580233618" duration="487000" />
       <workItem from="1581581050698" duration="10013000" />
-      <workItem from="1581662766674" duration="6504000" />
-    </task>
-    <task id="LOCAL-00146" summary="TEST HEAD branch">
-      <created>1580371648217</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1580371648217</updated>
+      <workItem from="1581662766674" duration="8617000" />
     </task>
     <task id="LOCAL-00147" summary="Merge Sort. My version">
       <created>1580388163406</created>
@@ -851,11 +824,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581666174771</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="Files with random access demo.">
+      <created>1581680008138</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1581680008138</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="564104000" />
+    <option name="totallyTimeSpent" value="566217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,8 +860,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24815983" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4956044" weight="0.3753943" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5043956" side_tool="true" visible="true" weight="0.23764458" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4945055" weight="0.3753943" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50549453" side_tool="true" visible="true" weight="0.3753943" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
@@ -990,7 +970,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Book Task # 6.4." />
     <MESSAGE value="Updated hierarchy in Algorythms folder." />
     <MESSAGE value="Schildt repeat. 3 part. Spaces task." />
     <MESSAGE value="Schildt repeat. 3 part. Cases change task." />
@@ -1015,7 +994,8 @@
     <MESSAGE value="Open 2 files demo." />
     <MESSAGE value="Read and write files demo." />
     <MESSAGE value="Compare files demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Compare files demo." />
+    <MESSAGE value="Files with random access demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Files with random access demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1327,13 +1307,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTriangle/Params.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTriangle/StackX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1674,15 +1647,25 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/RandomAccessFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="234">
           <caret line="552" column="16" selection-start-line="552" selection-start-column="16" selection-end-line="552" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/RandomAccessDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        <state relative-caret-position="810">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadChars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
