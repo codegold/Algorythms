@@ -6,14 +6,14 @@ import java.io.InputStreamReader;
 
 public class ReadChars {
     public static void main(String[] args) throws IOException{
-        char c;
+        String c;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter sm. Full stop to stop");
+        System.out.println("Enter anythnig. Input stop to stop");
 
         do {
-            c = (char) br.read();
+            c =  br.readLine();
             System.out.println(c);
-        } while (c != '.');
-        System.out.println("You pressed . to finish");
+        } while (!c.equals("stop"));
+        System.out.println("You pressed stop to finish");
     }
 }
