@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/CompFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +51,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RWData.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java">
+      <file leaf-file-name="CompFiles.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/CompFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/CopyFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Towers/MyHanoi.java" />
         <option value="$PROJECT_DIR$/java/src/BubbleSort/MyBubbleSort.java" />
         <option value="$PROJECT_DIR$/java/src/Merge/MergeApp.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/Merge/MergeApp.java" />
@@ -134,6 +145,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/CopyFile.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/CompFiles.java" />
       </list>
     </option>
   </component>
@@ -168,6 +180,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,8 +230,6 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,9 +257,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RWData">
-    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.CopyFile" />
+  <component name="RunManager" selected="Application.CompFiles">
+    <configuration name="CompFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.CompFiles" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -257,13 +269,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Finder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.HrTask.Finder" />
+    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.CopyFile" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.HrTask.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,19 +355,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Finder" />
       <item itemvalue="Application.ReadBytes" />
       <item itemvalue="Application.ShowFile" />
       <item itemvalue="Application.CopyFile" />
       <item itemvalue="Application.RWData" />
+      <item itemvalue="Application.CompFiles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompFiles" />
         <item itemvalue="Application.RWData" />
         <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.ShowFile" />
         <item itemvalue="Application.ReadBytes" />
-        <item itemvalue="Application.Finder" />
       </list>
     </recent_temporary>
   </component>
@@ -481,14 +493,8 @@
       <workItem from="1581504420063" duration="751000" />
       <workItem from="1581505400386" duration="43000" />
       <workItem from="1581580233618" duration="487000" />
-      <workItem from="1581581050698" duration="9752000" />
-    </task>
-    <task id="LOCAL-00144" summary="few edits">
-      <created>1580369405588</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1580369405589</updated>
+      <workItem from="1581581050698" duration="10013000" />
+      <workItem from="1581662766674" duration="2026000" />
     </task>
     <task id="LOCAL-00145" summary="few edits">
       <created>1580370134577</created>
@@ -826,11 +832,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581602294876</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="Read and write files demo.">
+      <created>1581604645416</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1581604645416</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="557339000" />
+    <option name="totallyTimeSpent" value="559626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -843,6 +856,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="952" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -854,37 +868,36 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24815983" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5021978" side_tool="true" visible="true" weight="0.22187172" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4978022" weight="0.3753943" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5021978" side_tool="true" visible="true" weight="0.22187172" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.25054947" />
+      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.25604397" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5324444" weight="0.26372445" />
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5324444" weight="0.26372445" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32831326" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32444444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32831326" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882075" side_tool="true" visible="true" weight="0.3229279" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32507738" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
@@ -906,6 +919,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32507738" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53532934" weight="0.26498422" />
     </layout-to-restore>
@@ -964,7 +978,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Book Task # 6.2." />
     <MESSAGE value="Book Task # 6.2. upadates" />
     <MESSAGE value="Book Task # 6.4." />
     <MESSAGE value="Updated hierarchy in Algorythms folder." />
@@ -989,7 +1002,8 @@
     <MESSAGE value="IO demo." />
     <MESSAGE value="Added finally." />
     <MESSAGE value="Open 2 files demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Open 2 files demo." />
+    <MESSAGE value="Read and write files demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Read and write files demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1301,13 +1315,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/MergeSort/MergeSortApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/RecursionSomeTasks/MergeSort/DArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -1643,20 +1650,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/CopyFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java">
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/CompFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
