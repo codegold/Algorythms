@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/FileWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/FileReaderDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFw2.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,14 +53,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileWriterDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileWriterDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/FileWriterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="420">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileReaderDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/FileReaderDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -86,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeSortApp.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/DArray.java" />
         <option value="$PROJECT_DIR$/java/src/Recursion/RecursionSomeTasks/MergeSort/MergeYou.java" />
         <option value="$PROJECT_DIR$/java/src/StackTriangle/Params.java" />
@@ -137,6 +147,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/PrintWriter.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/PrintWriterDemo.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/FileWriterDemo.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/FileReaderDemo.java" />
       </list>
     </option>
   </component>
@@ -248,9 +259,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileWriterDemo">
-    <configuration name="CompFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.CompFiles" />
+  <component name="RunManager" selected="Application.FileReaderDemo">
+    <configuration name="FileReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.FileReaderDemo" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -346,19 +357,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CompFiles" />
       <item itemvalue="Application.RandomAccessDemo" />
       <item itemvalue="Application.ReadChars" />
       <item itemvalue="Application.PrintWriterDemo" />
       <item itemvalue="Application.FileWriterDemo" />
+      <item itemvalue="Application.FileReaderDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileReaderDemo" />
         <item itemvalue="Application.FileWriterDemo" />
         <item itemvalue="Application.PrintWriterDemo" />
         <item itemvalue="Application.ReadChars" />
         <item itemvalue="Application.RandomAccessDemo" />
-        <item itemvalue="Application.CompFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -485,14 +496,7 @@
       <workItem from="1581505400386" duration="43000" />
       <workItem from="1581580233618" duration="487000" />
       <workItem from="1581581050698" duration="10013000" />
-      <workItem from="1581662766674" duration="11978000" />
-    </task>
-    <task id="LOCAL-00150" summary="arrayToString() added.">
-      <created>1580729077687</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1580729077687</updated>
+      <workItem from="1581662766674" duration="12389000" />
     </task>
     <task id="LOCAL-00151" summary="main() finished">
       <created>1580729744504</created>
@@ -830,11 +834,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581685808914</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="File Writer Demo.">
+      <created>1581688055743</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1581688055743</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="569578000" />
+    <option name="totallyTimeSpent" value="569989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -860,11 +871,11 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4923077" weight="0.3753943" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50769234" side_tool="true" visible="true" weight="0.3753943" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50769234" side_tool="true" visible="true" weight="0.3753943" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.1934066" />
+      <window_info active="true" content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.1934066" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.3280757" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
@@ -969,7 +980,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Schildt. Finalize Demo" />
     <MESSAGE value="Schildt. Bubble Demo" />
     <MESSAGE value="Schildt. Queue Demo" />
     <MESSAGE value="Schildt. Shift (bite moves) Demo" />
@@ -994,7 +1004,8 @@
     <MESSAGE value="BufferedReader to read symbols from console." />
     <MESSAGE value="BufferedReader to read Strings from console." />
     <MESSAGE value="PrintWriterDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="PrintWriterDemo" />
+    <MESSAGE value="File Writer Demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="File Writer Demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1306,17 +1317,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Towers/TowersApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Triangle/TriangleApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1666,11 +1666,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/FileWriterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="420">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/FileReaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
