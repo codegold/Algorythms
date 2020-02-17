@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFw2.txt" afterDir="false" />
@@ -53,11 +53,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hyphen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hyphen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hyphen2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/StackTriangle/StackX.java" />
         <option value="$PROJECT_DIR$/java/src/StackTriangle/StackTriangleApp.java" />
         <option value="$PROJECT_DIR$/java/src/StackTriangle2/StackX.java" />
         <option value="$PROJECT_DIR$/java/src/StackTriangle2/StackTriangle2App.java" />
@@ -139,6 +150,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/AvgNums.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/Help.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen2.java" />
       </list>
     </option>
   </component>
@@ -158,9 +170,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="378" />
+    <option name="x" value="215" />
     <option name="y" value="23" />
-    <option name="width" value="747" />
+    <option name="width" value="910" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -495,14 +507,7 @@
       <workItem from="1581581050698" duration="10013000" />
       <workItem from="1581662766674" duration="12389000" />
       <workItem from="1581690266757" duration="1400000" />
-      <workItem from="1581924289635" duration="4760000" />
-    </task>
-    <task id="LOCAL-00154" summary="class StackX finished">
-      <created>1580732713879</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1580732713879</updated>
+      <workItem from="1581924289635" duration="6122000" />
     </task>
     <task id="LOCAL-00155" summary="class StackTriangleApp added.">
       <created>1580732794621</created>
@@ -840,11 +845,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581934820011</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="Part 10 task 7.">
+      <created>1581938529204</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1581938529204</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="576149000" />
+    <option name="totallyTimeSpent" value="577511000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,7 +868,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="378" y="23" width="747" height="1057" extended-state="0" />
+    <frame x="215" y="23" width="910" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
@@ -870,11 +882,11 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4923077" weight="0.3753943" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50769234" side_tool="true" weight="0.19978969" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50769234" side_tool="true" visible="true" weight="0.19877675" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" weight="0.37980768" />
+      <window_info active="true" content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.3076037" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -979,7 +991,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Schildt. Showbits Demo" />
     <MESSAGE value="Schildt. By value and by ref Demo" />
     <MESSAGE value="Schildt. By value and by ref Demo. Upgraded." />
     <MESSAGE value="Schildt. String back" />
@@ -1004,7 +1015,8 @@
     <MESSAGE value="Average number app using ParseInt and ParseDouble." />
     <MESSAGE value="Data base fith file. Demo" />
     <MESSAGE value="Data base with file. Demo class added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Data base with file. Demo class added." />
+    <MESSAGE value="Part 10 task 7." />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 10 task 7." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1312,17 +1324,10 @@
           <option name="timeStamp" value="166" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="179" />
+      <option name="time" value="180" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTriangle/StackTriangleApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Factorial/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1671,8 +1676,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
