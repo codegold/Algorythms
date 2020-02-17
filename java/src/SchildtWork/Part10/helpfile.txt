@@ -1,0 +1,1 @@
+#ifif(uslovie) operator;Else operator;#switchSwitch (expression) {Case  Constanta:Posledovatelnost operatorovBreak;// É}#forfor(init, uslovie, iteration) operator;#whilewhule(uslovie) operator;#doDo{Operator;} while (uslovie);#brealBreak; or break label;

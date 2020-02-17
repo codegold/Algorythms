@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFw2.txt" afterDir="false" />
@@ -53,27 +53,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AvgNums.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/AvgNums.java">
+      <file leaf-file-name="Hyphen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="663">
+              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Help.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/Help.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/StackTriangle/Params.java" />
         <option value="$PROJECT_DIR$/java/src/StackTriangle/StackX.java" />
         <option value="$PROJECT_DIR$/java/src/StackTriangle/StackTriangleApp.java" />
         <option value="$PROJECT_DIR$/java/src/StackTriangle2/StackX.java" />
@@ -153,6 +138,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/FileReaderDemo.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/AvgNums.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/Help.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen.java" />
       </list>
     </option>
   </component>
@@ -172,9 +158,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="378" />
     <option name="y" value="23" />
-    <option name="width" value="841" />
-    <option name="height" value="1027" />
+    <option name="width" value="747" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,7 +211,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Part10" type="462c0819:PsiDirectoryNode" />
+              <item name="Part10Tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -252,6 +239,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -264,9 +256,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AvgNums">
+  <component name="RunManager" selected="Application.Hyphen">
     <configuration name="AvgNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.AvgNums" />
+      <module name="Algorythms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.SchildtWork.Part10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FileHelp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.FileHelp" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -298,24 +301,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PrintWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.PrintWriterDemo" />
+    <configuration name="Hyphen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10Tasks.Hyphen" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ReadChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10.ReadChars" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part10.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part10Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,19 +354,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ReadChars" />
-      <item itemvalue="Application.PrintWriterDemo" />
       <item itemvalue="Application.FileWriterDemo" />
       <item itemvalue="Application.FileReaderDemo" />
       <item itemvalue="Application.AvgNums" />
+      <item itemvalue="Application.FileHelp" />
+      <item itemvalue="Application.Hyphen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hyphen" />
+        <item itemvalue="Application.FileHelp" />
         <item itemvalue="Application.AvgNums" />
         <item itemvalue="Application.FileReaderDemo" />
         <item itemvalue="Application.FileWriterDemo" />
-        <item itemvalue="Application.PrintWriterDemo" />
-        <item itemvalue="Application.ReadChars" />
       </list>
     </recent_temporary>
   </component>
@@ -503,21 +495,7 @@
       <workItem from="1581581050698" duration="10013000" />
       <workItem from="1581662766674" duration="12389000" />
       <workItem from="1581690266757" duration="1400000" />
-      <workItem from="1581924289635" duration="2002000" />
-    </task>
-    <task id="LOCAL-00152" summary="class Params added. to incapsulate return adress &amp; arg of () n. Objects to stack.">
-      <created>1580731889645</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1580731889645</updated>
-    </task>
-    <task id="LOCAL-00153" summary="class StackX added. Stack methods here.">
-      <created>1580732561482</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1580732561482</updated>
+      <workItem from="1581924289635" duration="4760000" />
     </task>
     <task id="LOCAL-00154" summary="class StackX finished">
       <created>1580732713879</created>
@@ -848,11 +826,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581691567574</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="Data base fith file. Demo">
+      <created>1581933484326</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1581933484327</updated>
+    </task>
+    <task id="LOCAL-00202" summary="Data base with file. Demo class added.">
+      <created>1581934820011</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1581934820011</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="573391000" />
+    <option name="totallyTimeSpent" value="576149000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,12 +856,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="841" height="1027" extended-state="0" />
+    <frame x="378" y="23" width="747" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.48604062" weight="0.32176656" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -881,7 +874,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" weight="0.23028786" />
+      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" weight="0.37980768" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -890,7 +883,6 @@
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5324444" weight="0.26372445" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.48604062" weight="0.32176656" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -987,8 +979,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Schildt. Queue Demo" />
-    <MESSAGE value="Schildt. Shift (bite moves) Demo" />
     <MESSAGE value="Schildt. Showbits Demo" />
     <MESSAGE value="Schildt. By value and by ref Demo" />
     <MESSAGE value="Schildt. By value and by ref Demo. Upgraded." />
@@ -1012,7 +1002,9 @@
     <MESSAGE value="PrintWriterDemo" />
     <MESSAGE value="File Writer Demo." />
     <MESSAGE value="Average number app using ParseInt and ParseDouble." />
-    <option name="LAST_COMMIT_MESSAGE" value="Average number app using ParseInt and ParseDouble." />
+    <MESSAGE value="Data base fith file. Demo" />
+    <MESSAGE value="Data base with file. Demo class added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Data base with file. Demo class added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1320,17 +1312,10 @@
           <option name="timeStamp" value="166" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="178" />
+      <option name="time" value="179" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BackPack/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/StackTriangle/StackTriangleApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
@@ -1586,6 +1571,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1638,13 +1626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/FileReaderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1659,6 +1640,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/Help.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/AvgNums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1669,14 +1669,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/Help.java">
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10Tasks/Hyphen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="663">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
           </folding>
         </state>
       </provider>
