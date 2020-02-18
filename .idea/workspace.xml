@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ExtendedThread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/UseTreads/MyTread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/UseTreads/MyTread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/UseTreads/UseTreads.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFw2.txt" afterDir="false" />
     </list>
@@ -56,10 +54,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MyThread.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ExtendedThread/MyThread.java">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="697">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -87,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/Triangle/TriangleApp.java" />
         <option value="$PROJECT_DIR$/java/src/BookTasks/SixOne.java" />
         <option value="$PROJECT_DIR$/java/src/BookTasks/SixTwo.java" />
         <option value="$PROJECT_DIR$/java/src/BookTasks/SixFour.java" />
@@ -138,6 +135,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/UseTreads/MyTread.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ExtendedThread/ExtendedThread.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ExtendedThread/MyThread.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java" />
       </list>
     </option>
   </component>
@@ -158,7 +156,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="976" />
+    <option name="width" value="1341" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -217,26 +215,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
               <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtendedThread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="UseTreads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="UseTreads" type="462c0819:PsiDirectoryNode" />
-              <item name="MyTread.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="ThreeThreads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -282,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExtendThread">
+  <component name="RunManager" selected="Application.MoreThreads">
     <configuration name="ExtendThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.ExtendedThread.ExtendThread" />
       <module name="Algorythms" />
@@ -294,8 +273,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Hyphen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10Tasks.Hyphen" />
+    <configuration name="Hyphen2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10Tasks.Hyphen2" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -305,13 +284,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Hyphen2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part10Tasks.Hyphen2" />
+    <configuration name="MoreThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.ThreeThreads.MoreThreads" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part10Tasks.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.ThreeThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,19 +359,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Hyphen" />
       <item itemvalue="Application.Hyphen2" />
       <item itemvalue="Application.UseTreads" />
       <item itemvalue="Application.UseThreadsImproved" />
       <item itemvalue="Application.ExtendThread" />
+      <item itemvalue="Application.MoreThreads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoreThreads" />
         <item itemvalue="Application.ExtendThread" />
         <item itemvalue="Application.UseThreadsImproved" />
         <item itemvalue="Application.UseTreads" />
         <item itemvalue="Application.Hyphen2" />
-        <item itemvalue="Application.Hyphen" />
       </list>
     </recent_temporary>
   </component>
@@ -522,14 +501,7 @@
       <workItem from="1581662766674" duration="12389000" />
       <workItem from="1581690266757" duration="1400000" />
       <workItem from="1581924289635" duration="7403000" />
-      <workItem from="1581949757207" duration="6872000" />
-    </task>
-    <task id="LOCAL-00158" summary="added exception to main">
-      <created>1580740578054</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1580740578054</updated>
+      <workItem from="1581949757207" duration="8553000" />
     </task>
     <task id="LOCAL-00159" summary="StackTriangle2. Using stack. StackX class added.">
       <created>1580804358004</created>
@@ -867,11 +839,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582026857748</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="Use Thread class. Concurrency.">
+      <created>1582028432749</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1582028432749</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="585664000" />
+    <option name="totallyTimeSpent" value="587345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,7 +862,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="976" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1341" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
@@ -896,19 +875,19 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24815983" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4923077" weight="0.3753943" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.46867925" side_tool="true" visible="true" weight="0.26299694" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4923077" weight="0.37512743" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47109208" side_tool="true" weight="0.41590214" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.29229122" />
+      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.21016166" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53132075" weight="0.41590214" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5289079" weight="0.25993884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
@@ -1006,7 +985,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Schildt. String back with recursion." />
     <MESSAGE value="Schildt. Inheritance Demo." />
     <MESSAGE value="Schildt. Error msg. Upgraded with constants." />
     <MESSAGE value="Schildt. Exception demo." />
@@ -1031,7 +1009,8 @@
     <MESSAGE value="Part 10 task 8." />
     <MESSAGE value="Use treads demo." />
     <MESSAGE value="Use treads demo. Improved." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use treads demo. Improved." />
+    <MESSAGE value="Use Thread class. Concurrency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use Thread class. Concurrency." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1071,6 +1050,12 @@
           <line>15</line>
           <properties field="percent" class="src.Checkout.Checkout" />
           <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java</url>
+          <line>3</line>
+          <properties field="thrd" class="src.SchildtWork.Part11Concurrency.ThreeThreads.MyThread" />
+          <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
@@ -1151,6 +1136,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java</url>
+          <line>5</line>
+          <properties class="src.SchildtWork.Part11Concurrency.ThreeThreads.MyThread" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java</url>
+          <line>11</line>
+          <properties class="src.SchildtWork.Part11Concurrency.ThreeThreads.MyThread" method="run">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Anagram/AnagramApp.java</url>
@@ -1338,21 +1339,47 @@
           <properties />
           <option name="timeStamp" value="166" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="187" />
+      <option name="time" value="196" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BackPack/BackPack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1690,8 +1717,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ExtendedThread/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="409">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
         </state>
       </provider>
     </entry>
