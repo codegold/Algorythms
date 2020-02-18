@@ -32,14 +32,16 @@ class MoreThreads {
         MyThread mt2 = new MyThread("Child #2");
         MyThread mt3 = new MyThread("Child #3");
 
-        for (int i = 0; i < 60; i++) {
+        do {
             System.out.print(".");
-            try{
+            try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        }
+        } while (mt1.thrd.isAlive() ||
+                mt2.thrd.isAlive() ||
+                mt3.thrd.isAlive());
         System.out.println("Finishing of the main.");
     }
 }
