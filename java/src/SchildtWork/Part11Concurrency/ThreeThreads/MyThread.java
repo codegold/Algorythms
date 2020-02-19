@@ -17,10 +17,11 @@ public class MyThread implements Runnable {
                 System.out.println("B " + thrd.getName()
                         + ", count " + count);
             }
-        } catch (InterruptedException e) {
+        }
+        catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(thrd.getName() + " finishing.");
+        System.out.println(thrd.getName() + " END.");
     }
 }
 
@@ -32,16 +33,16 @@ class MoreThreads {
         MyThread mt2 = new MyThread("Child #2");
         MyThread mt3 = new MyThread("Child #3");
 
-        do {
-            System.out.print(".");
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        } while (mt1.thrd.isAlive() ||
-                mt2.thrd.isAlive() ||
-                mt3.thrd.isAlive());
+        try {
+            mt1.thrd.join();
+            System.out.println("Child#1 - connected.");
+            mt2.thrd.join();
+            System.out.println("Child#2 - connected.");
+            mt3.thrd.join();
+            System.out.println("Child#3 - connected.");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         System.out.println("Finishing of the main.");
     }
 }
