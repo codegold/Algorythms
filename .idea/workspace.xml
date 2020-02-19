@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFw2.txt" afterDir="false" />
     </list>
@@ -56,7 +56,7 @@
       <file leaf-file-name="SumArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="60">
               <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
@@ -511,14 +511,7 @@
       <workItem from="1581690266757" duration="1400000" />
       <workItem from="1581924289635" duration="7403000" />
       <workItem from="1581949757207" duration="10886000" />
-      <workItem from="1582096155480" duration="6199000" />
-    </task>
-    <task id="LOCAL-00162" summary="BackPack Task. Item class added.">
-      <created>1580821184729</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1580821184730</updated>
+      <workItem from="1582096155480" duration="6730000" />
     </task>
     <task id="LOCAL-00163" summary="BackPack class finished">
       <created>1580824950682</created>
@@ -856,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582107954573</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Syncronized demo.">
+      <created>1582120147389</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1582120147389</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="595877000" />
+    <option name="totallyTimeSpent" value="596408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -886,7 +886,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4923077" weight="0.37512743" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4723093" side_tool="true" visible="true" weight="0.29442692" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4723093" side_tool="true" weight="0.5583596" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
@@ -995,7 +995,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Schildt. Exception demo. Use throwable demo." />
     <MESSAGE value="in process" />
     <MESSAGE value="Hr task finished." />
     <MESSAGE value="Byte stream demo." />
@@ -1020,7 +1019,8 @@
     <MESSAGE value="Three threads. Demo." />
     <MESSAGE value="Three threads. isAlive() added." />
     <MESSAGE value="Threads Priority demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Threads Priority demo." />
+    <MESSAGE value="Syncronized demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Syncronized demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1706,7 +1706,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="60">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>

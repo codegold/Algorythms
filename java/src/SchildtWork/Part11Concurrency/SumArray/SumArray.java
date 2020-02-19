@@ -3,7 +3,7 @@ package src.SchildtWork.Part11Concurrency.SumArray;
 public class SumArray {
     private int sum;
 
-    synchronized int sumArray(int nums[]) {
+    int sumArray(int nums[]) {
         sum = 0; //null the sum
 
         for (int i = 0; i < nums.length; i++) {
@@ -40,7 +40,10 @@ class MyThread implements Runnable {
         int sum;
 
         System.out.println(thrd.getName() + " start");
-        answer = sa.sumArray(a);
+
+        synchronized (sa) {
+            answer = sa.sumArray(a);
+        }
         System.out.println("SUM for " + thrd.getName() + ": " + answer);
         System.out.println(thrd.getName() + " - finish");
     }
@@ -51,5 +54,12 @@ class Sync {
         int a[] = {1, 2, 3, 4, 5};
         MyThread mt1 = new MyThread("Child #1", a);
         MyThread mt2 = new MyThread("Child #2", a);
+
+        try {
+            mt1.thrd.join();
+            mt2.thrd.join();
+        } catch (InterruptedException e) {
+            System.out.println("Finish of main");
+        }
     }
 }
