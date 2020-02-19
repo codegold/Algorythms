@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Priority/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/ThreeThreads/MoreThreads.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/ThreeThreads/MoreThreads.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFw2.txt" afterDir="false" />
     </list>
@@ -56,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Priority.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Priority/Priority.java">
+      <file leaf-file-name="SumArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -88,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/BookTasks/SixTwo.java" />
         <option value="$PROJECT_DIR$/java/src/BookTasks/SixFour.java" />
         <option value="$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/BackPack/BackPack.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/Symbols.java" />
@@ -139,6 +135,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ExtendedThread/MyThread.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Priority/Priority.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java" />
       </list>
     </option>
   </component>
@@ -159,8 +156,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="999" />
-    <option name="height" value="1057" />
+    <option name="width" value="779" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -222,6 +219,15 @@
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="SumArray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
               <item name="Lafore" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -264,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PriorityDemo">
+  <component name="RunManager" selected="Application.Sync">
     <configuration name="ExtendThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.ExtendedThread.ExtendThread" />
       <module name="Algorythms" />
@@ -298,19 +304,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="UseThreadsImproved" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.UseTreads.UseThreadsImproved" />
+    <configuration name="Sync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.SumArray.Sync" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.ExtendedThread.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.SumArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="UseTreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.UseTreads.UseTreads" />
+    <configuration name="UseThreadsImproved" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.UseTreads.UseThreadsImproved" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -362,19 +368,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.UseTreads" />
       <item itemvalue="Application.UseThreadsImproved" />
       <item itemvalue="Application.ExtendThread" />
       <item itemvalue="Application.MoreThreads" />
       <item itemvalue="Application.PriorityDemo" />
+      <item itemvalue="Application.Sync" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sync" />
         <item itemvalue="Application.PriorityDemo" />
         <item itemvalue="Application.MoreThreads" />
         <item itemvalue="Application.ExtendThread" />
         <item itemvalue="Application.UseThreadsImproved" />
-        <item itemvalue="Application.UseTreads" />
       </list>
     </recent_temporary>
   </component>
@@ -505,14 +511,7 @@
       <workItem from="1581690266757" duration="1400000" />
       <workItem from="1581924289635" duration="7403000" />
       <workItem from="1581949757207" duration="10886000" />
-      <workItem from="1582096155480" duration="3101000" />
-    </task>
-    <task id="LOCAL-00161" summary="getInt() added.">
-      <created>1580805087989</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1580805087989</updated>
+      <workItem from="1582096155480" duration="6199000" />
     </task>
     <task id="LOCAL-00162" summary="BackPack Task. Item class added.">
       <created>1580821184729</created>
@@ -850,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582036066184</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="Threads Priority demo.">
+      <created>1582107954572</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1582107954573</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="592779000" />
+    <option name="totallyTimeSpent" value="595877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,7 +872,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="999" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="779" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -879,18 +886,18 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4923077" weight="0.37512743" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4723093" side_tool="true" weight="0.25993884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4723093" side_tool="true" visible="true" weight="0.29442692" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.15882967" />
+      <window_info x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" side_tool="true" weight="0.1816839" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5276907" visible="true" weight="0.25993884" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5276907" weight="0.2681388" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
@@ -988,7 +995,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Schildt. Exception demo." />
     <MESSAGE value="Schildt. Exception demo. Use throwable demo." />
     <MESSAGE value="in process" />
     <MESSAGE value="Hr task finished." />
@@ -1013,7 +1019,8 @@
     <MESSAGE value="Use Thread class. Concurrency." />
     <MESSAGE value="Three threads. Demo." />
     <MESSAGE value="Three threads. isAlive() added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Three threads. isAlive() added." />
+    <MESSAGE value="Threads Priority demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Threads Priority demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1364,13 +1371,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/PartTreeTasks/CaseChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorythms/src/Linear/Greedy.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1699,8 +1699,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Priority/Priority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="107">
+          <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
