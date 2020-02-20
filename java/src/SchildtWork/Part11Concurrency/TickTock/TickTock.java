@@ -86,6 +86,5 @@ class ThreadCom {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 }
