@@ -14,6 +14,12 @@ public class TickTock {
 
         System.out.print("Tick ");
 
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         state = "ticked"; // установить текущее состояние
         // после такта "тик"
 
@@ -33,6 +39,12 @@ public class TickTock {
             return;
         }
         System.out.println("Tock");
+
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         state = "tocked";// установить текущее состояние
         // после такта "так"
