@@ -1,7 +1,5 @@
 package src.SchildtWork.Part11Concurrency.Alishev.SyncroThreadPool;
 
-import org.omg.CORBA.TIMEOUT;
-import sun.tools.jconsole.Worker;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
