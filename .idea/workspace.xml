@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/UseMain/UseMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Test19/Test19.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/AlishDemo/ConcurDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/AlishDemo/ConcurDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/AlishDemo/MyThreadd.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/AlishDemo/MyThreadd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/Suspend/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/Suspend/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/AlishDemo/ConcurDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/AlishDemo/ConcurDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Suspend/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Suspend/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/AlishDemo/ConcurDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/AlishDemo/MyThreadd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/AlishDemo/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/TickTock/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/TickTock/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/TickTock/ThreadCom.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/TickTock/ThreadCom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/TickTock/TickTock.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/Part11Concurrency/TickTock/TickTock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/AlishDemo/ConcurDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/AlishDemo/ConcurDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFw2.txt" afterDir="false" />
     </list>
@@ -25,6 +28,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/Algorythms$StringBack.ic" NAME="StringBack Coverage Results" MODIFIED="1581335786891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>src.SchildtWork.Part8Exercises.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Algorythms$Test.ic" NAME="Test Coverage Results" MODIFIED="1582292363092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.SchildtWork.Part11Concurrency.Alishev.Syncronized.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Algorythms$Algo.ic" NAME="Algo Coverage Results" MODIFIED="1573039595536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>src.AlgoDraw.*</FILTER>
@@ -54,15 +60,33 @@
     <favorites_list name="Algorythms" />
   </component>
   <component name="FileColors">
-    <fileColor scope="All" color="Green" />
+    <fileColor scope="All" color="2a292a" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UseMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/UseMain/UseMain.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state>
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test19.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Test19/Test19.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1328#1329#0" expanded="true" />
+                <element signature="e#1366#1367#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,8 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java" />
-        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/CopyArray.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/Queue.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java" />
@@ -144,11 +166,13 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/ThreeThreads/MyThread.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Priority/Priority.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java" />
-        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/AlishDemo/ConcurDemo.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Suspend/MyThread.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/testtt.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/UseMain/UseMain.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Test.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Test19/Test19.java" />
       </list>
     </option>
   </component>
@@ -168,9 +192,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
     <option name="y" value="23" />
-    <option name="width" value="809" />
+    <option name="width" value="930" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -231,7 +254,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
               <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="Suspend" type="462c0819:PsiDirectoryNode" />
+              <item name="Alishev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -240,7 +263,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
               <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="UseMain" type="462c0819:PsiDirectoryNode" />
+              <item name="TickTock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -284,25 +307,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseMain">
-    <configuration name="ConcurDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.AlishDemo.ConcurDemo" />
+  <component name="RunManager" selected="Application.Test19">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.Test" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.AlishDemo.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Suspend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Suspend.Suspend" />
+    <configuration name="Test19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.Test19.Test19" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.Suspend.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.Test19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,18 +406,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ThreadCom" />
-      <item itemvalue="Application.ConcurDemo" />
-      <item itemvalue="Application.Suspend" />
       <item itemvalue="Application.testtt" />
       <item itemvalue="Application.UseMain" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test19" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test19" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ThreadCom" />
         <item itemvalue="Application.UseMain" />
         <item itemvalue="Application.testtt" />
-        <item itemvalue="Application.Suspend" />
-        <item itemvalue="Application.ConcurDemo" />
-        <item itemvalue="Application.ThreadCom" />
       </list>
     </recent_temporary>
   </component>
@@ -526,21 +549,10 @@
       <workItem from="1581924289635" duration="7403000" />
       <workItem from="1581949757207" duration="10886000" />
       <workItem from="1582096155480" duration="21422000" />
-      <workItem from="1582281559781" duration="293000" />
-    </task>
-    <task id="LOCAL-00166" summary="Book Task # 6.2. upadates">
-      <created>1580980126639</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1580980126640</updated>
-    </task>
-    <task id="LOCAL-00167" summary="Book Task # 6.4.">
-      <created>1580987015973</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1580987015973</updated>
+      <workItem from="1582281559781" duration="4736000" />
+      <workItem from="1582293153008" duration="656000" />
+      <workItem from="1582294143641" duration="348000" />
+      <workItem from="1582612613313" duration="4309000" />
     </task>
     <task id="LOCAL-00168" summary="Updated hierarchy in Algorythms folder.">
       <created>1580988447145</created>
@@ -871,11 +883,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582213038716</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="Use of main thread">
+      <created>1582281948550</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1582281948551</updated>
+    </task>
+    <task id="LOCAL-00216" summary="wait 0,5 second added.">
+      <created>1582285884033</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1582285884033</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="611393000" />
+    <option name="totallyTimeSpent" value="621149000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -887,50 +913,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="809" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="930" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27118644" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997151" weight="0.32925585" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.48085585" weight="0.32176656" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24815983" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4923077" weight="0.3743428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5176011" side_tool="true" weight="0.32176656" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4918639" weight="0.3743428" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4740991" side_tool="true" visible="true" weight="0.17665616" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" side_tool="true" weight="0.26336375" />
+      <window_info active="true" content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" side_tool="true" visible="true" weight="0.25112614" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.3280757" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.52818036" weight="0.2681388" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5259009" weight="0.2681388" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.48239896" weight="0.32176656" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32444444" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.323496" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24907339" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.3280757" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882075" side_tool="true" visible="true" weight="0.3229279" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32507738" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
@@ -952,6 +977,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32507738" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53532934" weight="0.26498422" />
     </layout-to-restore>
@@ -1010,8 +1036,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IO demo." />
-    <MESSAGE value="Added finally." />
     <MESSAGE value="Open 2 files demo." />
     <MESSAGE value="Read and write files demo." />
     <MESSAGE value="Compare files demo." />
@@ -1035,7 +1059,9 @@
     <MESSAGE value="Synchronized demo. Synchronized block." />
     <MESSAGE value="Synchronized. wait() notify() demo" />
     <MESSAGE value="Alishev task. Volatile Demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Alishev task. Volatile Demo." />
+    <MESSAGE value="Use of main thread" />
+    <MESSAGE value="wait 0,5 second added." />
+    <option name="LAST_COMMIT_MESSAGE" value="wait 0,5 second added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1075,18 +1101,6 @@
           <line>15</line>
           <properties field="percent" class="src.Checkout.Checkout" />
           <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>51</line>
-          <properties field="thrd" class="src.SchildtWork.Part11Concurrency.TickTock.MyThread" />
-          <option name="timeStamp" value="224" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>52</line>
-          <properties field="ttOb" class="src.SchildtWork.Part11Concurrency.TickTock.MyThread" />
-          <option name="timeStamp" value="225" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Checkout/Checkout.java</url>
@@ -1167,30 +1181,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>7</line>
-          <properties class="src.SchildtWork.Part11Concurrency.TickTock.TickTock" method="tick">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="207" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>28</line>
-          <properties class="src.SchildtWork.Part11Concurrency.TickTock.TickTock" method="tock">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="208" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>54</line>
-          <properties class="src.SchildtWork.Part11Concurrency.TickTock.MyThread" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="220" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/AlgorythmsWork/AlgoDraw/Anagram/AnagramApp.java</url>
@@ -1414,160 +1404,14 @@
           <properties />
           <option name="timeStamp" value="206" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="210" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="211" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="212" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="213" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="214" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="215" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="216" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="217" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="218" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="219" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="221" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="222" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="223" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="226" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="227" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="228" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="229" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="230" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="231" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="232" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="233" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="234" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="237" />
+      <option name="time" value="247" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/Bubble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/QDemo/QDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part8Exercises/ShiftDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1845,13 +1689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Priority/Priority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/SumArray/SumArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -1873,36 +1710,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/testtt.java" />
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Suspend/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/AlishDemo/ConcurDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/UseMain/UseMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="198">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/AlishDemo/ConcurDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Suspend/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Priority/Priority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/TickTock/TickTock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Test19/Test19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

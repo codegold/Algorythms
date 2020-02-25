@@ -1,4 +1,4 @@
-package src.SchildtWork.Part11Concurrency.AlishDemo;
+package src.SchildtWork.Part11Concurrency.Alishev.AlishDemo;
 
 import java.util.Scanner;
 
