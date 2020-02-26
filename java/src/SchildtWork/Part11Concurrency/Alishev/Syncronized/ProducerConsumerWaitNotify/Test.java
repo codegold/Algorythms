@@ -1,4 +1,4 @@
-package src.SchildtWork.Part11Concurrency.Alishev.ProducerConsumerWaitNotify;
+package src.SchildtWork.Part11Concurrency.Alishev.Syncronized.ProducerConsumerWaitNotify;
 
 import java.util.Scanner;
 

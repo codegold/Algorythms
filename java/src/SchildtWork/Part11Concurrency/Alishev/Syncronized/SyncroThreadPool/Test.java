@@ -1,4 +1,4 @@
-package src.SchildtWork.Part11Concurrency.Alishev.SyncroThreadPool;
+package src.SchildtWork.Part11Concurrency.Alishev.Syncronized.SyncroThreadPool;
 
 
 import java.util.concurrent.ExecutorService;

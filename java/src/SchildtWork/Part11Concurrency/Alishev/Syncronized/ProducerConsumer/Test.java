@@ -1,4 +1,4 @@
-package src.SchildtWork.Part11Concurrency.Alishev.ProducerConsumer;
+package src.SchildtWork.Part11Concurrency.Alishev.Syncronized.ProducerConsumer;
 
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
