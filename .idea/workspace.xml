@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Semaphore/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/SingleTone/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFw2.txt" afterDir="false" />
@@ -57,10 +57,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Semaphore/Test.java">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/SingleTone/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="441">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Vehicle.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Bike.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java" />
@@ -147,6 +151,7 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/CountDownLatch/Test.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/ReentrantLock/Test.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Semaphore/Test.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/SingleTone/Test.java" />
       </list>
     </option>
   </component>
@@ -166,10 +171,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="179" />
+    <option name="x" value="1" />
     <option name="y" value="23" />
-    <option name="width" value="1220" />
-    <option name="height" value="976" />
+    <option name="width" value="985" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -249,7 +254,7 @@
               <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
               <item name="Alishev" type="462c0819:PsiDirectoryNode" />
               <item name="Syncronized" type="462c0819:PsiDirectoryNode" />
-              <item name="Semaphore" type="462c0819:PsiDirectoryNode" />
+              <item name="SingleTone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -275,7 +280,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -294,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (3)">
+  <component name="RunManager" selected="Application.Test (4)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.CountDownLatch.Test" />
       <module name="Algorythms" />
@@ -328,13 +333,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.SyncroThreadPool.Test" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.SingleTone.Test" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.SyncroThreadPool.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.SingleTone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,14 +430,15 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test19" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Application.Test (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
@@ -573,14 +579,7 @@
       <workItem from="1582294143641" duration="348000" />
       <workItem from="1582612613313" duration="9580000" />
       <workItem from="1582704595598" duration="13208000" />
-      <workItem from="1582783529261" duration="2934000" />
-    </task>
-    <task id="LOCAL-00173" summary="Schildt. Queue Demo">
-      <created>1581081923371</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1581081923372</updated>
+      <workItem from="1582783529261" duration="6541000" />
     </task>
     <task id="LOCAL-00174" summary="Schildt. Shift (bite moves) Demo">
       <created>1581085015481</created>
@@ -918,11 +917,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582790549499</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="Concurrency. Semaphore demo.">
+      <created>1582792350164</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1582792350165</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="642562000" />
+    <option name="totallyTimeSpent" value="646169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -934,7 +940,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="179" y="23" width="1220" height="976" extended-state="0" />
+    <frame x="1" y="23" width="985" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27102804" />
@@ -948,11 +954,11 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49052313" weight="0.37333333" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5094769" side_tool="true" visible="true" weight="0.23222223" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5094769" side_tool="true" visible="true" weight="0.17653391" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" side_tool="true" visible="true" weight="0.23005094" />
+      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" side_tool="true" visible="true" weight="0.22905621" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1057,7 +1063,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BufferedReader to read Strings from console." />
     <MESSAGE value="PrintWriterDemo" />
     <MESSAGE value="File Writer Demo." />
     <MESSAGE value="Average number app using ParseInt and ParseDouble." />
@@ -1082,7 +1087,8 @@
     <MESSAGE value="Concurrency. Wait() and Notify() demo." />
     <MESSAGE value="Concurrency. CountDownLatch (no notify and wait)  demo." />
     <MESSAGE value="Concurrency. Reentrantlock demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Concurrency. Reentrantlock demo." />
+    <MESSAGE value="Concurrency. Semaphore demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Concurrency. Semaphore demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1433,13 +1439,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/Truck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Inheritance/TruckDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1726,6 +1725,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1791,8 +1795,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/Semaphore/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="396">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/SingleTone/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
