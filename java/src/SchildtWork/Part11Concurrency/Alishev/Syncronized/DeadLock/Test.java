@@ -38,16 +38,23 @@ class Runner {
         Random random = new Random();
 
         for (int i = 0; i < 10000; i++) {
-            Account.transfer(account1, account2, random.nextInt(100));
+            synchronized (account1) {
+                synchronized (account2) {
+                    Account.transfer(account1, account2, random.nextInt(100));
+                }
+            }
         }
-
     }
 
     public void secondThread() {
         Random random = new Random();
 
         for (int i = 0; i < 10000; i++) {
-            Account.transfer(account2, account1, random.nextInt(100));
+            synchronized (account1) {
+                synchronized (account2) {
+                    Account.transfer(account2, account1, random.nextInt(100));
+                }
+            }
         }
     }
 
