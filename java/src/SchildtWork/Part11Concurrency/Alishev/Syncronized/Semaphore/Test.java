@@ -20,3 +20,5 @@ public class Test {
         System.out.println(semaphore.availablePermits());
     }
 }
+
+
