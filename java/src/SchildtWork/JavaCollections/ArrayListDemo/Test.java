@@ -1,32 +1,36 @@
-package src.SchildtWork.JavaCollections.ArrayListDemo;
+package JavaCollections.ArrayListDemo;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayListQ = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            arrayList.add(i);
+            arrayListQ.add(i);
         }
 
-        System.out.println(arrayList);
+        System.out.println(arrayListQ);
 
-        System.out.println(arrayList.get(0));
-        arrayList.remove(2);
-        arrayList.remove(2);
-        System.out.println(arrayList.size());
-        System.out.println(arrayList);
+        System.out.println(arrayListQ.get(0));
+        arrayListQ.remove(2);
+        arrayListQ.remove(2);
+        System.out.println(arrayListQ.size());
+        System.out.println(arrayListQ);
 
 
-//        for (int i = 0; i < arrayList.size(); i++) {
-//            System.out.println(arrayList.get(i));
+//        for (int i = 0; i < arrayListQ.size(); i++) {
+//            System.out.println(arrayListQ.get(i));
 //        }
 
             //FOREACH
 
-//        for(Integer s : arrayList){
+//        for(Integer s : arrayListQ){
 //            System.out.println(s);
 //        }
+
+        List<Integer> linkedList = new LinkedList<>();
+        List<Integer> arrayList = new ArrayList<>();
     }
 }

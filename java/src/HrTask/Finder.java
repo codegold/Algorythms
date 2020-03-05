@@ -11,7 +11,7 @@ public class Finder {
      * старше возраста targetAge
      */
 
-    public static Set<String> findOldMembers(List<MembersGroup> groups, int targetAge)
+    public static Set<String> findOldMembers(List<src.HrTask.MembersGroup> groups, int targetAge)
     {
         Set<String> newGroup = new HashSet<>();
         groups.stream()
