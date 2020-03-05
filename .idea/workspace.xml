@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Lambda2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/JavaCollections/ArrayListDemo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Lambda3/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFw2.txt" afterDir="false" />
@@ -57,13 +58,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Lambda2/Test.java">
+        <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/JavaCollections/ArrayListDemo/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1583313880872" expanded="true" signature="575:756" ph="..." />
+                <marker date="1583399995837" expanded="true" signature="547:655" ph="..." />
               </folding>
             </state>
           </provider>
@@ -100,8 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadByet.java" />
-        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadBytes.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/ShowFile.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/CopyFile.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part10/RWData.java" />
@@ -151,6 +150,8 @@
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Syncronized/CallableAndFuture/JRtest.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Lambda/Test.java" />
         <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Lambda2/Test.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Lambda3/Test.java" />
+        <option value="$PROJECT_DIR$/java/src/SchildtWork/JavaCollections/ArrayListDemo/Test.java" />
       </list>
     </option>
   </component>
@@ -170,9 +171,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="224" />
+    <option name="x" value="309" />
     <option name="y" value="23" />
-    <option name="width" value="984" />
+    <option name="width" value="1371" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -185,9 +186,6 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,7 +222,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaCollections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -232,18 +230,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="Alishev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorythms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Part11Concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="Alishev" type="462c0819:PsiDirectoryNode" />
-              <item name="Lambda2" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaCollections" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayListDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -255,6 +243,9 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,7 +259,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -287,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Test (3)">
     <configuration name="JRtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.CallableAndFuture.JRtest" />
       <module name="Algorythms" />
@@ -310,35 +301,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.CallableAndFuture.Test" />
-      <module name="Algorythms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.CallableAndFuture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.Semaphore.MyPhilosopher.Test" />
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.JavaCollections.ArrayListDemo.Test" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.Semaphore.MyPhilosopher.*" />
+          <option name="PATTERN" value="src.SchildtWork.JavaCollections.ArrayListDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.DeadLock.Test" />
+      <option name="MAIN_CLASS_NAME" value="src.SchildtWork.Part11Concurrency.Alishev.Lambda3.Test" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.Alishev.Syncronized.DeadLock.*" />
+          <option name="PATTERN" value="src.SchildtWork.Part11Concurrency.Alishev.Lambda3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,19 +387,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test (3)" />
-      <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.JRtest" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (4)" />
+      <item itemvalue="Application.Test (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.JRtest" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -561,14 +541,8 @@
       <workItem from="1583139416437" duration="11050000" />
       <workItem from="1583159055857" duration="4739000" />
       <workItem from="1583219621644" duration="4543000" />
-      <workItem from="1583236471170" duration="4960000" />
-    </task>
-    <task id="LOCAL-00183" summary="Schildt. Exception demo.">
-      <created>1581497303545</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1581497303546</updated>
+      <workItem from="1583236471170" duration="8049000" />
+      <workItem from="1583321403986" duration="7317000" />
     </task>
     <task id="LOCAL-00184" summary="Schildt. Exception demo. Use throwable demo.">
       <created>1581504692361</created>
@@ -906,11 +880,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583245130467</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="Lambda Comparator demo.">
+      <created>1583314471526</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1583314471526</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="672405000" />
+    <option name="totallyTimeSpent" value="682811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -922,7 +903,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="23" width="984" height="1027" extended-state="0" />
+    <frame x="309" y="23" width="1371" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.27102804" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -934,12 +916,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4920635" side_tool="true" weight="0.24815983" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4883227" weight="0.37223974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.51167727" side_tool="true" visible="true" weight="0.19873817" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4868322" weight="0.37223974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5131678" side_tool="true" visible="true" weight="0.17139852" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" side_tool="true" visible="true" weight="0.31847134" />
+      <window_info content_ui="combo" x="816" y="105" width="227" height="699" id="Project" order="0" sideWeight="0.49895614" side_tool="true" visible="true" weight="0.22949587" />
       <window_info anchor="right" id="Database" order="7" weight="0.32912534" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -957,14 +939,13 @@
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32777777" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Codota" order="10" weight="0.32931727" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882075" side_tool="true" visible="true" weight="0.3229279" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32507738" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49816176" weight="0.32912722" />
@@ -986,6 +967,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.2141544" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32507738" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988764" weight="0.32912722" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.53532934" weight="0.26498422" />
     </layout-to-restore>
@@ -1044,7 +1026,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Use treads demo. Improved." />
     <MESSAGE value="Use Thread class. Concurrency." />
     <MESSAGE value="Three threads. Demo." />
     <MESSAGE value="Three threads. isAlive() added." />
@@ -1069,7 +1050,8 @@
     <MESSAGE value="Concurrency. Callable and future." />
     <MESSAGE value="JR. Concurrency. Callable and future." />
     <MESSAGE value="Lambda demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda demo." />
+    <MESSAGE value="Lambda Comparator demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda Comparator demo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1420,34 +1402,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/CopyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/CompFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/RandomAccessFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="552" column="16" selection-start-line="552" selection-start-column="16" selection-end-line="552" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/RandomAccessDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part10/ReadChars.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1713,9 +1667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1751,9 +1702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1766,11 +1714,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Lambda2/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/IntUnaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/Part11Concurrency/Alishev/Lambda3/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="91" column="25" lean-forward="true" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1583313880872" expanded="true" signature="575:756" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="898">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SchildtWork/JavaCollections/ArrayListDemo/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1583399995837" expanded="true" signature="547:655" ph="..." />
           </folding>
         </state>
       </provider>
