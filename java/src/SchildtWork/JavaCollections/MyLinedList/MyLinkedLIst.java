@@ -42,6 +42,9 @@ public class MyLinkedLIst {
         while (temp != null) {
             if (currentIndex + 1 == index) {
                 temp.setNext(temp.getNext().getNext());
+                size--;
+                return;
+
             } else {
                 temp = temp.getNext();
                 currentIndex++;

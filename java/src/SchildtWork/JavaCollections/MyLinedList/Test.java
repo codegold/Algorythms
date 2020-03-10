@@ -10,6 +10,11 @@ public class Test {
         System.out.println(myLinkedLIst);
 
         System.out.println(myLinkedLIst.get(0));
-        System.out.println(myLinkedLIst.get(10));
+        System.out.println(myLinkedLIst.get(1));
+
+        myLinkedLIst.remove(1);
+        System.out.println(myLinkedLIst);
+        myLinkedLIst.remove(1);
+        System.out.println(myLinkedLIst);
     }
 }
