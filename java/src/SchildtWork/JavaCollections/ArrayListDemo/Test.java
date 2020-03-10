@@ -24,7 +24,7 @@ public class Test {
 //            System.out.println(arrayListQ.get(i));
 //        }
 
-            //FOREACH
+        //FOREACH
 
 //        for(Integer s : arrayListQ){
 //            System.out.println(s);
@@ -32,5 +32,23 @@ public class Test {
 
         List<Integer> linkedList = new LinkedList<>();
         List<Integer> arrayList = new ArrayList<>();
+
+        System.out.println("here");
+
+        measureTime(linkedList);
+        measureTime(arrayList);
+
+    }
+
+    private static void measureTime(List<Integer> list) {
+        long start = System.currentTimeMillis();
+
+        for (int i = 0; i < 100_000; i++) {
+            list.add(0, i);
+        }
+
+        long end = System.currentTimeMillis();
+
+        System.out.println(end - start);
     }
 }
