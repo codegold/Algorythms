@@ -1,6 +1,5 @@
 package JavaCollections.MyLinedList;
 
-import javax.xml.soap.Node;
 import java.util.Arrays;
 
 public class MyLinkedLIst {
@@ -19,6 +18,21 @@ public class MyLinkedLIst {
             temp.setNext(new Node(value));
         }
         size++;
+    }
+
+    public int get(int index) {
+        int currentIndex = 0;
+        Node temp = head;
+
+        while (temp != null) {
+            if (currentIndex == index) {
+                return temp.getValue();
+            } else {
+                temp = temp.getNext();
+                currentIndex++;
+            }
+        }
+        throw new IllegalArgumentException();
     }
 
     @Override
