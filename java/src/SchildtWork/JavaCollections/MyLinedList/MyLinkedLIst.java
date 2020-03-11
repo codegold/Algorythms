@@ -36,6 +36,12 @@ public class MyLinkedLIst {
     }
 
     public void remove(int index) {
+        if(index==0){
+            head = head.getNext();
+            size--;
+            return;
+        }
+
         int currentIndex = 0;
         Node temp = head;
 
