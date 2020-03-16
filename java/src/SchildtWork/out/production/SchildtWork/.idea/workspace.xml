@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dacb7205-722c-40b7-b35b-ae6fd9a94f4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaCollections/HashMap/TestScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCollections/Comparator/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../testFw2.txt" afterDir="false" />
     </list>
@@ -15,23 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaCollections/HashMap/Test.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaCollections/Comparator/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestScores.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaCollections/HashMap/TestScores.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,6 +51,7 @@
         <option value="$PROJECT_DIR$/JavaCollections/SetAll/Test.java" />
         <option value="$PROJECT_DIR$/JavaCollections/HashCodeEquals/Test.java" />
         <option value="$PROJECT_DIR$/JavaCollections/HashMap/TestScores.java" />
+        <option value="$PROJECT_DIR$/JavaCollections/Comparator/Test.java" />
       </list>
     </option>
   </component>
@@ -76,7 +65,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="726" />
+    <option name="x" value="691" />
     <option name="y" value="23" />
     <option name="width" value="954" />
     <option name="height" value="1027" />
@@ -89,7 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,14 +95,14 @@
               <item name="SchildtWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
               <item name="JavaCollections" type="462c0819:PsiDirectoryNode" />
-              <item name="HashMap" type="462c0819:PsiDirectoryNode" />
+              <item name="Comparator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,18 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestScores">
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCollections.HashMap.Test" />
-      <module name="SchildtWork" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaCollections.HashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaCollections.LinkedHashMap.Test" />
       <module name="SchildtWork" />
@@ -185,6 +163,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaCollections.HashCodeEquals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCollections.Comparator.Test" />
+      <module name="SchildtWork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaCollections.Comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,19 +231,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.Test (5)" />
       <item itemvalue="Application.TestScores" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestScores" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +263,8 @@
       <workItem from="1583831091732" duration="2359000" />
       <workItem from="1583910379422" duration="4863000" />
       <workItem from="1583999342144" duration="1662000" />
-      <workItem from="1584098255378" duration="996000" />
+      <workItem from="1584098255378" duration="2230000" />
+      <workItem from="1584366599703" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="little troubles.">
       <created>1583408053455</created>
@@ -339,14 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584100096899</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HashCode and Equals() demo 2.">
+      <created>1584105478620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584105478620</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15818000" />
+    <option name="totallyTimeSpent" value="17728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="23" width="954" height="1027" extended-state="0" />
+    <frame x="691" y="23" width="954" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
@@ -363,7 +360,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24232456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24780701" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -381,32 +378,32 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24815983" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32912722" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32912722" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23355263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32912722" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24815983" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957938" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957938" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Key Promoter X" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -453,16 +450,34 @@
     <MESSAGE value="LinkedHashMap demo." />
     <MESSAGE value="Set demo." />
     <MESSAGE value="HashCode and Equals() demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="HashCode and Equals() demo." />
+    <MESSAGE value="HashCode and Equals() demo 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="HashCode and Equals() demo 2." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JavaCollections/HashMap/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaCollections/HashMap/TestScores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaCollections/HashCodeEquals/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaCollections/LinkedHashMap/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -562,26 +570,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaCollections/HashMap/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="270" column="7" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaCollections/HashMap/TestScores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaCollections/Comparator/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
