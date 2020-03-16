@@ -18,7 +18,7 @@ public class Test {
         intList.add(222);
         intList.add(555);
 
-        Collections.sort(intList);
+        Collections.sort(intList, new IntegerLengthComparator());
         System.out.println(intList);
 
         Collections.sort(names, new StringLengthComparator());
@@ -26,19 +26,30 @@ public class Test {
     }
 }
 
-class StringLengthComparator implements Comparator<String>{
+class StringLengthComparator implements Comparator<String> {
 
     @Override
     public int compare(String o1, String o2) {
-        if (o1.length() > o2.length()){
+        if (o1.length() > o2.length()) {
             return 1;
         } else if (o1.length() < o2.length()) {
             return -1;
-        }
-        else {
+        } else {
             return 0;
         }
     }
 }
 
-class IntegerLengthComparator
+class IntegerLengthComparator implements Comparator<Integer> {
+
+    @Override
+    public int compare(Integer o1, Integer o2) {
+        if (o1 > o2) {
+            return -1;
+        } else if (o1 < o2) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+}
