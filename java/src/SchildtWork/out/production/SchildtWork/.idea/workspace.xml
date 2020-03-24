@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dacb7205-722c-40b7-b35b-ae6fd9a94f4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaCollections/Comparator/Test.java" afterDir="false" />
+    <list default="true" id="dacb7205-722c-40b7-b35b-ae6fd9a94f4b" name="Default" comment="Comparator demo. Finished.">
+      <change afterPath="$PROJECT_DIR$/JavaCollections/Comparable/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCollections/Comparator/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCollections/Stream/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaCollections/Comparator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCollections/Comparator/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SchildtWork/JavaCollections/Comparator/IntegerLengthComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SchildtWork/JavaCollections/Comparator/StringLengthComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SchildtWork/JavaCollections/Comparator/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SchildtWork/JavaCollections/Comparator/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../testFw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../testFw2.txt" afterDir="false" />
     </list>
@@ -15,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaCollections/Comparator/Test.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaCollections/Comparable/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="986">
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaCollections/Stream/Program.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,6 +67,10 @@
         <option value="$PROJECT_DIR$/JavaCollections/HashCodeEquals/Test.java" />
         <option value="$PROJECT_DIR$/JavaCollections/HashMap/TestScores.java" />
         <option value="$PROJECT_DIR$/JavaCollections/Comparator/Test.java" />
+        <option value="$PROJECT_DIR$/JavaCollections/Comparator/People.java" />
+        <option value="$PROJECT_DIR$/JavaCollections/Comparator/Test2.java" />
+        <option value="$PROJECT_DIR$/JavaCollections/Comparable/Test.java" />
+        <option value="$PROJECT_DIR$/JavaCollections/Stream/Program.java" />
       </list>
     </option>
   </component>
@@ -65,10 +84,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="691" />
+    <option name="x" value="929" />
     <option name="y" value="23" />
-    <option name="width" value="954" />
-    <option name="height" value="1027" />
+    <option name="width" value="991" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,6 +98,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,13 +115,12 @@
               <item name="SchildtWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="SchildtWork" type="462c0819:PsiDirectoryNode" />
               <item name="JavaCollections" type="462c0819:PsiDirectoryNode" />
-              <item name="Comparator" type="462c0819:PsiDirectoryNode" />
+              <item name="Stream" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -133,42 +152,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCollections.LinkedHashMap.Test" />
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCollections.Stream.Program" />
       <module name="SchildtWork" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaCollections.LinkedHashMap.*" />
+          <option name="PATTERN" value="JavaCollections.Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCollections.SetAll.Test" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCollections.Comparable.Test" />
       <module name="SchildtWork" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaCollections.SetAll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCollections.HashCodeEquals.Test" />
-      <module name="SchildtWork" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaCollections.HashCodeEquals.*" />
+          <option name="PATTERN" value="JavaCollections.Comparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaCollections.Comparator.Test" />
+      <module name="SchildtWork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaCollections.Comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCollections.Comparator.Test2" />
       <module name="SchildtWork" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -231,19 +250,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test (3)" />
-      <item itemvalue="Application.Test (4)" />
-      <item itemvalue="Application.Test (5)" />
       <item itemvalue="Application.TestScores" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Program" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestScores" />
-        <item itemvalue="Application.Test (5)" />
-        <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +283,10 @@
       <workItem from="1583910379422" duration="4863000" />
       <workItem from="1583999342144" duration="1662000" />
       <workItem from="1584098255378" duration="2230000" />
-      <workItem from="1584366599703" duration="676000" />
+      <workItem from="1584366599703" duration="5869000" />
+      <workItem from="1584808322679" duration="14000" />
+      <workItem from="1584861765291" duration="751000" />
+      <workItem from="1585037062766" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="little troubles.">
       <created>1583408053455</created>
@@ -336,14 +358,35 @@
       <option name="project" value="LOCAL" />
       <updated>1584105478620</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Comparator demo. StringLengthComparator.">
+      <created>1584370285282</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584370285282</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Comparator demo. IntegerLengthComparator.">
+      <created>1584370624148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584370624148</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Comparator demo. Improved to anonymous class.">
+      <created>1584371763569</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584371763569</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17728000" />
+    <option name="totallyTimeSpent" value="24088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="691" y="23" width="954" height="1027" extended-state="0" />
+    <frame x="929" y="23" width="991" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
@@ -360,7 +403,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24780701" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24868283" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -370,11 +413,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39957938" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32912722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32912722" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -451,9 +494,51 @@
     <MESSAGE value="Set demo." />
     <MESSAGE value="HashCode and Equals() demo." />
     <MESSAGE value="HashCode and Equals() demo 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="HashCode and Equals() demo 2." />
+    <MESSAGE value="Comparator demo. StringLengthComparator." />
+    <MESSAGE value="Comparator demo. IntegerLengthComparator." />
+    <MESSAGE value="Comparator demo. Improved to anonymous class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparator demo. Improved to anonymous class." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaCollections/Comparable/Test.java</url>
+          <line>6</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaCollections/Comparable/Test.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JavaCollections/Comparable/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaCollections/Comparable/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaCollections/Comparable/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaCollections/HashMap/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -478,6 +563,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -570,6 +658,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -607,10 +698,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="178" column="7" lean-forward="true" selection-start-line="178" selection-start-column="7" selection-end-line="178" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaCollections/Comparator/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="468">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaCollections/Comparator/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaCollections/Comparable/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaCollections/Stream/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
