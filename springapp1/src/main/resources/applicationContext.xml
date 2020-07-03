@@ -5,11 +5,11 @@
   xsi:schemaLocation = " http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
-        http://www.springframework.org/schema/context/spring-context.xsd " >
+        http://www.springframework.org/schema/context/spring-context.xsd ">
 
     <bean id="testBean"
-      class = "ru.ali.springcourse.TestBean" >
-        <constructor-arg  value = "Super coder" />
-    </bean >
+      class = "ru.ali.springcourse.TestBean">
+        <constructor-arg  value = "You're super coder!"/>
+    </bean>
 
-</beans >
+</beans>
