@@ -22,7 +22,7 @@
     </bean>
 
     <bean id="musicPlayer"
-          class="ru.ali.springcourse.MusicPlayer">
+          class="ru.ali.springcourse.MusicPlayer" scope="prototype">
         <property name="musicList">
             <list>
                 <ref bean="musicBean1"/>
