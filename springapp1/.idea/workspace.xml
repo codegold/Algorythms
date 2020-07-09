@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="246f51d3-2d3e-4326-8dbe-00ab34d52339" name="Default Changelist" comment="lesson 9 prepare">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="246f51d3-2d3e-4326-8dbe-00ab34d52339" name="Default Changelist" comment="lesson 9 annotations" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +52,14 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="lesson 9 annotations">
+      <created>1594328810668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594328810668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +76,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 9 prepare" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 9 prepare" />
+    <MESSAGE value="lesson 9 annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 9 annotations" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="974" height="290" key="GridCell.Tab.0.bottom" timestamp="1594328850396">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="974" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1594328850396" />
+    <state width="974" height="290" key="GridCell.Tab.0.center" timestamp="1594328850396">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="974" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1594328850396" />
+    <state width="974" height="290" key="GridCell.Tab.0.left" timestamp="1594328850395">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="974" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1594328850395" />
+    <state width="974" height="290" key="GridCell.Tab.0.right" timestamp="1594328850396">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="974" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1594328850396" />
+    <state x="598" y="425" width="997" height="420" key="MultipleFileMergeDialog" timestamp="1594328846623">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="598" y="425" width="997" height="420" key="MultipleFileMergeDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1594328846623" />
+    <state x="315" y="291" key="Vcs.Push.Dialog.v2" timestamp="1594328813695">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="315" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1594328813695" />
   </component>
 </project>
