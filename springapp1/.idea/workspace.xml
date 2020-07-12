@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="246f51d3-2d3e-4326-8dbe-00ab34d52339" name="Default Changelist" comment="lesson 9 annotations" />
+    <list default="true" id="246f51d3-2d3e-4326-8dbe-00ab34d52339" name="Default Changelist" comment="lesson 9 annotations">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/JazzMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/ClassicalMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/ClassicalMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/JazzMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/JazzMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/MusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/MusicPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/PlayMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/PlayMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/TestSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/TestSpring.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +40,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ea2aiHzq9tdWTPlPwppxQWoK15" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -59,8 +84,27 @@
       <option name="project" value="LOCAL" />
       <updated>1594328810668</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson 9 annotations">
+      <created>1594329091316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594329091316</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="246f51d3-2d3e-4326-8dbe-00ab34d52339" name="Default Changelist" comment="lesson 9 annotations" />
+      <created>1594545449458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594545449458</updated>
+      <workItem from="1594545469484" duration="146000" />
+      <workItem from="1594545621515" duration="2161000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -80,29 +124,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="lesson 9 annotations" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="974" height="290" key="GridCell.Tab.0.bottom" timestamp="1594328850396">
+    <state x="172" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594548969300">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="974" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1594328850396" />
-    <state width="974" height="290" key="GridCell.Tab.0.center" timestamp="1594328850396">
+    <state x="172" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1594548969300" />
+    <state width="902" height="290" key="GridCell.Tab.0.bottom" timestamp="1594549116217">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="974" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1594328850396" />
-    <state width="974" height="290" key="GridCell.Tab.0.left" timestamp="1594328850395">
+    <state width="902" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1594549116217" />
+    <state width="902" height="290" key="GridCell.Tab.0.center" timestamp="1594549116215">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="974" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1594328850395" />
-    <state width="974" height="290" key="GridCell.Tab.0.right" timestamp="1594328850396">
+    <state width="902" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1594549116215" />
+    <state width="902" height="290" key="GridCell.Tab.0.left" timestamp="1594549116215">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="974" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1594328850396" />
+    <state width="902" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1594549116215" />
+    <state width="902" height="290" key="GridCell.Tab.0.right" timestamp="1594549116216">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="902" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1594549116216" />
     <state x="598" y="425" width="997" height="420" key="MultipleFileMergeDialog" timestamp="1594328846623">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="598" y="425" width="997" height="420" key="MultipleFileMergeDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1594328846623" />
-    <state x="315" y="291" key="Vcs.Push.Dialog.v2" timestamp="1594328813695">
+    <state x="315" y="291" key="Vcs.Push.Dialog.v2" timestamp="1594329097364">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="315" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1594328813695" />
+    <state x="315" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1594329097364" />
   </component>
 </project>
