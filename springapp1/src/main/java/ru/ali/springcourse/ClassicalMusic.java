@@ -5,8 +5,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ClassicalMusic implements Music {
-//    private ClassicalMusic classicalMusic;
-//
+   //private ClassicalMusic classicalMusic;
+
+//   @Autowired
 //    private ClassicalMusic(ClassicalMusic classicalMusic) {
 //        this.classicalMusic = classicalMusic;
 //    }

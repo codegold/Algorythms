@@ -1,21 +1,37 @@
 package ru.ali.springcourse;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class MusicPlayer {
-    private ClassicalMusic classicalMusic;
-    private RockMusic rockMusic;
+
+//    private ClassicalMusic classicalMusic;
+//    private RockMusic rockMusic;
+//    private JazzMusic jazzMusic;
+
+    private Music music;
+
+//    @Autowired
+//    public MusicPlayer(ClassicalMusic classicalMusic, RockMusic rockMusic, JazzMusic jazzMusic) {
+//        this.classicalMusic = classicalMusic;
+//        this.rockMusic = rockMusic;
+//        this.jazzMusic = jazzMusic;
+//    }
 
     @Autowired
-    public MusicPlayer(ClassicalMusic classicalMusic, RockMusic rockMusic) {
-        this.classicalMusic = classicalMusic;
-        this.rockMusic = rockMusic;
+    @Qualifier("rockMusic")Music music1;
+    public MusicPlayer(Music music) {
+        this.music = music;
     }
 
+//    public void setMusic(Music music) {
+//        this.music = music;
+//    }
+
     public String playMusic() {
-        return "Playing: " + classicalMusic.getSong();
+        return "Playing: " + classicalMusic.getSong() + " '+' " + jazzMusic.getSong();
     }
 //    ArrayList<Music> musicList = new ArrayList<>();
 //
@@ -23,9 +39,6 @@ public class MusicPlayer {
 //        return name;
 //    }
 //
-//    public void setName(String name) {
-//        this.name = name;
-//    }
 //
 //    public int getVolume() {
 //        return volume;
