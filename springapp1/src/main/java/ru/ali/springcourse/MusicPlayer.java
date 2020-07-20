@@ -6,32 +6,47 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MusicPlayer {
-
 //    private ClassicalMusic classicalMusic;
 //    private RockMusic rockMusic;
 //    private JazzMusic jazzMusic;
 
-    private Music music;
+    private Music music1;
+    private Music music2;
 
-//    @Autowired
-//    public MusicPlayer(ClassicalMusic classicalMusic, RockMusic rockMusic, JazzMusic jazzMusic) {
+    @Autowired
+    public MusicPlayer(@Qualifier("rockMusic") Music music1,
+                       @Qualifier("jazzMusic") Music music2) {
+        this.music1 = music1;
+        this.music2 = music2;
+    }
+//
+//    public MusicPlayer(@Qualifier("jazzMusic") Music music) {
+//        this.music = music;
+//    }
+//
+//    public MusicPlayer(Music music) {
+//        this.music = music;
+//    }
+
+    //    public MusicPlayer(ClassicalMusic classicalMusic, RockMusic rockMusic, JazzMusic jazzMusic) {
 //        this.classicalMusic = classicalMusic;
 //        this.rockMusic = rockMusic;
 //        this.jazzMusic = jazzMusic;
 //    }
 
-    @Autowired
-    @Qualifier("rockMusic")Music music1;
-    public MusicPlayer(Music music) {
-        this.music = music;
-    }
+//
+//    @Autowired
+//    public MusicPlayer(@Qualifier("rockMusic")Music music) {
+//        this.music = music;
+//    }
 
 //    public void setMusic(Music music) {
 //        this.music = music;
 //    }
 
     public String playMusic() {
-        return "Playing: " + classicalMusic.getSong() + " '+' " + jazzMusic.getSong();
+        //return "Playing: " + classicalMusic.getSong() + " '+' " + jazzMusic.getSong();
+        return "Playing: " + music1.getSong() + " , " + music2.getSong();
     }
 //    ArrayList<Music> musicList = new ArrayList<>();
 //
