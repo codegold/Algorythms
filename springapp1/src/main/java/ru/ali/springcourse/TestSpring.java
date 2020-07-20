@@ -2,6 +2,8 @@ package ru.ali.springcourse;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.ArrayList;
+
 public class TestSpring {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
@@ -18,6 +20,18 @@ public class TestSpring {
 //
 //        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
 //        musicPlayer.playMusic();
+
+        ArrayList<String> rockList = new ArrayList<>();
+        rockList.add("Battery.");
+        rockList.add("Nothing else matters.");
+        rockList.add("Peremen.");
+
+        ArrayList<String> classicList = new ArrayList<>();
+        classicList.add("Swan.");
+        classicList.add("Symphony no.5.");
+        classicList.add("Shelkunchik.");
+
+
 
         Computer computer = context.getBean("computer", Computer.class);
         System.out.println(computer);
