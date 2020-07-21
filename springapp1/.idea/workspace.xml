@@ -19,17 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="246f51d3-2d3e-4326-8dbe-00ab34d52339" name="Default Changelist" comment="lesson 11 home task">
+    <list default="true" id="246f51d3-2d3e-4326-8dbe-00ab34d52339" name="Default Changelist" comment="lesson 11 home task made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/EnumMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/EnumMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/JazzMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/PlayMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/PlayMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ali/springcourse/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/ClassicalMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/ClassicalMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/JazzMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/JazzMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/Music.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/MusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/MusicPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/PlayMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/PlayMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/RockMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/RockMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/TestSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ali/springcourse/TestSpring.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
       <workItem from="1594994594327" duration="888000" />
       <workItem from="1595231549415" duration="555000" />
       <workItem from="1595233347880" duration="10405000" />
-      <workItem from="1595317020919" duration="5509000" />
+      <workItem from="1595317020919" duration="6545000" />
     </task>
     <task id="LOCAL-00003" summary="lesson 10 annotations. DI with setter">
       <created>1594549371398</created>
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595265151180</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lesson 11 home task made">
+      <created>1595325915915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595325915915</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +190,8 @@
     <MESSAGE value="lesson 11 annotations QUALIFIER" />
     <MESSAGE value="lesson 11 annotations QUALIFIER finish" />
     <MESSAGE value="lesson 11 home task" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 11 home task" />
+    <MESSAGE value="lesson 11 home task made" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 11 home task made" />
   </component>
   <component name="WindowStateProjectService">
     <state x="285" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1595322802231">
@@ -231,10 +238,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="598" y="425" width="997" height="420" key="MultipleFileMergeDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1594328846623" />
-    <state x="315" y="291" key="Vcs.Push.Dialog.v2" timestamp="1595265155351">
+    <state x="315" y="291" key="Vcs.Push.Dialog.v2" timestamp="1595325919529">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="315" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1595265155351" />
+    <state x="315" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1595325919529" />
     <state x="283" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595233349903">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
