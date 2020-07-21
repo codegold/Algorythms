@@ -1,7 +1,11 @@
 package ru.ali.springcourse;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 @Component
 public class ClassicalMusic implements Music {
@@ -12,13 +16,16 @@ public class ClassicalMusic implements Music {
 //        this.classicalMusic = classicalMusic;
 //    }
 //
-//    public void doMyInit() {
-//        System.out.println("Doing my initialization");
-//    }
-//
-//    public void doMyDestroy() {
-//        System.out.println("Doing my destruction");
-//    }
+
+    @PostConstruct
+    public void doInit(){
+        System.out.println("doing init");
+    }
+
+    @PreDestroy
+    public void doMyDestroy(){
+        System.out.println("doing destroy");
+    }
 
     @Override
     public String getSong() {
