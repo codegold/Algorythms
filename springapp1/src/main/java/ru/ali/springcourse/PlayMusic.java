@@ -1,7 +1,5 @@
 package ru.ali.springcourse;
 
-import java.util.ArrayList;
-
 public class PlayMusic {
     private Music music;
 
@@ -10,6 +8,6 @@ public class PlayMusic {
     }
 
     public void playMusic() {
-        System.out.println("Playing: " + music.getSong());
+        System.out.println("Playing: " + music.getSongs());
     }
 }
