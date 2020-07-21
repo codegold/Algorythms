@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Algorythms_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Web_Services_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/musicPlayer.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorythms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorythms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/src/SchildtWork/JavaCollections/ArrayListDemo/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/JazzMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/PlayMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/PlayMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,20 +63,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestSpring.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/TestSpring.java">
+      <file leaf-file-name="TestSpring.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+            <state relative-caret-position="119">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassicalMusic.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/ClassicalMusic.java">
+      <file leaf-file-name="SpringConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="119">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassicalMusic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding>
                 <element signature="e#461#462#0" expanded="true" />
                 <element signature="e#497#498#0" expanded="true" />
@@ -94,7 +103,7 @@
         </entry>
       </file>
       <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/MusicPlayer.java">
+        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -113,15 +122,6 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springapp1/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,8 +134,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -163,8 +163,11 @@
       <list>
         <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/MusicPlayer.java" />
         <option value="$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/TestSpring.java" />
         <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/ClassicalMusic.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/TestSpring.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java" />
       </list>
     </option>
   </component>
@@ -254,7 +257,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ru" type="462c0819:PsiDirectoryNode" />
               <item name="ali" type="462c0819:PsiDirectoryNode" />
-              <item name="springcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="springsource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorythms" type="b2602c69:ProjectViewProjectNode" />
@@ -372,12 +375,12 @@
       </extension>
     </configuration>
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ali.springcourse.TestSpring" />
+      <option name="MAIN_CLASS_NAME" value="ru.ali.springsource.TestSpring" />
       <module name="Algorythms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ali.springcourse.*" />
+          <option name="PATTERN" value="ru.ali.springsource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -601,14 +604,7 @@
       <workItem from="1583236471170" duration="8049000" />
       <workItem from="1583321403986" duration="7917000" />
       <workItem from="1594013319594" duration="36000" />
-      <workItem from="1595332755355" duration="2159000" />
-    </task>
-    <task id="LOCAL-00185" summary="in process">
-      <created>1581581357361</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1581581357362</updated>
+      <workItem from="1595332755355" duration="3041000" />
     </task>
     <task id="LOCAL-00186" summary="Hr task finished.">
       <created>1581587953155</created>
@@ -946,11 +942,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583405505009</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="@Scope @Value @PostConstruct Lesson 12 finished">
+      <created>1595336302163</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1595336302164</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1303000" />
+    <option name="totallyTimeSpent" value="2185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -983,15 +986,15 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32958803" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32958803" />
       <window_info anchor="bottom" id="Version Control" weight="0.32958803" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25170583" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32958803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25170583" />
       <window_info id="Web" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32958803" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1035,6 +1038,14 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -1042,7 +1053,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Three threads. Demo." />
     <MESSAGE value="Three threads. isAlive() added." />
     <MESSAGE value="Threads Priority demo." />
     <MESSAGE value="Syncronized demo." />
@@ -1067,7 +1077,8 @@
     <MESSAGE value="Lambda demo." />
     <MESSAGE value="Lambda Comparator demo." />
     <MESSAGE value="ArrayList demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList demo." />
+    <MESSAGE value="@Scope @Value @PostConstruct Lesson 12 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Scope @Value @PostConstruct Lesson 12 finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1425,14 +1436,7 @@
     <entry file="file://$PROJECT_DIR$/java/musicPlayer.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/MusicPlayer.java">
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1445,22 +1449,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/TestSpring.java">
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/ClassicalMusic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="160">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding>
             <element signature="e#461#462#0" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
             <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

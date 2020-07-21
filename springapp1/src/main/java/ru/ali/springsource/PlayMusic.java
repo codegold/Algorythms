@@ -1,6 +1,4 @@
-package ru.ali.springcourse;
-
-import java.util.ArrayList;
+package ru.ali.springsource;
 
 public class PlayMusic {
     private Music music;

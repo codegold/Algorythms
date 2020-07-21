@@ -1,4 +1,4 @@
-package ru.ali.springcourse;
+package ru.ali.springsource;
 
 import org.springframework.stereotype.Component;
 

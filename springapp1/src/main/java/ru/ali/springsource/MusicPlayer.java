@@ -1,4 +1,4 @@
-package ru.ali.springcourse;
+package ru.ali.springsource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
