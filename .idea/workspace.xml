@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/JazzMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/PlayMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/PlayMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/ru/ali/springsource/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/ru/ali/springsource/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/JazzMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java" afterDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestSpring.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSpring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +75,32 @@
       <file leaf-file-name="SpringConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="189">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -90,8 +108,8 @@
       <file leaf-file-name="ClassicalMusic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="68">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding>
                 <element signature="e#461#462#0" expanded="true" />
                 <element signature="e#497#498#0" expanded="true" />
@@ -102,12 +120,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JazzMusic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/JazzMusic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Music.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="440">
+              <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
                 <element signature="e#518#519#0" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
                 <element signature="e#578#579#0" expanded="true" />
@@ -117,15 +165,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="musicPlayer.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springapp1/src/main/resources/musicPlayer.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="PlayMusic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/PlayMusic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springapp1/pom.xml">
+      <file leaf-file-name="RockMusic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/RockMusic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-373" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -166,8 +228,14 @@
         <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/ClassicalMusic.java" />
         <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/TestSpring.java" />
         <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springcourse/SpringConfig.java" />
-        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Computer.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/JazzMusic.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/RockMusic.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/PlayMusic.java" />
         <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java" />
       </list>
     </option>
   </component>
@@ -182,7 +250,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1361" />
+    <option name="width" value="1227" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectId" id="1eIe1PU8dZxJpt8aeh7aNegou4u" />
@@ -604,21 +672,7 @@
       <workItem from="1583236471170" duration="8049000" />
       <workItem from="1583321403986" duration="7917000" />
       <workItem from="1594013319594" duration="36000" />
-      <workItem from="1595332755355" duration="3041000" />
-    </task>
-    <task id="LOCAL-00186" summary="Hr task finished.">
-      <created>1581587953155</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1581587953155</updated>
-    </task>
-    <task id="LOCAL-00187" summary="Hr task finished.">
-      <created>1581588444311</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1581588444311</updated>
+      <workItem from="1595332755355" duration="8072000" />
     </task>
     <task id="LOCAL-00188" summary="Hr task finished.">
       <created>1581588501390</created>
@@ -949,11 +1003,25 @@
       <option name="project" value="LOCAL" />
       <updated>1595336302164</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="update with AnnotationConfigContext">
+      <created>1595341685401</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1595341685401</updated>
+    </task>
+    <task id="LOCAL-00236" summary="hometask">
+      <created>1595345176349</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1595345176349</updated>
+    </task>
+    <option name="localTasksCounter" value="237" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2185000" />
+    <option name="totallyTimeSpent" value="7216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,8 +1033,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1361" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1227" height="877" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" />
       <window_info anchor="right" id="Palette" />
@@ -987,10 +1054,10 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32958803" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32958803" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32958803" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" weight="0.32958803" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25170583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2793249" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32958803" />
       <window_info anchor="right" id="Theme Preview" />
@@ -1053,8 +1120,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Three threads. isAlive() added." />
-    <MESSAGE value="Threads Priority demo." />
     <MESSAGE value="Syncronized demo." />
     <MESSAGE value="Synchronized demo. Synchronized block." />
     <MESSAGE value="Synchronized. wait() notify() demo" />
@@ -1078,7 +1143,9 @@
     <MESSAGE value="Lambda Comparator demo." />
     <MESSAGE value="ArrayList demo." />
     <MESSAGE value="@Scope @Value @PostConstruct Lesson 12 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Scope @Value @PostConstruct Lesson 12 finished" />
+    <MESSAGE value="update with AnnotationConfigContext" />
+    <MESSAGE value="hometask" />
+    <option name="LAST_COMMIT_MESSAGE" value="hometask" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1436,23 +1503,17 @@
     <entry file="file://$PROJECT_DIR$/java/musicPlayer.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java">
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="68">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="e#461#462#0" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />
@@ -1462,29 +1523,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springapp1/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="76" />
+        <state relative-caret-position="153">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java">
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/RockMusic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicGenre.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/JazzMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/PlayMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
           </folding>
         </state>
       </provider>
