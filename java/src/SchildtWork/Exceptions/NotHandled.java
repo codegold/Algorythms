@@ -1,4 +1,4 @@
-package src.SchildtWork.Exceptions;
+package Exceptions;
 
 public class NotHandled {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.SchildtWork.Exceptions;
+package Exceptions;
 
 public class excDemo1 {
     public static void main(String[] args) {

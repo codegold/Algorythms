@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/ru/ali/springsource/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythms/out/production/Algorythms/ru/ali/springsource/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/JazzMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/TestSpring.java" afterDir="false" />
-    </list>
+    <list default="true" id="f8ad5769-53a9-4839-a43a-9af5ba49eabf" name="Default" comment="" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,8 +140,8 @@
       <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+            <state relative-caret-position="168">
+              <caret line="12" selection-start-line="12" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#580#581#0" expanded="true" />
@@ -672,14 +662,7 @@
       <workItem from="1583236471170" duration="8049000" />
       <workItem from="1583321403986" duration="7917000" />
       <workItem from="1594013319594" duration="36000" />
-      <workItem from="1595332755355" duration="8072000" />
-    </task>
-    <task id="LOCAL-00188" summary="Hr task finished.">
-      <created>1581588501390</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1581588501390</updated>
+      <workItem from="1595332755355" duration="8759000" />
     </task>
     <task id="LOCAL-00189" summary="Byte stream demo.">
       <created>1581596069197</created>
@@ -1017,11 +1000,18 @@
       <option name="project" value="LOCAL" />
       <updated>1595345176349</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <task id="LOCAL-00237" summary=" task finished">
+      <created>1595403239254</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1595403239254</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7216000" />
+    <option name="totallyTimeSpent" value="7903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1120,7 +1110,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Syncronized demo." />
     <MESSAGE value="Synchronized demo. Synchronized block." />
     <MESSAGE value="Synchronized. wait() notify() demo" />
     <MESSAGE value="Alishev task. Volatile Demo." />
@@ -1145,7 +1134,8 @@
     <MESSAGE value="@Scope @Value @PostConstruct Lesson 12 finished" />
     <MESSAGE value="update with AnnotationConfigContext" />
     <MESSAGE value="hometask" />
-    <option name="LAST_COMMIT_MESSAGE" value="hometask" />
+    <MESSAGE value=" task finished" />
+    <option name="LAST_COMMIT_MESSAGE" value=" task finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1617,8 +1607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springapp1/src/main/java/ru/ali/springsource/MusicPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+        <state relative-caret-position="168">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
